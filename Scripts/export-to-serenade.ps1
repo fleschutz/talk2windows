@@ -13,13 +13,10 @@
 	Specifies the target file 
 .EXAMPLE
 	PS> ./export-to-serenade.ps1 Computer
-	⏳ Found 534 PowerShell scripts...
-	⏳ Writing custom JavaScript file: C:\Users\Markus\.serenade\scripts\PowerShell.js...
-	✔️ Exported to Serenade with wake word "Computer" in 3 sec
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 #requires -version 2
@@ -30,8 +27,8 @@ try {
 	$StopWatch = [system.diagnostics.stopwatch]::startNew()
 
 	$Scripts = Get-ChildItem "$FilePattern"
-	"⏳ Found $($Scripts.Count) PowerShell scripts..."
-	"⏳ Writing custom JavaScript file: $TargetFile..."
+	"Found $($Scripts.Count) PowerShell scripts here..."
+	"Writing custom JavaScript file: $TargetFile..."
 
 	"/* DO NOT EDIT! This file has been generated automatically by export-to-serenade.ps1 */" | Set-Content "$TargetFile"
 	foreach ($Script in $Scripts) {
@@ -41,7 +38,7 @@ try {
 	}
 
 	[int]$Elapsed = $StopWatch.Elapsed.TotalSeconds
-	"✔️ Exported to Serenade with wake word `"$WakeWord`" in $Elapsed sec"
+	"Exported to Serenade with wake word `"$WakeWord`" in $Elapsed sec"
 	exit 0 # success
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
