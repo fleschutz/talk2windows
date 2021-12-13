@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This script exports all PowerShell scripts to Serenade to execute them by voice.
 .PARAMETER WakeWord
-	Specifies the wake word (none by default)
+	Specifies the wake word
 .PARAMETER FilePattern
 	Specifies the file pattern for the scripts ("$PSScriptRoot/*.ps1" by default)
 .PARAMETER Application
@@ -24,7 +24,7 @@
 
 #requires -version 2
 
-param([string]$WakeWord = "", [string]$FilePattern = "$PSScriptRoot/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\PowerShell.js")
+param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\PowerShell.js")
 
 try {
 	$StopWatch = [system.diagnostics.stopwatch]::startNew()
