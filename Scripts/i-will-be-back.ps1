@@ -8,10 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-$Reply = "Hasta la vista, baby."
-
-& "$PSScriptRoot/give-reply.ps1" "$Reply"
+& "$PSScriptRoot/give-reply.ps1" "Hasta la vista, baby."
 exit 0 # success

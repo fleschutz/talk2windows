@@ -8,7 +8,7 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 $Reply = "I'm sorry.", "I'm so sorry.", "Mea culpa!" | Get-Random

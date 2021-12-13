@@ -5,11 +5,10 @@
 	This script determines and speaks the current day by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-day
-	✔️ It's Sunday.
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {

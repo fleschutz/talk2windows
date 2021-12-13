@@ -7,11 +7,10 @@
 	Specifies the minimum level (50 GB by default)
 .EXAMPLE
 	PS> ./check-swap-space
-	✔️ 1213 GB left for swap space (67 of 1280 GB used)
 .LINK
 	https://github.com/fleschutz/PowerShell
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	https://github.com/fleschutz/talk2windows
 #>
 
 param([int]$MinLevel = 50) # minimum level in GB

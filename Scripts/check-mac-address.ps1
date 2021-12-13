@@ -8,11 +8,10 @@
 	Specifies the MAC address to check
 .EXAMPLE
 	PS> ./check-mac-address 11:22:33:44:55:66
-	✔️ MAC address 11:22:33:44:55:66 is valid
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$MAC = "")

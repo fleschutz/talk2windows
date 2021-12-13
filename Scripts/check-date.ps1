@@ -5,11 +5,10 @@
 	This script determines and speaks the current date by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-date
-	✔️ It's Sunday, October 17, 2021
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {

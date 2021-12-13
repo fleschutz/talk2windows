@@ -7,10 +7,10 @@
 	Specifies the location to use (determined automatically per default)
 .EXAMPLE
 	PS> ./check-weather
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$location = "") # empty means determine automatically

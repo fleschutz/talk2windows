@@ -8,11 +8,10 @@
 	Specifies the hosts to check (separated by comma)
 .EXAMPLE
 	PS> ./check-ping
-	✔️ Average ping is 36ms average (13ms min, 109ms max)
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$hosts = "amazon.com,bing.com,cnn.com,dropbox.com,facebook.com,google.com,live.com,twitter.com,youtube.com")

@@ -8,7 +8,7 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 $Reply = "Thanks!", "Hi five.", "Hi five to all of yours.", "Four plus one.", "Three plus two." | Get-Random

@@ -5,11 +5,10 @@
 	This script checks the CPU temperature.
 .EXAMPLE
 	PS> ./check-cpu
-	✔️ CPU has 30.3 °C
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {

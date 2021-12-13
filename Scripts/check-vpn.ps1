@@ -5,10 +5,10 @@
 	This script checks the status of all available VPN connections.
 .EXAMPLE
 	PS> ./check-vpn
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {

@@ -9,11 +9,10 @@
 	Specifies the minimum level in Gigabyte
 .EXAMPLE
 	PS> ./check-drive-space C
-	✔️ 172 GB left on drive C (61 of 233 GB used)
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$Drive = "", [int]$MinLevel = 20) # minimum level in GB

@@ -8,11 +8,10 @@
 	Specifies the type of selftest: either short (default) or long
 .EXAMPLE
 	PS> ./check-smart-devices
-	✔️ short selftest started on S.M.A.R.T. device /dev/sda
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 #Requires -RunAsAdministrator

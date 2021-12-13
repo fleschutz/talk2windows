@@ -8,7 +8,7 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 & "$PSScriptRoot/open-default-browser.ps1" "https://slashdot.org"

@@ -5,11 +5,10 @@
 	This script checks the DNS resolution with frequently used domain names.
 .EXAMPLE
 	PS> ./check-dns
-	✔️ DNS resolution is 11.8 domains per second
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
  
 try {

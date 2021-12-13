@@ -17,7 +17,7 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$CommitID = "", [string]$CommitMessage = "", [string]$Branches = "", [string]$RepoDir = "$PWD")

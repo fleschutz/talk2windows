@@ -5,10 +5,10 @@
 	This script queries the position of the International Space Station (ISS) and replies by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-iss-position
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {

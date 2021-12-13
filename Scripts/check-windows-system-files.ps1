@@ -5,11 +5,10 @@
 	This script checks the validity of the Windows system files. It requires admin rights.
 .EXAMPLE
 	PS> ./check-windows-system-files
-	✔️ checked Windows system files
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 #Requires -RunAsAdministrator

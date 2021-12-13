@@ -5,11 +5,10 @@
 	This script determines and speaks the current year by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-year
-	✔️ It's 2021.
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {

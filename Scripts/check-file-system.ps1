@@ -7,11 +7,10 @@
 	Specifies the drive to check
 .EXAMPLE
 	PS> ./check-file-system C
-	✔️ file system on drive C is clean
-.LINK
-	https://github.com/fleschutz/PowerShell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
+.LINK
+	https://github.com/fleschutz/talk2windows
 #>
 
 #Requires -RunAsAdministrator

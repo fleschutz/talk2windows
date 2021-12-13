@@ -8,7 +8,7 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 & "$PSScriptRoot/close-program.ps1" "Mozilla Firefox" "firefox" "firefox"
