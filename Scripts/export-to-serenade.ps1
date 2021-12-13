@@ -10,7 +10,7 @@
 .PARAMETER Application
 	Specifies the application to be used
 .PARAMETER TargetFile
-	Specifies the target file ("$HOME\.serenade\scripts\PowerShell.js" by default)
+	Specifies the target file 
 .EXAMPLE
 	PS> ./export-to-serenade.ps1 Computer
 	⏳ Found 534 PowerShell scripts...
@@ -24,7 +24,7 @@
 
 #requires -version 2
 
-param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\PowerShell.js")
+param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\talk2windows.js")
 
 try {
 	$StopWatch = [system.diagnostics.stopwatch]::startNew()
