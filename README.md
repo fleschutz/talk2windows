@@ -6,8 +6,8 @@ Control Windows by using your voice. Required is Windows 10 or later, microphone
 🔧 Installation
 --------------
 1. Download and install *Serenade* from https://serenade.ai/ (Serenade is freely available for Linux, MacOS, and Windows).
-2. Download and install the *talk2windows* repository, allow the script execution and set the search path to the Scripts subfolder (see the [FAQ page](Docs/FAQ.md) for details).
-3. Execute: `./export-to-serenade.ps1` in the *scripts* subfolder, this creates a custom JavaScript file at `$HOME/.serenade/scripts/PowerShell.js` using the wake word 'Windows'. 
+2. Download and install the *talk2windows* repository, allow the script execution and set the search path to the *Scripts* subfolder (see the [FAQ page](Docs/FAQ.md) for details).
+3. Execute: `./export-to-serenade.ps1` in the *Scripts* subfolder, this creates a custom JavaScript file at `$HOME/.serenade/scripts/talk2windows.js` using the wake word 'Windows'. 
 
 
 🗣 Usage
