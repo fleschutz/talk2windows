@@ -1,24 +1,22 @@
 ﻿<#
 .SYNOPSIS
-	Tells a quote by text-to-speech
+	Tells a joke
 .DESCRIPTION
-	This script selects a random quote in Data/quotes.csv and speaks it by text-to-speech (TTS).
+	This script selects a random Chuck Norris joke in Data/jokes.csv and tells it by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./tell-quote
+	PS> ./tell-a-joke
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {
-	$Table = import-csv "$PSScriptRoot/../Data/quotes.csv"
+	$Table = import-csv "$PSScriptRoot/../Data/jokes.csv"
 
 	$Generator = New-Object System.Random
 	$Index = [int]$Generator.next(0, $Table.Count - 1)
-	$Quote = $Table[$Index].Quote
-	$Author = $Table[$Index].Author
-	$Reply = "$Quote (by $Author)"
+	$Reply = $Table[$Index].Joke
 
 	& "$PSScriptRoot/give-reply.ps1" "$Reply"
 	exit 0 # success

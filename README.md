@@ -132,8 +132,8 @@ When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close
 * *"Windows, repeat last reply"* - repeats the last reply given
 * *"Windows, roll a dice"* - returns a dice number
 * *"Windows, sorry"* 
-* *"Windows, tell joke."*
-* *"Windows, tell quote."*
+* *"Windows, tell a joke."*
+* *"Windows, tell a quote."*
 * *"Windows, thank you."*
 
 
