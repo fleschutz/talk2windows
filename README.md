@@ -139,7 +139,7 @@ When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close
 
 *"Windows, [question]"*
 -------------------------
-Ask Windows a question, replace [question] by: `can you talk?`, `how are you?`, `how do you do?`, `how old are you?`, `who is your father?`, or `you can talk?`.
+Ask Windows a question, replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `who is your father?`, or `you can talk?`.
 
 
 *"Windows, [farewell]."*
