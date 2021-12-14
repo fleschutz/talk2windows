@@ -11,5 +11,14 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "I'm installed on this machine since 2 years and 3 months now."
-exit 0 # success
+try {
+	$OSDetails = Get-CimInstance Win32_OperatingSystem
+	$InstallDate = $OSDetails.InstallDate
+	$Now = [DateTime]::Now
+	$Days = ($Now - $InstallDate).Days
+	& "$PSScriptRoot/give-reply.ps1" "I was installed on this machine $Days days ago."
+	exit 0 # success
+} catch {
+	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	exit 1
+}
