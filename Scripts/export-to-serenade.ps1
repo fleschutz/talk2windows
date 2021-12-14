@@ -26,9 +26,10 @@ param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/*.ps1
 try {
 	$StopWatch = [system.diagnostics.stopwatch]::startNew()
 
+	"Using wake word `'$WakeWord`'..."
 	$Scripts = Get-ChildItem "$FilePattern"
-	"Found $($Scripts.Count) PowerShell scripts here..."
-	"Writing custom JavaScript file: $TargetFile..."
+	"Found $($Scripts.Count) scripts here..."
+	"Writing the custom JavaScript file: $TargetFile..."
 
 	"/* DO NOT EDIT! This file has been generated automatically by export-to-serenade.ps1 */" | Set-Content "$TargetFile"
 	foreach ($Script in $Scripts) {
@@ -38,7 +39,7 @@ try {
 	}
 
 	[int]$Elapsed = $StopWatch.Elapsed.TotalSeconds
-	"Exported to Serenade with wake word `"$WakeWord`" in $Elapsed sec"
+	"Successfully exported to Serenade in $Elapsed sec"
 	exit 0 # success
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
