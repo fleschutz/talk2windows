@@ -20,7 +20,7 @@ More supported voice commands are:
 
 *"Windows, [greeting]."*
 -------------------------
-Greets the computer, just replace [greeting] by: `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy hanukkah`, `happy holidays`, `happy kwanzaa`, `happy mother's day`, `happy new year`, `happy ramadan`, `happy St. Patrick's day`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hi`, `how are you?`, `how do you do?`, `merry christmas`, or `say hello`.
+Greets the computer, just replace [greeting] by: `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy hanukkah`, `happy holidays`, `happy kwanzaa`, `happy mother's day`, `happy new year`, `happy ramadan`, `happy St. Patrick's day`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hi`, `merry christmas`, or `say hello`.
 
 *"Windows, open [app]."*
 ------------------------
@@ -137,6 +137,11 @@ When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close
 * *"Windows, thank you."*
 
 
+*"Windows, [question]"*
+-------------------------
+Ask Windows a question, replace [question] by: `can you talk?`, `how are you?`, `how do you do?`, `how old are you?`, `who is your father?`, or `you can talk?`.
+
+
 *"Windows, [farewell]."*
 -------------------------
-Say farewell to the computer, replace [farewell] by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
+Say good-bye to Windows, replace [farewell] by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
