@@ -1,12 +1,12 @@
 ﻿<#
 .SYNOPSIS
-	Opens the default browser
+	Opens the browser
 .DESCRIPTION
 	This script launches the default Web browser, optional with a given URL.
 .PARAMETER URL
 	Specifies the URL
 .EXAMPLE
-	PS> ./open-default-browser
+	PS> ./open-browser
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK

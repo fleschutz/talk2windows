@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This script launches the Web browser with the voice control manual.
 .EXAMPLE
-	PS> ./show-voice-manual
+	PS> ./i-need-help
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
