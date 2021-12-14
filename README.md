@@ -88,9 +88,9 @@ Launches the default Web browser and plays the given game - replace [name] by: `
 When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
 
 
-*"Windows, change to [category] wallpaper."*
----------------------------------------------
-Sets a random photo from Unsplash as desktop background, just replace [category] by: `beach`, `car`, `city`, `nature`, `plane`, or `space`.
+*"Windows, use a [category] wallpaper."*
+----------------------------------------
+Sets a random photo from Unsplash as desktop background, just replace [category] by: `beach`, `car`, `city`, `military`, `nature`, `plane`, `random`, `space`, or `winter`.
 
 
 *"Windows, open [name] settings."*

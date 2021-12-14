@@ -1,12 +1,12 @@
 ﻿<#
 .SYNOPSIS
-	Changes the wallpaper
+	Uses a random wallpaper
 .DESCRIPTION
 	This script downloads a random photo from Unsplash and sets it as desktop background.
 .PARAMETER Category
 	Specifies the photo category (beach, city, ...)
 .EXAMPLE
-	PS> ./change-wallpaper 
+	PS> ./use-a-random-wallpaper 
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
