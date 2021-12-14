@@ -1,10 +1,10 @@
 ﻿<#
 .SYNOPSIS
-	Opens the Time Magazin website
+	Opens the Time Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Time Magazin website.
+	This script launches the Web browser with the Time Magazine website.
 .EXAMPLE
-	PS> ./open-time-magazin
+	PS> ./open-time-magazine
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
