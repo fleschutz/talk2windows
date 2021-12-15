@@ -13,7 +13,7 @@ Control Windows by using your voice besides keyboard and mouse. Required is Wind
 🗣 Usage
 -------
 1. Launch *Serenade* and click into the circle to enable Listening mode.
-2. Launch *Windows PowerShell* and click into the window.
+2. Launch *Windows Terminal* and click into the window.
 3. Speak into the microphone: **"*Windows, open calculator*"** - this executes the PowerShell script `open-calculator.ps1` and this script launches the calculator application.
 
 More supported voice commands are:
