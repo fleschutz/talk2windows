@@ -29,7 +29,7 @@ try {
 	"(1) Wake word is: `'$WakeWord`'"
 
 	$Scripts = Get-ChildItem "$FilePattern"
-	"(2) Found $($Scripts.Count) scripts in subfolder `'Scripts`'"
+	"(2) Found $($Scripts.Count) PowerShell scripts in subfolder `'Scripts`'"
 
 	"(3) Writing the custom JavaScript file to: $TargetFile..."
 	"/* DO NOT EDIT! This file has been generated automatically by export-to-serenade.ps1 */" | Set-Content "$TargetFile"
