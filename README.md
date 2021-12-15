@@ -142,6 +142,7 @@ When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close
 * *"Windows, tell a joke."*
 * *"Windows, tell a quote."*
 * *"Windows, thank you."*
+* *"Windows, thanks."*
 
 
 *"Windows, [question]"*
