@@ -18,11 +18,26 @@ param([string]$location = "") # empty means determine automatically
 try {
 	$Weather = (Invoke-WebRequest http://wttr.in/${location}?format=j1 -userAgent "curl" -useBasicParsing).Content | ConvertFrom-Json
 	$WindSpeed = $Weather.current_condition.windspeedKmph
-	$WindDir = $Weather.current_condition.winddir16Point
-	$Area = $Weather.nearest_area.areaName.value
-	$Region = $Weather.nearest_area.region.value
+	$WindDir = switch($Weather.current_condition.winddir16Point) {
+	"N"   { "North" }
+	"NNE" { "North North East" }
+	"NE"  { "North East" }
+	"ENE" { "East North East" }
+	"E"   { "East" }
+	"ESE" { "East South East" }
+	"SE"  { "South East" }
+	"SSE" { "South South East" }
+	"S"   { "South" }
+	"SSW" { "South South West" }
+	"SW"  { "South West" }
+	"WSW" { "West South West" }
+	"W"   { "West" }
+	"WNW" { "West North West" }
+	"NW"  { "North West" }
+	"NNW" { "North North West" }
+	}
 
-	& "$PSScriptRoot/give-reply.ps1" "$($WindSpeed)km/h wind from $WindDir at $Area ($Region)."
+	& "$PSScriptRoot/give-reply.ps1" "Blowing from $WindDir with $($WindSpeed)km/h."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
