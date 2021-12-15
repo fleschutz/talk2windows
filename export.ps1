@@ -6,13 +6,13 @@
 .PARAMETER WakeWord
 	Specifies the wake word
 .PARAMETER FilePattern
-	Specifies the file pattern for the scripts ("$PSScriptRoot/*.ps1" by default)
+	Specifies the file pattern for the scripts
 .PARAMETER Application
 	Specifies the application to be used
 .PARAMETER TargetFile
 	Specifies the target file 
 .EXAMPLE
-	PS> ./export-to-serenade.ps1 Computer
+	PS> ./export-to-serenade.ps1 
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
@@ -21,7 +21,7 @@
 
 #requires -version 2
 
-param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\talk2windows.js")
+param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/Scripts/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\talk2windows.js")
 
 try {
 	$StopWatch = [system.diagnostics.stopwatch]::startNew()
