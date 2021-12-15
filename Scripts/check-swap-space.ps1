@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Checks the swap space
 .DESCRIPTION
-	This script checks the free swap space.
+	This script determines the swap space details and replies by text-to-speech (TTS).
 .PARAMETER MinLevel
 	Specifies the minimum level (50 GB by default)
 .EXAMPLE
@@ -35,7 +35,7 @@ try {
 	} elseif ($Free -lt $MinLevel) {
         	$Reply = "Swap space has only $Free GB left to use! ($Used of $Total GB used, minimum is $MinLevel GB)"
 	} else {
-		$Reply = "Swap space has $Free GB left ($Total GB total)"
+		$Reply = "Swap space uses $Used GB, $Free GB are left to use."
 	}
 	& "$PSScriptRoot/give-reply.ps1" "$Reply"
 	exit 0 # success
