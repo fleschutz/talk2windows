@@ -14,7 +14,7 @@
 try {
 	[system.threading.thread]::currentthread.currentculture=[system.globalization.cultureinfo]"en-US"
 	$Weekday = (Get-Date -format "dddd")
-	& "$PSScriptRoot/give-reply.ps1" "It's $Weekday."
+	& "$PSScriptRoot/give-reply.ps1" "Today is $Weekday."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
