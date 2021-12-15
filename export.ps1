@@ -24,8 +24,6 @@
 param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/Scripts/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\talk2windows.js")
 
 try {
-	$StopWatch = [system.diagnostics.stopwatch]::startNew()
-
 	"(1) Wake word is: `'$WakeWord`'"
 
 	$Scripts = Get-ChildItem "$FilePattern"
@@ -39,8 +37,7 @@ try {
 		"serenade.global().command(`"$($WakeWord.toLower()) $Keyword`",async(api)=>{await api.focusApplication(`"$Application`");await api.pressKey(`"return`");await api.typeText(`"$ScriptName.ps1`");await api.pressKey(`"return`");});" | Add-Content "$TargetFile"
 	}
 
-	[int]$Elapsed = $StopWatch.Elapsed.TotalSeconds
-	"Export to Serenade succeeded in $Elapsed sec"
+	"Export to Serenade was successful. Now launch Serenade to talk to Windows :-)"
 	exit 0 # success
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
