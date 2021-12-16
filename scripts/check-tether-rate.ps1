@@ -14,7 +14,7 @@
 try {
 	$Rates = (Invoke-WebRequest -uri "https://min-api.cryptocompare.com/data/price?fsym=USDT&tsyms=USD,EUR" -userAgent "curl" -useBasicParsing).Content | ConvertFrom-Json
 
-	& "$PSScriptRoot/give-reply.ps1" "Tether is currently at $($Rates.USD) US$ and $($Rates.EUR) Euro."
+	& "$PSScriptRoot/give-reply.ps1" "Tether is now at $($Rates.USD) US$ or $($Rates.EUR) Euro."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
