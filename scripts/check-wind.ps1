@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Checks the wind conditions
 .DESCRIPTION
-	Determines the current wind conditions and replies by text-to-speech (TTS).
+	Queries the current wind conditions and replies by text-to-speech (TTS).
 .PARAMETER location
 	Specifies the location to use (determined automatically per default)
 .EXAMPLE
@@ -37,7 +37,11 @@ try {
 	"NNW" { "North North West" }
 	}
 
-	& "$PSScriptRoot/give-reply.ps1" "Blowing from $WindDir with $($WindSpeed)km/h."
+	if ($WindSpeed -eq 0) {
+		& "$PSScriptRoot/give-reply.ps1" "It's windless."
+	} else {
+		& "$PSScriptRoot/give-reply.ps1" "Blowing from $WindDir with $($WindSpeed)km/h right now."
+	}
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
