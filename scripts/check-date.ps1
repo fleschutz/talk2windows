@@ -1,8 +1,8 @@
 ﻿<#
 .SYNOPSIS
-	Determines the current date 
+	Say the current date 
 .DESCRIPTION
-	This script determines and speaks the current date by text-to-speech (TTS).
+	This script speaks the current date by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-date
 .NOTES
@@ -16,7 +16,7 @@ try {
 	$Weekday = (Get-Date -format "dddd")
 	$CurrentDate = (Get-Date).ToShortDateString()
 
-	& "$PSScriptRoot/give-reply.ps1" "It's $Weekday, $CurrentDate"
+	& "$PSScriptRoot/give-reply.ps1" "It's $Weekday, $CurrentDate."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

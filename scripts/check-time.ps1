@@ -1,8 +1,8 @@
 ﻿<#
 .SYNOPSIS
-	Determines the current time 
+	Say the current time 
 .DESCRIPTION
-	This script determines and speaks the current time by text-to-speech (TTS).
+	This script speaks the current time by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-time
 .NOTES
@@ -13,9 +13,9 @@
 
 try {
 	[system.threading.thread]::currentThread.currentCulture=[system.globalization.cultureInfo]"en-US"
-	$CurrentTime = $((Get-Date).ToShortTimeString())
+	$CurrentTime = (Get-Date).ToShortTimeString()
 
-	& "$PSScriptRoot/give-reply.ps1" "It's $CurrentTime"
+	& "$PSScriptRoot/give-reply.ps1" "It's $CurrentTime."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

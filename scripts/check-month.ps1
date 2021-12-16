@@ -1,8 +1,8 @@
 ﻿<#
 .SYNOPSIS
-	Gets the current month name
+	Say the current month name
 .DESCRIPTION
-	This script determines and speaks the current month name by text-to-speech (TTS).
+	This script speaks the current month name by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-month
 .NOTES
@@ -12,8 +12,9 @@
 #>
 
 try {
-	[system.threading.thread]::currentthread.currentculture=[system.globalization.cultureinfo]"en-US"
+	[system.threading.thread]::currentthread.currentculture = [system.globalization.cultureinfo]"en-US"
 	$MonthName = (Get-Date -UFormat %B)
+
 	& "$PSScriptRoot/give-reply.ps1" "It's $MonthName."
 	exit 0 # success
 } catch {
