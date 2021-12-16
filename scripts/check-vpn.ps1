@@ -18,7 +18,7 @@ try {
 		& "$PSScriptRoot/give-reply.ps1" "VPN $($Connection.Name) is $($Connection.ConnectionStatus)."
 		$FoundOne = $true
 	}
-	if (!$FoundOne) { throw "No VPN connection available" }
+	if (!$FoundOne) { & "$PSScriptRoot/give-reply.ps1" "No VPN connection configured." }
 	exit 0
 } catch {
 	& "$PSScriptRoot/give-reply.ps1" "Sorry: $($Error[0])."

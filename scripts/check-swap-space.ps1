@@ -32,10 +32,12 @@ try {
 
 	if ($Total -eq "0") {
         	$Reply = "No swap space configured!"
+	} elseif ($Used -eq 0) {
+		$Reply = "No swap space in use, $Free GB are available."
 	} elseif ($Free -lt $MinLevel) {
         	$Reply = "Swap space has only $Free GB left to use! ($Used of $Total GB used, minimum is $MinLevel GB)"
 	} else {
-		$Reply = "Swap space uses $Used GB, $Free GB are left to use."
+		$Reply = "Swap space uses $Used GB, $Free GB are available."
 	}
 	& "$PSScriptRoot/give-reply.ps1" "$Reply"
 	exit 0 # success
