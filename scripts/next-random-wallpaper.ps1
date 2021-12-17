@@ -1,12 +1,12 @@
 ﻿<#
 .SYNOPSIS
-	Uses a random wallpaper
+	Sets a random wallpaper
 .DESCRIPTION
 	This script downloads a random photo from Unsplash and sets it as desktop background.
 .PARAMETER Category
 	Specifies the photo category (beach, city, ...)
 .EXAMPLE
-	PS> ./use-a-random-wallpaper 
+	PS> ./next-random-wallpaper 
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
@@ -30,7 +30,7 @@ try {
 	& wget -O $Path "https://source.unsplash.com/3840x2160?$Category"
 	if ($lastExitCode -ne "0") { throw "Download failed" }
 
-	& "$PSScriptRoot/set-wallpaper.ps1" -ImageFile "$Path"
+	& "$PSScriptRoot/_set-wallpaper.ps1" -ImageFile "$Path"
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
