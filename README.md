@@ -64,12 +64,7 @@ Launches the default Web browser with Google Maps at the given city - replace [N
 
 *"Windows, play [genre] music."*
 -------------------------------
-Launches the default Web browser and plays the given music genre - replace [genre] by: `blues`, `chillout`, `classical`, `country`, `dance`, `folk`, `indie`, `jazz`, `metal`, `pop`,`RnB`, or `rock`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
-
-
-*"Windows, play radio [station]."*
--------------------------------
-Launches the default Web browser and tunes into an internet radio station - replace [station] by: `7`, `AFN Stuttgart`, `Arabella`, `Bob`, `Club Mix`, `Dance FM`, `FFN`, `Galaxy`, `Gong`, `Ibiza`, `Jam FM`, `Kiss Kiss`, `Malibu`, `N-JOY`, `Paloma`, or `You FM`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
+Launches the default Web browser and plays the given music genre - replace [genre] by: `blues`, `chillout`, `classical`, `country`, `dance`, `folk`, `hip hop`, `indie`, `jazz`, `metal`, `pop`,`RnB`, or `rock`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
 
 
 *"Windows, play [name] sound."*
