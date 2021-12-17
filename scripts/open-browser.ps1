@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-	Opens the browser
+	Opens the Web browser
 .DESCRIPTION
 	This script launches the default Web browser, optional with a given URL.
 .PARAMETER URL
@@ -15,10 +15,5 @@
 
 param([string]$URL = "https://github.com/fleschutz/talk2windows")
 
-try {
-	Start-Process $URL
-	exit 0 # success
-} catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
-	exit 1
-}
+Start-Process $URL
+exit 0 # success
