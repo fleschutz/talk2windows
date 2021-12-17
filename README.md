@@ -24,9 +24,7 @@ Greets the computer, just replace [greeting] by: `good evening`, `good morning`,
 
 *"Windows, open [app]."*
 ------------------------
-Launches the given application, replace [app] by: `3D-Viewer`, `calculator`,  `Chrome`, `Edge`, `Firefox`, `Git Extensions`, `magnifier`, `Microsoft Paint`, `Microsoft Store`, `Netflix`, `Notepad`, `OBS Studio`, `Outlook`, `Paint 3D`, `screen clip`, `Spotify`, `Thunderbird`, `Visual Studio`, or `Windows Terminal`.
-
-When finished say: *"Computer, close [app]"* to close the application.
+Launches the given application, replace [app] by: `3D-Viewer`, `calculator`,  `Chrome`, `Edge`, `Firefox`, `Git Extensions`, `magnifier`, `Microsoft Paint`, `Microsoft Store`, `Netflix`, `Notepad`, `OBS Studio`, `Outlook`, `Paint 3D`, `screen clip`, `Spotify`, `Thunderbird`, `Visual Studio`, or `Windows Terminal`. When finished say: *"Computer, close [app]"* to close the application.
 
 
 *"Windows, check [item]."*
