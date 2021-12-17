@@ -8,8 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "http://streema.com/radios/play/Nick_Radio"
+& "$PSScriptRoot/_launch-browser.ps1" "http://streema.com/radios/play/Nick_Radio"
 exit 0 # success
