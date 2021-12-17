@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://glidertracker.de/"
+& "$PSScriptRoot/_launch-browser.ps1" "https://glidertracker.de/"
 exit 0 # success

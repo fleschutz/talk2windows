@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/PowerShell
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://notepad.js.org/"
+& "$PSScriptRoot/_launch-browser.ps1" "https://notepad.js.org/"
 exit 0 # success

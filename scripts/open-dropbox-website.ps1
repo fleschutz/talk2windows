@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.dropbox.com"
+& "$PSScriptRoot/_launch-browser.ps1" "https://www.dropbox.com"
 exit 0 # success

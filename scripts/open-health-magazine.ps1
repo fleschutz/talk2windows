@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-browser.ps1" "https://www.health.com/"
+& "$PSScriptRoot/_launch-browser.ps1" "https://www.health.com/"
 exit 0 # success
