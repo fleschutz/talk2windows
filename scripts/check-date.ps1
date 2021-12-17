@@ -12,7 +12,7 @@
 #>
 
 try {
-	[system.threading.thread]::currentthread.currentculture=[system.globalization.cultureinfo]"en-US"
+	[system.threading.thread]::currentthread.currentculture = [system.globalization.cultureinfo]"en-US"
 	$Weekday = (Get-Date -format "dddd")
 	$CurrentDate = (Get-Date).ToShortDateString()
 

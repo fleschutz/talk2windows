@@ -12,11 +12,12 @@
 #>
 
 try {
+	[system.threading.thread]::currentthread.currentculture = [system.globalization.cultureinfo]"en-US"
 	$OSDetails = Get-CimInstance Win32_OperatingSystem
 	$InstallDate = $OSDetails.InstallDate
 	$Now = [DateTime]::Now
 	$Days = ($Now - $InstallDate).Days
-	& "$PSScriptRoot/give-reply.ps1" "I was installed on this machine $Days days ago."
+	& "$PSScriptRoot/give-reply.ps1" "I'm $Days days old, installed on $($InstallDate.ToShortDateString())."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
