@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Exports to Serenade 
 .DESCRIPTION
-	This script exports all PowerShell scripts to Serenade to execute them by voice.
+	This script exports all voice skill scripts in subfolder 'scripts' to Serenade.
 .PARAMETER WakeWord
 	Specifies the wake word
 .PARAMETER FilePattern
@@ -29,15 +29,16 @@ try {
 	$Scripts = Get-ChildItem "$FilePattern"
 	"(2) Found $($Scripts.Count) PowerShell scripts in subfolder `'scripts`'"
 
-	"(3) Writing the custom JavaScript file to: $TargetFile..."
+	"(3) Writing custom JavaScript file: $TargetFile..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$TargetFile"
 	foreach ($Script in $Scripts) {
 		$ScriptName = $Script.basename
+		if ($ScriptName[0] -eq "_") { continue } # internal script, don't export it
 		$Keyword = $ScriptName -replace "-"," "
 		"serenade.global().command(`"$($WakeWord.toLower()) $Keyword`",async(api)=>{await api.focusApplication(`"$Application`");await api.pressKey(`"return`");await api.typeText(`"$ScriptName.ps1`");await api.pressKey(`"return`");});" | Add-Content "$TargetFile"
 	}
 
-	"Export to Serenade was successful. Now, launch Serenade to talk to Windows :-)"
+	"Export to Serenade was successful. Launch Serenade now to talk to Windows..."
 	exit 0 # success
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
