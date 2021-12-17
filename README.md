@@ -116,7 +116,7 @@ When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close
 
 *"Windows, show [name] rate."*
 --------------------------------
-Launches the default Web browser with the given exchange rate. Just replace [name] by: `Bitcoin`, `Ether`, `Euro`, `Tether`, or `US dollar`.
+Launches the default Web browser with the given exchange rate. Just replace [name] by: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`.
 
 When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
 
