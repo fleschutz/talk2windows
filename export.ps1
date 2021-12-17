@@ -38,7 +38,7 @@ try {
 		"serenade.global().command(`"$($WakeWord.toLower()) $Keyword`",async(api)=>{await api.focusApplication(`"$Application`");await api.pressKey(`"return`");await api.typeText(`"$ScriptName.ps1`");await api.pressKey(`"return`");});" | Add-Content "$TargetFile"
 	}
 
-	"Export to Serenade was successful. Launch Serenade now to talk to Windows..."
+	"Export to Serenade was successful - launch Serenade now to talk to Windows."
 	exit 0 # success
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
