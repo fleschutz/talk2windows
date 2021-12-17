@@ -74,7 +74,7 @@ Launches the default Web browser and tunes into an internet radio station - repl
 
 *"Windows, play [name] sound."*
 -------------------------------
-* starts the playback of the given sound - replace [name] by: `bee`, `beep`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
+Starts the playback of the given sound - replace [name] by: `bee`, `beep`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
 
 
 *"Windows, play [name] game."*
