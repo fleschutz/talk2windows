@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://crypto.com/price/nft-collections"
+& "$PSScriptRoot/_launch-browser.ps1" "https://crypto.com/price/nft-collections"
 exit 0 # success

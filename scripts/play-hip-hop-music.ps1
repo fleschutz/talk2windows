@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/task2windows
 #>
 
-& "$PSScriptRoot/_open-browser.ps1" "http://streema.com/radios/play/Lofi_Hip_Hop_Radio"
+& "$PSScriptRoot/_launch-browser.ps1" "http://streema.com/radios/play/Lofi_Hip_Hop_Radio"
 exit 0 # success

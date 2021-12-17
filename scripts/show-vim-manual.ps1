@@ -8,8 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.vim.org/docs.php"
+& "$PSScriptRoot/_launch-browser.ps1" "https://www.vim.org/docs.php"
 exit 0 # success

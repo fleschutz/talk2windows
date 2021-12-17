@@ -8,8 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.google.com/maps/place/Zurich"
+& "$PSScriptRoot/_launch-browser.ps1" "https://www.google.com/maps/place/Zurich"
 exit 0 # success

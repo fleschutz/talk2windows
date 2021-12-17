@@ -8,8 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://docs.microsoft.com/en-us/microsoft-edge/"
+& "$PSScriptRoot/_launch-browser.ps1" "https://docs.microsoft.com/en-us/microsoft-edge/"
 exit 0 # success

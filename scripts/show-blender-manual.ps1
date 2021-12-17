@@ -8,8 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://docs.blender.org/manual/en/latest/index.html"
+& "$PSScriptRoot/_launch-browser.ps1" "https://docs.blender.org/manual/en/latest/index.html"
 exit 0 # success

@@ -8,8 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://userguide.volkswagen.de"
+& "$PSScriptRoot/_launch-browser.ps1" "https://userguide.volkswagen.de"
 exit 0 # success

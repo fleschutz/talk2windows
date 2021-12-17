@@ -8,8 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.gnu.org/software/bash/manual/bash.html"
+& "$PSScriptRoot/_launch-browser.ps1" "https://www.gnu.org/software/bash/manual/bash.html"
 exit 0 # success

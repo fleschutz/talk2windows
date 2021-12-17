@@ -8,8 +8,8 @@
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.system-rescue.org/manual/"
+& "$PSScriptRoot/_launch-browser.ps1" "https://www.system-rescue.org/manual/"
 exit 0 # success

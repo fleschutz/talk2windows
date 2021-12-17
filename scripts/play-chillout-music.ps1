@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_open-browser.ps1" "http://streema.com/radios/play/202.FM_The_ChillOut_Lounge"
+& "$PSScriptRoot/_launch-browser.ps1" "http://streema.com/radios/play/202.FM_The_ChillOut_Lounge"
 exit 0 # success
