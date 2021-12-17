@@ -5,7 +5,7 @@ Control Windows by using your voice besides keyboard and mouse. Required is Wind
 
 🔧 Installation
 --------------
-1. Download and install *Serenade* from https://serenade.ai/ (Serenade is freely available for Linux, MacOS, and Windows, during installation no plugin and no language selection is needed).
+1. Download and install *Serenade* from https://serenade.ai/ (Serenade is freely available for Linux, MacOS, and Windows, during installation no plugin and no language need to be selected).
 2. Download and install the *talk2windows* repository, allow the script execution and set the search path to the *scripts* subfolder (see the [FAQ page](docs/FAQ.md) for details).
 3. Execute: `./export.ps1` in the repository, this creates a custom JavaScript file using the wake word 'Windows'. 
 
