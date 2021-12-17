@@ -8,7 +8,7 @@ PowerShell is a task automation and configuration management framework from Micr
 
 How to get PowerShell?
 ----------------------
-* **Windows 7 and newer** provides PowerShell by default. However, script execution is **disallowed by default** (execution policy is "restricted"). To enable this, enter as administrator:
+* **Windows 7 and newer** provide PowerShell by default. However, script execution is **disallowed by default** (execution policy is "restricted"). To enable this, enter as administrator:
    ```
    PS> Set-ExecutionPolicy RemoteSigned
    ```
