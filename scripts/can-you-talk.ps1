@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "Sure, why not."
+& "$PSScriptRoot/give-reply.ps1" "Sure, just begin any sentence with 'Windows'."
 exit 0 # success
