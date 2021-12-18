@@ -52,7 +52,7 @@ Launches the default Web browser with the given website - replace [name] by: `Am
 
 *"Windows, open Google [service]."*
 ----------------------------------
-Launches the default Web browser with Google's Web service - replace [service] by: `Alerts`, `Blogger`, `Books`, `Calendar`, `Contacts`, `Docs`, `Earth`, `Mail`, `Maps`, `News`, `Photos`, `Play`, `Search`, `Shopping list`, `Stadia`, `Tasks`, or `Translate`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
+Launches the default Web browser with Google's Web service - replace [service] by: `Alerts`, `Blogger`, `Books`, `Calendar`, `Contacts`, `Docs`, `Earth`, `Mail`, `Maps`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Shopping list`, `Stadia`, `Tasks`, or `Translate`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
 
 
 *"Windows, open [name] magazine."*
