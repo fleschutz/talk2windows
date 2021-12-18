@@ -4,23 +4,26 @@ Control Windows by using your voice besides keyboard and mouse. Required is Wind
 
 
 🔧 Installation
---------------
+---------------
 1. Download and install *Serenade* from https://serenade.ai/ (Serenade is freely available for Linux, MacOS, and Windows, during installation no plugin and no language need to be selected).
-2. Download and install the *talk2windows* repository, allow the script execution and set the search path to the *scripts* subfolder (see the [FAQ page](docs/FAQ.md) for details).
-3. Execute: `./export.ps1` in the repository, this creates a custom JavaScript file using the wake word 'Windows'. 
+2. Download and install the *talk2windows* repository
+3. Allow execution of PowerShell scripts (see the [FAQ page](docs/FAQ.md) for details).
+4. Execute: `./export.ps1` in the repository (this creates a custom JavaScript file for Serenade). 
 
 
 🗣 Usage
 -------
-1. Launch *Serenade*
+1. Launch *Serenade*.
 2. Click the circle to enable Listening mode.
 3. Speak into the microphone: **"*Windows, open calculator*"** - this executes the script `open-calculator.ps1` and this script launches the calculator application.
 
 More supported voice commands are:
 
+
 *"Windows, [greeting]."*
 -------------------------
 Greets the computer, just replace [greeting] by: `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy hanukkah`, `happy holidays`, `happy kwanzaa`, `happy mother's day`, `happy new year`, `happy ramadan`, `happy St. Patrick's day`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hi`, `merry christmas`, or `say hello`.
+
 
 *"Windows, open [app]."*
 ------------------------
