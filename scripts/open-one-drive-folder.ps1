@@ -17,8 +17,8 @@ try {
 		& "$PSScriptRoot/open-file-explorer.ps1" "$TargetDir"
 		exit 0 # success
 	}
-	throw "No OneDrive folder at 📂$HOME/Dropbox"
+	throw "No OneDrive folder at $HOME/Dropbox"
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	"Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
 	exit 1
 }

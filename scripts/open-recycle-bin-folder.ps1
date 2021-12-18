@@ -11,10 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-try {
-	start shell:recyclebinfolder
-	exit 0 # success
-} catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
-	exit 1
-}
+start shell:recyclebinfolder
+exit 0 # success
