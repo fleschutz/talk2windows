@@ -15,12 +15,13 @@ try {
 	$Now = [DateTime]::Now
 	$Easter = [Datetime]("04/17/2022")
 	if ($Now -lt $Easter) {
-		$Diff = $Easter – $Now
-		& "$PSScriptRoot/give-reply.ps1" "Easter Sunday on April 17 is in $($Diff.Days) days."
+		$Diff = $Easter - $Now
+		$Reply = "Easter Sunday on April 17 is in $($Diff.Days) days."
 	} else {
 		$Diff = $Now - $Easter
-		& "$PSScriptRoot/give-reply.ps1" "Easter Sunday on April 17 was $($Diff.Days) days ago."
+		$Reply = "Easter Sunday on April 17 was $($Diff.Days) days ago."
 	}
+	& "$PSScriptRoot/give-reply.ps1" "$Reply"
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

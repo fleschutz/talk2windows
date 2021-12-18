@@ -15,7 +15,7 @@ try {
 	$Now = [DateTime]::Now
 	$IndependenceDay = [Datetime]("07/04/" + $Now.Year)
 	if ($Now -lt $IndependenceDay) {
-		$Diff = $IndependenceDay – $Now
+		$Diff = $IndependenceDay - $Now
 		& "$PSScriptRoot/give-reply.ps1" "Independence Day on July 4th is in $($Diff.Days) days."
 	} else {
 		$Diff = $Now - $IndependenceDay
@@ -23,6 +23,6 @@ try {
 	}
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	"Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
 	exit 1
 }
