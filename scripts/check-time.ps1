@@ -15,7 +15,7 @@ try {
 	[system.threading.thread]::currentThread.currentCulture=[system.globalization.cultureInfo]"en-US"
 	$CurrentTime = (Get-Date).ToShortTimeString()
 
-	& "$PSScriptRoot/give-reply.ps1" "It's $CurrentTime."
+	& "$PSScriptRoot/_reply.ps1" "It's $CurrentTime."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

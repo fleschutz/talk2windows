@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "Thank you very much. My birthday is today?"
+& "$PSScriptRoot/_reply.ps1" "Thank you very much. My birthday is today?"
 exit 0 # success

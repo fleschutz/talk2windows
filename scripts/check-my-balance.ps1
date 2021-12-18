@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "OK, what's your account number?"
+& "$PSScriptRoot/_reply.ps1" "OK, what's your account number?"
 exit 0 # success

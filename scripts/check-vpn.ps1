@@ -15,12 +15,12 @@ try {
 	$FoundOne = $false
 	$Connections = (Get-VPNConnection)
 	foreach($Connection in $Connections) {
-		& "$PSScriptRoot/give-reply.ps1" "VPN $($Connection.Name) is $($Connection.ConnectionStatus)."
+		& "$PSScriptRoot/_reply.ps1" "VPN $($Connection.Name) is $($Connection.ConnectionStatus)."
 		$FoundOne = $true
 	}
-	if (!$FoundOne) { & "$PSScriptRoot/give-reply.ps1" "No VPN connection configured." }
+	if (!$FoundOne) { & "$PSScriptRoot/_reply.ps1" "No VPN connection configured." }
 	exit 0
 } catch {
-	& "$PSScriptRoot/give-reply.ps1" "Sorry: $($Error[0])."
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])."
 	exit 1
 }

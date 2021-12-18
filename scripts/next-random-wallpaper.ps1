@@ -24,7 +24,7 @@ function GetTempDir {
 
 try {
 	$Reply = "Just a second.", "Hold on.", "Wait a second." | Get-Random
-	& "$PSScriptRoot/give-reply.ps1" "$Reply"
+	& "$PSScriptRoot/_reply.ps1" "$Reply"
 
 	$Path = "$(GetTempDir)/next_wallpaper.jpg"
 	& wget -O $Path "https://source.unsplash.com/3840x2160?$Category"

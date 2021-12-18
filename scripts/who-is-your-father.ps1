@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "Bill Gates."
+& "$PSScriptRoot/_reply.ps1" "Bill Gates."
 exit 0 # success

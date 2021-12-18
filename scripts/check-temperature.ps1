@@ -19,7 +19,7 @@ try {
 	$Weather = (Invoke-WebRequest http://wttr.in/${location}?format=j1 -userAgent "curl" -useBasicParsing).Content | ConvertFrom-Json
 	$Temp = $Weather.current_condition.temp_C
 	
-	& "$PSScriptRoot/give-reply.ps1" "$($Temp)°C outside."
+	& "$PSScriptRoot/_reply.ps1" "$($Temp)°C outside."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

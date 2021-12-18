@@ -16,7 +16,7 @@ try {
 	$Weekday = (Get-Date -format "dddd")
 	$CurrentDate = (Get-Date).ToShortDateString()
 
-	& "$PSScriptRoot/give-reply.ps1" "It's $Weekday, $CurrentDate."
+	& "$PSScriptRoot/_reply.ps1" "It's $Weekday, $CurrentDate."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

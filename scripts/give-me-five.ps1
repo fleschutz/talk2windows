@@ -13,5 +13,5 @@
 
 $Reply = "Thanks!", "Hi five.", "Hi five to all of yours.", "Four plus one.", "Three plus two." | Get-Random
 
-& "$PSScriptRoot/give-reply.ps1" "$Reply"
+& "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success

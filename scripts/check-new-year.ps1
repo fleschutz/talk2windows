@@ -16,9 +16,9 @@ try {
 	$NewYear = [Datetime]("12/31/" + $Now.Year)
 	$Days = ($NewYear - $Now).Days + 1
 	if ($Days -gt 1) {
-		& "$PSScriptRoot/give-reply.ps1" "New Year is in $Days days."
+		& "$PSScriptRoot/_reply.ps1" "New Year is in $Days days."
 	} elseif ($Days -eq 1) {
-		& "$PSScriptRoot/give-reply.ps1" "New Year is tomorrow."
+		& "$PSScriptRoot/_reply.ps1" "New Year is tomorrow."
 	}
 	exit 0 # success
 } catch {

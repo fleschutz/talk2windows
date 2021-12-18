@@ -25,5 +25,5 @@ if (test-path "$(GetTempDir)/last_reply_given.txt" -pathType leaf) {
 	$Reply = "Sorry, I can't remember."
 }
 
-& "$PSScriptRoot/give-reply.ps1" "$Reply"
+& "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success

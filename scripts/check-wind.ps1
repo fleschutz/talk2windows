@@ -38,9 +38,9 @@ try {
 	}
 
 	if ($WindSpeed -eq 0) {
-		& "$PSScriptRoot/give-reply.ps1" "It's windless."
+		& "$PSScriptRoot/_reply.ps1" "It's windless."
 	} else {
-		& "$PSScriptRoot/give-reply.ps1" "Now blowing from $WindDir with $($WindSpeed)km/h."
+		& "$PSScriptRoot/_reply.ps1" "Now blowing from $WindDir with $($WindSpeed)km/h."
 	}
 	exit 0 # success
 } catch {

@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "Earth still spins with 1040mph."
+& "$PSScriptRoot/_reply.ps1" "Earth still spins with 1040mph."
 exit 0 # success

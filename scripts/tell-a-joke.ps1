@@ -18,7 +18,7 @@ try {
 	$Index = [int]$Generator.next(0, $Table.Count - 1)
 	$Reply = $Table[$Index].Joke
 
-	& "$PSScriptRoot/give-reply.ps1" "$Reply"
+	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

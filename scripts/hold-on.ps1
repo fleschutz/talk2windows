@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "OK."
+& "$PSScriptRoot/_reply.ps1" "OK."
 exit 0 # success

@@ -11,6 +11,6 @@
 	https://github.com/fleschutz/PowerShell
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "Hello everyone."
+& "$PSScriptRoot/_reply.ps1" "Hello everyone."
 exit 0 # success
 

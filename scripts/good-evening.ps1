@@ -13,5 +13,5 @@
 
 $Reply = "And a special good evening to you too."
 
-& "$PSScriptRoot/give-reply.ps1" "$Reply"
+& "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success

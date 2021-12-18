@@ -12,5 +12,5 @@
 #>
 
 $Reply = "I'm sorry.", "I'm so sorry.", "Mea culpa!" | Get-Random
-& "$PSScriptRoot/give-reply.ps1" "$Reply"
+& "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success

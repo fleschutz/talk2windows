@@ -21,7 +21,7 @@ try {
 	[xml]$Content = (invoke-webRequest -uri $RSS_URL -useBasicParsing).Content
 	[int]$Count = 0
 	foreach ($item in $Content.rss.channel.item) {
-		& "$PSScriptRoot/give-reply.ps1" "$($item.title)"
+		& "$PSScriptRoot/_reply.ps1" "$($item.title)"
 		$Count++
 		if ($Count -eq $MaxCount) { break }
 	}

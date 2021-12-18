@@ -13,5 +13,5 @@
 
 $Reply = "Never mind." | Get-Random
 
-& "$PSScriptRoot/give-reply.ps1" "$Reply"
+& "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success

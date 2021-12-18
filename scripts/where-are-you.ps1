@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/give-reply.ps1" "I'm in the machine."
+& "$PSScriptRoot/_reply.ps1" "I'm in the machine."
 exit 0 # success

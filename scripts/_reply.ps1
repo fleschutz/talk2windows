@@ -6,7 +6,7 @@
 .PARAMETER text
 	Specifies the text to speak
 .EXAMPLE
-	PS> ./give-reply "Hello World"
+	PS> ./_reply "Hello World"
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK

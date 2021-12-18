@@ -16,7 +16,7 @@
 param([string]$abbreviation = "")
 
 function Reply { param([string]$Text)
-	& "$PSScriptRoot/give-reply.ps1" "$Text"
+	& "$PSScriptRoot/_reply.ps1" "$Text"
 }
 
 try {

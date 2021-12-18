@@ -14,7 +14,7 @@
 try {
 	$Year = (Get-Date).Year
 
-	& "$PSScriptRoot/give-reply.ps1" "It's $Year."
+	& "$PSScriptRoot/_reply.ps1" "It's $Year."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

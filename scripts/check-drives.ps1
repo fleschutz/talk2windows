@@ -30,7 +30,7 @@ try {
 		} else {
 			$Reply = "Drive $($Drive.Name): has $($Free) GB left, $($Total) GB total."
 		}
-		& "$PSScriptRoot/give-reply.ps1" "$Reply"
+		& "$PSScriptRoot/_reply.ps1" "$Reply"
 	}
 	exit 0 # success
 } catch {

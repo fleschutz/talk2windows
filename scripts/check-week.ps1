@@ -13,7 +13,7 @@
 
 try {
 	$WeekNo = (get-date -UFormat %V)
-	& "$PSScriptRoot/give-reply.ps1" "It's week #$WeekNo."
+	& "$PSScriptRoot/_reply.ps1" "It's week #$WeekNo."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

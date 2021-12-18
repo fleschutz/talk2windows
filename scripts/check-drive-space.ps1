@@ -30,7 +30,7 @@ try {
 		exit 1
 	}
 
-	& "$PSScriptRoot/give-reply.ps1" "Drive $Drive has $Free GB left ($Total GB total)"
+	& "$PSScriptRoot/_reply.ps1" "Drive $Drive has $Free GB left ($Total GB total)"
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

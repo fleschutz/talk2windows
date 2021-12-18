@@ -14,5 +14,5 @@
 $Reply = "I got", "OK, I have" | Get-Random
 $Number = "1", "2", "3", "4", "5", "6" | Get-Random
 
-& "$PSScriptRoot/give-reply.ps1" "$Reply $Number."
+& "$PSScriptRoot/_reply.ps1" "$Reply $Number."
 exit 0 # success

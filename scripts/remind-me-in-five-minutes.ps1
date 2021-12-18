@@ -13,8 +13,8 @@
 
 try {
 	$Now = (Get-Date).AddMinutes(5)
-	& "$PSScriptRoot/remind-me.ps1" "End of 5 minutes" "$Now"
-	& "$PSScriptRoot/give-reply.ps1" "OK, will remind you in 5 minutes."
+	& "$PSScriptRoot/remind-me.ps1" "End of 5 minutes." "$Now"
+	& "$PSScriptRoot/_reply.ps1" "OK, will remind you in 5 minutes."
 	exit 0
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"

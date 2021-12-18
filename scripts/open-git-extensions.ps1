@@ -21,7 +21,7 @@ function TryToExec { param($Folder, $Binary)
 try {
 	TryToExec "C:\Program Files (x86)\GitExtensions" "GitExtensions.exe"
 	TryToExec "C:\Program Files\GitExtensions" "GitExtensions.exe"
-	& "$PSScriptRoot/give-reply.ps1" "Sorry, can't find Git Extensions."
+	& "$PSScriptRoot/_reply.ps1" "Sorry, can't find Git Extensions."
 	exit 1
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"

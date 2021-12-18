@@ -15,7 +15,7 @@ try {
 	$Noon = Get-Date -Hour 12 -Minute 0 -Second 0
 
 	& "$PSScriptRoot/remind-me.ps1" "It's noon, now." "$Noon"
-	& "$PSScriptRoot/give-reply.ps1" "OK, will do."
+	& "$PSScriptRoot/_reply.ps1" "OK, will do."
 	exit 0
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"

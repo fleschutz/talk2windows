@@ -15,7 +15,7 @@ try {
 	$Rates = (Invoke-WebRequest -uri "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,EUR" -userAgent "curl" -useBasicParsing).Content | ConvertFrom-Json
 	$USD = [math]::round($Rates.USD)
 	$EUR = [math]::round($Rates.EUR)
-	& "$PSScriptRoot/give-reply.ps1" "Ethereum is now at $USD US$ or $EUR Euro."
+	& "$PSScriptRoot/_reply.ps1" "Ethereum is now at $USD US$ or $EUR Euro."
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
