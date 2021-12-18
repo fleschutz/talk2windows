@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.airbnb.com"
+& "$PSScriptRoot/open-browser.ps1" "https://www.airbnb.com"
 exit 0 # success

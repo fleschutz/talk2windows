@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://tmaiadev-tictactoe.netlify.app/"
+& "$PSScriptRoot/open-browser.ps1" "https://tmaiadev-tictactoe.netlify.app/"
 exit 0 # success

@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.openstreetmap.org"
+& "$PSScriptRoot/open-browser.ps1" "https://www.openstreetmap.org"
 exit 0 # success

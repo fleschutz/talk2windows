@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://docs.microsoft.com/en-us/powershell/"
+& "$PSScriptRoot/open-browser.ps1" "https://docs.microsoft.com/en-us/powershell/"
 exit 0 # success

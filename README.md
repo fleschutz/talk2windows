@@ -54,7 +54,7 @@ Launches the default Web browser with Google's Web service - replace [service] b
 
 *"Windows, open [name] magazine."*
 ----------------------------------
-Launches the default Web browser with the given magazine website - replace [name] by: `Cosmopolitan`, `Golf`, `GQ`, `Health`, `National Geographic`, `People`, `Time`, `Vanity Fair`, `Vogue`, or `Wired`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
+Launches the default Web browser with the given magazine website - replace [name] by: `Cosmopolitan`, `Focus`, `Golf`, `GQ`, `Health`, `National Geographic`, `People`, `Spiegel`, `SZ`, `Time`, `Vanity Fair`, `Vogue`, or `Wired`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
 
 
 *"Windows, show [name] city."*

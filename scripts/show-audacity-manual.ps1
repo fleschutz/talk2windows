@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://manual.audacityteam.org/"
+& "$PSScriptRoot/open-browser.ps1" "https://manual.audacityteam.org/"
 exit 0 # success

@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.deepl.com/translator"
+& "$PSScriptRoot/open-browser.ps1" "https://www.deepl.com/translator"
 exit 0 # success

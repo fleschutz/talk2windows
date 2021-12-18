@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://www.vim.org/docs.php"
+& "$PSScriptRoot/open-browser.ps1" "https://www.vim.org/docs.php"
 exit 0 # success

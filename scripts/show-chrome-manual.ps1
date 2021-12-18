@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://support.google.com/chrome/?hl=en"
+& "$PSScriptRoot/open-browser.ps1" "https://support.google.com/chrome/?hl=en"
 exit 0 # success

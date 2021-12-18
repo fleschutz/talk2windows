@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://www.tiktok.com"
+& "$PSScriptRoot/open-browser.ps1" "https://www.tiktok.com"
 exit 0 # success

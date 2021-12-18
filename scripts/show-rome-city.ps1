@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://www.google.com/maps/place/Rome"
+& "$PSScriptRoot/open-browser.ps1" "https://www.google.com/maps/place/Rome"
 exit 0 # success

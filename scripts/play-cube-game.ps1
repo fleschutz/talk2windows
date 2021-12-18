@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://bsehovac.github.io/the-cube/"
+& "$PSScriptRoot/open-browser.ps1" "https://bsehovac.github.io/the-cube/"
 exit 0 # success

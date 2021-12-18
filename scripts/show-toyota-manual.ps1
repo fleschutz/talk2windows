@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://www.toyota.com/owners/resources/warranty-owners-manuals"
+& "$PSScriptRoot/open-browser.ps1" "https://www.toyota.com/owners/resources/warranty-owners-manuals"
 exit 0 # success

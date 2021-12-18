@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "http://streema.com/radios/play/KUSC_KDSC"
+& "$PSScriptRoot/open-browser.ps1" "http://streema.com/radios/play/KUSC_KDSC"
 exit 0 # success

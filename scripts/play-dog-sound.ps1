@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/play-mp3.ps1" "$PSScriptRoot/../Data/Sounds/dog.mp3"
+& "$PSScriptRoot/play-mp3.ps1" "$PSScriptRoot/../data/sounds/dog.mp3"
 exit 0 # success

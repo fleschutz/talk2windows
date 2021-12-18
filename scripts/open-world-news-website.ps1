@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://www.reuters.com/news/archive/worldNews"
+& "$PSScriptRoot/open-browser.ps1" "https://www.reuters.com/news/archive/worldNews"
 exit 0 # success

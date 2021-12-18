@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "http://streema.com/radios/play/Power_Rock_93.9_WKTG"
+& "$PSScriptRoot/open-browser.ps1" "http://streema.com/radios/play/Power_Rock_93.9_WKTG"
 exit 0 # success

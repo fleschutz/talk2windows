@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://www.plex.tv/"
+& "$PSScriptRoot/open-browser.ps1" "https://www.plex.tv/"
 exit 0 # success

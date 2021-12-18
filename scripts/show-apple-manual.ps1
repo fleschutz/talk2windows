@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://support.apple.com/manuals"
+& "$PSScriptRoot/open-browser.ps1" "https://support.apple.com/manuals"
 exit 0 # success

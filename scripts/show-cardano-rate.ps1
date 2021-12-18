@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://crypto.com/price/cardano"
+& "$PSScriptRoot/open-browser.ps1" "https://crypto.com/price/cardano"
 exit 0 # success

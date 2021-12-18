@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://docs.blender.org/manual/en/latest/index.html"
+& "$PSScriptRoot/open-browser.ps1" "https://docs.blender.org/manual/en/latest/index.html"
 exit 0 # success

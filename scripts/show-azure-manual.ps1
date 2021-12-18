@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://docs.microsoft.com/en-us/azure"
+& "$PSScriptRoot/open-browser.ps1" "https://docs.microsoft.com/en-us/azure"
 exit 0 # success

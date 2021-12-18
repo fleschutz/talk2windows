@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://bobrov.dev/pacman-pwa/index.html"
+& "$PSScriptRoot/open-browser.ps1" "https://bobrov.dev/pacman-pwa/index.html"
 exit 0 # success

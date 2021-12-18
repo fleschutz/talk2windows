@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://crypto.com/price/solana"
+& "$PSScriptRoot/open-browser.ps1" "https://crypto.com/price/solana"
 exit 0 # success

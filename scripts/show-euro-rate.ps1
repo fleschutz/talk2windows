@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://www.bitstamp.net/markets/eur/usd/"
+& "$PSScriptRoot/open-browser.ps1" "https://www.bitstamp.net/markets/eur/usd/"
 exit 0 # success

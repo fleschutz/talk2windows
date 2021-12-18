@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "http://www.a320dp.com/A320_DP/panels.html"
+& "$PSScriptRoot/open-browser.ps1" "http://www.a320dp.com/A320_DP/panels.html"
 exit 0 # success

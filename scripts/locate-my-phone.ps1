@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://www.google.com/android/find"
+& "$PSScriptRoot/open-browser.ps1" "https://www.google.com/android/find"
 exit 0 # success

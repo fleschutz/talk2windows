@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://serenade.ai/"
+& "$PSScriptRoot/open-browser.ps1" "https://serenade.ai/"
 exit 0 # success

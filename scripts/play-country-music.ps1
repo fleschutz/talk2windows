@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "http://streema.com/radios/play/HPR1_The_Classic_Country_Channel"
+& "$PSScriptRoot/open-browser.ps1" "http://streema.com/radios/play/HPR1_The_Classic_Country_Channel"
 exit 0 # success

@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-default-browser.ps1" "https://e.ggtimer.com"
+& "$PSScriptRoot/open-browser.ps1" "https://e.ggtimer.com"
 exit 0 # success

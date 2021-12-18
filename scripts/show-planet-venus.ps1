@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "https://www.google.com/maps/space/venus"
+& "$PSScriptRoot/open-browser.ps1" "https://www.google.com/maps/space/venus"
 exit 0 # success

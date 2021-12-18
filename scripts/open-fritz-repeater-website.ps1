@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_launch-browser.ps1" "http://fritz.repeater"
+& "$PSScriptRoot/open-browser.ps1" "http://fritz.repeater"
 exit 0 # success
