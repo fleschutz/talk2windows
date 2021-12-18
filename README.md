@@ -27,7 +27,7 @@ Greets the computer, just replace [greeting] by: `good evening`, `good morning`,
 
 *"Windows, open [app]."*
 ------------------------
-Launches the given application, replace [app] by: `3D-Viewer`, `calculator`,  `Chrome`, `Edge`, `Firefox`, `Git Extensions`, `magnifier`, `Microsoft Paint`, `Microsoft Store`, `Netflix`, `Notepad`, `OBS Studio`, `Outlook`, `Paint 3D`, `screen clip`, `Spotify`, `Thunderbird`, `Visual Studio`, or `Windows Terminal`. When finished say: *"Computer, close [app]"* to close the application.
+Launches the given application, replace [app] by: `3D-Viewer`, `calculator`,  `Chrome`, `Edge`, `Firefox`, `Git Extensions`, `magnifier`, `Microsoft Paint`, `Microsoft Store`, `Netflix`, `Notepad`, `OBS Studio`, `Outlook`, `Paint 3D`, `screen clip`, `Spotify`, `Thunderbird`, `Visual Studio`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
 
 
 *"Windows, check [item]."*
@@ -37,17 +37,17 @@ Lets the computer check something, replace [item] by: `Bitcoin rate`, `Christmas
 
 *"Windows, open [letter] drive."*
 -------------------------------
-Launches the File Explorer with the given drive - replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, or `M:`. When finished say: *"Computer, close file explorer"* to close the File Explorer.
+Launches the File Explorer with the given drive - replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
 *"Windows, open [name] folder."*
 --------------------------------
-Launches the File Explorer with the given folder - replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `temporary`, or `videos`. When finished say: *"Computer, close file explorer"* to close the File Explorer.
+Launches the File Explorer with the given folder - replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `temporary`, or `videos`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
 *"Windows, open [name] website."*
 ---------------------------------
-Launches the default Web browser with the given website - replace [name] by: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, or `YouTube`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
+Launches the default Web browser with the given website - replace [name] by: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, or `YouTube`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 *"Windows, open Google [service]."*
@@ -81,7 +81,7 @@ Starts the playback of the given sound - replace [name] by: `bee`, `beep`, `cat`
 
 *"Windows, play [name] game."*
 ------------------------------
-Launches the default Web browser and plays the given game - replace [name] by: `2048`, `Chess`, `Cube`, `Pacman`, `Tetris`, `TicTacToe`, or `Tower`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
+Launches the default Web browser and plays the given game - replace [name] by: `2048`, `Chess`, `Cube`, `Pacman`, `Tetris`, `TicTacToe`, or `Tower`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 *"Windows, next [category] wallpaper."*
@@ -91,17 +91,17 @@ Sets a random photo from Unsplash as desktop background, just replace [category]
 
 *"Windows, open [name] settings."*
 ----------------------------------
-Launches the Windows settings - replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Computer, close system settings"* to close the Windows settings.
+Launches the Windows settings - replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
 *"Windows, show [name] manual."*
 --------------------------------
-Launches the default Web browser with the given online manual - replace [name] by: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
+Launches the default Web browser with the given online manual - replace [name] by: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 *"Windows, show [name] rate."*
 --------------------------------
-Launches the default Web browser with the given exchange rate. Just replace [name] by: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
+Launches the default Web browser with the given exchange rate. Just replace [name] by: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 🔊 Audio Voice Commands
