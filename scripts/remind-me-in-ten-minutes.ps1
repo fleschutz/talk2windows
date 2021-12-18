@@ -14,7 +14,7 @@
 try {
 	$Now = (Get-Date).AddMinutes(10)
 	& "$PSScriptRoot/remind-me.ps1" "End of 10 minutes" "$Now"
-	& "$PSScriptRoot/give-reply.ps1" "Will remind you in 10 minutes."
+	& "$PSScriptRoot/give-reply.ps1" "OK, will remind you in 10 minutes."
 	exit 0
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
