@@ -52,7 +52,7 @@ Launches the default Web browser with the given website - replace [name] by: `Am
 
 *"Windows, open Google [service]."*
 ----------------------------------
-Launches the default Web browser with Google's Web service - replace [service] by: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+Launches the default Web browser with Google's Web service - replace [service] by: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 *"Windows, open [name] magazine."*
@@ -82,7 +82,7 @@ Launches the default Web browser and plays the given game - replace [name] by: `
 
 *"Windows, next [category] wallpaper."*
 ----------------------------------------
-Sets a random photo from Unsplash as desktop background, just replace [category] by: `beach`, `car`, `city`, `military`, `nature`, `plane`, `random`, `space`, or `winter`.
+Sets a random photo from Unsplash as desktop background, just replace [category] by: `animal`, `beach`, `car`, `christmas`, `city`, `military`, `nature`, `plane`, `random`, `space`, `sport`, or `winter`.
 
 
 *"Windows, open [name] settings."*
