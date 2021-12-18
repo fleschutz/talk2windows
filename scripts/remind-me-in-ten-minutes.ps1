@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script displays a reminder popup message in 10 minutes.
 .EXAMPLE
-	PS> ./remind-me-in-10-minutes
+	PS> ./remind-me-in-ten-minutes
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
