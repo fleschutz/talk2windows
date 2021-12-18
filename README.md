@@ -12,9 +12,9 @@ Control Windows by using your voice besides keyboard and mouse. Required is Wind
 
 🗣 Usage
 -------
-1. Launch *Serenade* and click into the circle to enable Listening mode.
-2. Launch *Windows Terminal* and click into the window.
-3. Speak into the microphone: **"*Windows, open calculator*"** - this executes the PowerShell script `open-calculator.ps1` and this script launches the calculator application.
+1. Launch *Serenade*
+2. Click the circle to enable Listening mode.
+3. Speak into the microphone: **"*Windows, open calculator*"** - this executes the script `open-calculator.ps1` and this script launches the calculator application.
 
 More supported voice commands are:
 
@@ -64,7 +64,7 @@ Launches the default Web browser with Google Maps at the given city - replace [N
 
 *"Windows, play [genre] music."*
 -------------------------------
-Launches the default Web browser and plays the given music genre - replace [genre] by: `blues`, `chillout`, `classical`, `country`, `dance`, `folk`, `hip hop`, `indie`, `jazz`, `metal`, `pop`,`RnB`, or `rock`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
+Launches the default Web browser and plays the given music genre - replace [genre] by: `alternative rock`, `blues`, `chillout`, `classical`, `country`, `dance`, `folk`, `hip hop`, `indie`, `jazz`, `metal`, `pop`,`RnB`, or `rock`. When finished say: *"Close tab"* or: *"Computer, close [name] browser"* to close the Web browser.
 
 
 *"Windows, play [name] sound."*
