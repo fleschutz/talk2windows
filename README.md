@@ -5,7 +5,7 @@ Control Windows by using your voice besides keyboard and mouse. Required is Wind
 
 🔧 Installation
 ---------------
-1. Download and install *Serenade* from https://serenade.ai/ (Serenade is freely available for Linux, MacOS, and Windows, during installation no plugin and no language need to be selected).
+1. Download and install *Serenade* from https://serenade.ai/ (Serenade is freely available for Linux, MacOS, and Windows, during installation no plugin and no programming language need to be selected).
 2. Download and install the *talk2windows* repository
 3. Allow execution of PowerShell scripts (see the [FAQ page](docs/FAQ.md) for details).
 4. Execute: `./export.ps1` in the repository (this creates a custom JavaScript file for Serenade). 
