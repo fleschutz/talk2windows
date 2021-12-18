@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Task Manager
 .DESCRIPTION
-	This script closes the Task Manager application gracefully.
+	This PowerShell script closes the Task Manager application gracefully.
 .EXAMPLE
 	PS> ./close-task-manager
 .NOTES

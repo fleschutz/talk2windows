@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
         Plays Jingle Bells
 .DESCRIPTION
-        This script plays Jingle Bells.
+        This PowerShell script plays Jingle Bells.
 .EXAMPLE
         PS> ./play-jingle-bells
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the DNS resolution 
 .DESCRIPTION
-	This script checks the DNS resolution with frequently used domain names.
+	This PowerShell script checks the DNS resolution with frequently used domain names.
 .EXAMPLE
 	PS> ./check-dns
 .NOTES

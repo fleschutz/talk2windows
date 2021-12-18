@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the OneCalendar app 
 .DESCRIPTION
-	This script closes the OneCalendar application gracefully.
+	This PowerShell script closes the OneCalendar application gracefully.
 .EXAMPLE
 	PS> ./close-one-calendar
 .NOTES

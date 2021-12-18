@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Say hello"
 .DESCRIPTION
-	This script replies to "Say hello" by text-to-speech (TTS).
+	This PowerShell script replies to "Say hello" by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./say-hello
 .NOTES

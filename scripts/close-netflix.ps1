@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Netflix app
 .DESCRIPTION
-	This script closes the Netflix application gracefully.
+	This PowerShell script closes the Netflix application gracefully.
 .EXAMPLE
 	PS> ./close-netflix
 .NOTES

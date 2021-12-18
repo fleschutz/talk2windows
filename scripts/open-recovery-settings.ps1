@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows recovery settings 
 .DESCRIPTION
-	This script launches the Windows recovery settings.
+	This PowerShell script launches the Windows recovery settings.
 .EXAMPLE
 	PS> ./open-recovery-settings
 .NOTES

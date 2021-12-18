@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Amazon website
 .DESCRIPTION
-	This script launches the Web browser with the Amazon website.
+	This PowerShell script launches the Web browser with the Amazon website.
 .EXAMPLE
 	PS> ./open-amazon-website
 .NOTES

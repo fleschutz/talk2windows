@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the latests headlines
 .DESCRIPTION
-	This script tells the latest headlines by text-to-speech (TTS).
+	This PowerShell script tells the latest headlines by text-to-speech (TTS).
 .PARAMETER RSS_URL
 	Specifies the URL to the RSS feed
 .PARAMETER MaxCount

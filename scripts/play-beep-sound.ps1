@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays a short beep sound
 .DESCRIPTION
-	This script plays a short beep sound.
+	This PowerShell script plays a short beep sound.
 .EXAMPLE
 	PS> ./play-beep-sound
 .NOTES

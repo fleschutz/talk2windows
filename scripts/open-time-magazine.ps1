@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Time Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Time Magazine website.
+	This PowerShell script launches the Web browser with the Time Magazine website.
 .EXAMPLE
 	PS> ./open-time-magazine
 .NOTES

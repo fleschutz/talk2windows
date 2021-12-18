@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Apps folder
 .DESCRIPTION
-	This script launches the File Explorer showing the UWP apps folder.
+	This PowerShell script launches the File Explorer showing the UWP apps folder.
 .EXAMPLE
 	PS> ./open-apps-folder
 .NOTES

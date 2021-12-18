@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the time until Saint Nicholas Day
 .DESCRIPTION
-	This script checks the time until Saint Nicholas Day and replies by text-to-speech (TTS).
+	This PowerShell script checks the time until Saint Nicholas Day and replies by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-santa
 .NOTES

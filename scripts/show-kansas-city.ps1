@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Kansas city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Kansas city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Kansas city (USA).
 .EXAMPLE
 	PS> ./show-kansas-city
 .NOTES

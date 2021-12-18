@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the GitHub website
 .DESCRIPTION
-	This script launches the Web browser with the GitHub website.
+	This PowerShell script launches the Web browser with the GitHub website.
 .EXAMPLE
 	PS> ./open-github-website
 .NOTES

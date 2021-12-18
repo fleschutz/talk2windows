@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Windows Terminal app
 .DESCRIPTION
-	This script launches the Windows Terminal application.
+	This PowerShell script launches the Windows Terminal application.
 .EXAMPLE
 	PS> ./open-windows-terminal
 .NOTES

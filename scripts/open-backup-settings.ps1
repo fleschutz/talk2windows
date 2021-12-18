@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows backup settings 
 .DESCRIPTION
-	This script launches the Windows backup settings.
+	This PowerShell script launches the Windows backup settings.
 .EXAMPLE
 	PS> ./open-backup-settings
 .NOTES

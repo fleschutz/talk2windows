@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Singapore city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Singapore city.
+	This PowerShell script launches the Web browser with Google Maps at Singapore city.
 .EXAMPLE
 	PS> ./show-singapore-city
 .NOTES

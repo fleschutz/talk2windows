@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Serenade manual
 .DESCRIPTION
-	This script launches the Web browser with the Serenade manual.
+	This PowerShell script launches the Web browser with the Serenade manual.
 .EXAMPLE
 	PS> ./show-serenade-manual
 .NOTES

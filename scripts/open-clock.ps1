@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Clock app
 .DESCRIPTION
-	This script launches the Clock application.
+	This PowerShell script launches the Clock application.
 .EXAMPLE
 	PS> ./open-clock
 .NOTES

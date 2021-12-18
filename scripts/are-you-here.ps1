@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Are you here?"
 .DESCRIPTION
-	This script replies to 'Are you here?' by text-to-speech (TTS).
+	This PowerShell script replies to 'Are you here?' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./are-you-here
 .NOTES

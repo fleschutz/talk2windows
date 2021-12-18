@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Microsoft Azure manual
 .DESCRIPTION
-	This script launches the Web browser with the Microsoft Azure manual.
+	This PowerShell script launches the Web browser with the Microsoft Azure manual.
 .EXAMPLE
 	PS> ./show-azure-manual
 .NOTES

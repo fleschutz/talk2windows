@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Panama city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Panama city (Panama).
+	This PowerShell script launches the Web browser with Google Maps at Panama city (Panama).
 .EXAMPLE
 	PS> ./show-panama-city
 .NOTES

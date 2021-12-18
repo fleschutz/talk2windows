@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Toronto city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Toronto city (Canada).
+	This PowerShell script launches the Web browser with Google Maps at Toronto city (Canada).
 .EXAMPLE
 	PS> ./show-toronto-city
 .NOTES

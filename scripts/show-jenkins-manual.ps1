@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Jenkins manual
 .DESCRIPTION
-	This script launches the Web browser with the Jenkins manual.
+	This PowerShell script launches the Web browser with the Jenkins manual.
 .EXAMPLE
 	PS> ./show-jenkins-manual
 .NOTES

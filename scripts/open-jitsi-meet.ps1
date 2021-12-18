@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Jitsi Meet website
 .DESCRIPTION
-	This script launches the Web browser with the Jitsi Meet website.
+	This PowerShell script launches the Web browser with the Jitsi Meet website.
 .EXAMPLE
 	PS> ./open-jitsi-meet
 .NOTES

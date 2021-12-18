@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the 3D-Viewer app
 .DESCRIPTION
-	This script launches the 3D-Viewer application.
+	This PowerShell script launches the 3D-Viewer application.
 .EXAMPLE
 	PS> ./open-three-d-viewer
 .NOTES

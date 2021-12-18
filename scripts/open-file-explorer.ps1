@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Starts the File Explorer
 .DESCRIPTION
-	This script launches the File Explorer.
+	This PowerShell script launches the File Explorer.
 .EXAMPLE
 	PS> ./open-file-explorer
 .PARAMETER Path

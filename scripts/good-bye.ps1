@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to 'good bye'
 .DESCRIPTION
-	This script says a reply to 'good bye' by text-to-speech (TTS).
+	This PowerShell script says a reply to 'good bye' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./good-bye
 .NOTES

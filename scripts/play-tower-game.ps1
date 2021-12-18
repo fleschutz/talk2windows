@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays the Tower game
 .DESCRIPTION
-	This script launches the Web browser with the Tower game.
+	This PowerShell script launches the Web browser with the Tower game.
 .EXAMPLE
 	PS> ./play-tower-game
 .NOTES

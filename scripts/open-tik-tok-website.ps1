@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the TikTok website
 .DESCRIPTION
-	This script launches the Web browser with the TikTok website.
+	This PowerShell script launches the Web browser with the TikTok website.
 .EXAMPLE
 	PS> ./open-tik-tok-website
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Bing website
 .DESCRIPTION
-	This script launches the Web browser with the Microsoft Bing website.
+	This PowerShell script launches the Web browser with the Microsoft Bing website.
 .EXAMPLE
 	PS> ./open-bing-website
 .NOTES

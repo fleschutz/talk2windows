@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Firefox browser
 .DESCRIPTION
-	This script launches the Mozilla Firefox Web browser.
+	This PowerShell script launches the Mozilla Firefox Web browser.
 .EXAMPLE
 	PS> ./open-firefox
 .PARAMETER URL

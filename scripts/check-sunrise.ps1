@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the time of sunrise
 .DESCRIPTION
-	This script queries the time of sunrise and answers by text-to-speech (TTS).
+	This PowerShell script queries the time of sunrise and answers by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-sunrise
 .NOTES

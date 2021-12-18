@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Toyota manuals
 .DESCRIPTION
-	This script launches the Web browser with the Toyota online manuals.
+	This PowerShell script launches the Web browser with the Toyota online manuals.
 .EXAMPLE
 	PS> ./show-toyota-manual
 .NOTES

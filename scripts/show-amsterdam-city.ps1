@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Amsterdam city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Amsterdam city (Netherlands).
+	This PowerShell script launches the Web browser with Google Maps at Amsterdam city (Netherlands).
 .EXAMPLE
 	PS> ./show-amsterdam-city
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Focus Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Focus magazine website.
+	This PowerShell script launches the Web browser with the Focus magazine website.
 .EXAMPLE
 	PS> ./open-focus-magazine
 .NOTES

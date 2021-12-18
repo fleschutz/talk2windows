@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Serenade website
 .DESCRIPTION
-	This script launches the Web browser with the Serenade.ai website.
+	This PowerShell script launches the Web browser with the Serenade.ai website.
 .EXAMPLE
 	PS> ./open-serenade-website
 .NOTES

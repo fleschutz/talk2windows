@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Happy Kwanzaa"
 .DESCRIPTION
-	This script replies to 'Happy Kwanzaa' by text-to-speech (TTS).
+	This PowerShell script replies to 'Happy Kwanzaa' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./happy-kwanzaa
 .NOTES

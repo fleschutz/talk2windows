@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Atlanta city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Atlanta city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Atlanta city (USA).
 .EXAMPLE
 	PS> ./show-atlanta-city
 .NOTES

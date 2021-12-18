@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the current traffic 
 .DESCRIPTION
-	This script launches the Web browser with MSN showing the current traffic.
+	This PowerShell script launches the Web browser with MSN showing the current traffic.
 .EXAMPLE
 	PS> ./show-traffic
 .NOTES

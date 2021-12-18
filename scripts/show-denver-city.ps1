@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Denver city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Denver city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Denver city (USA).
 .EXAMPLE
 	PS> ./show-denver-city
 .NOTES

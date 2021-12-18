@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Volkswagen manual
 .DESCRIPTION
-	This script launches the Web browser with the Volkswagen manual.
+	This PowerShell script launches the Web browser with the Volkswagen manual.
 .EXAMPLE
 	PS> ./show-volkswagen-manual
 .NOTES

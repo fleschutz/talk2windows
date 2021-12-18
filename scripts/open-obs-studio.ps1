@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches OBS Studio
 .DESCRIPTION
-	This script launches the OBS Studio application.
+	This PowerShell script launches the OBS Studio application.
 .EXAMPLE
 	PS> ./open-obs-studio
 .NOTES

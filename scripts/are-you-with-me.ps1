@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Are you with me?"
 .DESCRIPTION
-	This script replies to 'Are you with me?' by text-to-speech (TTS).
+	This PowerShell script replies to 'Are you with me?' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./are-you-with-me
 .NOTES

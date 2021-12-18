@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Health Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Health Magazine website.
+	This PowerShell script launches the Web browser with the Health Magazine website.
 .EXAMPLE
 	PS> ./open-health-magazine
 .NOTES

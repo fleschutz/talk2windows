@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the calculator application
 .DESCRIPTION
-	This script launches the calculator application.
+	This PowerShell script launches the calculator application.
 .EXAMPLE
 	PS> ./open-calculator
 .NOTES

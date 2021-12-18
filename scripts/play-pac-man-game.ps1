@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays the Pacman game
 .DESCRIPTION
-	This script launches the Web browser with the Pacman game.
+	This PowerShell script launches the Web browser with the Pacman game.
 .EXAMPLE
 	PS> ./play-pac-man-game
 .NOTES

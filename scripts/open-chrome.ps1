@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Chrome browser
 .DESCRIPTION
-	This script launches the Google Chrome Web browser.
+	This PowerShell script launches the Google Chrome Web browser.
 .EXAMPLE
 	PS> ./open-chrome
 .PARAMETER URL

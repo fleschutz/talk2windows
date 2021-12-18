@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches Windows Defender
 .DESCRIPTION
-	This script launches the Windows Defender application.
+	This PowerShell script launches the Windows Defender application.
 .EXAMPLE
 	PS> ./open-windows-defender
 .NOTES

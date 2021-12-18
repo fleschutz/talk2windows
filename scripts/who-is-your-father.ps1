@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Who is your father?"
 .DESCRIPTION
-	This script replies to 'Who is your father?' by text-to-speech (TTS).
+	This PowerShell script replies to 'Who is your father?' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./who-is-your-father
 .NOTES

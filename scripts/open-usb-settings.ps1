@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows USB settings 
 .DESCRIPTION
-	This script launches the Windows USB settings application.
+	This PowerShell script launches the Windows USB settings application.
 .EXAMPLE
 	PS> ./open-usb-settings
 .NOTES

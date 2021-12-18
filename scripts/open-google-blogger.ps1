@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Blogger
 .DESCRIPTION
-	This script launches the Web browser with the Google Books website.
+	This PowerShell script launches the Web browser with the Google Books website.
 .EXAMPLE
 	PS> ./open-google-blogger
 .NOTES

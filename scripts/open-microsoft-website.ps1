@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Microsoft website
 .DESCRIPTION
-	This script launches the Web browser with the Microsoft website.
+	This PowerShell script launches the Web browser with the Microsoft website.
 .EXAMPLE
 	PS> ./open-microsoft-website
 .NOTES

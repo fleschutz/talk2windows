@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Toggl Track
 .DESCRIPTION
-	This script launches the Web browser with the Toggl Track website.
+	This PowerShell script launches the Web browser with the Toggl Track website.
 .EXAMPLE
 	PS> ./open-toggl-website
 .NOTES

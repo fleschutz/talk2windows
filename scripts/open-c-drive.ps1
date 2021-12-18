@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the C: drive folder
 .DESCRIPTION
-	This script launches the File Explorer with the C: drive folder.
+	This PowerShell script launches the File Explorer with the C: drive folder.
 .EXAMPLE
 	PS> ./open-c-drive
 .NOTES

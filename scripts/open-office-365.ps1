@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Microsoft Office 365
 .DESCRIPTION
-	This script launches the Web browser with the Microsoft Office 365 website.
+	This PowerShell script launches the Web browser with the Microsoft Office 365 website.
 .EXAMPLE
 	PS> ./open-office-365
 .NOTES

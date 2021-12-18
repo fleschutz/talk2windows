@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Cape Town city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Cape Town city (South Africa).
+	This PowerShell script launches the Web browser with Google Maps at Cape Town city (South Africa).
 .EXAMPLE
 	PS> ./show-cape-town-city
 .NOTES

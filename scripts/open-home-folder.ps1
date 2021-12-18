@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the home folder
 .DESCRIPTION
-	This script launches the File Explorer with the user's home folder.
+	This PowerShell script launches the File Explorer with the user's home folder.
 .EXAMPLE
 	PS> ./open-home-folder
 .NOTES

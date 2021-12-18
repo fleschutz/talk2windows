@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets a nature wallpaper
 .DESCRIPTION
-	This script downloads a random nature photo and sets it as desktop background.
+	This PowerShell script downloads a random nature photo and sets it as desktop background.
 .EXAMPLE
 	PS> ./next-nature-wallpaper
 .NOTES

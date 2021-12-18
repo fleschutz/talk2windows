@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Happy Ramadan"
 .DESCRIPTION
-	This script replies to 'Happy Ramadan' by text-to-speech (TTS).
+	This PowerShell script replies to 'Happy Ramadan' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./happy-ramadan
 .NOTES

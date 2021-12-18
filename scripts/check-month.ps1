@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Say the current month name
 .DESCRIPTION
-	This script speaks the current month name by text-to-speech (TTS).
+	This PowerShell script speaks the current month name by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-month
 .NOTES

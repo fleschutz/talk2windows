@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays the Super Mario intro
 .DESCRIPTION
-	This script plays the Super Mario intro.
+	This PowerShell script plays the Super Mario intro.
 .EXAMPLE
 	PS> ./play-super-mario
 .NOTES

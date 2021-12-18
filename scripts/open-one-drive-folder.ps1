@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the OneDrive folder
 .DESCRIPTION
-	This script launches the File Explorer with the user's OneDrive folder.
+	This PowerShell script launches the File Explorer with the user's OneDrive folder.
 .EXAMPLE
 	PS> ./open-one-drive-folder
 .NOTES

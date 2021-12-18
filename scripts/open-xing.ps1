@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the XING app
 .DESCRIPTION
-	This script launches the XING application.
+	This PowerShell script launches the XING application.
 .EXAMPLE
 	PS> ./open-xing
 .NOTES

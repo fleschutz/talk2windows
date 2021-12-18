@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Flipboard website
 .DESCRIPTION
-	This script launches the Web browser with the Flipboard website.
+	This PowerShell script launches the Web browser with the Flipboard website.
 .EXAMPLE
 	PS> ./open-flipboard-website
 .NOTES

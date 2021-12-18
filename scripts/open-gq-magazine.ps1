@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the GQ Magazine
 .DESCRIPTION
-	This script launches the Web browser with the GQ Magazine website.
+	This PowerShell script launches the Web browser with the GQ Magazine website.
 .EXAMPLE
 	PS> ./open-gq-magazine
 .NOTES

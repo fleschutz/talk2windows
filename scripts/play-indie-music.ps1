@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays indie music
 .DESCRIPTION
-	This script launches the Web browser and plays indie music.
+	This PowerShell script launches the Web browser and plays indie music.
 .EXAMPLE
 	PS> ./play-indie-music
 .NOTES

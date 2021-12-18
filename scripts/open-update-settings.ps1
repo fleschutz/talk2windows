@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows Update settings 
 .DESCRIPTION
-	This script launches the Windows Update settings.
+	This PowerShell script launches the Windows Update settings.
 .EXAMPLE
 	PS> ./open-update-settings
 .NOTES

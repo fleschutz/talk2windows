@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Merry Christmas"
 .DESCRIPTION
-	This script replies to 'Merry Christmas' by text-to-speech (TTS).
+	This PowerShell script replies to 'Merry Christmas' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./merry-christmas
 .NOTES

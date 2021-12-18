@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Ant manual
 .DESCRIPTION
-	This script launches the Web browser with the Apache Ant manual.
+	This PowerShell script launches the Web browser with the Apache Ant manual.
 .EXAMPLE
 	PS> ./show-ant-manual
 .NOTES

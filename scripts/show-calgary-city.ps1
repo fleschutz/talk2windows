@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Calgary city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Calgary city (Canada).
+	This PowerShell script launches the Web browser with Google Maps at Calgary city (Canada).
 .EXAMPLE
 	PS> ./show-calgary-city
 .NOTES

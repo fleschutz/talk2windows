@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Serenade.ai application
 .DESCRIPTION
-	This script closes the Serenade.ai application gracefully.
+	This PowerShell script closes the Serenade.ai application gracefully.
 .EXAMPLE
 	PS> ./close-serenade
 .NOTES

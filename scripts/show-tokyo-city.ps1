@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Tokyo city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Tokyo city (Japan).
+	This PowerShell script launches the Web browser with Google Maps at Tokyo city (Japan).
 .EXAMPLE
 	PS> ./show-tokyo-city
 .NOTES

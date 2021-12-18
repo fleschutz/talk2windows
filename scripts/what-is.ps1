@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Prints a description of an abbreviation
 .DESCRIPTION
-	This script prints a description of the given abbreviation.
+	This PowerShell script prints a description of the given abbreviation.
 .PARAMETER abbreviation
 	Specifies the appreviation to look for
 .EXAMPLE

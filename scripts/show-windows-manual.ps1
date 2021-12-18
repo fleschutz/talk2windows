@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Microsoft Windows manual
 .DESCRIPTION
-	This script launches the Web browser with the Microsoft Windows manual.
+	This PowerShell script launches the Web browser with the Microsoft Windows manual.
 .EXAMPLE
 	PS> ./show-windows-manual
 .NOTES

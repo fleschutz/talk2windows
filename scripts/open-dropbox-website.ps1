@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Dropbox website
 .DESCRIPTION
-	This script launches the Web browser with the Dropbox website.
+	This PowerShell script launches the Web browser with the Dropbox website.
 .EXAMPLE
 	PS> ./open-dropbox-website
 .NOTES

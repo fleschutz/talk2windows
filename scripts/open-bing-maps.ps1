@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Bing Maps app
 .DESCRIPTION
-	This script launches the Bing Maps application.
+	This PowerShell script launches the Bing Maps application.
 .EXAMPLE
 	PS> ./open-bing-maps
 .NOTES

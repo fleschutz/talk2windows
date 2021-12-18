@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Spiegel Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Spiegel magazine website.
+	This PowerShell script launches the Web browser with the Spiegel magazine website.
 .EXAMPLE
 	PS> ./open-spiegel-magazine
 .NOTES

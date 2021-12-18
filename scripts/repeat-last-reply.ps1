@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
 	Repeats the last reply
 .DESCRIPTION

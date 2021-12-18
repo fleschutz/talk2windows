@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets a city wallpaper
 .DESCRIPTION
-	This script downloads a random city photo and sets it as desktop background.
+	This PowerShell script downloads a random city photo and sets it as desktop background.
 .EXAMPLE
 	PS> ./next-city-wallpaper
 .NOTES

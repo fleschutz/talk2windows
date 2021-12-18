@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the D: drive folder
 .DESCRIPTION
-	This script launches the File Explorer with the D: drive folder.
+	This PowerShell script launches the File Explorer with the D: drive folder.
 .EXAMPLE
 	PS> ./open-d-drive
 .NOTES

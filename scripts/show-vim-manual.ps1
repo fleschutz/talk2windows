@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Vim manual
 .DESCRIPTION
-	This script launches the Web browser with the Vim manual.
+	This PowerShell script launches the Web browser with the Vim manual.
 .EXAMPLE
 	PS> ./show-vim-manual
 .NOTES

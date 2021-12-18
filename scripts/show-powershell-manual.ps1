@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the PowerShell manual
 .DESCRIPTION
-	This script launches the Web browser with the PowerShell manual.
+	This PowerShell script launches the Web browser with the PowerShell manual.
 .EXAMPLE
 	PS> ./show-powershell-manual
 .NOTES

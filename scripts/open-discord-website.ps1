@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Discord website
 .DESCRIPTION
-	This script launches the Web browser with the Discord website.
+	This PowerShell script launches the Web browser with the Discord website.
 .EXAMPLE
 	PS> ./open-discord-website
 .NOTES

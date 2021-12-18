@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Happy St.Patrick's day"
 .DESCRIPTION
-	This script replies to 'Happy St.Patrick's day' by text-to-speech (TTS).
+	This PowerShell script replies to 'Happy St.Patrick's day' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./happy-saint-patricks-day
 .NOTES

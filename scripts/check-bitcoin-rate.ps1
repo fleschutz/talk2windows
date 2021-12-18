@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the Bitcoin rate
 .DESCRIPTION
-	This script queries the current Bitcoin exchange rates and answers by text-to-speech (TTS).
+	This PowerShell script queries the current Bitcoin exchange rates and answers by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-bitcoin-rate
 .NOTES

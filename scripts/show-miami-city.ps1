@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Miami city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Miami city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Miami city (USA).
 .EXAMPLE
 	PS> ./show-miami-city
 .NOTES

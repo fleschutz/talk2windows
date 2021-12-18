@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Solana rate 
 .DESCRIPTION
-	This script launches the Web browser and shows the Solana cryptocurrency exchange rate.
+	This PowerShell script launches the Web browser and shows the Solana cryptocurrency exchange rate.
 .EXAMPLE
 	PS> ./show-solana-rate
 .NOTES

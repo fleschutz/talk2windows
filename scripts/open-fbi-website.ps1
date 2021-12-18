@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the FBI website
 .DESCRIPTION
-	This script launches the Web browser with the FBI website.
+	This PowerShell script launches the Web browser with the FBI website.
 .EXAMPLE
 	PS> ./open-fbi-website
 .NOTES

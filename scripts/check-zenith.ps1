@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the time of zenith 
 .DESCRIPTION
-	This script queries the time of zenith and answers by text-to-speech (TTS).
+	This PowerShell script queries the time of zenith and answers by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-zenith
 .NOTES

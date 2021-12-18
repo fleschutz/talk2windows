@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Startpage website 
 .DESCRIPTION
-	This script launches the Web browser with the Startpage website.
+	This PowerShell script launches the Web browser with the Startpage website.
 .EXAMPLE
 	PS> ./open-start-page
 .NOTES

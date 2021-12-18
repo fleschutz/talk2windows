@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Paris city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Paris city (France).
+	This PowerShell script launches the Web browser with Google Maps at Paris city (France).
 .EXAMPLE
 	PS> ./show-paris-city
 .NOTES

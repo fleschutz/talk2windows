@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Do you listen?"
 .DESCRIPTION
-	This script replies to 'Do you listen?' by text-to-speech (TTS).
+	This PowerShell script replies to 'Do you listen?' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./do-you-listen
 .NOTES

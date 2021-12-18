@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Montreal city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Montreal city (Canada).
+	This PowerShell script launches the Web browser with Google Maps at Montreal city (Canada).
 .EXAMPLE
 	PS> ./show-montreal-city
 .NOTES

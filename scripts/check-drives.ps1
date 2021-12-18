@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks all local drives 
 .DESCRIPTION
-	This script checks all local drives for free space left (20 GB by default).
+	This PowerShell script checks all local drives for free space left (20 GB by default).
 .PARAMETER MinLevel
 	Specifies the minimum level in Gigabyte
 .EXAMPLE

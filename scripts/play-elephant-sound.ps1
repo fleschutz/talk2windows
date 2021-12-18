@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays a elephant sound
 .DESCRIPTION
-	This script plays a elephant sound.
+	This PowerShell script plays a elephant sound.
 .EXAMPLE
 	PS> ./play-elephant-sound
 .NOTES

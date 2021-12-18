@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the NFT collections by trading volume 
 .DESCRIPTION
-	This script launches the Web browser and shows the NFT collections by trading volume.
+	This PowerShell script launches the Web browser and shows the NFT collections by trading volume.
 .EXAMPLE
 	PS> ./show-nft-collections
 .NOTES

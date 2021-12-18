@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Notepad website
 .DESCRIPTION
-	This script launches the Web browser with the Notepad website.
+	This PowerShell script launches the Web browser with the Notepad website.
 .EXAMPLE
 	PS> ./open-note-pad-website
 .NOTES

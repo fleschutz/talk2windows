@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the SystemRescue manual
 .DESCRIPTION
-	This script launches the Web browser with the SystemRescue online manual.
+	This PowerShell script launches the Web browser with the SystemRescue online manual.
 .EXAMPLE
 	PS> ./show-system-rescue-manual
 .NOTES

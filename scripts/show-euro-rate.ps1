@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Euro rate 
 .DESCRIPTION
-	This script launches the Web browser and shows the Euro (EUR/€) rate.
+	This PowerShell script launches the Web browser and shows the Euro (EUR/€) rate.
 .EXAMPLE
 	PS> ./show-euro-rate
 .NOTES

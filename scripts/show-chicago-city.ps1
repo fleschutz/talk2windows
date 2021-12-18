@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Chicago city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Chicago city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Chicago city (USA).
 .EXAMPLE
 	PS> ./show-chicago-city
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Windows Terminal app
 .DESCRIPTION
-	This script closes the Windows Terminal application gracefully.
+	This PowerShell script closes the Windows Terminal application gracefully.
 .EXAMPLE
 	PS> ./close-windows-terminal
 .NOTES

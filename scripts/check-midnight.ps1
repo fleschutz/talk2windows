@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks for Midnight
 .DESCRIPTION
-	This script checks the time until Midnight and replies by text-to-speech (TTS).
+	This PowerShell script checks the time until Midnight and replies by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-midnight
 .NOTES

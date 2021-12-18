@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the windy.com website
 .DESCRIPTION
-	This script launches the Web browser with the windy.com website.
+	This PowerShell script launches the Web browser with the windy.com website.
 .EXAMPLE
 	PS> ./open-windy-website
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Tesla website
 .DESCRIPTION
-	This script launches the Web browser with the Tesla website.
+	This PowerShell script launches the Web browser with the Tesla website.
 .EXAMPLE
 	PS> ./open-tesla-website
 .NOTES

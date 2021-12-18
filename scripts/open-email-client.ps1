@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Starts the default email client
 .DESCRIPTION
-	This script launches the default email client.
+	This PowerShell script launches the default email client.
 .EXAMPLE
 	PS> ./open-email-client
 .NOTES

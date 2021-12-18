@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the OpenStreetMap website
 .DESCRIPTION
-	This script launches the Web browser with the OpenStreetMap website.
+	This PowerShell script launches the Web browser with the OpenStreetMap website.
 .EXAMPLE
 	PS> ./open-street-map
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Slashdot website
 .DESCRIPTION
-	This script launches the Web browser with the Slashdot website.
+	This PowerShell script launches the Web browser with the Slashdot website.
 .EXAMPLE
 	PS> ./open-slash-dot-website
 .NOTES

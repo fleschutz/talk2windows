@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Shopping List
 .DESCRIPTION
-	This script launches the Web browser with the Google Shopping List website.
+	This PowerShell script launches the Web browser with the Google Shopping List website.
 .EXAMPLE
 	PS> ./open-google-shopping-list
 .NOTES

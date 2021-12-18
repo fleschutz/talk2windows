@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Tasks
 .DESCRIPTION
-	This script launches the Web browser with the Google Tasks website.
+	This PowerShell script launches the Web browser with the Google Tasks website.
 .EXAMPLE
 	PS> ./open-google-tasks
 .NOTES

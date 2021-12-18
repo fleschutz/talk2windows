@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays folk music
 .DESCRIPTION
-	This script launches the Web browser and plays folk music.
+	This PowerShell script launches the Web browser and plays folk music.
 .EXAMPLE
 	PS> ./play-folk-music
 .NOTES

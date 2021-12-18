@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows lockscreen settings 
 .DESCRIPTION
-	This script launches the Windows lockscreen settings application.
+	This PowerShell script launches the Windows lockscreen settings application.
 .EXAMPLE
 	PS> ./open-lockscreen-settings
 .NOTES

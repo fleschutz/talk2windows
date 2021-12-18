@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Bitcoin rate 
 .DESCRIPTION
-	This script launches the Web browser and shows the Bitcoin cryptocurrency exchange rate.
+	This PowerShell script launches the Web browser and shows the Bitcoin cryptocurrency exchange rate.
 .EXAMPLE
 	PS> ./show-bitcoin-rate
 .NOTES

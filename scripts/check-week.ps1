@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Determines the week number 
 .DESCRIPTION
-	This script determines and speaks the current week number by text-to-speech (TTS).
+	This PowerShell script determines and speaks the current week number by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-week
 .NOTES

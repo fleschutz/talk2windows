@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows default apps settings 
 .DESCRIPTION
-	This script launches the Windows default apps settings.
+	This PowerShell script launches the Windows default apps settings.
 .EXAMPLE
 	PS> ./open-default-apps-settings
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Contacts
 .DESCRIPTION
-	This script launches the Web browser with the Google Contacts website.
+	This PowerShell script launches the Web browser with the Google Contacts website.
 .EXAMPLE
 	PS> ./open-google-contacts
 .NOTES

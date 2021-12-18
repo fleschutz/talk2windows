@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Vanity Fair Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Vanity Fair Magazine website.
+	This PowerShell script launches the Web browser with the Vanity Fair Magazine website.
 .EXAMPLE
 	PS> ./open-vanity-fair-magazine
 .NOTES

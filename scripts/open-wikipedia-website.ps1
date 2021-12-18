@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Wikipedia website
 .DESCRIPTION
-	This script launches the Web browser with the Wikipedia website.
+	This PowerShell script launches the Web browser with the Wikipedia website.
 .EXAMPLE
 	PS> ./open-wikipedia-website
 .NOTES

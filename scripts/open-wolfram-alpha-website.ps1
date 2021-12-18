@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the WolframAlpha website
 .DESCRIPTION
-	This script launches the Web browser with the WolframAlpha website.
+	This PowerShell script launches the Web browser with the WolframAlpha website.
 .EXAMPLE
 	PS> ./open-wolfram-alpha-website
 .NOTES

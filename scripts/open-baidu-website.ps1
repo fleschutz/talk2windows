@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Baidu website
 .DESCRIPTION
-	This script launches the Web browser with the Baidu website.
+	This PowerShell script launches the Web browser with the Baidu website.
 .EXAMPLE
 	PS> ./open-baidu-website
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Vogue Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Vogue Magazine website.
+	This PowerShell script launches the Web browser with the Vogue Magazine website.
 .EXAMPLE
 	PS> ./open-vogue-magazine
 .NOTES

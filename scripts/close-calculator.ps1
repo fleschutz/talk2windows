@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the calculator application
 .DESCRIPTION
-	This script closes the calculator application gracefully.
+	This PowerShell script closes the calculator application gracefully.
 .EXAMPLE
 	PS> ./close-calculator
 .NOTES

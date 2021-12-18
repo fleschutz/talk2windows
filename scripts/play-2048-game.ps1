@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays the 2048 game
 .DESCRIPTION
-	This script launches the Web browser with the 2048 game.
+	This PowerShell script launches the Web browser with the 2048 game.
 .EXAMPLE
 	PS> ./play-2048-game
 .NOTES

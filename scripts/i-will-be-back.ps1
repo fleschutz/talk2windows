@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to 'I'll be back'
 .DESCRIPTION
-	This script replies to "I'll be back" by text-to-speech (TTS).
+	This PowerShell script replies to "I'll be back" by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./i-will-be-back
 .NOTES

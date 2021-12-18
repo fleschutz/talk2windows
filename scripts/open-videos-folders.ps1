@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the user's videos folder
 .DESCRIPTION
-	This script launches the File Explorer with the user's videos folder.
+	This PowerShell script launches the File Explorer with the user's videos folder.
 .EXAMPLE
 	PS> ./open-videos-folder
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Boston city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Boston city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Boston city (USA).
 .EXAMPLE
 	PS> ./show-boston-city
 .NOTES

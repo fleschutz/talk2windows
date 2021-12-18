@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Cardano rate 
 .DESCRIPTION
-	This script launches the Web browser and shows the Cardano cryptocurrency exchange rate.
+	This PowerShell script launches the Web browser and shows the Cardano cryptocurrency exchange rate.
 .EXAMPLE
 	PS> ./show-cardano-rate
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Happy Valentine's day"
 .DESCRIPTION
-	This script replies to 'Happy Valentine's day' by text-to-speech (TTS).
+	This PowerShell script replies to 'Happy Valentine's day' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./happy-valentines-day
 .NOTES

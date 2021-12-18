@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays a gorilla sound
 .DESCRIPTION
-	This script plays a gorilla sound.
+	This PowerShell script plays a gorilla sound.
 .EXAMPLE
 	PS> ./play-gorilla-sound
 .NOTES

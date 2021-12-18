@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Walmart website
 .DESCRIPTION
-	This script launches the Web browser with the Walmart website.
+	This PowerShell script launches the Web browser with the Walmart website.
 .EXAMPLE
 	PS> ./open-walmart-website
 .NOTES

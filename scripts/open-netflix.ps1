@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Netflix app
 .DESCRIPTION
-	This script launches the Netflix application.
+	This PowerShell script launches the Netflix application.
 .EXAMPLE
 	PS> ./open-netflix
 .NOTES

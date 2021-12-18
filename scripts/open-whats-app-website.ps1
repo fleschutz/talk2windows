@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the WhatsApp website
 .DESCRIPTION
-	This script launches the Web browser with the WhatsApp website.
+	This PowerShell script launches the Web browser with the WhatsApp website.
 .EXAMPLE
 	PS> ./open-whats-app-website
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Determines the time zone
 .DESCRIPTION
-	This script determines and returns the current time zone.
+	This PowerShell script determines and returns the current time zone.
 .EXAMPLE
 	PS> ./check-time-zone
 .NOTES

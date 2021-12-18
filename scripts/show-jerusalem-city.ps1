@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Jerusalem city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Jerusalem city (Israel).
+	This PowerShell script launches the Web browser with Google Maps at Jerusalem city (Israel).
 .EXAMPLE
 	PS> ./show-jerusalem-city
 .NOTES

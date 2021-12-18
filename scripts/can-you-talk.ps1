@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Can you talk?"
 .DESCRIPTION
-	This script replies to 'Can you talk?' by text-to-speech (TTS).
+	This PowerShell script replies to 'Can you talk?' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./can-you-talk
 .NOTES

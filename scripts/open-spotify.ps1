@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Spotify app
 .DESCRIPTION
-	This script launches the Spotify application.
+	This PowerShell script launches the Spotify application.
 .EXAMPLE
 	PS> ./open-spotify
 .NOTES

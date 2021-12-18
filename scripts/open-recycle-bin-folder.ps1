@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the recycle bin folder
 .DESCRIPTION
-	This script launches the File Explorer with the user's recycle bin folder.
+	This PowerShell script launches the File Explorer with the user's recycle bin folder.
 .EXAMPLE
 	PS> ./open-recycle-bin-folder
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Apple manuals
 .DESCRIPTION
-	This script launches the Web browser with the Apple online manual.
+	This PowerShell script launches the Web browser with the Apple online manual.
 .EXAMPLE
 	PS> ./show-apple-manual
 .NOTES

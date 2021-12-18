@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Photos
 .DESCRIPTION
-	This script launches the Web browser with the Google Photos website.
+	This PowerShell script launches the Web browser with the Google Photos website.
 .EXAMPLE
 	PS> ./open-google-photos
 .NOTES

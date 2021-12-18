@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows planet Mars in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser and shows planet Mars in Google Maps.
+	This PowerShell script launches the Web browser and shows planet Mars in Google Maps.
 .EXAMPLE
 	PS> ./show-planet-mars
 .NOTES

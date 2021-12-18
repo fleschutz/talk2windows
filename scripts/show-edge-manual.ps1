@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Microsoft Edge manual
 .DESCRIPTION
-	This script launches the Web browser with the Microsoft Edge manual.
+	This PowerShell script launches the Web browser with the Microsoft Edge manual.
 .EXAMPLE
 	PS> ./show-edge-manual
 .NOTES

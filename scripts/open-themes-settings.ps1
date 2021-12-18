@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows themes settings 
 .DESCRIPTION
-	This script launches the Windows themes settings.
+	This PowerShell script launches the Windows themes settings.
 .EXAMPLE
 	PS> ./open-themes-settings
 .NOTES

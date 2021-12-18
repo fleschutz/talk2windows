@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches Microsoft Solitaire 
 .DESCRIPTION
-	This script launches the Microsoft Solitaire application.
+	This PowerShell script launches the Microsoft Solitaire application.
 .EXAMPLE
 	PS> ./open-microsoft-solitaire
 .NOTES

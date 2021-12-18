@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows printer settings 
 .DESCRIPTION
-	This script launches the Windows printer settings.
+	This PowerShell script launches the Windows printer settings.
 .EXAMPLE
 	PS> ./open-printer-settings
 .NOTES

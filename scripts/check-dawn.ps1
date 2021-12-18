@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the time of dawn 
 .DESCRIPTION
-	This script queries the time of dawn and answers by text-to-speech (TTS).
+	This PowerShell script queries the time of dawn and answers by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-dawn
 .NOTES

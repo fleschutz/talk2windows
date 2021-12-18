@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows start settings 
 .DESCRIPTION
-	This script launches the Windows start settings.
+	This PowerShell script launches the Windows start settings.
 .EXAMPLE
 	PS> ./open-start-settings
 .NOTES

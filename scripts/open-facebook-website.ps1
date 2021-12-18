@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Facebook website
 .DESCRIPTION
-	This script launches the Web browser with the Facebook website.
+	This PowerShell script launches the Web browser with the Facebook website.
 .EXAMPLE
 	PS> ./open-facebook-website
 .NOTES

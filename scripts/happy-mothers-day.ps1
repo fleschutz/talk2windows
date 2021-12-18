@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Happy Mother's day"
 .DESCRIPTION
-	This script replies to 'Happy Mother's day' by text-to-speech (TTS).
+	This PowerShell script replies to 'Happy Mother's day' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./happy-mothers-day
 .NOTES

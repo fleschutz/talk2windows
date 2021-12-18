@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the AccuWeather website 
 .DESCRIPTION
-	This script launches the Web browser with the AccuWeather website.
+	This PowerShell script launches the Web browser with the AccuWeather website.
 .EXAMPLE
 	PS> ./open-accu-weather
 .NOTES

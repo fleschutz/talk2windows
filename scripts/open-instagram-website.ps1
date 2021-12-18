@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Instagram website
 .DESCRIPTION
-	This script launches the Web browser with the Instagram website.
+	This PowerShell script launches the Web browser with the Instagram website.
 .EXAMPLE
 	PS> ./open-instagram-website
 .NOTES

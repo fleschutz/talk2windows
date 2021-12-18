@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Lisbon city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Lisbon city (Portugal).
+	This PowerShell script launches the Web browser with Google Maps at Lisbon city (Portugal).
 .EXAMPLE
 	PS> ./show-lisbon-city
 .NOTES

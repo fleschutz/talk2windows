@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Git repositories folder
 .DESCRIPTION
-	This script launches the File Explorer with the user's Git repositories folder.
+	This PowerShell script launches the File Explorer with the user's Git repositories folder.
 .EXAMPLE
 	PS> ./open-repos-folder
 .NOTES

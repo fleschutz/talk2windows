@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the earth (fun)
 .DESCRIPTION
-	This script checks the earth and replies by text-to-speech (TTS).
+	This PowerShell script checks the earth and replies by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-earth
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Dublin city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Dublin city (Ireland).
+	This PowerShell script launches the Web browser with Google Maps at Dublin city (Ireland).
 .EXAMPLE
 	PS> ./show-dublin-city
 .NOTES

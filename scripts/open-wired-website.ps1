@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the WIRED website
 .DESCRIPTION
-	This script launches the Web browser with the WIRED website.
+	This PowerShell script launches the Web browser with the WIRED website.
 .EXAMPLE
 	PS> ./open-wired-website
 .NOTES

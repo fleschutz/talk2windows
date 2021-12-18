@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Vienna city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Vienna (Austria).
+	This PowerShell script launches the Web browser with Google Maps at Vienna (Austria).
 .EXAMPLE
 	PS> ./show-vienna-city
 .NOTES

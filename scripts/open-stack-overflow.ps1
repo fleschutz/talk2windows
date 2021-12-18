@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Stack Overflow website
 .DESCRIPTION
-	This script launches the Web browser with the Stack Overflow website.
+	This PowerShell script launches the Web browser with the Stack Overflow website.
 .EXAMPLE
 	PS> ./open-stack-overflow
 .NOTES

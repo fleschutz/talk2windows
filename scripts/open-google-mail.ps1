@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Mail
 .DESCRIPTION
-	This script launches the Web browser with the Google Mail website.
+	This PowerShell script launches the Web browser with the Google Mail website.
 .EXAMPLE
 	PS> ./open-google-mail
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "How old are you?"
 .DESCRIPTION
-	This script replies to 'How old are you?' by text-to-speech (TTS).
+	This PowerShell script replies to 'How old are you?' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./how-old-are-you
 .NOTES

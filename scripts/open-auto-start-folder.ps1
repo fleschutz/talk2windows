@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the autostart folder
 .DESCRIPTION
-	This script launches the File Explorer with the user's autostart folder.
+	This PowerShell script launches the File Explorer with the user's autostart folder.
 .EXAMPLE
 	PS> ./open-auto-start-folder
 .NOTES

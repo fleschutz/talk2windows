@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks for Tea time
 .DESCRIPTION
-	This script checks the time until Tea time and replies by text-to-speech (TTS).
+	This PowerShell script checks the time until Tea time and replies by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-tea-time
 .NOTES

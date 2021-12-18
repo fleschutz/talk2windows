@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the validity of the Windows system files (requires admin rights)
 .DESCRIPTION
-	This script checks the validity of the Windows system files. It requires admin rights.
+	This PowerShell script checks the validity of the Windows system files. It requires admin rights.
 .EXAMPLE
 	PS> ./check-windows-system-files
 .NOTES

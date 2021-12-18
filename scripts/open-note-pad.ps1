@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Notepad app
 .DESCRIPTION
-	This script launches the Notepad application.
+	This PowerShell script launches the Notepad application.
 .EXAMPLE
 	PS> ./open-note-pad
 .NOTES

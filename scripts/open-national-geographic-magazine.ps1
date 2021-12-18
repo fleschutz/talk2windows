@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the National Geographic Magazine
 .DESCRIPTION
-	This script launches the Web browser with the National Geographic Magazine website.
+	This PowerShell script launches the Web browser with the National Geographic Magazine website.
 .EXAMPLE
 	PS> ./open-national-geographic-magazine
 .NOTES

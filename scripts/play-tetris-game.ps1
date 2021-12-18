@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays the Tetris game
 .DESCRIPTION
-	This script launches the Web browser with the Tetris game.
+	This PowerShell script launches the Web browser with the Tetris game.
 .EXAMPLE
 	PS> ./play-tetris-game
 .NOTES

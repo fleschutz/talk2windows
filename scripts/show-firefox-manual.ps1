@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Firefox manual
 .DESCRIPTION
-	This script launches the Web browser with the Firefox manual.
+	This PowerShell script launches the Web browser with the Firefox manual.
 .EXAMPLE
 	PS> ./show-firefox-manual
 .NOTES

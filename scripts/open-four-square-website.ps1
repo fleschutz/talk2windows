@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the FourSquare website
 .DESCRIPTION
-	This script launches the Web browser with the FourSquare website.
+	This PowerShell script launches the Web browser with the FourSquare website.
 .EXAMPLE
 	PS> ./open-four-square-website
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the swap space
 .DESCRIPTION
-	This script determines the swap space details and replies by text-to-speech (TTS).
+	This PowerShell script determines the swap space details and replies by text-to-speech (TTS).
 .PARAMETER MinLevel
 	Specifies the minimum level (50 GB by default)
 .EXAMPLE

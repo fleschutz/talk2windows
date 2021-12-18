@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Paint 3D app
 .DESCRIPTION
-	This script launches the Paint 3D application.
+	This PowerShell script launches the Paint 3D application.
 .EXAMPLE
 	PS> ./open-paint-3d
 .NOTES

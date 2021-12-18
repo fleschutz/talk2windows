@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Come on"
 .DESCRIPTION
-	This script replies to 'Come on' by text-to-speech (TTS).
+	This PowerShell script replies to 'Come on' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./come-on
 .NOTES

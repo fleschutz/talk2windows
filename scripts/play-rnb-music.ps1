@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays RnB music
 .DESCRIPTION
-	This script launches the Web browser and plays RnB music.
+	This PowerShell script launches the Web browser and plays RnB music.
 .EXAMPLE
 	PS> ./play-rnb-music
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Unsplash website
 .DESCRIPTION
-	This script launches the Web browser with the Unsplash website.
+	This PowerShell script launches the Web browser with the Unsplash website.
 .EXAMPLE
 	PS> ./open-unsplash-website
 .NOTES

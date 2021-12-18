@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches Screen Clip
 .DESCRIPTION
-	This script launches the Screen Clip application.
+	This PowerShell script launches the Screen Clip application.
 .EXAMPLE
 	PS> ./open-screen-clip
 .NOTES

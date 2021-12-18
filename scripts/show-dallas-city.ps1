@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Dallas city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Dallas city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Dallas city (USA).
 .EXAMPLE
 	PS> ./show-dallas-city
 .NOTES

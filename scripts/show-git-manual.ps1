@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Git manual
 .DESCRIPTION
-	This script launches the Web browser with the Git manual.
+	This PowerShell script launches the Web browser with the Git manual.
 .EXAMPLE
 	PS> ./show-git-manual
 .NOTES

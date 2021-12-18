@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Translate
 .DESCRIPTION
-	This script launches the Web browser with the Google Translate website.
+	This PowerShell script launches the Web browser with the Google Translate website.
 .EXAMPLE
 	PS> ./open-google-translate
 .NOTES

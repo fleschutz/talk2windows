@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows planet Merkur in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser and shows planet Merkur in Google Maps.
+	This PowerShell script launches the Web browser and shows planet Merkur in Google Maps.
 .EXAMPLE
 	PS> ./show-planet-merkur
 .NOTES

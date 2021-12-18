@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays chillout music
 .DESCRIPTION
-	This script launches the Web browser and plays chillout music.
+	This PowerShell script launches the Web browser and plays chillout music.
 .EXAMPLE
 	PS> ./play-chillout-music
 .NOTES

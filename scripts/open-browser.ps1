@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Web browser
 .DESCRIPTION
-	This script launches the default Web browser, optional with a given URL.
+	This PowerShell script launches the default Web browser, optional with a given URL.
 .PARAMETER URL
 	Specifies the URL
 .EXAMPLE

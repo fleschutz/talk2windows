@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Skype app
 .DESCRIPTION
-	This script launches the Skype application.
+	This PowerShell script launches the Skype application.
 .EXAMPLE
 	PS> ./open-skype
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the GCC manual
 .DESCRIPTION
-	This script launches the Web browser with the GCC manual.
+	This PowerShell script launches the Web browser with the GCC manual.
 .EXAMPLE
 	PS> ./show-gcc-manual
 .NOTES

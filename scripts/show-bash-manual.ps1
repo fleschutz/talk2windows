@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Bash manual
 .DESCRIPTION
-	This script launches the Web browser with the Bash manual.
+	This PowerShell script launches the Web browser with the Bash manual.
 .EXAMPLE
 	PS> ./show-bash-manual
 .NOTES

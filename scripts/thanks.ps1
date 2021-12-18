@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to 'thanks'
 .DESCRIPTION
-	This script replies to 'thanks' by text-to-speech (TTS).
+	This PowerShell script replies to 'thanks' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./thanks
 .NOTES

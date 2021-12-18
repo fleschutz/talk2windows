@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Saves a single screenshot
 .DESCRIPTION
-	This script takes a single screenshot and saves it into a target folder (the user's pictures folder by default).
+	This PowerShell script takes a single screenshot and saves it into a target folder (the user's pictures folder by default).
 .PARAMETER TargetFolder
 	Specifies the target folder (the user's pictures folder by default)
 .EXAMPLE

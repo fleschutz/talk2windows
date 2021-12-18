@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Edge browser
 .DESCRIPTION
-	This script launches the Microsoft Edge Web browser.
+	This PowerShell script launches the Microsoft Edge Web browser.
 .EXAMPLE
 	PS> ./open-edge
 .NOTES

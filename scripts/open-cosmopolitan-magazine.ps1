@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Cosmopolitan Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Cosmopolitan Magazine website.
+	This PowerShell script launches the Web browser with the Cosmopolitan Magazine website.
 .EXAMPLE
 	PS> ./open-cosmopolitan-magazine
 .NOTES

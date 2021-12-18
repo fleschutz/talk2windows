@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Starts the Snipping Tool
 .DESCRIPTION
-	This script launches the Snipping Tool application.
+	This PowerShell script launches the Snipping Tool application.
 .EXAMPLE
 	PS> ./open-snipping-tool
 .NOTES

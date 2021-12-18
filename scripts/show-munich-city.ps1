@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Munich city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Munich city (Germany).
+	This PowerShell script launches the Web browser with Google Maps at Munich city (Germany).
 .EXAMPLE
 	PS> ./show-munich-city
 .NOTES

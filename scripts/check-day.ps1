@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Speaks the current day 
 .DESCRIPTION
-	This script speaks the current day by text-to-speech (TTS).
+	This PowerShell script speaks the current day by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-day
 .NOTES

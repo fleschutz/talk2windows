@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Tells a quote
 .DESCRIPTION
-	This script selects a random quote in Data/quotes.csv and tells it by text-to-speech (TTS).
+	This PowerShell script selects a random quote in Data/quotes.csv and tells it by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./tell-a-quote
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the file system of a drive (needs admin rights)
 .DESCRIPTION
-	This script checks the file system of a drive. It needs admin rights.
+	This PowerShell script checks the file system of a drive. It needs admin rights.
 .PARAMETER Drive
 	Specifies the drive to check
 .EXAMPLE

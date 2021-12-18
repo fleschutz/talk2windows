@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the time until Easter Sunday
 .DESCRIPTION
-	This script checks the time until Easter Sunday and replies by text-to-speech (TTS).
+	This PowerShell script checks the time until Easter Sunday and replies by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-easter-sunday
 .NOTES

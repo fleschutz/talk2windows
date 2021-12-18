@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the US$ rate 
 .DESCRIPTION
-	This script launches the Web browser and shows the US Dollar (USD/US$) rate.
+	This PowerShell script launches the Web browser and shows the US Dollar (USD/US$) rate.
 .EXAMPLE
 	PS> ./show-us-dollar-rate
 .NOTES

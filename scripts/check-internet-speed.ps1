@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the Internet Speed
 .DESCRIPTION
-	This script launches the Web browser with Cloudflare's Speed Test website.
+	This PowerShell script launches the Web browser with Cloudflare's Speed Test website.
 .EXAMPLE
 	PS> ./check-internet-speed
 .NOTES

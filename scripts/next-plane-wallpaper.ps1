@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets a plane wallpaper
 .DESCRIPTION
-	This script downloads a random plane photo and sets it as desktop background.
+	This PowerShell script downloads a random plane photo and sets it as desktop background.
 .EXAMPLE
 	PS> ./next-plane-wallpaper
 .NOTES

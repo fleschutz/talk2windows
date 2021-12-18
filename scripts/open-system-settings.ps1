@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows system settings 
 .DESCRIPTION
-	This script launches the Windows system settings application.
+	This PowerShell script launches the Windows system settings application.
 .EXAMPLE
 	PS> ./open-system-settings
 .NOTES

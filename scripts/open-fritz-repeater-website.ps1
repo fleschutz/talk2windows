@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the FRITZ!Repeater website
 .DESCRIPTION
-	This script launches the Web browser with the FRITZ!Repeater website.
+	This PowerShell script launches the Web browser with the FRITZ!Repeater website.
 .EXAMPLE
 	PS> ./open-fritz-repeater-website
 .NOTES

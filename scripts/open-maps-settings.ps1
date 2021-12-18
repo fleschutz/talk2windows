@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows maps settings 
 .DESCRIPTION
-	This script launches the Windows maps settings.
+	This PowerShell script launches the Windows maps settings.
 .EXAMPLE
 	PS> ./open-maps-settings
 .NOTES

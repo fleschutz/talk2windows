@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the MSBuild manual
 .DESCRIPTION
-	This script launches the Web browser with the MSBuild manual.
+	This PowerShell script launches the Web browser with the MSBuild manual.
 .EXAMPLE
 	PS> ./show-msbuild-manual
 .NOTES

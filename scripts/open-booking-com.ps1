@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Booking.com website
 .DESCRIPTION
-	This script launches the Web browser with the Booking.com website.
+	This PowerShell script launches the Web browser with the Booking.com website.
 .EXAMPLE
 	PS> ./open-booking-com
 .NOTES

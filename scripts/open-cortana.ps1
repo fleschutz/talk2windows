@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Cortana app
 .DESCRIPTION
-	This script launches the Cortana application.
+	This PowerShell script launches the Cortana application.
 .EXAMPLE
 	PS> ./open-cortana
 .NOTES

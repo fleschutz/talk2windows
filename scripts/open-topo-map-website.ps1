@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the OpenTopoMap website
 .DESCRIPTION
-	This script launches the Web browser with the OpenTopoMap website.
+	This PowerShell script launches the Web browser with the OpenTopoMap website.
 .EXAMPLE
 	PS> ./open-topo-map-website
 .NOTES

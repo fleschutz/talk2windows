@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
         Plays the Tetris melody
 .DESCRIPTION
-        This script plays the Tetris melody.
+        This PowerShell script plays the Tetris melody.
 .EXAMPLE
         PS> ./play-tetris-melody
 .NOTES

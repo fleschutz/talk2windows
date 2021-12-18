@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows VPN settings 
 .DESCRIPTION
-	This script launches the Windows VPN (virtual private network) settings.
+	This PowerShell script launches the Windows VPN (virtual private network) settings.
 .EXAMPLE
 	PS> ./open-vpn-settings
 .NOTES

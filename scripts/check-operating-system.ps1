@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Determines the exact OS version 
 .DESCRIPTION
-	This script determines and says the exact operating system version by text-to-speech (TTS).
+	This PowerShell script determines and says the exact operating system version by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-operating-system
 .NOTES

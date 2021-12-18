@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes a program's processes 
 .DESCRIPTION
-	This script closes a program's processes gracefully.
+	This PowerShell script closes a program's processes gracefully.
 .PARAMETER FullProgramName
 	Specifies the full program name
 .PARAMETER ProgramName

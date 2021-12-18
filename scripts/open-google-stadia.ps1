@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Stadia
 .DESCRIPTION
-	This script launches the Web browser with the Google Stadia website.
+	This PowerShell script launches the Web browser with the Google Stadia website.
 .EXAMPLE
 	PS> ./open-google-stadia
 .NOTES

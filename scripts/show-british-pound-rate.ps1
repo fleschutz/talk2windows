@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the British Pound rate 
 .DESCRIPTION
-	This script launches the Web browser and shows the British Pound (GBP) rate.
+	This PowerShell script launches the Web browser and shows the British Pound (GBP) rate.
 .EXAMPLE
 	PS> ./show-british-pound-rate
 .NOTES

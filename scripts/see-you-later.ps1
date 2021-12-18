@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Answers to 'see you later'
 .DESCRIPTION
-	This script says a reply to "see you later" by text-to-speech (TTS).
+	This PowerShell script says a reply to "see you later" by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./see-you-later
 .NOTES

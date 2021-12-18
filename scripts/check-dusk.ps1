@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the time of dusk 
 .DESCRIPTION
-	This script queries the time of dusk and answers by text-to-speech (TTS).
+	This PowerShell script queries the time of dusk and answers by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-dusk
 .NOTES

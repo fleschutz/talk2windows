@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Microsoft Outlook app
 .DESCRIPTION
-	This script launches the Microsoft Outlook email application.
+	This PowerShell script launches the Microsoft Outlook email application.
 .EXAMPLE
 	PS> ./open-outlook
 .NOTES

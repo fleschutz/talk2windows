@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Google Chrome manual
 .DESCRIPTION
-	This script launches the Web browser with the Google Chrome manual.
+	This PowerShell script launches the Web browser with the Google Chrome manual.
 .EXAMPLE
 	PS> ./show-chrome-manual
 .NOTES

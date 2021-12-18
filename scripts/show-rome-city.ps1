@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Rome city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Rome city  (Italy).
+	This PowerShell script launches the Web browser with Google Maps at Rome city  (Italy).
 .EXAMPLE
 	PS> ./show-rome-city
 .NOTES

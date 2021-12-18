@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Alerts
 .DESCRIPTION
-	This script launches the Web browser with Google's Alert website.
+	This PowerShell script launches the Web browser with Google's Alert website.
 .EXAMPLE
 	PS> ./open-google-alerts
 .NOTES

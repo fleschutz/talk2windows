@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the CDC website
 .DESCRIPTION
-	This script launches the Web browser with the CDC website (Centers for Disease Control and Prevention).
+	This PowerShell script launches the Web browser with the CDC website (Centers for Disease Control and Prevention).
 .EXAMPLE
 	PS> ./open-cdc-website
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Yahoo website
 .DESCRIPTION
-	This script launches the Web browser with the Yahoo website.
+	This PowerShell script launches the Web browser with the Yahoo website.
 .EXAMPLE
 	PS> ./open-yahoo-website
 .NOTES

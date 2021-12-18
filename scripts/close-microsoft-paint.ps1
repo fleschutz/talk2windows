@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Microsoft Paint app 
 .DESCRIPTION
-	This script closes the Microsoft Paint application gracefully.
+	This PowerShell script closes the Microsoft Paint application gracefully.
 .EXAMPLE
 	PS> ./close-microsoft-paint
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the Tether rate
 .DESCRIPTION
-	This script queries the current Tether exchange rates and answers by text-to-speech (TTS).
+	This PowerShell script queries the current Tether exchange rates and answers by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-tether-rate
 .NOTES

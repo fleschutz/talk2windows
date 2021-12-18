@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays the TicTacToe game
 .DESCRIPTION
-	This script launches the Web browser with the TicTacToe game.
+	This PowerShell script launches the Web browser with the TicTacToe game.
 .EXAMPLE
 	PS> ./play-tic-tac-toe-game
 .NOTES

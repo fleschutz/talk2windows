@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows display settings 
 .DESCRIPTION
-	This script launches the Windows display settings application.
+	This PowerShell script launches the Windows display settings application.
 .EXAMPLE
 	PS> ./open-display-settings
 .NOTES

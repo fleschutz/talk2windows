@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows proxy settings 
 .DESCRIPTION
-	This script launches the Windows proxy settings.
+	This PowerShell script launches the Windows proxy settings.
 .EXAMPLE
 	PS> ./open-proxy-settings
 .NOTES

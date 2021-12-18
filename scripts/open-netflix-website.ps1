@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Netflix website
 .DESCRIPTION
-	This script launches the Web browser with the Netflix website.
+	This PowerShell script launches the Web browser with the Netflix website.
 .EXAMPLE
 	PS> ./open-netflix-website
 .NOTES

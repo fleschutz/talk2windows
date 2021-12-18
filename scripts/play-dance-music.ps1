@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays dance music
 .DESCRIPTION
-	This script launches the Web browser and plays dance music.
+	This PowerShell script launches the Web browser and plays dance music.
 .EXAMPLE
 	PS> ./play-dance-music
 .NOTES

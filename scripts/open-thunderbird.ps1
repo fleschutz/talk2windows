@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Thunderbird app
 .DESCRIPTION
-	This script launches the Mozilla Thunderbird email application.
+	This PowerShell script launches the Mozilla Thunderbird email application.
 .EXAMPLE
 	PS> ./open-thunderbird
 .NOTES

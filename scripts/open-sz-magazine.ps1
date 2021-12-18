@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the SZ Magazine
 .DESCRIPTION
-	This script launches the Web browser with the SZ magazine website.
+	This PowerShell script launches the Web browser with the SZ magazine website.
 .EXAMPLE
 	PS> ./open-sz-magazine
 .NOTES

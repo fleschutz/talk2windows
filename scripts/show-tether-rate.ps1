@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Tether rate 
 .DESCRIPTION
-	This script launches the Web browser and shows the Tether cryptocurrency exchange rate.
+	This PowerShell script launches the Web browser and shows the Tether cryptocurrency exchange rate.
 .EXAMPLE
 	PS> ./show-tether-rate
 .NOTES

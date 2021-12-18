@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Plex website
 .DESCRIPTION
-	This script launches the Web browser with the Plex website.
+	This PowerShell script launches the Web browser with the Plex website.
 .EXAMPLE
 	PS> ./open-plex-website
 .NOTES

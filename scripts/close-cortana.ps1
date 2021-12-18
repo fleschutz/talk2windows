@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes Microsoft's Cortana application
 .DESCRIPTION
-	This script closes Microsoft's Cortana application gracefully.
+	This PowerShell script closes Microsoft's Cortana application gracefully.
 .EXAMPLE
 	PS> ./close-cortana
 .NOTES

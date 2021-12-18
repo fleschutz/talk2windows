@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Ether rate 
 .DESCRIPTION
-	This script launches the Web browser and shows the Ether cryptocurrency exchange rate.
+	This PowerShell script launches the Web browser and shows the Ether cryptocurrency exchange rate.
 .EXAMPLE
 	PS> ./show-ether-rate
 .NOTES

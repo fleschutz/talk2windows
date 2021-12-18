@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the VPN connections
 .DESCRIPTION
-	This script checks the status of all available VPN connections.
+	This PowerShell script checks the status of all available VPN connections.
 .EXAMPLE
 	PS> ./check-vpn
 .NOTES

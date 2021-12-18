@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the balance (fun)
 .DESCRIPTION
-	This script checks the balance and replies by text-to-speech (TTS).
+	This PowerShell script checks the balance and replies by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-my-balance
 .NOTES

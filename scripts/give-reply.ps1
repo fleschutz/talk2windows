@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Gives a reply 
 .DESCRIPTION
-	This script gives a reply in English on the console and by text-to-speech (TTS).
+	This PowerShell script gives a reply in English on the console and by text-to-speech (TTS).
 .PARAMETER text
 	Specifies the text to speak
 .EXAMPLE
@@ -23,10 +23,6 @@ function GetTempDir {
 }
 
 try {
-	# print reply on the console:
-	" ← $text"
-
-	# speak by text-to-speech (TTS):
 	if (!$IsLinux) {
 		$TTSVoice = New-Object -ComObject SAPI.SPVoice
 		foreach ($Voice in $TTSVoice.GetVoices()) {
@@ -34,6 +30,9 @@ try {
 		}
 		[void]$TTSVoice.Speak($text)
 	}
+
+	# print reply on the console:
+	" < $text"
 
 	# remember last reply:
 	"$text" > "$(GetTempDir)/last_reply_given.txt"

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Lightnings in OpenStreetMap
 .DESCRIPTION
-	This script launches the Web browser and shows Lightnings in OpenStreetMap.
+	This PowerShell script launches the Web browser and shows Lightnings in OpenStreetMap.
 .EXAMPLE
 	PS> ./show-lightnings
 .NOTES

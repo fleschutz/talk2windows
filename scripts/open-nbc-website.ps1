@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the NBC website
 .DESCRIPTION
-	This script launches the Web browser with the NBC website.
+	This PowerShell script launches the Web browser with the NBC website.
 .EXAMPLE
 	PS> ./open-nbc-website
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays the Cube game
 .DESCRIPTION
-	This script launches the Web browser with the Cube game.
+	This PowerShell script launches the Web browser with the Cube game.
 .EXAMPLE
 	PS> ./play-cube-game
 .NOTES

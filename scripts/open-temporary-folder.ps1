@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the temporary folder
 .DESCRIPTION
-	This script launches the File Explorer showing the temporary folder.
+	This PowerShell script launches the File Explorer showing the temporary folder.
 .EXAMPLE
 	PS> ./open-temporary-folder
 .NOTES

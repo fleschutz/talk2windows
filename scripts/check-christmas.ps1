@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the time until Christmas
 .DESCRIPTION
-	This script checks the time until Christmas and replies by text-to-speech (TTS).
+	This PowerShell script checks the time until Christmas and replies by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-christmas
 .NOTES

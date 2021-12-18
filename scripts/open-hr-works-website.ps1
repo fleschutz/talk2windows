@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the HRworks website
 .DESCRIPTION
-	This script launches the Web browser with the HRworks website.
+	This PowerShell script launches the Web browser with the HRworks website.
 .EXAMPLE
 	PS> ./open-hr-works-website
 .NOTES

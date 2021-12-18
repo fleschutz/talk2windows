@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Connects to the VPN
 .DESCRIPTION
-	This script tries to connect to the VPN.
+	This PowerShell script tries to connect to the VPN.
 .EXAMPLE
 	PS> ./connect-vpn
 .NOTES

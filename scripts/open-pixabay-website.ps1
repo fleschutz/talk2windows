@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Pixabay website
 .DESCRIPTION
-	This script launches the Web browser with the Pixabay website.
+	This PowerShell script launches the Web browser with the Pixabay website.
 .EXAMPLE
 	PS> ./open-pixabay-website
 .NOTES

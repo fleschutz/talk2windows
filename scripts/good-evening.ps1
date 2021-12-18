@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to 'good evening'
 .DESCRIPTION
-	This script says a reply to 'good evening' by text-to-speech (TTS).
+	This PowerShell script says a reply to 'good evening' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./good-evening
 .NOTES

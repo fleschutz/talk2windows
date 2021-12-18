@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Audacity manual
 .DESCRIPTION
-	This script launches the Web browser with the Audacity online manual.
+	This PowerShell script launches the Web browser with the Audacity online manual.
 .EXAMPLE
 	PS> ./show-audacity-manual
 .NOTES

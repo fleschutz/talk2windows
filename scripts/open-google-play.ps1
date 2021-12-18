@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Play
 .DESCRIPTION
-	This script launches the Web browser with the Google Play website.
+	This PowerShell script launches the Web browser with the Google Play website.
 .EXAMPLE
 	PS> ./open-google-play
 .NOTES

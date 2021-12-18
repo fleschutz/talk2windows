@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Berlin city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Berlin city (Germany).
+	This PowerShell script launches the Web browser with Google Maps at Berlin city (Germany).
 .EXAMPLE
 	PS> ./show-berlin-city
 .NOTES

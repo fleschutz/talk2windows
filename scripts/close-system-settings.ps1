@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the System Settings window
 .DESCRIPTION
-	This script closes the System Settings window gracefully.
+	This PowerShell script closes the System Settings window gracefully.
 .EXAMPLE
 	PS> ./close-system-settings
 .NOTES

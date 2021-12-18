@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Search and replace a pattern in the given files by the replacement
 .DESCRIPTION
-	This script searches and replaces a pattern in the given files by the replacement.
+	This PowerShell script searches and replaces a pattern in the given files by the replacement.
 .PARAMETER pattern
 	Specifies the pattern to look for
 .PARAMETER replacement

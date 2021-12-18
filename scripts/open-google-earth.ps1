@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Earth
 .DESCRIPTION
-	This script launches the Web browser with the Google Earth website.
+	This PowerShell script launches the Web browser with the Google Earth website.
 .EXAMPLE
 	PS> ./open-google-earth
 .NOTES

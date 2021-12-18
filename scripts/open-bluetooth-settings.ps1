@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows Bluetooth settings 
 .DESCRIPTION
-	This script launches the Windows Bluetooth settings application.
+	This PowerShell script launches the Windows Bluetooth settings application.
 .EXAMPLE
 	PS> ./open-bluetooth-settings
 .NOTES

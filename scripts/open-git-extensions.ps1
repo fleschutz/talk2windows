@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches Git Extensions 
 .DESCRIPTION
-	This script launches the Git Extensions application.
+	This PowerShell script launches the Git Extensions application.
 .EXAMPLE
 	PS> ./open-git-extensions
 .NOTES

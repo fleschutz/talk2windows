@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Paint 3D app 
 .DESCRIPTION
-	This script closes the Paint 3D application gracefully.
+	This PowerShell script closes the Paint 3D application gracefully.
 .EXAMPLE
 	PS> ./close-paint-3d
 .NOTES

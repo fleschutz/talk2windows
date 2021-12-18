@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the CPU 
 .DESCRIPTION
-	This script checks the CPU temperature.
+	This PowerShell script checks the CPU temperature.
 .EXAMPLE
 	PS> ./check-cpu
 .NOTES

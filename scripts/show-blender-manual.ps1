@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the Blender manual
 .DESCRIPTION
-	This script launches the Web browser with the Blender manual.
+	This PowerShell script launches the Web browser with the Blender manual.
 .EXAMPLE
 	PS> ./show-blender-manual
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays an elk sound
 .DESCRIPTION
-	This script plays an elk sound.
+	This PowerShell script plays an elk sound.
 .EXAMPLE
 	PS> ./play-elk-sound
 .NOTES

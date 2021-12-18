@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Microsoft Weather app
 .DESCRIPTION
-	This script launches the Microsoft Weather application.
+	This PowerShell script launches the Microsoft Weather application.
 .EXAMPLE
 	PS> ./open-microsoft-weather
 .NOTES

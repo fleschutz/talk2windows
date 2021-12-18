@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Bitbucket website
 .DESCRIPTION
-	This script launches the Web browser with the Bitbucket website.
+	This PowerShell script launches the Web browser with the Bitbucket website.
 .EXAMPLE
 	PS> ./open-bit-bucket-website
 .NOTES

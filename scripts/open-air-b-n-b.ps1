@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the AirBNB website
 .DESCRIPTION
-	This script launches the Web browser with the AirBNB website.
+	This PowerShell script launches the Web browser with the AirBNB website.
 .EXAMPLE
 	PS> ./open-air-b-n-b
 .NOTES

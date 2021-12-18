@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Cloudflare's Speed Test
 .DESCRIPTION
-	This script launches the Web browser with Cloudflare's speed test website.
+	This PowerShell script launches the Web browser with Cloudflare's speed test website.
 .EXAMPLE
 	PS> ./open-speed-test
 .NOTES

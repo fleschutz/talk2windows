@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Wired Magazine
 .DESCRIPTION
-	This script launches the Web browser with the Wired magazine.
+	This PowerShell script launches the Web browser with the Wired magazine.
 .EXAMPLE
 	PS> ./open-wired-magazine
 .NOTES

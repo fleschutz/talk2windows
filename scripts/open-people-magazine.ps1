@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the People Magazine
 .DESCRIPTION
-	This script launches the Web browser with the People Magazine website.
+	This PowerShell script launches the Web browser with the People Magazine website.
 .EXAMPLE
 	PS> ./open-people-magazine
 .NOTES

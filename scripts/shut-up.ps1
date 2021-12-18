@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Turns the volume off
 .DESCRIPTION
-	This script mutes the default audio device immediately.
+	This PowerShell script mutes the default audio device immediately.
 .EXAMPLE
 	PS> ./shut-up
 .NOTES

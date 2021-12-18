@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the E: drive folder
 .DESCRIPTION
-	This script launches the File Explorer with the E: drive folder.
+	This PowerShell script launches the File Explorer with the E: drive folder.
 .EXAMPLE
 	PS> ./open-e-drive
 .NOTES

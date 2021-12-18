@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Cairo city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Cairo city (Egypt).
+	This PowerShell script launches the Web browser with Google Maps at Cairo city (Egypt).
 .EXAMPLE
 	PS> ./show-cairo-city
 .NOTES

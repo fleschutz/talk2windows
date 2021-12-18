@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the user's pictures folder
 .DESCRIPTION
-	This script launches the File Explorer with the user's pictures folder.
+	This PowerShell script launches the File Explorer with the user's pictures folder.
 .EXAMPLE
 	PS> ./open-pictures-folder
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Twitter website
 .DESCRIPTION
-	This script launches the Web browser with the Twitter website.
+	This PowerShell script launches the Web browser with the Twitter website.
 .EXAMPLE
 	PS> ./open-twitter-website
 .NOTES

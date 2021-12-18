@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Replies to "Give me five"
 .DESCRIPTION
-	This script replies to 'Give me five' by text-to-speech (TTS).
+	This PowerShell script replies to 'Give me five' by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./give-me-five
 .NOTES

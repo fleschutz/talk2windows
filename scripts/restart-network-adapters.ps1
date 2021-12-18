@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Restarts all local network adapters (needs admin rights)
 .DESCRIPTION
-	This script restarts all local network adapters (needs admin rights).
+	This PowerShell script restarts all local network adapters (needs admin rights).
 .EXAMPLE
 	PS> ./restart-network-adapters
 .NOTES

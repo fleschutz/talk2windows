@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Spotify app
 .DESCRIPTION
-	This script closes the Spotify application gracefully.
+	This PowerShell script closes the Spotify application gracefully.
 .EXAMPLE
 	PS> ./close-spotify
 .NOTES

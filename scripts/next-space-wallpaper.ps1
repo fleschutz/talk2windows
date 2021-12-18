@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets a random space wallpaper
 .DESCRIPTION
-	This script downloads a random space photo and sets it as desktop background.
+	This PowerShell script downloads a random space photo and sets it as desktop background.
 .EXAMPLE
 	PS> ./next-space-wallpaper
 .NOTES

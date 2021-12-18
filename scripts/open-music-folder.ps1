@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the music folder
 .DESCRIPTION
-	This script launches the File Explorer with the user's music folder.
+	This PowerShell script launches the File Explorer with the user's music folder.
 .EXAMPLE
 	PS> ./open-music-folder
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Windows taskbar settings 
 .DESCRIPTION
-	This script launches the Windows taskbar settings application.
+	This PowerShell script launches the Windows taskbar settings application.
 .EXAMPLE
 	PS> ./open-task-bar-settings
 .NOTES

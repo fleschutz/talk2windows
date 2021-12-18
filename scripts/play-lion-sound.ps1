@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays a lion sound
 .DESCRIPTION
-	This script plays a lion sound.
+	This PowerShell script plays a lion sound.
 .EXAMPLE
 	PS> ./play-lion-sound
 .NOTES

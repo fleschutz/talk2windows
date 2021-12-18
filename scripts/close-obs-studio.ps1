@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes OBS Studio
 .DESCRIPTION
-	This script closes the OBS Studio application gracefully.
+	This PowerShell script closes the OBS Studio application gracefully.
 .EXAMPLE
 	PS> ./close-obs-studio
 .NOTES

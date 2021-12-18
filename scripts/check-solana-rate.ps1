@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks the Solana rate
 .DESCRIPTION
-	This script queries the current Solana exchange rates and answers by text-to-speech (TTS).
+	This PowerShell script queries the current Solana exchange rates and answers by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-solana-rate
 .NOTES

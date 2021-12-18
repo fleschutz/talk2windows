@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows speech settings 
 .DESCRIPTION
-	This script launches the Windows speech settings application.
+	This PowerShell script launches the Windows speech settings application.
 .EXAMPLE
 	PS> ./open-speech-settings
 .NOTES

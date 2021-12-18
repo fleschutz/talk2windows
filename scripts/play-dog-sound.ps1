@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays a dog sound
 .DESCRIPTION
-	This script plays a dog sound.
+	This PowerShell script plays a dog sound.
 .EXAMPLE
 	PS> ./play-dog-sound
 .NOTES

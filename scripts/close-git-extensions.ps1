@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Git Extensions app
 .DESCRIPTION
-	This script closes the Git Extensions application gracefully.
+	This PowerShell script closes the Git Extensions application gracefully.
 .EXAMPLE
 	PS> ./close-git-extensions
 .NOTES

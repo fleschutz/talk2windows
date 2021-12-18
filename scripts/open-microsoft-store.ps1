@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Starts the Microsoft Store app
 .DESCRIPTION
-	This script launches the Microsoft Store application.
+	This PowerShell script launches the Microsoft Store application.
 .EXAMPLE
 	PS> ./open-microsoft-store
 .NOTES

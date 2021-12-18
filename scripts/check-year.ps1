@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Say the current year 
 .DESCRIPTION
-	This script speaks the current year by text-to-speech (TTS).
+	This PowerShell script speaks the current year by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-year
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays classical music
 .DESCRIPTION
-	This script launches the Web browser and plays classical music.
+	This PowerShell script launches the Web browser and plays classical music.
 .EXAMPLE
 	PS> ./play-classical-music
 .NOTES

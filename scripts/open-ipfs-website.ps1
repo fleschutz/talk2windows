@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the IPFS website
 .DESCRIPTION
-	This script launches the Web browser with the IPFS website.
+	This PowerShell script launches the Web browser with the IPFS website.
 .EXAMPLE
 	PS> ./open-ipfs-website
 .NOTES

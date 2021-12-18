@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Madrid city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Madrid city (Spain).
+	This PowerShell script launches the Web browser with Google Maps at Madrid city (Spain).
 .EXAMPLE
 	PS> ./show-madrid-city
 .NOTES

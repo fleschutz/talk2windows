@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Las Vegas city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Las Vegas city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Las Vegas city (USA).
 .EXAMPLE
 	PS> ./show-las-vegas-city
 .NOTES

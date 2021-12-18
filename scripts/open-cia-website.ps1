@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the CIA website
 .DESCRIPTION
-	This script launches the Web browser with the CIA website (Central Intelligence Agency).
+	This PowerShell script launches the Web browser with the CIA website (Central Intelligence Agency).
 .EXAMPLE
 	PS> ./open-cia-website
 .NOTES

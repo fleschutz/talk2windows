@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the BBC website
 .DESCRIPTION
-	This script launches the Web browser with the BBC website.
+	This PowerShell script launches the Web browser with the BBC website.
 .EXAMPLE
 	PS> ./open-bbc-website
 .NOTES

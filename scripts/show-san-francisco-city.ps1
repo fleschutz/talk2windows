@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows San Francisco city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at San Francisco city (USA).
+	This PowerShell script launches the Web browser with Google Maps at San Francisco city (USA).
 .EXAMPLE
 	PS> ./show-san-francisco-city
 .NOTES

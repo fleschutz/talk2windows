@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the White House website 
 .DESCRIPTION
-	This script launches the Web browser with the White House website.
+	This PowerShell script launches the Web browser with the White House website.
 .EXAMPLE
 	PS> ./open-white-house-website
 .NOTES

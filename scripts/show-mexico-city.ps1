@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Mexico city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Mexico city (Mexico).
+	This PowerShell script launches the Web browser with Google Maps at Mexico city (Mexico).
 .EXAMPLE
 	PS> ./show-mexico-city
 .NOTES

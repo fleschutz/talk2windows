@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets a car wallpaper
 .DESCRIPTION
-	This script downloads a random car photo and sets it as desktop background.
+	This PowerShell script downloads a random car photo and sets it as desktop background.
 .EXAMPLE
 	PS> ./next-car-wallpaper
 .NOTES

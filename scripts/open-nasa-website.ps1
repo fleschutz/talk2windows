@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the NASA website
 .DESCRIPTION
-	This script launches the Web browser with the NASA website.
+	This PowerShell script launches the Web browser with the NASA website.
 .EXAMPLE
 	PS> ./open-nasa-website
 .NOTES

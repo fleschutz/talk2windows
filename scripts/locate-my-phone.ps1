@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Find My Device 
 .DESCRIPTION
-	This script launches the Web browser with the Google Find My Device website.
+	This PowerShell script launches the Web browser with the Google Find My Device website.
 .EXAMPLE
 	PS> ./locate-my-phone
 .NOTES

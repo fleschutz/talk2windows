@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Docs
 .DESCRIPTION
-	This script launches the Web browser with the Google Docs website.
+	This PowerShell script launches the Web browser with the Google Docs website.
 .EXAMPLE
 	PS> ./open-google-docs
 .NOTES

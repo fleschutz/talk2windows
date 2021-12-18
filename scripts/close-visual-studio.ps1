@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Visual Studio app
 .DESCRIPTION
-	This script closes the Microsoft Visual Studio application gracefully.
+	This PowerShell script closes the Microsoft Visual Studio application gracefully.
 .EXAMPLE
 	PS> ./close-visual-studio
 .NOTES

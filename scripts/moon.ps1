@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Prints the current moon phase
 .DESCRIPTION
-	This script prints the current moon phase.
+	This PowerShell script prints the current moon phase.
 .EXAMPLE
 	PS> ./moon
 .NOTES

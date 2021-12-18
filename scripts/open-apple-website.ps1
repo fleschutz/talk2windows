@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Apple website
 .DESCRIPTION
-	This script launches the Web browser with the Apple website.
+	This PowerShell script launches the Web browser with the Apple website.
 .EXAMPLE
 	PS> ./open-apple-website
 .NOTES

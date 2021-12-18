@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches Screen Sketch
 .DESCRIPTION
-	This script launches the Screen Sketch application.
+	This PowerShell script launches the Screen Sketch application.
 .EXAMPLE
 	PS> ./open-screen-sketch
 .NOTES

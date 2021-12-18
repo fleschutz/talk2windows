@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Dubai city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Dubai city (VUE).
+	This PowerShell script launches the Web browser with Google Maps at Dubai city (VUE).
 .EXAMPLE
 	PS> ./show-dubai-city
 .NOTES

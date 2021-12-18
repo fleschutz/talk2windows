@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the A320 cockpit
 .DESCRIPTION
-	This script launches the Web browser with the A320DP.com website.
+	This PowerShell script launches the Web browser with the A320DP.com website.
 .EXAMPLE
 	PS> ./show-a320-cockpit
 .NOTES

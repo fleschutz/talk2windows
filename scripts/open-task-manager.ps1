@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Starts the Task Manager
 .DESCRIPTION
-	This script launches the Windows Task Manager application.
+	This PowerShell script launches the Windows Task Manager application.
 .EXAMPLE
 	PS> ./open-task-manager
 .NOTES

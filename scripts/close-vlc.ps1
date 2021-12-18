@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the VLC media player application
 .DESCRIPTION
-	This script closes the VLC media player application gracefully.
+	This PowerShell script closes the VLC media player application gracefully.
 .EXAMPLE
 	PS> ./close-vlc
 .NOTES

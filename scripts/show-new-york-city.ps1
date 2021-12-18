@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows NYC in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at New York City (USA).
+	This PowerShell script launches the Web browser with Google Maps at New York City (USA).
 .EXAMPLE
 	PS> ./show-new-york-city
 .NOTES

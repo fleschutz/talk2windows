@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the PayPal website
 .DESCRIPTION
-	This script launches the Web browser with the PayPal website.
+	This PowerShell script launches the Web browser with the PayPal website.
 .EXAMPLE
 	PS> ./open-pay-pal-website
 .NOTES

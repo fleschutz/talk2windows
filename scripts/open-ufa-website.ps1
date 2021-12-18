@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the UFA website
 .DESCRIPTION
-	This script launches the Web browser with the UFA website.
+	This PowerShell script launches the Web browser with the UFA website.
 .EXAMPLE
 	PS> ./open-ufa-website
 .NOTES

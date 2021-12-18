@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows apps settings 
 .DESCRIPTION
-	This script launches the Windows aps settings.
+	This PowerShell script launches the Windows aps settings.
 .EXAMPLE
 	PS> ./open-apps-settings
 .NOTES

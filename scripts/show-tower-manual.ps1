@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows the ATTower manual
 .DESCRIPTION
-	This script launches the Web browser with the ATTower manual.
+	This PowerShell script launches the Web browser with the ATTower manual.
 .EXAMPLE
 	PS> ./show-tower-manual
 .NOTES

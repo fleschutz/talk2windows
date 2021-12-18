@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Microsoft Paint app
 .DESCRIPTION
-	This script launches the Microsoft Paint application.
+	This PowerShell script launches the Microsoft Paint application.
 .EXAMPLE
 	PS> ./open-microsoft-paint
 .NOTES

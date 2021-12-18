@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows planet Earth in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser and shows planet Earth in Google Maps.
+	This PowerShell script launches the Web browser and shows planet Earth in Google Maps.
 .EXAMPLE
 	PS> ./show-planet-earth
 .NOTES

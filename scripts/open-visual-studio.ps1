@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Visual Studio app
 .DESCRIPTION
-	This script launches the Microsoft Visual Studio application.
+	This PowerShell script launches the Microsoft Visual Studio application.
 .EXAMPLE
 	PS> ./open-visual-studio
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Removes all jobs from all printers
 .DESCRIPTION
-	This script removes all print jobs from all printer devices.
+	This PowerShell script removes all print jobs from all printer devices.
 .EXAMPLE
 	PS> ./remove-print-jobs
 .NOTES

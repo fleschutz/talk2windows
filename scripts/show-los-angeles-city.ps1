@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Los Angeles city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Los Angeles city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Los Angeles city (USA).
 .EXAMPLE
 	PS> ./show-los-angeles-city
 .NOTES

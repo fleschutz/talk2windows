@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows WLAN settings 
 .DESCRIPTION
-	This script launches the Windows WLAN settings application.
+	This PowerShell script launches the Windows WLAN settings application.
 .EXAMPLE
 	PS> ./open-wifi-settings
 .NOTES

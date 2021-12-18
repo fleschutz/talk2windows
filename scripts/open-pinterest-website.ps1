@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Pinterest website
 .DESCRIPTION
-	This script launches the Web browser with the Pinterest website.
+	This PowerShell script launches the Web browser with the Pinterest website.
 .EXAMPLE
 	PS> ./open-pinterest-website
 .NOTES

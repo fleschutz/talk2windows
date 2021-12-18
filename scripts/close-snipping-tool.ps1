@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Closes the Snipping Tool
 .DESCRIPTION
-	This script closes the Snipping Tool application gracefully.
+	This PowerShell script closes the Snipping Tool application gracefully.
 .EXAMPLE
 	PS> ./close-snipping-tool
 .NOTES

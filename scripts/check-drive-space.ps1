@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Checks a drive for free space left (20 GB by default)
 .DESCRIPTION
-	This script checks a drive for free space left (20 GB by default).
+	This PowerShell script checks a drive for free space left (20 GB by default).
 .PARAMETER Drive
 	Specifies the drive to check
 .PARAMETER MinLevel

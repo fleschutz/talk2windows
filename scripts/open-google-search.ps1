@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google Search
 .DESCRIPTION
-	This script launches the Web browser with the Google Search website.
+	This PowerShell script launches the Web browser with the Google Search website.
 .EXAMPLE
 	PS> ./open-google-search
 .NOTES

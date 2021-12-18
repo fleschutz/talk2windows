@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows Ethernet settings 
 .DESCRIPTION
-	This script launches the Windows Ethernet settings.
+	This PowerShell script launches the Windows Ethernet settings.
 .EXAMPLE
 	PS> ./open-ethernet-settings
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets a random wallpaper
 .DESCRIPTION
-	This script downloads a random photo from Unsplash and sets it as desktop background.
+	This PowerShell script downloads a random photo from Unsplash and sets it as desktop background.
 .PARAMETER Category
 	Specifies the photo category (beach, city, ...)
 .EXAMPLE

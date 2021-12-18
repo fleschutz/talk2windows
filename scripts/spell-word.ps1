@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Spells a word
 .DESCRIPTION
-	This script spells the given word by text-to-speech (TTS).
+	This PowerShell script spells the given word by text-to-speech (TTS).
 .PARAMETER word
         Specifies the word to spell
 .EXAMPLE

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launch the Magnifier
 .DESCRIPTION
-	This script launches the Windows Screen Magnifier application.
+	This PowerShell script launches the Windows Screen Magnifier application.
 .EXAMPLE
 	PS> ./open-magnifier
 .NOTES

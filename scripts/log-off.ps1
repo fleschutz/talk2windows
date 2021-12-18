@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Log off the current user
 .DESCRIPTION
-	This script logs off the current Windows user.
+	This PowerShell script logs off the current Windows user.
 .EXAMPLE
 	PS> ./log-off
 .NOTES

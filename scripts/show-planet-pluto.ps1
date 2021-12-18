@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows planet Pluto in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser and shows planet Pluto in Google Maps.
+	This PowerShell script launches the Web browser and shows planet Pluto in Google Maps.
 .EXAMPLE
 	PS> ./show-planet-pluto
 .NOTES

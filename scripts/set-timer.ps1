@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets a timer for a countdown
 .DESCRIPTION
-	This script sets a timer for a countdown.
+	This PowerShell script sets a timer for a countdown.
 .PARAMETER Seconds
 	Specifies the number of seconds
 .EXAMPLE

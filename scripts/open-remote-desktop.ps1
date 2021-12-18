@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Launches the Remote Desktop app
 .DESCRIPTION
-	This script launches the Remote Desktop application.
+	This PowerShell script launches the Remote Desktop application.
 .EXAMPLE
 	PS> ./open-remote-desktop
 .NOTES

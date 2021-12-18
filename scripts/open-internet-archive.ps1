@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Internet Archive website 
 .DESCRIPTION
-	This script launches the Web browser with the Internet Archive website.
+	This PowerShell script launches the Web browser with the Internet Archive website.
 .EXAMPLE
 	PS> ./open-internet-archive
 .NOTES

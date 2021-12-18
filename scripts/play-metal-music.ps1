@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays metal music
 .DESCRIPTION
-	This script launches the Web browser and plays metal music.
+	This PowerShell script launches the Web browser and plays metal music.
 .EXAMPLE
 	PS> ./play-metal-music
 .NOTES

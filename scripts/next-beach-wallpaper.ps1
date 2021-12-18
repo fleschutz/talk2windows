@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets next beach wallpaper
 .DESCRIPTION
-	This script downloads a random beach photo and sets it as desktop background.
+	This PowerShell script downloads a random beach photo and sets it as desktop background.
 .EXAMPLE
 	PS> ./next-beach-wallpaper
 .NOTES

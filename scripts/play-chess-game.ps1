@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Plays the Chess game
 .DESCRIPTION
-	This script launches the Web browser with the Chess game.
+	This PowerShell script launches the Web browser with the Chess game.
 .EXAMPLE
 	PS> ./play-chess-game
 .NOTES

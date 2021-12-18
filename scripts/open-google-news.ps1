@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Google News
 .DESCRIPTION
-	This script launches the Web browser with the Google News website.
+	This PowerShell script launches the Web browser with the Google News website.
 .EXAMPLE
 	PS> ./open-google-news
 .NOTES

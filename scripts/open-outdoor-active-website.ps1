@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the Outdoor Active website 
 .DESCRIPTION
-	This script launches the Web browser with the Outdoor Active website.
+	This PowerShell script launches the Web browser with the Outdoor Active website.
 .EXAMPLE
 	PS> ./open-outdoor-active-website
 .NOTES

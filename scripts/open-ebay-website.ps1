@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the eBay website
 .DESCRIPTION
-	This script launches the Web browser with the eBay website.
+	This PowerShell script launches the Web browser with the eBay website.
 .EXAMPLE
 	PS> ./open-ebay-website
 .NOTES

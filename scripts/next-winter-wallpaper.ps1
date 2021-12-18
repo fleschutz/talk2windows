@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Sets a random winter wallpaper
 .DESCRIPTION
-	This script downloads a random winter photo and sets it as desktop background.
+	This PowerShell script downloads a random winter photo and sets it as desktop background.
 .EXAMPLE
 	PS> ./next-winter-wallpaper
 .NOTES

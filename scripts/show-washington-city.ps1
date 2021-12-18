@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Shows Washington city in Google Maps 
 .DESCRIPTION
-	This script launches the Web browser with Google Maps at Washington city (USA).
+	This PowerShell script launches the Web browser with Google Maps at Washington city (USA).
 .EXAMPLE
 	PS> ./show-washington-city
 .NOTES

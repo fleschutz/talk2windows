@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the HolidayCheck website
 .DESCRIPTION
-	This script launches the Web browser with the HolidayCheck website.
+	This PowerShell script launches the Web browser with the HolidayCheck website.
 .EXAMPLE
 	PS> ./open-holiday-check-website
 .NOTES

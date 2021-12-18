@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens the user's downloads folder
 .DESCRIPTION
-	This script launches the File Explorer showing the user's downloads folder.
+	This PowerShell script launches the File Explorer showing the user's downloads folder.
 .EXAMPLE
 	PS> ./open-downloads-folder
 .NOTES

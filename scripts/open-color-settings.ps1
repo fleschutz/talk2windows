@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens Windows color settings 
 .DESCRIPTION
-	This script launches the Windows color settings.
+	This PowerShell script launches the Windows color settings.
 .EXAMPLE
 	PS> ./open-color-settings
 .NOTES

@@ -1,8 +1,8 @@
-﻿<#
+<#
 .SYNOPSIS
 	Opens FlightRadar24
 .DESCRIPTION
-	This script launches the Web browser with the FlightRadar24 website.
+	This PowerShell script launches the Web browser with the FlightRadar24 website.
 .EXAMPLE
 	PS> ./open-flight-radar
 .NOTES
