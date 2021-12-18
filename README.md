@@ -82,7 +82,7 @@ Launches the default Web browser and plays the given game - replace [name] by: `
 
 *"Windows, next [category] wallpaper."*
 ----------------------------------------
-Sets a random photo from Unsplash as desktop background, just replace [category] by: `animal`, `beach`, `car`, `christmas`, `city`, `military`, `nature`, `plane`, `random`, `space`, `sport`, or `winter`.
+Sets a random photo from Unsplash as desktop background, just replace [category] by: `Animal`, `Beach`, `Car`, `Christmas`, `City`, `Fantasy`, `Military`, `Movie`, `Music`, `Nature`, `Plane`, `Random`, `Space`, `Sports`, or `Winter`.
 
 
 *"Windows, open [name] settings."*
