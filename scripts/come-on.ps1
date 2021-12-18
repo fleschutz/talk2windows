@@ -11,6 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-$Reply = "I'm sorry.", "I'm so sorry.", "Mea culpa!" | Get-Random
+$Reply = "I'm really sorry.", "I'm so sorry.", "Mea culpa!" | Get-Random
 & "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success
