@@ -22,7 +22,7 @@ More supported voice commands are:
 
 *"Windows, [greeting]."*
 -------------------------
-Greets the computer, just replace [greeting] by: `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy hanukkah`, `happy holidays`, `happy kwanzaa`, `happy mother's day`, `happy new year`, `happy ramadan`, `happy St. Patrick's day`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hey`, `hi`, `merry christmas`, `morning`, `nice to see you`, `say hello`, or `you alright?`.
+Greets the computer, just replace [greeting] by: `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy hanukkah`, `happy holidays`, `happy kwanzaa`, `happy mother's day`, `happy new year`, `happy ramadan`, `happy St. Patrick's day`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hey`, `hi`, `merry christmas`, `morning`, `nice to meet you`, `say hello`, or `you alright?`.
 
 
 *"Windows, open [app]."*
