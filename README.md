@@ -105,6 +105,11 @@ Launches the default Web browser (or opens a new tab) with the given online manu
 Launches the default Web browser (or opens a new tab) with the given exchange rate. Replace [name] by: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
+❔ *"Windows, [question]"*
+--------------------------
+Ask Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where are you?`, `who is your father?`, or `you can talk?`.
+
+
 🔊 Audio Voice Commands
 ------------------------
 * *"Windows, turn volume off"* - mutes audio
@@ -128,10 +133,6 @@ Launches the default Web browser (or opens a new tab) with the given exchange ra
 * *"Windows, thank you."*
 * *"Windows, thanks."*
 
-
-❔ *"Windows, [question]"*
---------------------------
-Ask Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where are you?`, `who is your father?`, or `you can talk?`.
 
 
 🖖 *"Windows, [farewell]."*
