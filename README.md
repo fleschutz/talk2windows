@@ -80,8 +80,8 @@ Replaces the desktop background by a random photo from Unsplash.com. Replace [ca
 Sets a reminder, just replace [condition] by: `at midnight`, `at noon`, `in 5 minutes`, `in 10 minutes`, or `in 15 minutes`.
 
 
-*"Windows, open [letter] drive."*
--------------------------------
+💽 *"Windows, open [letter] drive."*
+-------------------------------------
 Launches the File Explorer with a given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
