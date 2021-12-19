@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Remind me in 10 minutes
+	Sets a reminder in 10 minutes
 .DESCRIPTION
 	This PowerShell script displays a reminder popup message in 10 minutes.
 .EXAMPLE
@@ -13,10 +13,10 @@
 
 try {
 	$Now = (Get-Date).AddMinutes(10)
-	& "$PSScriptRoot/remind-me.ps1" "End of 10 minutes" "$Now"
-	& "$PSScriptRoot/_reply.ps1" "OK, will remind you in 10 minutes."
-	exit 0
+	& "$PSScriptRoot/_set-reminder.ps1" "10 minutes have passed." "$Now"
+	& "$PSScriptRoot/_reply.ps1" "OK, in 10."
+	exit 0 # success
 } catch {
-	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Remind me in 5 minutes
+	Set a reminder in 5 minutes
 .DESCRIPTION
 	This PowerShell script displays a reminder popup message in 5 minutes.
 .EXAMPLE
@@ -13,10 +13,10 @@
 
 try {
 	$Now = (Get-Date).AddMinutes(5)
-	& "$PSScriptRoot/remind-me.ps1" "End of 5 minutes." "$Now"
-	& "$PSScriptRoot/_reply.ps1" "OK, will remind you in 5 minutes."
-	exit 0
+	& "$PSScriptRoot/_remind-me.ps1" "5 minutes have passed." "$Now"
+	& "$PSScriptRoot/_reply.ps1" "OK, in 5."
+	exit 0 # success
 } catch {
-	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

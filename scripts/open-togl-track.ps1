@@ -2,9 +2,9 @@
 .SYNOPSIS
 	Opens Toggl Track
 .DESCRIPTION
-	This PowerShell script launches the Web browser with the Toggl Track website.
+	This PowerShell script launches the Web browser with Toggl Track.
 .EXAMPLE
-	PS> ./open-toggl-website
+	PS> ./open-togl-track
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
