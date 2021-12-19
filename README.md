@@ -30,8 +30,8 @@ Say hello to Windows, simply replace [greeting] by: `good evening`, `good mornin
 Launches an application, just replace [app] by: `3D-Viewer`, `calculator`,  `Chrome`, `Edge`, `Firefox`, `Git Extensions`, `magnifier`, `Microsoft Paint`, `Microsoft Store`, `Netflix`, `Notepad`, `OBS Studio`, `Outlook`, `Paint 3D`, `screen clip`, `Spotify`, `Thunderbird`, `Visual Studio`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
 
 
-*"Windows, check [item]."*
---------------------------
+🔦 *"Windows, check [item]."*
+------------------------------
 Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas`, `CPU`, `date`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Easter Sunday`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `headlines`, `Independence Day`, `internet speed`, `ISS position`, `midnight`, `moon phase`, `month`, `New Year`, `noon`, `operating system`, `ping`, `Santa`, `sunrise`, `sunset`, `swap space`, `tea time`, `temperature`, `Tether rate`, `time`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `wind`, `year`, or `zenith`.
 
 
