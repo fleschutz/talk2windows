@@ -60,8 +60,8 @@ Launches the default Web browser (or opens a new tab) with Google Maps at the gi
 Launches the default Web browser (or opens a new tab) and plays a music genre. Replace [genre] by: `alternative rock`, `blues`, `chillout`, `classical`, `country`, `dance`, `folk`, `hip hop`, `indie`, `jazz`, `metal`, `pop`,`RnB`, or `rock`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
-*"Windows, play [name] sound."*
--------------------------------
+🔈 *"Windows, play [name] sound."*
+----------------------------------
 Starts the playback of the given sound, just replace [name] by: `bee`, `beep`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
 
 
