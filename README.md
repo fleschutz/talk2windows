@@ -82,21 +82,21 @@ Sets a reminder, just replace [condition] by: `at midnight`, `at noon`, `in 5 mi
 
 *"Windows, open [letter] drive."*
 -------------------------------
-Launches the File Explorer with the given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+Launches the File Explorer with a given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
-*"Windows, open [name] folder."*
---------------------------------
-Launches the File Explorer with the given folder. Replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `temporary`, or `videos`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+📂 *"Windows, open [name] folder."*
+------------------------------------
+Launches the File Explorer with a given folder. Replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `temporary`, or `videos`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
-*"Windows, open [name] settings."*
-----------------------------------
+⚙️ *"Windows, open [name] settings."*
+--------------------------------------
 Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
-*"Windows, show [name] manual."*
---------------------------------
+📓 *"Windows, show [name] manual."*
+------------------------------------
 Launches the default Web browser (or opens a new tab) with the given online manual. Replace [name] by: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
