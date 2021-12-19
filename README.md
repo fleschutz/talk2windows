@@ -129,11 +129,11 @@ Launches the default Web browser (or opens a new tab) with the given exchange ra
 * *"Windows, thanks."*
 
 
-*"Windows, [question]"*
--------------------------
+❔ *"Windows, [question]"*
+--------------------------
 Ask Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where are you?`, `who is your father?`, or `you can talk?`.
 
 
-*"Windows, [farewell]."*
--------------------------
+🖖 *"Windows, [farewell]."*
+----------------------------
 Say good-bye to Windows and replace [farewell] by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
