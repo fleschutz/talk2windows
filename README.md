@@ -65,8 +65,8 @@ Launches the default Web browser (or opens a new tab) and plays a music genre. R
 Starts the playback of the given sound, just replace [name] by: `bee`, `beep`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
 
 
-*"Windows, play [name] game."*
-------------------------------
+🎮 *"Windows, play [name] game."*
+----------------------------------
 Launches the default Web browser (or opens a new tab) and plays the given game. Replace [name] by: `2048`, `Chess`, `Cube`, `Pacman`, `Tetris`, `TicTacToe`, or `Tower`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
