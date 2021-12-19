@@ -11,8 +11,8 @@ Control Windows by using your voice besides keyboard and mouse. Required is Wind
 4. Execute: `./export.ps1` in the repository (this creates a custom JavaScript file for Serenade). 
 
 
-🗣 Usage
--------
+Usage
+-----
 1. Launch *Serenade*.
 2. Click the circle to enable Listening mode.
 3. Speak into the microphone: **"*Windows, open calculator*"** - this executes the script `open-calculator.ps1` and this script launches the calculator application.
