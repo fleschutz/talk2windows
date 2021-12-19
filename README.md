@@ -75,8 +75,8 @@ Launches the default Web browser (or opens a new tab) and plays the given game. 
 Replaces the desktop background by a random photo from Unsplash.com. Replace [category] by: `Animal`, `Beach`, `Car`, `Christmas`, `City`, `Fantasy`, `Military`, `Movie`, `Music`, `Nature`, `Plane`, `Random`, `Space`, `Sports`, or `Winter`.
 
 
-*"Windows, remind me [condition]."*
------------------------------------
+☝️ *"Windows, remind me [condition]."*
+--------------------------------------
 Sets a reminder, just replace [condition] by: `at midnight`, `at noon`, `in 5 minutes`, `in 10 minutes`, or `in 15 minutes`.
 
 
