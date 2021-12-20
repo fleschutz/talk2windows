@@ -1,6 +1,6 @@
 TALK 2 WINDOWS
 ==============
-Control Windows by using your voice besides keyboard and mouse. Required is Windows 10 or later, a microphone and loudspeaker, the Serenade application (free), and the PowerShell scripts in this repository.
+Control Windows© by using your voice besides keyboard and mouse. Required is Windows 10 or later, a microphone and loudspeaker, the Serenade application (free), and the PowerShell scripts in this repository.
 
 
 🔧 Installation
@@ -118,3 +118,8 @@ Lets Windows execute a command, replace [command] by: `turn volume off`, `shut u
 🖖 *"Windows, [farewell]."*
 ----------------------------
 Say good-bye to Windows and replace [farewell] by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
+
+
+© Copyright
+-----------
+All trademarks are the property of their respective owners.
