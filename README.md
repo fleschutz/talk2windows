@@ -25,8 +25,8 @@ More supported voice commands are:
 Say hello to Windows, simply replace [greeting] by: `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy hanukkah`, `happy holidays`, `happy kwanzaa`, `happy mother's day`, `happy new year`, `happy ramadan`, `happy St. Patrick's day`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hey`, `hi`, `merry christmas`, `morning`, `nice to meet you`, `say hello`, or `you alright?`.
 
 
-*"Windows, open [app]."*
-------------------------
+ 💻 *"Windows, open [app]."*
+-----------------------------
 Launches an application, just replace [app] by: `3D-Viewer`, `calculator`,  `Chrome`, `Edge`, `Firefox`, `Git Extensions`, `magnifier`, `Microsoft Paint`, `Microsoft Store`, `Netflix`, `Notepad`, `OBS Studio`, `Outlook`, `Paint 3D`, `screen clip`, `Spotify`, `Thunderbird`, `Visual Studio`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
 
 
