@@ -107,7 +107,7 @@ Launches the default Web browser (or opens a new tab) with the given exchange ra
 
 ❔ *"Windows, [question]"*
 --------------------------
-Ask Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where are you?`, `who is your father?`, or `you can talk?`.
+Ask Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where am I?`, `where are you?`, `who is your father?`, or `you can talk?`.
 
 
 🔊 Audio Voice Commands
