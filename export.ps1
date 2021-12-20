@@ -47,7 +47,7 @@ try {
 		$Keywords = $ScriptName -replace "-"," "
 		GetLine2 $WakeWord $Keywords $Script | Add-Content "$TargetFile"
 	}
-	"Export to Serenade was successful - now launch Serenade to talk to Windows."
+	"Export to Serenade was successful, launch Serenade now to talk to Windows."
 	exit 0 # success
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
