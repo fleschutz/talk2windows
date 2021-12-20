@@ -110,25 +110,9 @@ Launches the default Web browser (or opens a new tab) with the given exchange ra
 Ask Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where am I?`, `where are you?`, `who is your father?`, or `you can talk?`.
 
 
-💭 Various Voice Commands
+💭 *"Windows, [command]"*
 -------------------------
-* *"Windows, turn volume off"* - mutes audio
-* *"Windows, shut up"* - mutes the audio
-* *"Windows, turn volume on"* - unmutes audio
-* *"Windows, turn volume up"* - increases the audio volume by 10%
-* *"Windows, turn volume down"* - decreases the audio volume by 10%
-* *"Windows, connect VPN"* - connects to VPN
-* *"Windows, clear recycle bin"* - clears the recycle bin
-* *"Windows, come on"*
-* *"Windows, give me five"*
-* *"Windows, locate my phone"*
-* *"Windows, repeat last reply"* - repeats the last reply given
-* *"Windows, roll a dice"* - returns a dice number
-* *"Windows, sorry"* 
-* *"Windows, tell a joke."*
-* *"Windows, tell a quote."*
-* *"Windows, thank you."*
-* *"Windows, thanks."*
+Let Windows execute an command, replace [command] by: `turn volume off`, `shut up`, `turn volume on`, `turn volume up`, `turn volume down`, `connect VPN`, `clear recycle bin`, `come on`, `give me five`, `locate my phone`, `repeat last reply`, `roll a dice`, `sorry`, `tell a joke`,  `tell a quote`, `thank you`, or `thanks`.
 
 
 🖖 *"Windows, [farewell]."*
