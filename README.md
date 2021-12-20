@@ -75,9 +75,9 @@ Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas
 Replaces the desktop background by a random photo from Unsplash.com. Replace [category] by: `Animal`, `Beach`, `Car`, `Christmas`, `City`, `Fantasy`, `Military`, `Movie`, `Music`, `Nature`, `Plane`, `Random`, `Space`, `Sports`, or `Winter`.
 
 
-⏰ *"Windows, remind me [condition]."*
---------------------------------------
-Sets a reminder, just replace [condition] by: `at midnight`, `at noon`, `in 5 minutes`, `in 10 minutes`, or `in 15 minutes`.
+⏰ *"Windows, remind me [time]."*
+----------------------------------
+Sets a reminder, just replace [time] by: `at midnight`, `at noon`, `in 5 minutes`, `in 10 minutes`, or `in 15 minutes`.
 
 
 💽 *"Windows, open [letter] drive."*
