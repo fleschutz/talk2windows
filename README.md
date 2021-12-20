@@ -107,12 +107,12 @@ Launches the default Web browser (or opens a new tab) with the given exchange ra
 
 ❔ *"Windows, [question]"*
 --------------------------
-Ask Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where am I?`, `where are you?`, `who is your father?`, or `you can talk?`.
+Asks Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where am I?`, `where are you?`, `who is your father?`, or `you can talk?`.
 
 
 💭 *"Windows, [command]"*
 -------------------------
-Let Windows execute an command, replace [command] by: `turn volume off`, `shut up`, `turn volume on`, `turn volume up`, `turn volume down`, `connect VPN`, `clear recycle bin`, `come on`, `give me five`, `locate my phone`, `repeat last reply`, `roll a dice`, `sorry`, `tell a joke`,  `tell a quote`, `thank you`, or `thanks`.
+Lets Windows execute a command, replace [command] by: `turn volume off`, `shut up`, `turn volume on`, `turn volume up`, `turn volume down`, `connect VPN`, `clear recycle bin`, `come on`, `give me five`, `locate my phone`, `repeat last reply`, `roll a dice`, `sorry`, `tell a joke`,  `tell a quote`, `thank you`, or `thanks`.
 
 
 🖖 *"Windows, [farewell]."*
