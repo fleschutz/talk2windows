@@ -15,7 +15,7 @@ Usage
 -----
 1. Launch *Serenade*.
 2. Click the circle to enable Listening mode.
-3. Speak into the microphone: **"*Windows, open calculator*"** - this executes the script `open-calculator.ps1` and this script launches the calculator application.
+3. Speak into the mic: **"*Windows, open calculator*"** - this executes the script `open-calculator.ps1` and this script launches the calculator application.
 
 More supported voice commands are:
 
@@ -70,8 +70,8 @@ Starts the playback of the given sound, just replace [name] by: `bee`, `beep`, `
 Launches the default Web browser (or opens a new tab) and plays the given game. Replace [name] by: `2048`, `Chess`, `Cube`, `Pacman`, `Tetris`, `TicTacToe`, or `Tower`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
-*"Windows, next [category] wallpaper."*
-----------------------------------------
+🎨 *"Windows, next [category] wallpaper."*
+-------------------------------------------
 Replaces the desktop background by a random photo from Unsplash.com. Replace [category] by: `Animal`, `Beach`, `Car`, `Christmas`, `City`, `Fantasy`, `Military`, `Movie`, `Music`, `Nature`, `Plane`, `Random`, `Space`, `Sports`, or `Winter`.
 
 
