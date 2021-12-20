@@ -23,7 +23,7 @@ function GetTempDir {
 }
 
 try {
-	$Reply = "Just a second.", "Hold on.", "Wait a second.", "OK." | Get-Random
+	$Reply = "Just a moment.", "Just a second.", "Hold on.", "Hold on a second.", "Wait a moment.", "Wait a second.", "OK." | Get-Random
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 
 	$Path = "$(GetTempDir)/next_wallpaper.jpg"
