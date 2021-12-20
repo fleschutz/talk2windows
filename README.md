@@ -15,7 +15,7 @@ Usage
 -----
 1. Launch *Serenade*.
 2. Click the circle to enable Listening mode.
-3. Speak into the mic: **"*Windows, open calculator*"** - this executes the script `open-calculator.ps1` and this script launches the calculator application.
+3. Speak into the mic: **"*Windows, open calculator*"** - this executes the script `open-calculator.ps1` which launches the calculator application.
 
 More supported voice commands are:
 
