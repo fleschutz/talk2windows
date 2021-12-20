@@ -13,7 +13,7 @@
 
 try {
 	$Now = (Get-Date).AddMinutes(5)
-	& "$PSScriptRoot/_remind-me.ps1" "5 minutes have passed." "$Now"
+	& "$PSScriptRoot/_set-reminder.ps1" "5 minutes have passed." "$Now"
 	& "$PSScriptRoot/_reply.ps1" "OK, in 5."
 	exit 0 # success
 } catch {
