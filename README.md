@@ -110,18 +110,15 @@ Launches the default Web browser (or opens a new tab) with the given exchange ra
 Ask Windows a question, just replace [question] by: `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where am I?`, `where are you?`, `who is your father?`, or `you can talk?`.
 
 
-🔊 Audio Voice Commands
-------------------------
+💭 Various Voice Commands
+-------------------------
 * *"Windows, turn volume off"* - mutes audio
 * *"Windows, shut up"* - mutes the audio
 * *"Windows, turn volume on"* - unmutes audio
 * *"Windows, turn volume up"* - increases the audio volume by 10%
 * *"Windows, turn volume down"* - decreases the audio volume by 10%
-
-
-💭 Various Voice Commands
--------------------------
 * *"Windows, connect VPN"* - connects to VPN
+* *"Windows, clear recycle bin"* - clears the recycle bin
 * *"Windows, come on"*
 * *"Windows, give me five"*
 * *"Windows, locate my phone"*
@@ -132,7 +129,6 @@ Ask Windows a question, just replace [question] by: `are you here?`, `are you li
 * *"Windows, tell a quote."*
 * *"Windows, thank you."*
 * *"Windows, thanks."*
-
 
 
 🖖 *"Windows, [farewell]."*
