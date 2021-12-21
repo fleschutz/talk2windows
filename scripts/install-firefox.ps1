@@ -12,7 +12,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on, I'm installing Firefox..."
+	& "$PSScriptRoot/_reply.ps1" "Installing Firefox from Microsoft Store, please wait..."
 
 	& winget install "Mozilla Firefox Browser" --source msstore --accept-package-agreements --accept-source-agreements
 
