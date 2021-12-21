@@ -45,6 +45,11 @@ Launches the default Web browser (or opens a new tab) with a Google service. Rep
 Launches the default Web browser (or opens a new tab) with a magazine website. Replace [name] by: `Cosmopolitan`, `Focus`, `Golf`, `GQ`, `Health`, `National Geographic`, `People`, `Spiegel`, `SZ`, `Time`, `Vanity Fair`, `Vogue`, or `Wired`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
+📓 *"Windows, open [name] manual."*
+------------------------------------
+Launches the default Web browser (or opens a new tab) with the given manual. Replace [name] by: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+
+
 🏦 *"Windows, show [name] city."*
 ----------------------------------
 Launches the default Web browser (or opens a new tab) with Google Maps at the given city. Replace [name] by: `Atlanta`, `Barcelona`, `Berlin`, `Boston`, `Cairo`, `Calgary`, `Cape Town`, `Chicago`, `Dallas`, `Denver`, `Dubai`, `Dublin`, `Frankfurt`, `Hamburg`, `Hong Kong`, `Honolulu`, `Jerusalem`, `Kansas`, `Las Vegas`, `Lisbon`, `London`, `Los Angeles`, `Madrid`, `Mexico`, `Miami`, `Montreal`, `Moscow`, `Munich`, `New York`, `Panama`, `Paris`, `Rome`, `San Francisco`, `Seattle`, `Singapore`, `Sydney`, `Tokyo`, `Toronto`, `Tunis`, `Vienna`, `Washington`, or `Zurich`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
@@ -97,12 +102,7 @@ Launches the Windows settings, replace [name] by: `activation`, `apps`, `backgro
 
 ⚙️ *"Windows, install [app]."*
 ------------------------------
-Installs an application from the Microsoft Store, replace [app] by: `Firefox`, `Netflix`, `Spotify`, or `VLC`. 
-
-
-📓 *"Windows, show [name] manual."*
-------------------------------------
-Launches the default Web browser (or opens a new tab) with the given online manual. Replace [name] by: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+Installs an application from the Microsoft Store, replace [app] by: `Discord`, `Firefox`, `Netflix`, `Paint 3D`, `Spotify`, or `VLC`. Note that the applications will be updated automatically.
 
 
  📈 *"Windows, show [name] rate."*
