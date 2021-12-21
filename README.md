@@ -95,6 +95,11 @@ Launches the File Explorer with a given folder. Replace [name] by: `apps`, `auto
 Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
+⚙️ *"Windows, install [app]."*
+------------------------------
+Installs an application from the Microsoft Store, replace [app] by: `Firefox`, `Netflix`, `Spotify`, or `VLC`. 
+
+
 📓 *"Windows, show [name] manual."*
 ------------------------------------
 Launches the default Web browser (or opens a new tab) with the given online manual. Replace [name] by: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
