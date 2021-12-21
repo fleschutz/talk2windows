@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Toggl Track.
 .EXAMPLE
-	PS> ./open-togl-track
+	PS> ./open-toggle-track
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
