@@ -8,7 +8,7 @@ Be more productive by controlling Windows® with your voice besides keyboard and
 1. Download and install *Serenade* from https://serenade.ai/ (Serenade is freely available for Linux, MacOS, and Windows, during installation no plugin and no programming language need to be selected).
 2. Download *talk2windows* (click green button) und unzip it somewhere.
 3. Open *Windows PowerShell (Administrator)* and execute: `Set-ExecutionPolicy RemoteSigned` to allow execution of PowerShell scripts.
-4. Execute: `./export.ps1` in the *talk2windows* repository. 
+4. Open *Windows PowerShell* and execute: `./export.ps1` in the unzipped *talk2windows* folder. 
 
 
 Usage
