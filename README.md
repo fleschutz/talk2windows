@@ -1,6 +1,6 @@
 TALK 2 WINDOWS
 ==============
-Control Windows® by using your voice besides keyboard and mouse. Required is Windows 10 or 11, a microphone and loudspeaker, the Serenade application (free), and the PowerShell scripts in this repository.
+Be more productive by controlling Windows® with your voice besides keyboard and mouse. Required is Windows 10 or 11, a microphone and loudspeaker, the Serenade application (free), and the PowerShell scripts in this repository.
 
 
 🔧 Installation
