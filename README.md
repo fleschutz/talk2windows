@@ -14,10 +14,10 @@ Be more productive by controlling Windows® with your voice besides keyboard and
 Usage
 -----
 1. Launch *Serenade*.
-2. Click the circle to enable Listening mode.
-3. Speak into the mic: **"*Windows, open calculator*"** - this executes the script `open-calculator.ps1` which launches the calculator application.
+2. Click into the circle to enable Listening mode.
+3. Speak the voice command **"*Windows, open calculator*"** into the microphone, this executes the script `open-calculator.ps1` which launches the calculator application.
 
-More supported voice commands are:
+The supported voice commands are:
 
 
 👋 *"Windows, [greeting]."*
