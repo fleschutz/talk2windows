@@ -105,7 +105,7 @@ Launches the Windows settings, replace [name] by: `activation`, `apps`, `backgro
 
 🔧 *"Windows, install [app]."*
 ------------------------------
-Installs an application from Microsoft Store, replace [app] by: `9 ZIP`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates, so they will always be up-to-date.
+Installs an application from Microsoft Store, replace [app] by: `9 ZIP`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC media player`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates, so they will always be up-to-date.
 
 
 ❔ *"Windows, [question]"*
