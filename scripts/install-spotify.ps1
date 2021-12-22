@@ -15,6 +15,7 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "Installing Spotify from Microsoft Store, please wait..."
 
 	& winget install "Spotify - Music and Podcasts" --source msstore --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "Spotify is installed now."
 	exit 0 # success

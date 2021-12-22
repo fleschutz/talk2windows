@@ -15,6 +15,7 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "Installing Paint 3D from Microsoft Store, please wait..."
 
 	& winget install "Paint 3D" --source msstore --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "Paint 3D is installed now."
 	exit 0 # success

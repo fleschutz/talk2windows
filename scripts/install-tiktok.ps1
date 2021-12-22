@@ -15,6 +15,7 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "Installing TikTok from Microsoft Store, please wait..."
 
 	& winget install "TikTok" --source msstore --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "TikTok is installed now."
 

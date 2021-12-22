@@ -15,6 +15,7 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "Installing VLC media player from Microsoft Store, please wait..."
 
 	& winget install "VLC" --source msstore --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "VLC media player is installed now."
 	exit 0 # success

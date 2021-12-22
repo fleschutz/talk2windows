@@ -15,6 +15,7 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "Installing Visual Studio Code from Microsoft Store, please wait..."
 
 	& winget install "Visual Studio Code" --source msstore --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "Visual Studio Code is installed now."
 

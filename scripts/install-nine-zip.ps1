@@ -15,6 +15,7 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "Installing 9 ZIP from Microsoft Store, please wait..."
 
 	& winget install "9 ZIP - open rar, zip, 7zip, gzip" --source msstore --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "9 ZIP is installed now."
 	exit 0 # success

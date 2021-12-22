@@ -15,6 +15,7 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "Installing Windows Terminal from Microsoft Store, please wait..."
 
 	& winget install "Windows Terminal" --source msstore --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "Windows Terminal is installed now."
 	exit 0 # success
