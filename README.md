@@ -115,7 +115,7 @@ Asks Windows a question, just replace [question] by: `are you here?`, `are you l
 
 💭 *"Windows, [command]"*
 -------------------------
-Lets Windows execute a command, replace [command] by: `clear recycle bin`, `come on`, `connect VPN`, `locate my phone`, `lock desktop`, `lock screen`, `shut up`, `turn volume off`, `turn volume on`, `turn volume up`, `turn volume down`,  `give me five`, `repeat last reply`, `roll a dice`, `sorry`, `tell a joke`,  `tell a quote`, `thank you`, or `thanks`.
+Lets Windows execute a command, replace [command] by: `clear recycle bin`, `come on`, `connect VPN`, `give me five`, `locate my phone`, `lock desktop`, `lock screen`, `repeat last reply`, `roll a dice`, `shut up`, `sorry`, `tell me a joke`, `tell me a quote`, `thank you`, `thanks`, `turn volume off`, `turn volume on`, `turn volume up`, or `turn volume down`.
 
 
 🖖 *"Windows, [farewell]."*
