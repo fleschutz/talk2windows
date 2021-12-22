@@ -53,6 +53,11 @@ Launches the default Web browser (or opens a new tab) with the given manual. Rep
 Launches the default Web browser (or opens a new tab) with Google Maps at the given city. Replace [name] by: `Atlanta`, `Barcelona`, `Berlin`, `Boston`, `Cairo`, `Calgary`, `Cape Town`, `Chicago`, `Dallas`, `Denver`, `Dubai`, `Dublin`, `Frankfurt`, `Hamburg`, `Hong Kong`, `Honolulu`, `Jerusalem`, `Kansas`, `Las Vegas`, `Lisbon`, `London`, `Los Angeles`, `Madrid`, `Mexico`, `Miami`, `Montreal`, `Moscow`, `Munich`, `New York`, `Panama`, `Paris`, `Rome`, `San Francisco`, `Seattle`, `Singapore`, `Sydney`, `Tokyo`, `Toronto`, `Tunis`, `Vienna`, `Washington`, or `Zurich`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
+ 📈 *"Windows, show [name] rate."*
+-----------------------------------
+Launches the default Web browser (or opens a new tab) with the given exchange rate. Replace [name] by: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+
+
 🎵 *"Windows, play [genre] music."*
 ------------------------------------
 Launches the default Web browser (or opens a new tab) and plays a music genre. Replace [genre] by: `alternative rock`, `blues`, `chillout`, `classical`, `country`, `dance`, `folk`, `hip hop`, `indie`, `jazz`, `metal`, `pop`,`RnB`, or `rock`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
@@ -101,11 +106,6 @@ Launches the Windows settings, replace [name] by: `activation`, `apps`, `backgro
 ⚙️ *"Windows, install [app]."*
 ------------------------------
 Installs an application from Microsoft Store, replace [app] by: `9 ZIP`, `Edge`, `Discord`, `Firefox`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates.
-
-
- 📈 *"Windows, show [name] rate."*
------------------------------------
-Launches the default Web browser (or opens a new tab) with the given exchange rate. Replace [name] by: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 ❔ *"Windows, [question]"*
