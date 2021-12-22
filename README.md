@@ -95,7 +95,7 @@ Launches the File Explorer with a given drive. Replace [letter] by: `C:`, `D:`, 
 
 📂 *"Windows, open [name] folder."*
 ------------------------------------
-Launches the File Explorer with a given folder. Replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `temporary`, or `videos`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+Launches the File Explorer with a given folder. Replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `Talk2Windows`, `temporary`, or `videos`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
 ⚙️ *"Windows, open [name] settings."*
