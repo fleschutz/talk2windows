@@ -103,7 +103,7 @@ Launches the File Explorer with a given folder. Replace [name] by: `apps`, `auto
 Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
-⚙️ *"Windows, install [app]."*
+🔧 *"Windows, install [app]."*
 ------------------------------
 Installs an application from Microsoft Store, replace [app] by: `9 ZIP`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates.
 
