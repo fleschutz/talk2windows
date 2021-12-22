@@ -100,7 +100,7 @@ Launches the Windows settings, replace [name] by: `activation`, `apps`, `backgro
 
 ⚙️ *"Windows, install [app]."*
 ------------------------------
-Installs an application from the Microsoft Store, replace [app] by: `Discord`, `Firefox`, `Netflix`, `One Calendar`, `Paint 3D`, `Spotify`, or `VLC`. Note that Microsoft Store can automatically install app updates.
+Installs an application from the Microsoft Store, replace [app] by: `9 ZIP`, `Discord`, `Firefox`, `Netflix`, `One Calendar`, `Paint 3D`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates.
 
 
  📈 *"Windows, show [name] rate."*
