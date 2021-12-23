@@ -75,7 +75,7 @@ Launches the default Web browser (or opens a new tab) and lets you play the give
 
 🔦 *"Windows, check [item]."*
 ------------------------------
-Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas`, `CPU`, `date`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Easter Sunday`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `headlines`, `Independence Day`, `internet speed`, `ISS position`, `midnight`, `moon phase`, `month`, `New Year`, `noon`, `operating system`, `ping`, `Santa`, `sunrise`, `sunset`, `swap space`, `tea time`, `temperature`, `Tether rate`, `time`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `wind`, `year`, or `zenith`.
+Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas`, `CPU`, `date`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Easter Sunday`, `Earth` (fun), `Ether rate`, `for Firefox`, `for rain`, `for snow`, `headlines`, `Independence Day`, `internet speed`, `ISS position`, `midnight`, `moon phase`, `month`, `New Year`, `noon`, `operating system`, `ping`, `Santa`, `sunrise`, `sunset`, `swap space`, `tea time`, `temperature`, `Tether rate`, `time`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `wind`, `year`, or `zenith`.
 
 
 🎨 *"Windows, next [category] wallpaper."*
@@ -85,7 +85,7 @@ Replaces the desktop background by a random photo from Unsplash.com. Replace [ca
 
 ⏰ *"Windows, remind me [time]."*
 ----------------------------------
-Sets a reminder, just replace [time] by: `at midnight`, `at noon`, `in 5 minutes`, `in 10 minutes`, or `in 15 minutes`.
+Sets a reminder, just replace [time] by: `at midnight`, `at noon`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
 
 
 💽 *"Windows, open [letter] drive."*
