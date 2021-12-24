@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Presses the Page Down key
+	Switches to Tab #2
 .DESCRIPTION
-	This PowerShell script presses the Page Down key.
+	This PowerShell script switches to tab #2.
 .EXAMPLE
-	PS> ./page-down
+	PS> ./tab-three
 .NOTES
 	Author:  Markus Fleschutz / License: CC0
 .LINK
@@ -13,7 +13,7 @@
 
 try {
 	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("{PGDN}")
+	$obj.SendKeys("^2")
 	& "$PSScriptRoot/_reply.ps1" "OK."
 	exit 0 # success
 } catch {

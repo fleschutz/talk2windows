@@ -108,6 +108,11 @@ Installs an application from Microsoft Store, replace [app] by: `9 ZIP`, `Crysta
 Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
+❔ *"Windows, [hotkey]"*
+-----------------------
+Presses a hotkey, replace [hotkey] by: `page down`, `page up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, or `tab 6`.
+
+
 ❔ *"Windows, [question]"*
 --------------------------
 Asks Windows a question, just replace [question] by: `are you a computer?`, `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `where am I?`, `where are you?`, `who is your father?`, or `you can talk?`.
@@ -115,7 +120,7 @@ Asks Windows a question, just replace [question] by: `are you a computer?`, `are
 
 💭 *"Windows, [command]"*
 -------------------------
-Lets Windows execute a command, replace [command] by: `clear recycle bin`, `come on`, `connect VPN`, `give me five`, `I need help`, `locate my phone`, `lock desktop`, `lock screen`, `page down`, `page up`, `repeat last reply`, `roll a dice`, `shut up`, `sound check`, `sorry`, `tell me a joke`, `tell me a quote`, `thank you`, `thanks`, `turn volume off`, `turn volume on`, `turn volume up`, or `turn volume down`.
+Lets Windows execute a command, replace [command] by: `clear recycle bin`, `come on`, `connect VPN`, `give me five`, `I need help`, `locate my phone`, `lock desktop`, `lock screen`, `repeat last reply`, `roll a dice`, `shut up`, `sound check`, `sorry`, `tell me a joke`, `tell me a quote`, `thank you`, `thanks`, `turn volume off`, `turn volume on`, `turn volume up`, or `turn volume down`.
 
 
 🖖 *"Windows, [farewell]."*
