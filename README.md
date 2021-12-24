@@ -70,7 +70,7 @@ Starts the playback of the given sound, just replace [name] by: `bee`, `beep`, `
 
 🎮 *"Windows, play [name] game."*
 ----------------------------------
-Launches the default Web browser (or opens a new tab) and lets you play the given game. Replace [name] by: `2048`, `Chess`, `Cube`, `Pacman`, `Tetris`, `TicTacToe`, or `Tower`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+Launches the default Web browser (or opens a new tab) and lets you play the given game. Replace [name] by: `2048`, `Chess`, `Cube`, `Pacman`, `Santa Tracker`, `Tetris`, `TicTacToe`, or `Tower`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 🔦 *"Windows, check [item]."*
@@ -115,7 +115,7 @@ Asks Windows a question, just replace [question] by: `are you a computer?`, `are
 
 💭 *"Windows, [command]"*
 -------------------------
-Lets Windows execute a command, replace [command] by: `clear recycle bin`, `come on`, `connect VPN`, `give me five`, `I need help`, `locate my phone`, `lock desktop`, `lock screen`, `repeat last reply`, `roll a dice`, `shut up`, `sorry`, `tell me a joke`, `tell me a quote`, `thank you`, `thanks`, `turn volume off`, `turn volume on`, `turn volume up`, or `turn volume down`.
+Lets Windows execute a command, replace [command] by: `clear recycle bin`, `come on`, `connect VPN`, `give me five`, `I need help`, `locate my phone`, `lock desktop`, `lock screen`, `repeat last reply`, `roll a dice`, `shut up`, `sound check`, `sorry`, `tell me a joke`, `tell me a quote`, `thank you`, `thanks`, `turn volume off`, `turn volume on`, `turn volume up`, or `turn volume down`.
 
 
 🖖 *"Windows, [farewell]."*
