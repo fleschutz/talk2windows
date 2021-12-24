@@ -110,7 +110,7 @@ Launches the Windows settings, replace [name] by: `activation`, `apps`, `backgro
 
 ❔ *"Windows, [hotkey]"*
 -----------------------
-Presses a hotkey, replace [hotkey] by: `page down`, `page up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, or `tab 6`.
+Presses a hotkey, replace [hotkey] by: `close tab`, `open tab`, `page down`, `page up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, or `tab 6`.
 
 
 ❔ *"Windows, [question]"*
