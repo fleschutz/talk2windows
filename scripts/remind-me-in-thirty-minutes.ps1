@@ -12,9 +12,9 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "OK, in 30."
 	$Now = (Get-Date).AddMinutes(30)
 	& "$PSScriptRoot/_set-reminder.ps1" "30 minutes have passed." "$Now"
-	& "$PSScriptRoot/_reply.ps1" "OK, in 30."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

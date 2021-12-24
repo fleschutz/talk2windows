@@ -6,16 +6,15 @@
 .EXAMPLE
 	PS> ./remind-me-at-noon
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "OK, at noon."
 	$Noon = Get-Date -Hour 12 -Minute 0 -Second 0
-
-	& "$PSScriptRoot/_set-reminder.ps1" "Now it's noon." "$Noon"
-	& "$PSScriptRoot/_reply.ps1" "OK, will do."
+	& "$PSScriptRoot/_set-reminder.ps1" "It's noon." "$Noon"
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

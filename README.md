@@ -85,7 +85,7 @@ Replaces the desktop background by a random photo from Unsplash.com. Replace [ca
 
 ⏰ *"Windows, remind me [time]."*
 ----------------------------------
-Sets a reminder, just replace [time] by: `at midnight`, `at noon`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
+Sets a reminder, just replace [time] by: `at midnight`, `at noon`, `at tea time`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
 
 
 💽 *"Windows, open [letter] drive."*
@@ -98,14 +98,14 @@ Launches the File Explorer with a given drive. Replace [letter] by: `C:`, `D:`, 
 Launches the File Explorer with a given folder. Replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `Talk2Windows`, `temporary`, or `videos`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
-⚙️ *"Windows, open [name] settings."*
---------------------------------------
-Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
-
-
 🔧 *"Windows, install [app]."*
 ------------------------------
 Installs an application from Microsoft Store, replace [app] by: `9 ZIP`, `CrystalDiskInfo`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates, so they will always be up-to-date.
+
+
+⚙️ *"Windows, open [name] settings."*
+--------------------------------------
+Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
 ❔ *"Windows, [question]"*

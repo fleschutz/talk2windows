@@ -6,15 +6,15 @@
 .EXAMPLE
 	PS> ./remind-me-in-five-minutes
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "OK, in 5."
 	$Now = (Get-Date).AddMinutes(5)
 	& "$PSScriptRoot/_set-reminder.ps1" "5 minutes have passed." "$Now"
-	& "$PSScriptRoot/_reply.ps1" "OK, in 5."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
