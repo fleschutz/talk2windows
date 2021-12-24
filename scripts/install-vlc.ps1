@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Installs the VLC media player
+	Installs VLC
 .DESCRIPTION
 	This PowerShell script installs the VLC media player from the Microsoft Store.
 .EXAMPLE
-	PS> ./install-vlc-media-player
+	PS> ./install-vlc
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
