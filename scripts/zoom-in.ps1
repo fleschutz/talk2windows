@@ -13,7 +13,7 @@
 
 try {
 	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("^+{ADD}")
+	$obj.SendKeys("^+")
 	& "$PSScriptRoot/_reply.ps1" "OK."
 	exit 0 # success
 } catch {
