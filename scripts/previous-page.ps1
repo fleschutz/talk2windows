@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Presses the Page Down key
+	Presses the Previous Page hotkey
 .DESCRIPTION
-	This PowerShell script presses the Page Down key.
+	This PowerShell script presses the Previous Page keyboard shortcut.
 .EXAMPLE
-	PS> ./page-down
+	PS> ./previous-page
 .NOTES
 	Author:  Markus Fleschutz / License: CC0
 .LINK
@@ -13,7 +13,7 @@
 
 try {
 	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("{PGDN}")
+	$obj.SendKeys("%{LEFT}")
 	& "$PSScriptRoot/_reply.ps1" "OK."
 	exit 0 # success
 } catch {

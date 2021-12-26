@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Open a new tab
+	Presses the Next Tab hotkey
 .DESCRIPTION
-	This PowerShell script sends a hotkey that opens a new tab.
+	This PowerShell script presses the Next Tab keyboard shortcuts.
 .EXAMPLE
-	PS> ./open-tab
+	PS> ./next-tab
 .NOTES
 	Author:  Markus Fleschutz / License: CC0
 .LINK
@@ -13,7 +13,7 @@
 
 try {
 	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("^t")
+	$obj.SendKeys("^{PGDN}")
 	& "$PSScriptRoot/_reply.ps1" "OK."
 	exit 0 # success
 } catch {

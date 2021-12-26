@@ -1,19 +1,19 @@
 <#
 .SYNOPSIS
-	Presses the Page Up key
+	Presses the Next Page hotkey
 .DESCRIPTION
-	This PowerShell script presses the Page Up key.
+	This PowerShell script presses the Next Page keyboard shortcut.
 .EXAMPLE
-	PS> ./page-up
+	PS> ./next-page
 .NOTES
-	Author: Markus Fleschutz / License: CC0
+	Author:  Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
 try {
 	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("{PGUP}")
+	$obj.SendKeys("%{RIGHT}")
 	& "$PSScriptRoot/_reply.ps1" "OK."
 	exit 0 # success
 } catch {
