@@ -85,7 +85,7 @@ Replaces the desktop background by a random photo from Unsplash.com. Replace [ca
 
 ⏰ *"Windows, remind me [time]."*
 ----------------------------------
-Sets a reminder, just replace [time] by: `at midnight`, `at noon`, `at tea time`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
+Sets a reminder, just replace [time] by: `at midnight`, `at noon`, `at sunrise`, `at sunset`, `at tea time`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
 
 
 💽 *"Windows, open [letter] drive."*

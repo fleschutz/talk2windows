@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Checks the time of sunrise
+	Checks the Time of Sunrise
 .DESCRIPTION
 	This PowerShell script queries the time of sunrise and answers by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./check-sunrise
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
@@ -38,6 +38,6 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }
