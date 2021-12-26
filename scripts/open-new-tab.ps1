@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Open a New Tab
+	Opens a New Tab
 .DESCRIPTION
 	This PowerShell script sends a keyboard shortcut that opens a new tab.
 .EXAMPLE
-	PS> ./new-tab
+	PS> ./open-new-tab
 .NOTES
 	Author:  Markus Fleschutz / License: CC0
 .LINK

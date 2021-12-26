@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Open a New Window
+	Opens a New Window
 .DESCRIPTION
 	This PowerShell script sends a keyboard shortcut that opens a new window.
 .EXAMPLE
-	PS> ./new-window
+	PS> ./open-new-window
 .NOTES
 	Author:  Markus Fleschutz / License: CC0
 .LINK
