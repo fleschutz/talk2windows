@@ -90,7 +90,7 @@ Sets a reminder, just replace [time] by: `at midnight`, `at noon`, `at sunrise`,
 
 💽 *"Windows, open [letter] drive."*
 -------------------------------------
-Launches the File Explorer with a given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+Launches the File Explorer with a given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
 📂 *"Windows, open [name] folder."*
