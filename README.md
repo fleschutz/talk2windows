@@ -110,7 +110,7 @@ Launches the Windows settings, replace [name] by: `activation`, `apps`, `backgro
 
 ❔ *"Windows, [hotkey]"*
 -----------------------
-Presses a keyboard shortcut (perfect for Browser navigation), replace [hotkey] by: `close tab`, `next page`, `next tab`, `new tab`, `new window`, `previous page`, `previous tab`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, or `tab 6`.
+Presses a keyboard shortcut to navigate in a Browser window, replace [hotkey] by: `close tab`, `next page`, `next tab`, `new tab`, `new window`, `previous page`, `previous tab`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, or `tab 6`.
 
 
 ❔ *"Windows, [question]"*
