@@ -29,7 +29,7 @@ function GetLine1 { param([string]$WakeWord, [string]$Keywords, [string]$ScriptN
 
 function GetLine2 { param([string]$WakeWord, [string]$Keywords, [string]$ScriptPath)
 	$ScriptPath = $ScriptPath -replace "\\","\\"
-	return "serenade.global().command(`"$WakeWord $Keywords`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [ `"-NoProfile`", `"-NoLogo`", `"$ScriptPath`" ]);});"
+	return "serenade.global().command(`"$WakeWord $Keywords`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`"]);});"
 }
 
 try {
