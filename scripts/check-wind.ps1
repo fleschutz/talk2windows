@@ -36,11 +36,12 @@ try {
 	"NW"  { "North West" }
 	"NNW" { "North North West" }
 	}
+	$Clouds = $Weather.current_condition.cloudcover
 
 	if ($WindSpeed -eq 0) {
-		& "$PSScriptRoot/_reply.ps1" "It's windless."
+		& "$PSScriptRoot/_reply.ps1" "It's windless with $($Clouds)% clouds."
 	} else {
-		& "$PSScriptRoot/_reply.ps1" "$WindDir winds at $WindSpeed km/h."
+		& "$PSScriptRoot/_reply.ps1" "$WindDir winds at $WindSpeed km/h with $($Clouds)% clouds."
 	}
 	exit 0 # success
 } catch {
