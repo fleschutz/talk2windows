@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the TikTok website.
 .EXAMPLE
-	PS> ./open-tik-tok-website
+	PS> ./open-tick-tock-website
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK

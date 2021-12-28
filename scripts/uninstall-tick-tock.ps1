@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script uninstalls TikTok from the local computer.
 .EXAMPLE
-	PS> ./uninstall-tik-tok
+	PS> ./uninstall-tick-tock
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
