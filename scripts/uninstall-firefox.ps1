@@ -12,12 +12,12 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on, I'm uninstalling Firefox..."
+	& "$PSScriptRoot/_reply.ps1" "Uninstalling Firefox, please wait..."
 
 	& winget uninstall "Mozilla Firefox"
 	if ($lastExitCode -ne "0") { throw "Can't uninstall Firefox, is it installed?" }
 
-	& "$PSScriptRoot/_reply.ps1" "Firefox is gone now."
+	& "$PSScriptRoot/_reply.ps1" "Firefox is uninstalled now."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
