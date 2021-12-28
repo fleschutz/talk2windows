@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script installs TikTok from the Microsoft Store.
 .EXAMPLE
-	PS> ./install-tiktok
+	PS> ./install-tik-tok
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
