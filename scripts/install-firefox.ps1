@@ -17,7 +17,7 @@ try {
 	& winget install "Mozilla Firefox Browser" --source msstore --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
-	& "$PSScriptRoot/_reply.ps1" "Firefox installation completed successfully."
+	& "$PSScriptRoot/_reply.ps1" "Firefox is installed now."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

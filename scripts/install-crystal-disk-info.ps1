@@ -17,7 +17,7 @@ try {
 	& winget install "CrystalDiskInfo" --source msstore --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
-	& "$PSScriptRoot/_reply.ps1" "CrystalDiskInfo installation completed successfully."
+	& "$PSScriptRoot/_reply.ps1" "CrystalDiskInfo is installed now."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
