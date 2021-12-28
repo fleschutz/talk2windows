@@ -23,9 +23,9 @@ try {
 	if ($Precip -eq "0.0") {
 		$Reply = "No rain right now."
 	} elseif ($Temp -lt "0.0") {
-		$Reply = "Snow with $($Precip)mm/h."
+		$Reply = "It's snowing $($Precip) millimeters per hour."
 	} else {
-		$Reply = "It's raining $($Precip)mm/h."
+		$Reply = "It's raining $($Precip) millimeters per hour."
 	}
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
