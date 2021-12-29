@@ -70,7 +70,7 @@ Starts the playback of the given sound, just replace [name] by: `bee`, `beep`, `
 
 🎮 *"Windows, play [name] game."*
 ----------------------------------
-Launches the default Web browser (or opens a new tab) and lets you play a game. Replace [name] by: `2048`, `Chess`, `Cube`, `Pacman`, `Santa Tracker`, `Tetris`, `TicTacToe`, or `Tower`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+Launches the default Web browser (or opens a new tab) and lets you play a game. Replace [name] by: `2048`, `Agar`, `Catan Universe`, `Chess`, `Cube`, `Pacman`, `Santa Tracker`, `Slither`, `Tetris`, `TicTacToe`, `Tower`, or `War Brokers`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 🔦 *"Windows, check [item]."*
