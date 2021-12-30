@@ -23,14 +23,23 @@
 
 param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/scripts/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\talk2windows.js")
 
-function GetLine1 { param([string]$WakeWord, [string]$Keywords, [string]$ScriptName)
+function GetLine { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
+	$Basename = $Basename -replace "-"," "
+	$ScriptPath = $ScriptPath -replace "\\","\\"
+	return "serenade.global().command(`"$WakeWord $Basename`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`"]);});"
+}
+
+function GetLineWithArg { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
+	$Basename = $Basename -replace "-XYZ",""
+	$Basename = $Basename -replace "-"," "
+	$ScriptPath = $ScriptPath -replace "\\","\\"
+	return "serenade.global().command(`"$WakeWord $Basename <%text%>`",async(api,matches)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`",matches.text]);});"
+}
+
+function GetLineDEBUG { param([string]$WakeWord, [string]$Keywords, [string]$ScriptName)
 	return "serenade.global().command(`"$WakeWord $Keywords`",async(api)=>{await api.focusApplication(`"$Application`");await api.pressKey(`"return`");await api.typeText(`"$ScriptName.ps1`");await api.pressKey(`"return`");});" 
 }
 
-function GetLine2 { param([string]$WakeWord, [string]$Keywords, [string]$ScriptPath)
-	$ScriptPath = $ScriptPath -replace "\\","\\"
-	return "serenade.global().command(`"$WakeWord $Keywords`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`"]);});"
-}
 
 try {
 	"(1) Wake word is: `'$WakeWord`'"
@@ -39,15 +48,18 @@ try {
 	$Scripts = Get-ChildItem "$FilePattern"
 	"(2) Found $($Scripts.Count) PowerShell scripts in subfolder `'scripts`'"
 
-	"(3) Writing custom JavaScript file: $TargetFile..."
+	"(3) Writing custom JavaScript file to: $TargetFile..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$TargetFile"
 	foreach($Script in $Scripts) {
-		$ScriptName = $Script.basename
-		if ($ScriptName[0] -eq "_") { continue } # internal script, don't export it
-		$Keywords = $ScriptName -replace "-"," "
-		GetLine2 $WakeWord $Keywords $Script | Add-Content "$TargetFile"
+		$Basename = $Script.basename
+		if ($Basename[0] -eq "_") { continue } # internal script, don't export it
+		if ($Basename -like "*XYZ") {
+			GetLineWithArg $WakeWord $Basename $Script | Add-Content "$TargetFile"
+		} else {
+			GetLine $WakeWord $Basename $Script | Add-Content "$TargetFile"
+		}
 	}
-	"Export to Serenade was successful, launch Serenade now to talk to Windows."
+	"Export to Serenade was successful - launch Serenade now to talk to Windows."
 	exit 0 # success
 } catch {
 	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
