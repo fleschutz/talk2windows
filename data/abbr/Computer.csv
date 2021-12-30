@@ -1,4 +1,17 @@
 Abbreviation,Definition
+AAC,Advanced Audio Coding
+AAM,Automatic Acoustic Management
+AAS,as a service
+AAS,Auto Area Segmentation
+ABIOS,Advanced BIOS
+ABP,AdBlock Plus
+AC,Alternating Current
+ACCT,Account
+ACE,Access Control Entry
+Ack,Acknowledgement
+ACL,Access Control list
+ACPI,Advanced Configuration and Power Interface
+ACR,Absolute Cell Reference
 ACID,"Atomicity, Consistency, Isolation, Durability"
 ACL,Access Control List
 ADC,Analog-to-Digital Converter
@@ -19,6 +32,7 @@ AVR,Audio/Video Receiver
 Bash,Bourne-Again Shell
 BASIC,Beginner's All-purpose Symbolic Instruction Code
 BCC,Blind Carbon Copy
+BGP,Border Gateway Protocol
 BIOS,Basic Input/Output System
 BLE,Bluetooth Low Energy
 Blob,Binary Large Object
@@ -28,10 +42,65 @@ CAD,Computer-Aided Design
 CAN,Campus Area Network
 CD,Compact Disc
 CPU,Central Processing Unit
+CSS,Cascading Style Sheets
 CSV,Comma Separated Values (file format)
 DDL,Data Definition Language
+FC-PGA,Flip-Chip Pin Grid Array
+FD,Floppy Drive
+FD,File Descriptor
+FDC,Floppy Disk Controller
+FDD,Floppy Disk Drive
+FDDI,Fiber Distributed Data Interface
+FDHP,Full Duplex Handshaking Protocol
+Feat,Feature
+FIFO,First In First Out
+FIPS,Federal Information Processing Standards
+FLAC,Free Lossless Audio Codec
+FLOPS,Floating-Point Operations Per Second
+FM,Frequency Modulation
+FMV,Full Motion Video
+FNBN,For Nerds By Nerds
+FNEA,Full Name and E-mail Address
+FNR,Format and Restore
+FOAD,Fuck Off And Die
+FOIA,Freedom of Information Act
+FOIRL,Fiber-Optic Inter-Repeater Links
+FORTRAN,Formula Translation
+FOSS,Free and Open-Source Software
+FPGA,Field-Programmable Gate Array
+FPM,Fast Page Mode
+FPROM,Field Programmable Read-Only Memory
+FPS,Frames Per Second
+FPS,First-Person Shooter
+FPU,Floating-Point Unit
+FQDN,Fully Qualified Domain Name
+FR,Frame Relay
+FRAM,Ferroelectric RAM
+FRU,Field-replacable Unit
+FS,File System
 IDE,Integrated Development Environment
+GBIC,Gigabit Interface Converter
+Gbps,Gigabits per second
+GCC,GNU Compiler Collection
+GDDR,Graphics Double Data Rate
+GDI,Graphics Device Interface
+GDPR,General Data Protection Regulation
+GEM,Graphics Environment Manager
+GFS,Global File System
+GFS,Google File System
+GIGO,Garbage In Garbage Out
+GIMP,GNU Image Manipulation Program
+GIMPS,Great Internet Mersenne Prime Search
+GIS,Geographic Information System
+GIYF,Google Is Your Friend
+GKS,Graphical Kernel System
+Gmail,Google Mail
+GNU,GNU's Not Unix
+GPF,General Protection Fault
+GPG,GNU Privacy Guard
+GPL,General Public License
 GPU,Graphics Processing Unit
+GPT,GUID Partition Table
 GUI,Graphical User Interface
 IP,Internet Protocol
 ISP,Internet Service Provider
@@ -41,6 +110,7 @@ LCD,Liquid Crystal Display
 NIC,Network Interface Card
 PC,Personal Computer
 RAM,Random Access Memory
+TPM,Trusted Platform Module
 URL,Uniform Resource Locator
 VPN,Virtual Private Network
 WAN,Wide Area Network
