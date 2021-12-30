@@ -194,10 +194,14 @@ MEA,Minimum En-route Altitude
 METAR,Meteorological Aerodrome Report
 MSL,Median Sea Level
 OCTA,Outside Control Areas
+OFZ,Obstacle Free Zone
+OJT,On the Job Training
 PAPI,Precision Approach Path Indicator
 PAR,Precision Approach Radar
+PIC,Pilot in Command
 POH,Pilot's Operating Handbook
-PPL,Private Pilot License
+PPL,Private Pilot's License
+PtF,Permit to Fly
 QFE,the altimeter setting that will cause the altimeter to read the height above a specific aerodrome or ground level, and therefore read zero on landing
 QNE,pressure altitude at the landing runway threshold
 QNH,atmospheric pressure adjusted to mean sea level
@@ -205,29 +209,35 @@ RAT,Reliability Acceptance Test (see also FAT and SAT)
 RBAF,Royal Belgium Armed Forces
 RCAF,Royal Canadian Air Force
 RET,Rapid Exit Taxiways
+RFFS,Rescue and Fire Fighting Services
 RJAF,Royal Jordanian Air Force
 RPI,Runway Point of Intercept
 RPM,Rotations per Minute
 RVR,Runway Visual Range
 RWY,Runway
 SAT,Site Acceptance Test (see also FAT and RAT)
+SATCO,Senior Air Traffic Control Officer
 SLOC,Slovenia Control
 STARS,Standard Arrival Routes
 SID,Standard Instrument Departure
 SKYGUIDE,ATC Swiss
 SOW,Statement of Work
 SSR,Secondary Surveillance Radar
+STOL,Short Take Off and Landing
 SWT,Switch
 TA,Terminal Airspace
+TAF,Terminal Aerodrome Forecast
 TAS,Terminal Airspace System
 TAS,True Airspeed
 TCAS,Traffic Collision Avoidance System
+TCDS,Type Certificate Data Sheet
 TCL,Taxi Center Lights
 TFDM,Terminal Flight Data Management
 TMA,Terminal Control Area
 TSTC,Texas State Technical College
 TWR,Control Tower,
 UAA,University of Alaska Anchorage
+UKCAA,Civil Aviation Authority (UK)
 UMASS,University of Massachusetts
 USAF,US Air Force
 UTA,Upper Traffic Area
@@ -236,8 +246,8 @@ V2,Takeoff speed. The speed at which the aircraft may safely be climbed with one
 VASI,Visual Approach Slope Indicator
 VFR,Visual Flight Rules
 VHF,Very High Frequency
-VMO,maximum operation speed is the air speed than should never be exceeded deliberately in normal operation, whatever the flight situation is
-VOR,VHF Omni-directional Range
+VMO,maximum operation speed is the air speed than should never be exceeded deliberately in normal operation, whatever the flight situation isVOR,VHF Omni-directional Range
+VMC,Visual Meteorological Conditions
 VREF,1.3 times the stalling speed of the aircraft in the stated landing configuration and at the prevailing aircraft weight
 VRR,Voice Recognition & Response
 VS,Stall speed, defined as the minimum steady flight speed at which the airplane is controllable
