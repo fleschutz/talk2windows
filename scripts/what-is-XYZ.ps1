@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Replies the description of an abbreviation
+	Tells the description of an abbreviation
 .DESCRIPTION
 	This PowerShell script replies the description of the given abbreviation by text-to-speech (TTS).
 .EXAMPLE
@@ -32,9 +32,9 @@ try {
 		}
 	}
 
-	if ($FoundOne -eq $false) { Reply "Sorry, no database entry found." }
+	if ($FoundOne -eq $false) { Reply "Sorry, I don't know what '$abbreviation' means." }
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	Reply "Sorry: $($Error[0])"
 	exit 1
 }
