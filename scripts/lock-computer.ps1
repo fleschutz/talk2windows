@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Lock the desktop
+	Locks the Computer
 .DESCRIPTION
-	This PowerShell script locks the desktop.
+	This PowerShell script immediately locks the computer desktop.
 .EXAMPLE
-	PS> ./lock-desktop
+	PS> ./lock-computer
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK

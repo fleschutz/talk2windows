@@ -30,7 +30,12 @@ Launches an application, just replace [app] by: `3D-Viewer`, `Calculator`,  `Chr
 
 🌐 *"Windows, open [name] website."*
 -------------------------------------
-Launches the default Web browser (or opens a new tab) with a website. Replace [name] by: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, or `YouTube`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+Launches the default Web browser (or opens a new tab) with the given website. Replace [name] by: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, or `YouTube`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+
+
+❔ *"Windows, [shortcut]"*
+-------------------------
+Presses a keyboard shortcut to navigate in a Browser window, replace [shortcut] by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
 
 
 📋 *"Windows, open Google [service]."*
@@ -108,9 +113,9 @@ Installs an application from Microsoft Store, replace [app] by: `9 ZIP`, `Crysta
 Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
-❔ *"Windows, [hotkey]"*
------------------------
-Presses a keyboard shortcut to navigate in a Browser window, replace [hotkey] by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
+🔧 *"Windows, [action] computer."*
+----------------------------------
+Performs the given action to the computer, replace [action] by: `hibernate`, `lock`, `reboot`, `shut down`, or `suspend`.
 
 
 ❔ *"Windows, [question]"*
@@ -120,7 +125,7 @@ Asks Windows a question, just replace [question] by: `are you a computer?`, `are
 
 💭 *"Windows, [command]"*
 -------------------------
-Lets Windows execute a command, replace [command] by: `clear recycle bin`, `come on`, `connect VPN`, `give me five`, `I need help`, `locate my phone`, `lock desktop`, `lock screen`, `repeat last reply`, `roll a dice`, `shut up`, `sound check`, `sorry`, `tell me a joke`, `tell me a quote`, `thank you`, `thanks`, `turn volume off`, `turn volume on`, `turn volume up`, or `turn volume down`.
+Lets Windows execute a command, replace [command] by: `clear recycle bin`, `come on`, `connect VPN`, `give me five`, `I need help`, `locate my phone`, `repeat last reply`, `roll a dice`, `shut up`, `sound check`, `sorry`, `tell me a joke`, `tell me a quote`, `thank you`, `thanks`, `turn volume off`, `turn volume on`, `turn volume up`, or `turn volume down`.
 
 
 🖖 *"Windows, [farewell]."*
