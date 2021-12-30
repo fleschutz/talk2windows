@@ -176,7 +176,7 @@ IAF,Israeli Air Force
 IANS,Institute of Air Navigation Services, a division of Eurocontrol
 IAS,Indicated Air Speed
 IATA,International Air Transport Association, HQ in Montreal, Canada
-IFR,Instrument Flight Rule
+IFR,Instrument Flight Rules
 IG,Image Generator
 IGLR,Integrated Ground Lighting and Radar
 ILS,Instrument Landing System
@@ -234,7 +234,7 @@ UTA,Upper Traffic Area
 V1,Decision speed, the speed beyond which takeoff should no longer be aborted
 V2,Takeoff speed. The speed at which the aircraft may safely be climbed with one engine inoperative
 VASI,Visual Approach Slope Indicator
-VFR,Visual Flight Rule
+VFR,Visual Flight Rules
 VHF,Very High Frequency
 VMO,maximum operation speed is the air speed than should never be exceeded deliberately in normal operation, whatever the flight situation is
 VOR,VHF Omni-directional Range
