@@ -17,6 +17,15 @@ function Reply { param([string]$Text)
 	& "$PSScriptRoot/_reply.ps1" "$Text"
 }
 
+function GetAbbr { param([string]$Text)
+	[char[]]$ArrayOfChars = $Text
+	$Result = ""
+	foreach($Char in $ArrayOfChars) {
+		$Result += $Char + " "
+	}
+	return $Result
+}
+
 try {
 	$FoundOne = $false
 	$Files = (get-childItem "$PSScriptRoot/../Data/Abbr/*.csv")
@@ -24,9 +33,9 @@ try {
 	foreach($File in $Files) {
 		$Table = import-csv "$File"
 		foreach($Row in $Table) {
-			if ($Row.Abbreviation -eq $abbreviation) {
+			if ($Row.Abbr -eq $abbreviation) {
 				$Basename = (get-item "$File").Basename
-				Reply "$($Row.Abbreviation) means $($Row.Definition) in $Basename"
+				Reply "$(GetAbbr $Row.Abbr)means $($Row.Term) in $Basename"
 				$FoundOne = $true
 			}
 		}

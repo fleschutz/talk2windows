@@ -1,4 +1,4 @@
-Abbreviation,Definition
+Abbr,Term
 A/A,Air to air TACAN function
 A/C,Aircraft
 A/D,Aerodrome
@@ -60,11 +60,50 @@ AFM,Airplane Flight Manual
 AGL,Above Ground Level
 AIP,Aeronautical Information Publication
 ANSP,Air Navigation Service Provider
+ALO,Aviation Logistics Organization
+ALP,Airport Layout Plan
+ALPA,Airlines Pilots Association
+ALS,Approach Lighting System
+ALSF,Approach Lighting System With Sequenced Flashing Lights
+ALSF1,ALS with Sequenced Flashers I
+ALSF2,ALS with Sequenced Flashers II
+ALSIP,Approach Lighting System Improvement Plan
+ALTRV,Altitude Reservation
+AMASS,Airport Movement Area Safety System
+AMCC,Air Route Traffic Control Center Maintenance Control Center
+AMIC,Area Manager in Charge
+AMIS,Aircraft Management Information System
+AMOC,Alternative Methods of Compliance
+AMOS,Automated Meteorological Observation Station
+AMP,ARINC Message Processor (OR) Airport Master Plan
+AMS,Acquisition Management System
+AMT,Aviation Maintenance Technician
+AMVER,Automated Mutual Assistance Vessel Rescue System
+ANC,Alternate Network Connectivity
+ANCA,Airport Noise and Capacity Act
+ANG,Air National Guard
+ANGB,Air National Guard Base
+ANMS,Automated Network Monitoring System
+AOA,Air Operations Area
+AOC,Airline Operational Control Center
+AOCC,Atlantic Operations Control Center
+AODR,Authorizing Official Designated Representative
+AOPA,Aircraft Owners and Pilots Association
+AP,Acquisition Plan
+APB,Acquisition Program Baselines
+APM,Approach Path Monitor
+APP,Approach
+APS,Airport Planning Standard
+APTS,Automated Personnel Tracking System
+AQAFO,Aeronautical Quality Assurance Field Office
 AR,Aerial Refueling
 AR,Aspect Ratio
 A/R,Altitude Rate
+ARAC,Army Radar Approach Control (AAF)
 ARFOR,Area Forecast
-ARINC,Aeronautical Radio Incorporated (USA)
+ARINC,Aeronautical Radio, Inc. (USA)
+ARLNO,Airline Office
+ARP,Airport Reference Point
 ARTCC,Air Route Traffic Control Centre
 ASB,Airspace Block
 ATA,Actual Time of Arrival
