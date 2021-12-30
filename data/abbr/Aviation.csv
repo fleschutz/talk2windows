@@ -5,9 +5,14 @@ A/D,Aerodrome
 A/F,Autofeather
 A/FD,Airport/Facility Directory
 A/P,Autopilot
+AAA,Airport Airspace Analysis
 AAE,Above Aerodrome Elevation
+AAF,Army Air Field
+AAF,Airway Facilities Service
+AAI,Arrival Aircraft Interval
 AAIB,Air Accidents Investigation Branch (UK)
 AAIM,Aircraft Autonomous Integrity Monitoring
+AAMS,Aircraft Arrival Management System
 AAO,Assumed Adverse Obstacle
 AAS,Airport Advisory Service
 AB,Air Base
@@ -15,15 +20,37 @@ AC,Aircraft
 AC,Air Conditioning
 ACAM,Aircraft Continuing Airworthiness Monitoring
 ACARS,ARINC Communications Addressing and Reporting System
-ACAS,Airborne Collision Avoidance System
+ACAS,Aircraft Collision Avoidance System
 ACC,Area Control Center
 ADAC,Abu Dhabi Airports
+ADF,Automatic Direction Finding
+ADI,Automatic De-Ice and Inhibitor
+ADIZ,Air Defense Identification Zone
+ADL,Aeronautical Data Link
+ADLY,Arrival Delay
 ADP,Aeroportes de Paris
+ADP,Automated Data Processing
+ADS,Automated Distribution System
+ADS,Automatic Dependent Surveillance
+ADS-B,Automatic Dependent Surveillance-Broadcast
 AENA,Aeropuertos Españoles y Navegación Aérea
+AERA,Automated En-Route Air Traffic Control
 AF,Air Field
 AFM,Aircraft Flight Manual
 AGL,Above Ground Level
+AICS,Aircraft Inventory and Charter System
+AID,Airport Information Desk
+AIDS,Aircraft Integrated Data System
+AIG,Airbus Industries Group
+AILS,Automatic Instrument Landing System
+AIM,Aeronautical Information Manual
 AIP,Aeronautical Information Publication
+AIPA,Aeronautical Information Production Application
+AIRAC,Aeronautical Information Regulation And Control
+AIRMET,Airmen's Meteorological Information
+AIRNAV,Airports and Navigation Aids Database System
+AIRNET,Airport Network Simulation Model
+AIRPAC,Advisor for the Intelligent Resolution of Predicted Aircraft
 AMAN,Arrival Manager
 AOA,Angle of Attack
 AOM,Airplane Operating Manual
@@ -110,8 +137,10 @@ IAF,Israeli Air Force
 IANS,Institute of Air Navigation Services, a division of Eurocontrol
 IAS,Indicated Air Speed
 IATA,International Air Transport Association, HQ in Montreal, Canada
+IFR,Instrument Flight Rule
 IG,Image Generator
 IGLR,Integrated Ground Lighting and Radar
+ILS,Instrument Landing System
 IMC,Instrument Meteorological Conditions
 KAT,Kaufbeuren ATM Training (DFS subcompany)
 LAA,Lappland Aviation Academy
@@ -166,6 +195,7 @@ UTA,Upper Traffic Area
 V1,Decision speed, the speed beyond which takeoff should no longer be aborted
 V2,Takeoff speed. The speed at which the aircraft may safely be climbed with one engine inoperative
 VASI,Visual Approach Slope Indicator
+VFR,Visual Flight Rule
 VHF,Very High Frequency
 VMO,maximum operation speed is the air speed than should never be exceeded deliberately in normal operation, whatever the flight situation is
 VOR,VHF Omni-directional Range
