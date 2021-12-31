@@ -37,9 +37,7 @@ try {
 			}
 			if ($Hourly.time -eq "2100") { if ($Day -eq "today") { $Day = "tomorrow" } else { $Day = "day after tomorrow" } }
 		}
-		$Reply = "No rain expected within 48 hours."
-	} elseif ($Temp -lt "0.0") {
-		$Reply = "It's snowing $($Precip) millimeters per hour."
+		$Reply = "No rain expected in the next 48 hours."
 	} else {
 		$Day = "today"
 		foreach ($Hourly in $Weather.weather.hourly) {
@@ -55,6 +53,6 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }
