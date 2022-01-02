@@ -3,8 +3,8 @@ TALK2WINDOWS
 This repository provides voice control for Windows®. Be more productive by using your voice besides keyboard and mouse (see the voice commands below). Required is Windows 10 or 11, a microphone and loudspeaker (headset recommended), and the Serenade application (free).
 
 
-🔧 Installation
----------------
+🔧 Installation (once)
+-----------------------
 1. Download and install *Serenade* from https://serenade.ai/ (during installation no plugin and no programming language need to be selected). Afterward, close *Serenade*.
 2. Download the *talk2windows* ZIP file (click green button) und unzip it somewhere.
 3. Open *Windows PowerShell (Administrator)* and execute: `Set-ExecutionPolicy RemoteSigned` to allow execution of PowerShell scripts.
@@ -15,7 +15,7 @@ Usage
 -----
 1. Launch *Serenade*.
 2. Click into the circle to enable Listening mode (the circle moves when speaking into the mic).
-3. Speak the voice command **"*Windows, open calculator*"** into the mic, this executes the script `open-calculator.ps1` which launches the calculator application. More supported voice commands are described below.
+3. Speak the voice command **"*Windows, open calculator*"** into the mic, this executes the script `open-calculator.ps1` which launches the calculator application. All supported voice commands are described below.
 
 
 👋 *"Windows, [greeting]."*
