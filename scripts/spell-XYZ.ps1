@@ -1,26 +1,25 @@
 <#
 .SYNOPSIS
-	Spells a word
+	Spells Text
 .DESCRIPTION
-	This PowerShell script spells the given word by text-to-speech (TTS).
-.PARAMETER word
-        Specifies the word to spell
+	This PowerShell script spells the given text by text-to-speech (TTS).
+.PARAMETER text
+        Specifies the text to spell
 .EXAMPLE
-	PS> ./spell-word
+	PS> ./spell
 .NOTES
 	Author: Markus Fleschutz · License: CC0
 .LINK
 	https://github.com/fleschutz/PowerShell
 #>
 
-param([string]$word = "")
+param([string]$text = "")
 
 try {
-	[char[]]$ArrayOfChars = $word.ToUpper()
+	[char[]]$ArrayOfChars = $text.ToUpper()
 	$Reply = ""
 	foreach($Char in $ArrayOfChars) {
-		$Reply += $Char
-		$Reply += " "
+		$Reply += "$Char "
 	}
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
