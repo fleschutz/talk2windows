@@ -95,17 +95,17 @@ Sets a reminder, just replace [time] by: `at 1 AM/PM`, `at 2 AM/PM`, `at 3 AM/PM
 
 💽 *"Windows, open [letter] drive."*
 -------------------------------------
-Launches the File Explorer with a given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+Launches the File Explorer with the given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
 📂 *"Windows, open [name] folder."*
 ------------------------------------
-Launches the File Explorer with a given folder. Replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `Talk2Windows`, `temporary`, or `videos`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+Launches the File Explorer with the given folder. Replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `Talk2Windows`, `temporary`, or `videos`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
 
 🔧 *"Windows, install [app]."*
 ------------------------------
-Installs an application from Microsoft Store, replace [app] by: `9 ZIP`, `CrystalDiskInfo`, `CrystalDiskMark`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates, so they will always be up-to-date. Say: *"Windows, uninstall [app]"* to uninstall an application.
+Installs the given application from Microsoft Store, replace [app] by: `9 ZIP`, `CrystalDiskInfo`, `CrystalDiskMark`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates, so they will always be up-to-date. Say: *"Windows, uninstall [app]"* to uninstall the application.
 
 
 ⚙️ *"Windows, open [name] settings."*
