@@ -25,7 +25,7 @@ Say hello to Windows, simply replace [greeting] by: `good afternoon`, `good even
 
  💻 *"Windows, open [app]."*
 -----------------------------
-Launches an application, just replace [app] by: `3D-Viewer`, `Calculator`,  `Chrome`, `CrystalDiskInfo`, `Discord`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Netflix`, `Notepad`, `OBS Studio`, `Outlook`, `Paint 3D`, `Screen Clip`, `Spotify`, `Thunderbird`, `Visual Studio`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
+Launches the given application, just replace [app] by: `3D-Viewer`, `Calculator`,  `Chrome`, `CrystalDiskInfo`, `Discord`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Netflix`, `Notepad`, `OBS Studio`, `Outlook`, `Paint 3D`, `Screen Clip`, `Spotify`, `Thunderbird`, `Visual Studio`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
 
 
 🌐 *"Windows, open [name] website."*
@@ -35,7 +35,7 @@ Launches the default Web browser (or opens a new tab) with the given website. Re
 
 ❔ *"Windows, [shortcut]"*
 -------------------------
-Presses a keyboard shortcut to navigate in a Browser window, replace [shortcut] by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
+Presses a keyboard shortcut to navigate in a Browser window. Replace [shortcut] by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
 
 
 📋 *"Windows, open Google [service]."*
