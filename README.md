@@ -5,7 +5,7 @@ This repository provides voice control for Windows®. Be more productive by usin
 
 🔧 Installation (once)
 -----------------------
-1. Download and install *Serenade* from https://serenade.ai/ (during installation no plugin and no programming language need to be selected). Afterward, close *Serenade*.
+1. Download and install *Serenade* from https://serenade.ai/ (during installation no plugin and no programming language need to be selected). Close *Serenade* when finished.
 2. Download the *talk2windows* ZIP file (click green button) und unzip it somewhere.
 3. Open *Windows PowerShell (Administrator)* and execute: `Set-ExecutionPolicy RemoteSigned` to allow execution of PowerShell scripts.
 4. Open *Windows PowerShell* and execute: `./export.ps1` in the unzipped *talk2windows* folder. 
