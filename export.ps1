@@ -14,7 +14,7 @@
 .EXAMPLE
 	PS> ./export.ps1 
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
@@ -53,7 +53,7 @@ try {
 	foreach($Script in $Scripts) {
 		$Basename = $Script.basename
 		if ($Basename[0] -eq "_") { continue } # internal script, don't export it
-		if ($Basename -like "*XYZ") {
+		if ($Basename -like "*-XYZ*") {
 			GetLineWithArg $WakeWord $Basename $Script | Add-Content "$TargetFile"
 		} else {
 			GetLine $WakeWord $Basename $Script | Add-Content "$TargetFile"
@@ -62,6 +62,6 @@ try {
 	"Export to Serenade was successful - launch Serenade now to talk to Windows."
 	exit 0 # success
 } catch {
-	write-error "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
+	write-error "Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
 	exit 1
 }
