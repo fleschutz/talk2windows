@@ -1,6 +1,6 @@
 TALK 2 WINDOWS®
 ===============
-Provides voice control for Windows 10 or 11. Be more productive by using your voice besides keyboard and mouse (see voice commands below). Required is Windows 10 or 11, a microphone and loudspeaker, and the Serenade application (free).
+This repository provides voice control for Windows 10 or 11. Be more productive by using your voice besides keyboard and mouse (see the voice commands below). Required is Windows 10 or 11, a microphone and loudspeaker, and the Serenade application (free).
 
 
 🔧 Installation
