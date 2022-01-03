@@ -6,10 +6,10 @@
 .EXAMPLE
 	PS> ./next-plane-wallpaper
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/next-random-wallpaper.ps1" -Category "plane"
+& "$PSScriptRoot/next-random-wallpaper.ps1" -Category "Plane"
 exit 0 # success
