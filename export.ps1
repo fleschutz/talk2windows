@@ -30,10 +30,10 @@ function GetLine { param([string]$WakeWord, [string]$Basename, [string]$ScriptPa
 }
 
 function GetLineWithArg { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
-	$Basename = $Basename -replace "-XYZ",""
+	$Basename = $Basename -replace "-XYZ","-<%text%>"
 	$Basename = $Basename -replace "-"," "
 	$ScriptPath = $ScriptPath -replace "\\","\\"
-	return "serenade.global().command(`"$WakeWord $Basename <%text%>`",async(api,matches)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`",matches.text]);});"
+	return "serenade.global().command(`"$WakeWord $Basename`",async(api,matches)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`",matches.text]);});"
 }
 
 function GetLineDEBUG { param([string]$WakeWord, [string]$Keywords, [string]$ScriptName)

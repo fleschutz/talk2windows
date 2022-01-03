@@ -1,12 +1,12 @@
 ﻿<#
 .SYNOPSIS
-	Translates to German
+	Translates to Spanish
 .DESCRIPTION
-	This PowerShell script translates the given text to German and speaks it by text-to-speech (TTS).
+	This PowerShell script translates the given text to Spanish and speaks it by text-to-speech (TTS).
 .PARAMETER Text
 	Specifies the text to translate
 .EXAMPLE
-	PS> ./translate-XYZ-to-german "Hello World"
+	PS> ./translate-XYZ-to-spanish "Hello World"
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
@@ -22,8 +22,8 @@ function UseLibreTranslate { param([string]$Text, [string]$SourceLangCode, [stri
 }
 
 try {
-	$Translation = UseLibreTranslate $Text "en" "de"
-	& "$PSScriptRoot/_speak-german.ps1" "$Translation"
+	$Translation = UseLibreTranslate $Text "en" "es"
+	& "$PSScriptRoot/_speak-spanish.ps1" "$Translation"
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
