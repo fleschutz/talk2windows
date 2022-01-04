@@ -8,7 +8,7 @@
 .EXAMPLE
 	PS> ./set-timer 60
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/PowerShell
 #>

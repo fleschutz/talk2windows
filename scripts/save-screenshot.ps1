@@ -7,11 +7,10 @@
 	Specifies the target folder (the user's pictures folder by default)
 .EXAMPLE
 	PS> ./save-screenshot
- 	✔️ screenshot saved to C:\Users\Markus\Pictures\2021-10-10T14-33-22.png
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$TargetFolder = "$HOME/Pictures")
@@ -36,9 +35,9 @@ try {
 	$FilePath = (Join-Path $TargetFolder $Filename)
 	TakeScreenshot $FilePath
 
-	"✔️ screenshot saved to $FilePath"
+	& "$PSScriptRoot/_reply.ps1" "Screenshot saved to pictures folder."
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }
