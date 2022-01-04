@@ -22,6 +22,6 @@ try {
 	Register-ScheduledTask -Action $Task -Trigger $Trigger -TaskName "Reminder_$Random" -Description "Reminder"
 	exit 0 # success
 } catch {
-	write-error "Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

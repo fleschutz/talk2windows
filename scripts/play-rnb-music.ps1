@@ -6,7 +6,7 @@
 .EXAMPLE
 	PS> ./play-rnb-music
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
