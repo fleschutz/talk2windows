@@ -13,7 +13,6 @@ ADS,International Italian optics company working on the DSM for the VLT
 AEM,ALMA construction consortium
 AFNOR,Association Française de Normalisation
 AFTA,Astrophysics Focused Telescope Assets
-AG,Aktiengesellschaft
 AGN,Active Galactic Nucleus
 AIDA,Astronomical Infrastructure for Data Access
 AIP,Leibniz Institute for Astrophysics Potsdam
@@ -64,12 +63,10 @@ CDR,Critical Design Review
 CDS,Centre de Données astronomiques de Strasbourg (Strasbourg astronomical Data Center)
 CEA,Commissariat à L’Energie Atomique, France
 CELAC_EU,Summit of the Community of Latin American and Caribbean States–European Union
-CERN,European Organization for Nuclear Research
 CES,Coude Echelle Spectrometer
 CfP,Call for Proposal
 CfT,Call for tender
 CHAMP+,Dual channel heterodyne receiver array (APEX)
-CHF,Swiss francs
 CLIF,Convolution with Linearized Inverse Filter algorithm for wavefront sensing
 CLP,Chilean Peso
 CMB,Cosmic Microwave Background
@@ -143,9 +140,6 @@ ESON,ESO Science Outreach Network
 ESPRESSO,Echelle SPectrograph for Rocky Exoplanet- and Stable Spectroscopic Observations
 ESRC,ELT Standing Review Committee
 ETF,ELT Technical Facility
-ETH,Swiss Federal Institute of Technology
-EU,European Union
-EUR,Euro
 EVALSO,Enabling Virtual Access to Latin-american Southern Observatories
 EWASS,European Week of Astronomy and Space Science
 ExA,Journal, Experimental Astronomy
@@ -167,15 +161,9 @@ FOS,Faint Object Spectrograph (HST)
 FP,Fabry-Perot
 FP6,Sixth EC Framework Programme
 FP7,Seventh EC Framework Programme
-FPGA,Field Programmable Gate Array
-FTE,Full Time Equivalent
 FWHM,Full Width at Half Maximum
 GALACSI,Ground Atmospheric Layer Adaptive Optics for Spectroscopic Imaging (AOF)
-GB,Gigabyte
-GBP,British Pounds
 GÉANT,European multi-gigabit computer network for research and education purposes
-gGmbH,Gemeinnützige Gesellschaft mit beschränkter Haftung (non-profit German limited liability company)
-GHz,Gigahertz
 GIRAFFE,Fibre-fed multi-object spectrograph and part of the VLT FLAMES facility
 GLAO,Ground Layer Adaptive Optics
 gNLT,Garching Night Log Tool
@@ -184,7 +172,6 @@ GRAVITY,AO assisted, two-object, multiple-beam-combiner (VLTI)
 GROND,Gamma-Ray Burst Optical/Near-Infrared Detector (MPG/ESO 2.2-metre)
 GTC,Gran Telescopio Canarias
 GTO,Guaranteed Time for Observation
-GUI,Graphical User Interface
 GWh,Gigawatt hours
 H-LTAO,HARMONI Laser Tomography Adaptive Optics
 H2020,(EU) Horizon 2020 Programme
@@ -195,8 +182,6 @@ HCI,Human Computer Interface
 HIA,Herzberg Institute of Astrophysics (Canada)
 HIRES,(ELT) HIgh REsolution Spectrograph
 HODM,High Order Deformable Mirror
-HQ,Headquarters
-HR,Human Resources
 HST,Hubble Space Telescope
 HVAC,Heating, Ventilation and Air Conditioning
 IAG,Institute of Astronomy, Geophysics and Atmospheric Sciences (Brazil)
@@ -339,10 +324,6 @@ PARLA,PAranal Raman Laser, replacement for PARSEC (VLTI)
 PARSEC,Sodium line laser for VLT AO
 PASJ,Journal, Publications of the Astronomical Society of Japan
 PASP,Journal, Publications of the Astronomical Society of the Pacific
-PB,Petabyte
-PC,Personal Computer
-PDF,Portable Document Format
-PDM,Product Document Management
 PDR,Preliminary Design Review
 PESSTO,Public ESO Spectroscopic Survey of Transient Objects
 PFS,(ELT) Pre-Focal Station
@@ -359,7 +340,6 @@ PRIMA,Phase-Referenced Imaging and Micro-arcsecond Astrometry facility (VLTI)
 PSF,Point Spread Function
 PTP,Precision Time Protocol
 Q,Quarter
-QA,Quality Assurance
 QSO,Quasi Stellar Object, quasar
 QUEST,QUasar Equatorial Survey Team
 R&D,Research and Development
@@ -372,7 +352,6 @@ REUNA,Red Universitaria Nacional (Academic data network in Chile)
 RM,Rossiter-McClaughlin (effect)
 RMN,Reflective Memory Network (VLTI)
 rms,Root Mean Square
-RTC,Real Time Computing
 SABOCA,Shortwave Apex BOlometer Camera
 SAC,EURO-VO Science Advisory Committee
 SAF,Science Archive Facility
@@ -383,10 +362,6 @@ SCAO,Single-conjugate adaptive optics
 SCO,Santiago Central Office (ALMA/ESO Vitacura)
 SDD,Software Development Division
 SDSS,Sloan Digital Sky Survey
-SE,System Engineering (ALMA)
-SEK,Swedish Crown
-SEO,Search Engine Operations
-SEPA,Single Euro Payments Area
 SEPIA,Swedish ESO PI receiver for APEX
 SHFI,Swedish Heterodyne Facility Instrument
 SiC,(ELT) SiliconCarbide-mirrorsubstrate
@@ -413,10 +388,8 @@ STRAP,Tip-tilt sensors (VLTI)
 STScI,Space Telescope Science Institute (USA)
 sub-mm,submillimetre
 SUSI2,Superb Seeing Imager 2 (NTT)
-SW,Software
 TAROT,Télescope à Action Rapide pour les Objets Transitoires
 TAROT-S,Télescopes à Action Rapide pour les Objets Transitoires South
-TB,Terabyte
 TBT,Test-Bed Telescope
 TEC,Technology Division
 telbib,ESO library telescope bibliography database
@@ -427,16 +400,10 @@ TRAPPIST,TRAnsiting Planets and PlanetesImals Small Telescope
 TRR,Test Readiness Review
 TUM,Technische Universität München
 UC,Users Committee
-UK,United Kingdom
 UK ATC,UK Astronomy Technology Centre
 Ultracam,High-speed camera (VLT)
 UltraVISTA,Ultra-deep near-infrared survey in the COSMOS field
-UN,United Nations
 UNCOPUOS,United Nations Committee for the Peaceful Uses of Outer Space
-UNESCO,United Nations Educational Scientific and Cultural Organization
-US,United States (of America)
-USD,User Support Department
-USD,United States Dollar
 USM,University Observatory Munich
 UT,Unit Telescope of the VLT
 UT1–4,VLT Unit Telescopes 1–4: Antu, Kueyen, Melipal and Yepun
@@ -449,7 +416,6 @@ VIDEO,VISTA Deep Extragalactic Observations Survey
 VIKING,VISTA Kilo-degree Infrared Galaxy survey
 VIMOS,VIsible MultiObject Spectrograph (VLT)
 VINCI,VLT INterferometer Commissioning Instrument (VLTI)
-VIP,Very Important Person
 VIPERS,VIMOS Public Extragalactic Redshift Survey
 VIRCAM,VISTA Infrared Camera
 VISA,VLTI Sub-Array
