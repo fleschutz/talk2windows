@@ -6,7 +6,7 @@
 .EXAMPLE
 	PS> ./check-time-zone
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
@@ -17,6 +17,6 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "It's $($TimeZone.DisplayName)"
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

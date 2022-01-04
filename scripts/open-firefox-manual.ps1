@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the Firefox manual
+	Open the Firefox manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the Firefox manual.
 .EXAMPLE
-	PS> ./show-firefox-manual
+	PS> ./open-firefox-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

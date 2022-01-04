@@ -16,11 +16,11 @@
 param([string]$text = "")
 
 try {
-	$TTSVoice = New-Object -ComObject SAPI.SPVoice
-	foreach ($Voice in $TTSVoice.GetVoices()) {
-		if ($Voice.GetDescription() -like "*- Spanish*") { continue }
-			$TTSVoice.Voice = $Voice
-			[void]$TTSVoice.Speak($text)
+	$Voice = New-Object -ComObject SAPI.SPVoice
+	foreach ($OtherVoice in $Voice.GetVoices()) {
+		if ($OtherVoice.GetDescription() -like "*- Spanish*") { continue }
+			$Voice.Voice = $OtherVoice
+			[void]$Voice.Speak($text)
 			exit 0 # success
 		}
 	}

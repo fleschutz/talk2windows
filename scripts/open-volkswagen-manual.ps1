@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the Volkswagen manual
+	Opens the Volkswagen manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the Volkswagen manual.
 .EXAMPLE
-	PS> ./show-volkswagen-manual
+	PS> ./open-volkswagen-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

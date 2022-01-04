@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Sets the given image file as desktop wallpaper
+	Sets a wallpaper
 .DESCRIPTION
 	Sets the given image file as desktop wallpaper (.JPG or .PNG supported)
 .PARAMETER ImageFile
@@ -10,7 +10,7 @@
 .EXAMPLE
 	PS> ./set-wallpaper C:\ocean.jpg
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/PowerShell
 #>
@@ -60,11 +60,9 @@ function SetWallPaper {
 }
  
 try {
-	if ($ImageFile -eq "" ) { $ImageFile = read-host "Enter path to image file" }
-
 	SetWallPaper -Image $ImageFile -Style $Style
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

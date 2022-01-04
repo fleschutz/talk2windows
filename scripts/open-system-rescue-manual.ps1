@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the SystemRescue manual
+	Opens the SystemRescue manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the SystemRescue online manual.
 .EXAMPLE
-	PS> ./show-system-rescue-manual
+	PS> ./open-system-rescue-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

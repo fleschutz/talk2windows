@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the Serenade manual
+	Opens the Serenade manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the Serenade manual.
 .EXAMPLE
-	PS> ./show-serenade-manual
+	PS> ./open-serenade-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

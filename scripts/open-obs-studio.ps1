@@ -6,7 +6,7 @@
 .EXAMPLE
 	PS> ./open-obs-studio
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
@@ -23,6 +23,6 @@ try {
 	TryLaunching "C:\Program Files\OBS Studio\bin\64bit\obs64.exe" "C:\Program Files\OBS Studio\bin\64bit\"
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

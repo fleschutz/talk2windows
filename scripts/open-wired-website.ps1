@@ -6,7 +6,7 @@
 .EXAMPLE
 	PS> ./open-wired-website
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

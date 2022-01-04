@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the Git manual
+	Opens the Git manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the Git manual.
 .EXAMPLE
-	PS> ./show-git-manual
+	PS> ./open-git-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

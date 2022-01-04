@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the MSBuild manual
+	Opens the MSBuild manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the MSBuild manual.
 .EXAMPLE
-	PS> ./show-msbuild-manual
+	PS> ./open-msbuild-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

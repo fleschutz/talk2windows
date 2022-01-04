@@ -6,7 +6,7 @@
 .EXAMPLE
 	PS> ./enable-god-mode
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
@@ -19,9 +19,9 @@ try {
 	}
 	$null = new-item @GodModeSplat
 
-	"✔️ enabled god mode - see the new desktop icon"
+	& "$PSScriptRoot/_reply.ps1" "God mode is enabled now."
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

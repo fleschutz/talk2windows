@@ -6,7 +6,7 @@
 .EXAMPLE
 	PS> ./are-you-with-me
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

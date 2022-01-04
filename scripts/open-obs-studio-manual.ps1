@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the OBS Studio manual
+	Open the OBS Studio manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the OBS Studio manual.
 .EXAMPLE
-	PS> ./show-obs-studio-manual
+	PS> ./openn-obs-studio-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

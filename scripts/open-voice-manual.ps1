@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the voice manual
+	Opens the voice manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the voice control manual.
 .EXAMPLE
-	PS> ./show-voice-manual
+	PS> ./open-voice-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

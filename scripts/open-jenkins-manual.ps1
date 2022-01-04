@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the Jenkins manual
+	Opens the Jenkins manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the Jenkins manual.
 .EXAMPLE
-	PS> ./show-jenkins-manual
+	PS> ./open-jenkins-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

@@ -6,7 +6,7 @@
 .EXAMPLE
 	PS> ./check-vpn
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
@@ -19,7 +19,7 @@ try {
 		$FoundOne = $true
 	}
 	if (!$FoundOne) { & "$PSScriptRoot/_reply.ps1" "No VPN connection configured." }
-	exit 0
+	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])."
 	exit 1

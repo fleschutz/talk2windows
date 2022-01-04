@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows the PowerShell manual
+	Opens the PowerShell manual
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the PowerShell manual.
 .EXAMPLE
-	PS> ./show-powershell-manual
+	PS> ./open-powershell-manual
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

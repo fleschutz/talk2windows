@@ -6,7 +6,7 @@
 .EXAMPLE
 	PS> ./close-paint-3d
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
