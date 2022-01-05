@@ -12,6 +12,6 @@
 #>
 
 & "$PSScriptRoot/_reply.ps1" "OK."
-Get-ScheduledTask | | Out-GridView
+Get-ScheduledTask | Out-GridView
 sleep 600
 exit 0 # success
