@@ -20,8 +20,7 @@ function TryToExec { param($Folder, $Binary)
 
 try {
 	TryToExec "$HOME\AppData\Local\Discord\app-*" "Discord.exe"
-	& "$PSScriptRoot/_reply.ps1" "Sorry, can't launch Discord - is it installed?"
-	exit 1
+	throw "Discord isn't installed yet."
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1

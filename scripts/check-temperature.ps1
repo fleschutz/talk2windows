@@ -26,7 +26,7 @@ try {
 		if ($Temp -gt $MaxTemp) { $MaxTemp = $Temp }
 		if ($Hourly.time -eq "2100") { break }
 	}
-	& "$PSScriptRoot/_reply.ps1" "$CurTemp °C outside, it ranges from $MinTemp °C to $MaxTemp °C today."
+	& "$PSScriptRoot/_reply.ps1" "$CurTemp °C outside, ranging from $MinTemp to $MaxTemp °C today."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
