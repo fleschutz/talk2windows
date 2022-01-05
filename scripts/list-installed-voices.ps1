@@ -19,6 +19,7 @@ try {
 	$Synth.GetInstalledVoices() | 
 		Select-Object -ExpandProperty VoiceInfo | 
 		Select-Object -Property Name, Culture, Gender, Age | Out-GridView
+	sleep 600
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

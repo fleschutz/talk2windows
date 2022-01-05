@@ -100,4 +100,5 @@ $infoprop = @{
 
 $info = New-Object -TypeName PSObject -Prop $infoprop
 $info | Out-GridView
+sleep 600
 exit 0 # success

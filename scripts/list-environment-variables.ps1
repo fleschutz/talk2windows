@@ -13,6 +13,7 @@
 
 try {
 	Get-ChildItem env: | Out-GridView
+	sleep 600
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

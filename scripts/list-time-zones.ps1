@@ -13,4 +13,5 @@
 
 & "$PSScriptRoot/_reply.ps1" "OK."
 Get-Timezone -ListAvailable | Out-GridView
+sleep 600
 exit 0 # success

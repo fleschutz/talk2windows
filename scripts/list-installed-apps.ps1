@@ -13,4 +13,5 @@
 
 & "$PSScriptRoot/_reply.ps1" "OK."
 Get-AppxPackage | Out-Gridview
+sleep 600
 exit 0 # success
