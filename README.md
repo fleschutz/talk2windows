@@ -115,7 +115,7 @@ Launches the Windows settings, replace [name] by: `activation`, `apps`, `backgro
 
 ❔ *"Windows, list [items]"*
 ---------------------------
-Shows a table of the desired items, replace [items] by: `earthquakes`, `environment variables`, `installed apps`, `installed software`, `installed voices`, `printers`, `running processes`, `services`, `system info`, `tasks`, or `time zones`.
+Shows a table of the desired items, replace [items] by: `bluetooth devices`, `earthquakes`, `environment variables`, `installed apps`, `installed software`, `installed voices`, `printers`, `running processes`, `services`, `system info`, `tasks`, `time zones`, or `user groups`.
 
 
 🔧 *"Windows, [action] computer."*
