@@ -113,9 +113,9 @@ Installs the given application from Microsoft Store, replace [app] by: `9 ZIP`, 
 Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
-❔ *"Windows, list [items]"*
+❔ *"Windows, list [table]"*
 ---------------------------
-Shows a table of the desired items, replace [items] by: `bluetooth devices`, `earthquakes`, `environment variables`, `installed apps`, `installed software`, `installed voices`, `printers`, `running processes`, `services`, `system info`, `tasks`, `time zones`, or `user groups`.
+Shows the given table, just replace [table] by: `bluetooth devices`, `earthquakes`, `environment variables`, `installed apps`, `installed software`, `installed voices`, `printers`, `running processes`, `services`, `system info`, `tasks`, `time zones`, or `user groups`.
 
 
 🔧 *"Windows, [action] computer."*
