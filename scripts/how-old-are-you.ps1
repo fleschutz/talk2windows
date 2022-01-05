@@ -17,7 +17,7 @@ try {
 	$InstallDate = $OSDetails.InstallDate
 	$Now = [DateTime]::Now
 	$Days = ($Now - $InstallDate).Days
-	& "$PSScriptRoot/_reply.ps1" "I'm $Days days old, I was installed on this machine on $($InstallDate.ToShortDateString())."
+	& "$PSScriptRoot/_reply.ps1" "I'm $Days days old, my installation was on $($InstallDate.ToShortDateString())."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
