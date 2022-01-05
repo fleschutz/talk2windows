@@ -113,6 +113,10 @@ Installs the given application from Microsoft Store, replace [app] by: `9 ZIP`, 
 Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 
+❔ *"Windows, list [items]"*
+---------------------------
+Shows a table of the desired items, replace [items] by: `installed apps`, `printers`, or `running processes`.
+
 🔧 *"Windows, [action] computer."*
 ----------------------------------
 Performs the given action to the computer, replace [action] by: `hibernate`, `lock`, `reboot`, `shut down`, or `suspend`.
