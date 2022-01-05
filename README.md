@@ -1,10 +1,10 @@
 TALK2WINDOWS
 ============
-This repository provides voice control for Windows®. Be more productive by using your voice besides keyboard and mouse (see the voice commands below). Required is Windows 10 or 11, a microphone and loudspeaker (headset recommended), and the Serenade application (free).
+This repository provides voice control for Windows®. Be more productive by using your voice besides keyboard and mouse (see the voice commands below). Required is Windows 10 or 11, a microphone and loudspeaker (headset recommended), and the free Serenade application.
 
 
-🔧 Installation (once)
------------------------
+🔧 Installation
+----------------
 1. Download and install *Serenade* from https://serenade.ai/ (during installation no plugin and no programming language need to be selected). Close *Serenade* when finished.
 2. Download the *talk2windows* ZIP file (click green button) und unzip it somewhere.
 3. Open *Windows PowerShell (Administrator)* and execute: `Set-ExecutionPolicy RemoteSigned` to allow execution of PowerShell scripts.
