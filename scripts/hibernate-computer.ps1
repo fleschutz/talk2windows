@@ -8,13 +8,11 @@
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-#Requires -RunAsAdministrator
-
 try {
-	Start-Process powercfg.exe /hibernate
+	& rundll32.exe powrprof.dll,SetSupendState 1,1,0 # bHibernate,bForce,bWakeupEventsDisabled
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Error: $($Error[0])"
