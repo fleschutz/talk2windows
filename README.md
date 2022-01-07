@@ -85,7 +85,7 @@ Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas
 
 🎨 *"Windows, next [category] wallpaper."*
 -------------------------------------------
-Replaces the desktop background by a random photo from Unsplash.com. Replace [category] by: `Animal`, `Beach`, `Car`, `Christmas`, `City`, `Fantasy`, `Military`, `Movie`, `Music`, `Nature`, `Plane`, `Random`, `Space`, `Sports`, or `Winter`.
+Replaces the desktop background by a random photo from Unsplash.com. Replace [category] by: `Animal`, `Beach`, `Car`, `Christmas`, `City`, `Desert`, `Fantasy`, `Military`, `Movie`, `Music`, `Nature`, `Plane`, `Random`, `Space`, `Sports`, or `Winter`.
 
 
 ⏰ *"Windows, remind me [time]."*
