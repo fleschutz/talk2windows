@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script launches the Mp3tag application.
 .EXAMPLE
-	PS> ./open-mp3tag
+	PS> ./open-mp-three-tag
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
@@ -13,7 +13,7 @@
 
 try {
 	$App = Get-AppxPackage -Name "*Mp3tag*"
-	if ($App.Status -ne "Ok") { throw "Map3Tag isn't installed yet." }
+	if ($App.Status -ne "Ok") { throw "MP3 tag isn't installed yet." }
 	Start-Process shell:appsFolder\$($App.PackageFamilyName)!Mp3tag
 	exit 0 # success
 } catch {
