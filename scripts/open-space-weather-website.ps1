@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the Space Weather website.
 .EXAMPLE
-	PS> ./open-space-weather
+	PS> ./open-space-weather-website
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
