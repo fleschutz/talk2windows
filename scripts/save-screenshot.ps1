@@ -28,14 +28,14 @@ function TakeScreenshot { param([string]$FilePath)
 
 try {
         if (-not(test-path "$TargetFolder" -pathType container)) {
-                throw "Target folder at 📂$TargetFolder doesn't exist"
+                throw "Target folder at $TargetFolder doesn't exist"
         }
 	$Time = (Get-Date)
 	$Filename = "$($Time.Year)-$($Time.Month)-$($Time.Day)T$($Time.Hour)-$($Time.Minute)-$($Time.Second).png"
 	$FilePath = (Join-Path $TargetFolder $Filename)
 	TakeScreenshot $FilePath
 
-	& "$PSScriptRoot/_reply.ps1" "Screenshot saved to pictures folder."
+	& "$PSScriptRoot/_reply.ps1" "OK, saved to pictures folder."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
