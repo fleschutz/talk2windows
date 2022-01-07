@@ -11,8 +11,10 @@
 	https://github.com/fleschutz/PowerShell
 #>
 
+#Requires -RunAsAdministrator
+
 try {
-	& rundll32.exe powrprof.dll,SetSupendState Hibernate
+	Start-Process powercfg.exe /hibernate
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Error: $($Error[0])"
