@@ -28,7 +28,7 @@ function GetAbbr { param([string]$Text)
 
 try {
 	$FoundOne = $false
-	$Files = (get-childItem "$PSScriptRoot/../Data/Abbr/*.csv")
+	$Files = (Get-ChildItem "$PSScriptRoot/../data/abbr/*.csv")
 
 	foreach($File in $Files) {
 		$Table = import-csv "$File"
