@@ -12,7 +12,8 @@
 #>
 
 try {
-	& rundll32.exe powrprof.dll,SetSupendState 0,1,0 # bHibernate,bForce,bWakeupEventsDisabled
+	& "$PSScriptRoot/_reply.ps1" "Going to sleep."
+	& rundll32.exe powrprof.dll,SetSuspendState 0,1,0 # bHibernate,bForce,bWakeupEventsDisabled
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
