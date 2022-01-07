@@ -12,7 +12,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Going to sleep."
+	& "$PSScriptRoot/_reply.ps1" "Bye, I'm going to sleep..."
 	& rundll32.exe powrprof.dll,SetSuspendState 1,1,0 # bHibernate,bForce,bWakeupEventsDisabled
 	exit 0 # success
 } catch {
