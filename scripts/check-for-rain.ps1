@@ -15,11 +15,17 @@
 
 param([string]$location = "") # empty means determine automatically
 
-function GetCategory { param([int]$precipMM)
-	if ($precipMM -lt "2.5") { return "Light rain" }
-	if ($precipMM -lt "7.7") { return "Moderate rain" }
-	if ($precipMM -lt "50.0") { return "Heavy rain" }
-	return "Violent rain"
+function GetCategory { param([int]$TempC, [int]$PrecipMM)
+	if ($TempC -lt "0") {
+		if ($PrecipMM -lt "0.2") { return "Light snow" }
+		if ($PrecipMM -lt "0.5") { return "Moderate snow" }
+		return "Heavy snow"
+	} else {
+		if ($PrecipMM -lt "2.5") { return "Light rain" }
+		if ($PrecipMM -lt "7.7") { return "Moderate rain" }
+		if ($PprecipMM -lt "50.0") { return "Heavy rain" }
+		return "Violent rain"
+	}
 }
 
 try {
@@ -31,7 +37,7 @@ try {
 		$Day = "today"
 		foreach ($Hourly in $Weather.weather.hourly) {
 			if ($Hourly.precipMM -ne "0.0") {
-				$Rain = GetCategory $Hourly.precipMM 
+				$Rain = GetCategory $Hourly.tempC $Hourly.precipMM 
 				& "$PSScriptRoot/_reply.ps1" "$Rain expected $Day at $($Hourly.time / 100) o'clock with $($Hourly.precipMM) millimeters per hour."
 				exit 0 # success
 			}
@@ -42,7 +48,7 @@ try {
 		$Day = "today"
 		foreach ($Hourly in $Weather.weather.hourly) {
 			if ($Hourly.precipMM -eq "0.0") { 
-				$Rain = GetCategory $Precip
+				$Rain = GetCategory $Temp $Precip
 				& "$PSScriptRoot/_reply.ps1" "$Rain with $($Precip) millimeters per hour expected to stop $Day at $($Hourly.time / 100) o'clock."
 				exit 0 # success
 			}
