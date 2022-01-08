@@ -74,7 +74,7 @@ Launches the default Web browser (or opens a new tab) and plays a music genre. R
 
 🔈 *"Windows, play [name] sound."*
 ----------------------------------
-Starts the playback of the given sound, just replace [name] by: `bee`, `beep`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
+Starts the playback of the given sound, just replace [name] by: `bee`, `beep`, `Big Ben`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
 
 
 🎮 *"Windows, play [name] game."*
