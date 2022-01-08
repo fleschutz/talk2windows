@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script replies to 'What's up?' by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./whats-up
+	PS> ./what-is-up
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK

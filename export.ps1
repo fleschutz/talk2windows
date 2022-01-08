@@ -23,21 +23,21 @@
 
 param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/scripts/*.ps1", [string]$Application = "terminal", [string]$TargetFile = "$HOME\.serenade\scripts\talk2windows.js")
 
-function GetLine { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
+function AddVoiceCmd { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
 	$Basename = $Basename -replace "-"," "
 	$ScriptPath = $ScriptPath -replace "\\","\\"
-	return "serenade.global().command(`"$WakeWord $Basename`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`"]);});"
+	"serenade.global().command(`"$WakeWord $Basename`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`"]);});" | Add-Content "$TargetFile"
 }
 
-function GetLineWithArg { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
+function AddVoiceCmdWithArgument { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
 	$Basename = $Basename -replace "-XYZ","-<%text%>"
 	$Basename = $Basename -replace "-"," "
 	$ScriptPath = $ScriptPath -replace "\\","\\"
-	return "serenade.global().command(`"$WakeWord $Basename`",async(api,matches)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`",matches.text]);});"
+	"serenade.global().command(`"$WakeWord $Basename`",async(api,matches)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`",matches.text]);});" | Add-Content "$TargetFile"
 }
 
-function GetLineDEBUG { param([string]$WakeWord, [string]$Keywords, [string]$ScriptName)
-	return "serenade.global().command(`"$WakeWord $Keywords`",async(api)=>{await api.focusApplication(`"$Application`");await api.pressKey(`"return`");await api.typeText(`"$ScriptName.ps1`");await api.pressKey(`"return`");});" 
+function AddVoiceCmdDEBUG { param([string]$WakeWord, [string]$Keywords, [string]$ScriptName)
+	"serenade.global().command(`"$WakeWord $Keywords`",async(api)=>{await api.focusApplication(`"$Application`");await api.pressKey(`"return`");await api.typeText(`"$ScriptName.ps1`");await api.pressKey(`"return`");});" | Add-Content "$TargetFile"
 }
 
 
@@ -54,9 +54,22 @@ try {
 		$Basename = $Script.basename
 		if ($Basename[0] -eq "_") { continue } # internal script, don't export it
 		if ($Basename -like "*-XYZ*") {
-			GetLineWithArg $WakeWord $Basename $Script | Add-Content "$TargetFile"
+			AddVoiceCmdWithArgument $WakeWord $Basename $Script
+		} elseif ($Basename -like "*-is-*") {
+			AddVoiceCmd $WakeWord $Basename $Script
+			$Basename = $Basename -replace "-is-","'s-"
+			AddVoiceCmd $WakeWord $Basename $Script
+		} elseif ($Basename -like "*-am-*") {
+			AddVoiceCmd $WakeWord $Basename $Script
+			$Basename = $Basename -replace "-am-","'m-"
+			AddVoiceCmd $WakeWord $Basename $Script
+
+		} elseif ($Basename -like "*-will-*") {
+			AddVoiceCmd $WakeWord $Basename $Script
+			$Basename = $Basename -replace "-will-","'ll-"
+			AddVoiceCmd $WakeWord $Basename $Script
 		} else {
-			GetLine $WakeWord $Basename $Script | Add-Content "$TargetFile"
+			AddVoiceCmd $WakeWord $Basename $Script 
 		}
 	}
 	"Export to Serenade was successful - launch Serenade now to talk to Windows."
