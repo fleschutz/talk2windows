@@ -1,6 +1,6 @@
 TALK2WINDOWS
 ============
-This repository adds voice control to Windows®. Be more productive by using voice commands besides keyboard and mouse. Required is Windows 10 or 11, a headset (or microphone + loudspeaker), and the free Serenade application.
+This repository adds voice control to Windows®. Be faster and more productive by using voice commands besides keyboard and mouse. Required is Windows 10 or 11, a headset (or microphone + loudspeaker), and the free Serenade application.
 
 
 🔧 Installation
