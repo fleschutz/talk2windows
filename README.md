@@ -27,6 +27,10 @@ Say hello to Windows, simply replace [greeting] by: `good afternoon`, `good even
 -----------------------------
 Launches the given application, just replace [app] by: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
 
+🔧 *"Windows, install [app]."*
+------------------------------
+Installs the given application from Microsoft Store, replace [app] by: `9 ZIP`, `CrystalDiskInfo`, `CrystalDiskMark`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates, so they will always be up-to-date. Say: *"Windows, uninstall [app]"* to uninstall the application.
+
 
 🌐 *"Windows, open [name] website."*
 -------------------------------------
@@ -101,11 +105,6 @@ Launches the File Explorer with the given drive. Replace [letter] by: `C:`, `D:`
 📂 *"Windows, open [name] folder."*
 ------------------------------------
 Launches the File Explorer with the given folder. Replace [name] by: `apps`, `autostart`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `Talk2Windows`, `temporary`, `videos`, or 'Windows'. When finished say: *"Windows, close file explorer"* to close the File Explorer.
-
-
-🔧 *"Windows, install [app]."*
-------------------------------
-Installs the given application from Microsoft Store, replace [app] by: `9 ZIP`, `CrystalDiskInfo`, `CrystalDiskMark`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates, so they will always be up-to-date. Say: *"Windows, uninstall [app]"* to uninstall the application.
 
 
 ⚙️ *"Windows, open [name] settings."*
