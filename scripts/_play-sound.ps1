@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Plays a MP3 sound file 
+	Plays a Sound File 
 .DESCRIPTION
-	This PowerShell script plays a sound file in .MP3 file format.
+	This PowerShell script plays a sound file in .MP3/.WAV file format.
 .PARAMETER Path
-	Specifies the path to the .MP3 file
+	Specifies the path to the sound file
 .EXAMPLE
-	PS> ./play-mp3 C:\thunder.mp3
+	PS> ./_play-sound C:\thunder.mp3
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
@@ -16,9 +16,6 @@
 param([string]$Path = "")
 
 try {
-	if ($Path -eq "" ) { $Path = read-host "Enter the path to the MP3 sound file" }
-
-	if (-not(test-path "$Path" -pathType leaf)) { throw "Can't access sound file: $Path" }
 	$FullPath = (get-childItem $Path).fullname
 	$Filename = (get-item "$FullPath").name
 
@@ -32,15 +29,12 @@ try {
 
 	[int]$Minutes = $Milliseconds / 60000
 	[int]$Seconds = ($Milliseconds / 1000) % 60
-	"▶️ Playing $Filename for $($Minutes.ToString('00')):$($Seconds.ToString('00')) sec..."
-	$PreviousTitle = $host.ui.RawUI.WindowTitle 
-	$host.ui.RawUI.WindowTitle = "▶️ $Filename"
+	"Playing $Filename for $($Minutes.ToString('00')):$($Seconds.ToString('00')) sec..."
 	$MediaPlayer.Volume = 1
 	$MediaPlayer.play()
 	start-sleep -milliseconds $Milliseconds
 	$MediaPlayer.stop()
 	$MediaPlayer.close()
-	$host.ui.RawUI.WindowTitle = $PreviousTitle
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

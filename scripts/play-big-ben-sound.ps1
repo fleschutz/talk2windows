@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Plays Big Ben
+	Plays the Big Ben clocks
 .DESCRIPTION
 	This PowerShell script plays the hourly Big Ben clock bells.
 .EXAMPLE
@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/play-mp3.ps1" "$PSScriptRoot/../data/sounds/BigBenHourly.mp3"
+& "$PSScriptRoot/_play-sound.ps1" "$PSScriptRoot/../data/sounds/BigBenHourly.mp3"
 exit 0 # success
