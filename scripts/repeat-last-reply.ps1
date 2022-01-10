@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Repeats the last reply
+	Repeat Last Reply
 .DESCRIPTION
-	This repeats the last reply by text-to-speech (TTS).
+	This PowerShell script repeats the last reply by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./repeat-last-reply
 .NOTES
@@ -19,9 +19,9 @@ function GetTempDir {
 }
 
 try {
-	if (test-path "$(GetTempDir)/talk2windows_last_reply.txt" -pathType leaf) {
-		$Reply = "It was: "
-		$Reply += Get-Content "$(GetTempDir)/last_reply_given.txt"
+	$Path = "$(GetTempDir)/talk2windows_last_reply.txt"
+	if (test-path "$Path" -pathType leaf) {
+		$Reply = "It was: " + (Get-Content "$Path")
 	} else {
 		$Reply = "Sorry, I can't remember."
 	}
