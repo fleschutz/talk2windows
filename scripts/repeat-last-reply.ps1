@@ -6,9 +6,9 @@
 .EXAMPLE
 	PS> ./repeat-last-reply
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 function GetTempDir {
@@ -18,12 +18,16 @@ function GetTempDir {
 	return "C:\Temp"
 }
 
-if (test-path "$(GetTempDir)/last_reply_given.txt" -pathType leaf) {
-	$Reply = "It was: "
-	$Reply += Get-Content "$(GetTempDir)/last_reply_given.txt"
-} else {
-	$Reply = "Sorry, I can't remember."
+try {
+	if (test-path "$(GetTempDir)/talk2windows_last_reply.txt" -pathType leaf) {
+		$Reply = "It was: "
+		$Reply += Get-Content "$(GetTempDir)/last_reply_given.txt"
+	} else {
+		$Reply = "Sorry, I can't remember."
+	}
+	& "$PSScriptRoot/_reply.ps1" "$Reply"
+	exit 0 # success
+} catch {
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	exit 1
 }
-
-& "$PSScriptRoot/_reply.ps1" "$Reply"
-exit 0 # success

@@ -35,7 +35,7 @@ try {
 	" < $text"
 
 	# remember last reply:
-	"$text" > "$(GetTempDir)/last_reply_given.txt"
+	"$text" > "$(GetTempDir)/talk2windows_last_reply.txt"
 	exit 0 # success
 } catch {
 	"Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
