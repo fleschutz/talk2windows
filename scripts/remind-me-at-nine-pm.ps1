@@ -28,7 +28,7 @@ try {
         if ($Now -lt $TimePoint) {
                $TimeSpan = TimeSpanToString($TimePoint - $Now)
 		& "$PSScriptRoot/_reply.ps1" "OK, in $TimeSpan."
-		& "$PSScriptRoot/_set-reminder.ps1" "It's 9 PM now." "$TimePoint"
+		& "$PSScriptRoot/_set-reminder.ps1" "It's exactly 9 PM." "$TimePoint"
 	} else {
         	$TimeSpan = TimeSpanToString($Now - $TimePoint)
 		& "$PSScriptRoot/_reply.ps1" "Sorry, 9 PM was $TimeSpan ago."
