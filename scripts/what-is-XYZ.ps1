@@ -1,47 +1,41 @@
 <#
 .SYNOPSIS
-	Tells the description of an abbreviation
+	Explains an Abbreviation
 .DESCRIPTION
-	This PowerShell script replies the description of the given abbreviation by text-to-speech (TTS).
+	This PowerShell script tells the maining of the given abbreviation by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./what-is-XYZ IAS
+	PS> ./what-is-XYZ ECC
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
-param([string]$abbreviation = "")
+param([string]$abbr = "")
 
-function Reply { param([string]$Text)
-	& "$PSScriptRoot/_reply.ps1" "$Text"
-}
-
-function GetAbbr { param([string]$Text)
+function SpellAbbr { param([string]$Text)
 	[char[]]$ArrayOfChars = $Text
 	$Result = ""
 	foreach($Char in $ArrayOfChars) {
-		$Result += $Char + " "
+		$Result += $Char + "."
 	}
 	return $Result
 }
 
 try {
-	$FoundOne = $false
 	$Files = (Get-ChildItem "$PSScriptRoot/../data/abbr/*.csv")
-
+	$Text = ""
 	foreach($File in $Files) {
-		$Table = import-csv "$File"
+		$Table = Import-CSV "$File"
 		foreach($Row in $Table) {
-			if ($Row.Abbr -eq $abbreviation) {
-				$Basename = (get-item "$File").Basename
-				Reply "$(GetAbbr $Row.Abbr)means $($Row.Term) in $Basename"
-				$FoundOne = $true
-			}
+			if ($Row.Abbr -ne $abbr) { continue }
+			$Basename = (Get-Item "$File").Basename
+			if ($Text -ne "") { $Text += ", or " }
+			$Text += "$(SpellAbbr $Row.Abbr) means $($Row.Term) in $Basename"
 		}
 	}
-
-	if ($FoundOne -eq $false) { Reply "Sorry, I don't know what '$abbreviation' means." }
+	if ($Text -eq "") { $Text = "Sorry, I don't know what $(SpellAbbr $abbr) means." }
+	& "$PSScriptRoot/_reply.ps1" "$Text"
 	exit 0 # success
 } catch {
 	Reply "Sorry: $($Error[0])"
