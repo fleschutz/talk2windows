@@ -59,12 +59,11 @@ try {
 			AddVoiceCmd $WakeWord $Basename $Script
 			$Basename = $Basename -replace "-is-","'s-"
 			AddVoiceCmd $WakeWord $Basename $Script
-		} elseif ($Basename -like "*-am-*") {
+		} elseif ($Basename -like "i-am-*") {
 			$Basename = $Basename -replace "-am-","'m-"
 			AddVoiceCmd $WakeWord $Basename $Script
 
-		} elseif ($Basename -like "*-will-*") {
-			AddVoiceCmd $WakeWord $Basename $Script
+		} elseif ($Basename -like "i-will-*") {
 			$Basename = $Basename -replace "-will-","'ll-"
 			AddVoiceCmd $WakeWord $Basename $Script
 		} else {
