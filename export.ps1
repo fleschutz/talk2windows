@@ -60,7 +60,6 @@ try {
 			$Basename = $Basename -replace "-is-","'s-"
 			AddVoiceCmd $WakeWord $Basename $Script
 		} elseif ($Basename -like "*-am-*") {
-			AddVoiceCmd $WakeWord $Basename $Script
 			$Basename = $Basename -replace "-am-","'m-"
 			AddVoiceCmd $WakeWord $Basename $Script
 
