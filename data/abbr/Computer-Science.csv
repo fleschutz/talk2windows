@@ -106,6 +106,7 @@ GPL,General Public License
 GPU,Graphics Processing Unit
 GPT,GUID Partition Table
 GUI,Graphical User Interface
+HDD,Hard Disk Drive
 IP,Internet Protocol
 ISP,Internet Service Provider
 IT,Information Technology
@@ -114,6 +115,7 @@ LCD,Liquid Crystal Display
 NIC,Network Interface Card
 PC,Personal Computer
 RAM,Random Access Memory
+SSD,Solid-State Drive
 TPM,Trusted Platform Module
 URL,Uniform Resource Locator
 VPN,Virtual Private Network
