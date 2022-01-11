@@ -84,7 +84,7 @@ Launches the default Web browser (or opens a new tab) and lets you play a free b
 
 🔦 *"Windows, check [item]."*
 ------------------------------
-Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas`, `CPU`, `date`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Easter Sunday`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `headlines`, `Independence Day`, `internet speed`, `ISS position`, `midnight`, `moon phase`, `month`, `New Year`, `noon`, `operating system`, `ping`, `Santa`, `sunrise`, `sunset`, `swap space`, `tea time`, `temperature`, `Tether rate`, `time`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `wind`, `year`, or `zenith`.
+Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas`, `CPU`, `date`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Easter Sunday`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `headlines`, `Independence Day`, `internet speed`, `ISS position`, `midnight`, `moon phase`, `month`, `New Year`, `noon`, `operating system`, `ping`, `Santa`, `sunrise`, `sunset`, `swap space`, `tea time`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `wind`, `year`, or `zenith`.
 
 
 🎨 *"Windows, next [category] wallpaper."*
@@ -124,7 +124,7 @@ Performs the given action to the computer, replace [action] by: `hibernate`, `lo
 
 ❔ *"Windows, [question]"*
 --------------------------
-Asks Windows a question, just replace [question] by: `are you a computer?`, `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `what is [abbreviation]`, `where am I?`, `where are you?`, `who is your father?`, or `you can talk?`.
+Asks Windows a question, just replace [question] by: `are you a computer?`, `are you here?`, `are you listening?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `what is [abbreviation]`, `what's the time?`, `what time is it?`, `where am I?`, `where are you?`, `who is your father?`, or `you can talk?`.
 
 
 💭 *"Windows, [command]"*
