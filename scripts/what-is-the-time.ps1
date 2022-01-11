@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Say the current time 
+	Replies to "What's the time?" 
 .DESCRIPTION
 	This PowerShell script speaks the current time by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./check-time
+	PS> ./what-is-the-time
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
