@@ -30,8 +30,8 @@ try {
 		foreach($Row in $Table) {
 			if ($Row.Abbr -ne $abbr) { continue }
 			$Basename = (Get-Item "$File").Basename
-			if ($Text -ne "") { $Text += ", or " }
-			$Text += "$(SpellAbbr $Row.Abbr) means $($Row.Term) in $Basename"
+			if ($Text -ne "") { $Text += ".`n" }
+			$Text += "In $Basename $(SpellAbbr $Row.Abbr) means $($Row.Term)"
 		}
 	}
 	if ($Text -eq "") { $Text = "Sorry, I don't know what $(SpellAbbr $abbr) means." }
