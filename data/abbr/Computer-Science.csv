@@ -30,6 +30,7 @@ ASP,Application Service Provider
 ATM,Asynchronous Transfer Mode
 ATX,Advanced Technology eXtended (a form factor for personal computer motherboards and power supplies)
 AVR,Audio/Video Receiver
+AWS,Amazon Web Services
 Bash,Bourne-Again Shell
 BASIC,Beginner's All-purpose Symbolic Instruction Code
 BCC,Blind Carbon Copy
@@ -40,6 +41,11 @@ Blob,Binary Large Object
 BMP,Bitmap
 BSOD,Blue Screen of Death
 BTX,Balanced Technology eXtended (a form factor for personal computer motherboards)
+BYOA,Bring Your Own Apps
+BYOC,Bring Your Own Cloud
+BYON,Bring Your Own Network
+BYOI,Bring Your Own Identity
+BYOE,Bring Your Own Encryption
 CAD,Computer-Aided Design
 CAN,Campus Area Network
 CD,Compact Disc
@@ -107,6 +113,7 @@ GPU,Graphics Processing Unit
 GPT,GUID Partition Table
 GUI,Graphical User Interface
 HDD,Hard Disk Drive
+IoT,Internet of Things
 IP,Internet Protocol
 ISP,Internet Service Provider
 IT,Information Technology
@@ -119,5 +126,32 @@ SSD,Solid-State Drive
 TPM,Trusted Platform Module
 URL,Uniform Resource Locator
 VPN,Virtual Private Network
+VPS,Virtual Private Server
+VRAM,video RAM
+VRF,virtual routing and forwarding
+VRM,vendor risk management
+VRM,voltage regulator module
+VRML,Virtual Reality Modeling Language
+VRML,Virtual Reality Modeling Language
+VRRP,Virtual Router Redundancy Protocol
+VSA,virtual storage appliance
+VSA,virtual SAN appliance
+VSAM,Virtual Storage Access Method
+VSAN,virtual storage area network
+VSAT,Very Small Aperture Terminal
+VSB,vestigial sideband
+VSE,Visual Studio Express
+VSM,virtual systems management
+VSMP,virtual symmetric multiprocessing
+VSP,vertical solutions provider
+VSP,Virtual Storage Portal
+VSPP,VMware Service Provider Program
+VSTO,Visual Studio Tools for Office or Microsoft Visual Studio Tools
+VSTS,Visual Studio Team System
+VTAM,Virtual Telecommunications Access Method
+VTL,virtual tape library
+VUM,VMware vSphere Update Manager
+VXLAN,Virtual Extensible LAN
+VXLAN,gateway Virtual Extensible VLAN gateway
 WAN,Wide Area Network
 WWW,World Wide Web
