@@ -137,7 +137,7 @@ EAVA,Estonian Aviation Academy
 ECAC,European Civil Aviation Conference
 EFM,Gesellschaft für Enteisen und Flugzeugschleppen
 ETA,Estimated Time of Arrival
-ETOPS,Extended Range Twin-engine Aircraft Operations
+ETOPS,Extended-range Twin-engine Operational Performance Standards
 ETVS,Enhanced Terminal Voice Switch system
 FAA,Federal Aviation Administration (USA)
 FAR,Fuel Air Ratio
@@ -184,6 +184,7 @@ ILS,Instrument Landing System
 IMC,Instrument Meteorological Conditions
 KAT,Kaufbeuren ATM Training (DFS subcompany)
 LAA,Lappland Aviation Academy
+LITAS,Low Intensity Two Colour Approach System 
 LL,Lower Limit
 LMUK,Lockheed Martin UK
 LOD,Level of Detail
@@ -202,6 +203,7 @@ PAR,Precision Approach Radar
 PIC,Pilot in Command
 POH,Pilot's Operating Handbook
 PPL,Private Pilot's License
+PNF,Pilot Not Flying 
 PtF,Permit to Fly
 QFE,the altimeter setting that will cause the altimeter to read the height above a specific aerodrome or ground level, and therefore read zero on landing
 QNE,pressure altitude at the landing runway threshold
@@ -245,6 +247,7 @@ UTA,Upper Traffic Area
 V1,Decision speed, the speed beyond which takeoff should no longer be aborted
 V2,Takeoff speed. The speed at which the aircraft may safely be climbed with one engine inoperative
 VASI,Visual Approach Slope Indicator
+VASIS,Visual Approach Slope Indicator System 
 VFR,Visual Flight Rules
 VHF,Very High Frequency
 VMO,maximum operation speed is the air speed than should never be exceeded deliberately in normal operation, whatever the flight situation isVOR,VHF Omni-directional Range
