@@ -11,7 +11,7 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-$Reply = "Welcome back.", "Glad to hear you", "I'm so glad to hear you.", "Wow, that was fast." | Get-Random
+$Reply = "Welcome back.", "Glad to hear you", "Wow, that was fast." | Get-Random
 
 & "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success
