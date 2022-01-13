@@ -6,10 +6,11 @@
 .EXAMPLE
 	PS> ./where-are-you
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "I'm in the machine."
+$Reply = "I'm here.","At your side.","Next to you." | Get-Random
+& "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success
