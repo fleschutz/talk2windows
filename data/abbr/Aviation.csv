@@ -220,9 +220,10 @@ RVR,Runway Visual Range
 RWY,Runway
 SAT,Site Acceptance Test (see also FAT and RAT)
 SATCO,Senior Air Traffic Control Officer
+SFO,Simulated Flameout Operation
+SID,Standard Instrument Departure
 SLOC,Slovenia Control
 STARS,Standard Arrival Routes
-SID,Standard Instrument Departure
 SKYGUIDE,ATC Swiss
 SOW,Statement of Work
 SSR,Secondary Surveillance Radar
