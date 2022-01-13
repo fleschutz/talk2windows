@@ -16,14 +16,14 @@
 param([string]$hosts = "google.com")
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Just a moment..."
+	& "$PSScriptRoot/_reply.ps1" "OK..."
 
 	$HostsArray = $hosts.Split(",")
 	$Pings = test-connection -count 1 -computerName $HostsArray
 	if ($Pings.count -eq 0) {
-		& "$PSScriptRoot/_reply.ps1" "You are offline."
+		& "$PSScriptRoot/_reply.ps1" "Sorry, you're offline."
 	} else {
-		& "$PSScriptRoot/_reply.ps1" "You are online."
+		& "$PSScriptRoot/_reply.ps1" "You're online."
 	}
 	exit 0 # success
 } catch {
