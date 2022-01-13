@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Replies to "Well done"
+	Replies to "That's perfect"
 .DESCRIPTION
-	This PowerShell script replies to 'Well done' by text-to-speech (TTS).
+	This PowerShell script replies to 'That's perfect' by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./well-done
+	PS> ./that-is-perfect
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
