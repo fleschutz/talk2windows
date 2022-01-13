@@ -15,7 +15,7 @@ try {
 	Clear-RecycleBin -Force -Confirm:$false
 #	if ($lastExitCode -ne "0") { throw "'Clear-RecycleBin' failed" }
 
-	& "$PSScriptRoot/_reply.ps1" "Done."
+	& "$PSScriptRoot/_reply.ps1" "Empty now."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
