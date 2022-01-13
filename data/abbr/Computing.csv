@@ -1,5 +1,7 @@
 Abbr,Term
+4GL,Fourth-generation programming language
 AAC,Advanced Audio Coding
+AAI,Applied Artificial Intelligence
 AAM,Automatic Acoustic Management
 AAS,as a service
 AAS,Auto Area Segmentation
@@ -14,6 +16,7 @@ ACPI,Advanced Configuration and Power Interface
 ACR,Absolute Cell Reference
 ACID,"Atomicity, Consistency, Isolation, Durability"
 ACL,Access Control List
+ADatP,Automated Data Processing
 ADC,Analog-to-Digital Converter
 ADF,Automatic Document Feeder
 ADSL,Asymmetric Digital Subscriber Line
@@ -37,7 +40,7 @@ BCC,Blind Carbon Copy
 BGP,Border Gateway Protocol
 BIOS,Basic Input/Output System
 BLE,Bluetooth Low Energy
-Blob,Binary Large Object
+BLOB,Binary Large OBject
 BMP,Bitmap
 BSOD,Blue Screen of Death
 BTX,Balanced Technology eXtended (a form factor for personal computer motherboards)
@@ -49,21 +52,61 @@ BYOE,Bring Your Own Encryption
 CAD,Computer-Aided Design
 CAN,Campus Area Network
 CD,Compact Disc
+CGDC,Computer Game Developers Conference (became GDC in 1998)
+CGF,Computer-Generated Forces (Simulation)
+CGM,Computer Graphics Metafile
+CHI,Computer-Human Interaction
+CLI,Command Line Interface/Interpreter
+CLOB,Character Large OBject
+CLOS,Common Lisp Object System
 CPU,Central Processing Unit
+CMIS,Content Management Interoperability Services
+CMOS,Complementary Metal–Oxide–Semiconductor
+CMS,Cisco Meeting Server
+CNO,Computer Network Operations
+Codec,"Coder-Decoder / Compressor-Decompressor / Compression-Decompression algorithm"
+COLA,"comp.os.linux.announce"
+CORBA,Common Object Request Broker Architecture
 CSS,Cascading Style Sheets
 CSV,Comma Separated Values (file format)
-DDL,Data Definition Language
-ECC,Elliptic Curve Cryptography
-ECC,Error-Correcting Code
+CVS,Concurrent Versions System
+DAB,Digital Audio Broadcasting
+DB,Database
+DBCS,Double Byte Character Set
+DCCP,Datagram Congestion Control Protocol
+DCIM,Digital Camera Images
+DCOP,Desktop Communication Protocol
+DDA,"Digital Differential Analyzer (graphics algorithm), or Digital Differential Analyzer"
+DDD,"Data Display Debugger or Digital Digital Digital (CD mastering)"
+DDL,"Digital Data Link or Data Definition Language"
+DDoS,Distributed Denial of Service
+DECT,Digital European Cordless Telephone
+DIF,Data Interchange Format
+DIMM,Dual In-line Memory Module 
+DLL,Dynamic Link Library
+DMI,Desktop Management Interface 
+DOI,Digital Object Identifier
+DOS,"Denial of Service,or Disk Operating System"
+DRAM,Dynamic Random Access Memory 
+DRM,Digital Rights Management
+DSP,Digital Signal Processing
+DVD,"Digital Versatile Disk (was Digital Video Disk)"
+EBCDIC,Extended Binary Coded Decimal Interchange Code
+ECC,"Elliptic Curve Cryptography or Error-Correcting Code"
+EULA,End-User License Agreement 
+EOF,End of File
+FAT,File Allocation Table
 FC-PGA,Flip-Chip Pin Grid Array
-FD,Floppy Drive
-FD,File Descriptor
+FD,"Floppy Drive or File Descriptor"
 FDC,Floppy Disk Controller
 FDD,Floppy Disk Drive
 FDDI,Fiber Distributed Data Interface
 FDHP,Full Duplex Handshaking Protocol
 Feat,Feature
-FIFO,First In First Out
+FF,"Firefox (Web browser)"
+FFT,Fast Fourier Transformation
+FIFO,"First In, First Out"
+FILO,"First In, Last Out (see also LIFO)"
 FIPS,Federal Information Processing Standards
 FLAC,Free Lossless Audio Codec
 FLOPS,Floating-Point Operations Per Second
@@ -75,19 +118,20 @@ FNR,Format and Restore
 FOAD,Fuck Off And Die
 FOIA,Freedom of Information Act
 FOIRL,Fiber-Optic Inter-Repeater Links
-FORTRAN,Formula Translation
+FORTRAN,The IBM Mathematical FORmula TRANslating System (programming language)
 FOSS,Free and Open-Source Software
+FOV,Field Of View
 FPGA,Field-Programmable Gate Array
 FPM,Fast Page Mode
 FPROM,Field Programmable Read-Only Memory
-FPS,Frames Per Second
-FPS,First-Person Shooter
+FPS,"Frames Per Second, or First-Person Shooter"
 FPU,Floating-Point Unit
 FQDN,Fully Qualified Domain Name
 FR,Frame Relay
 FRAM,Ferroelectric RAM
 FRU,Field-replacable Unit
 FS,File System
+FTP,File Transfer Protocol
 IDE,Integrated Development Environment
 GBIC,Gigabit Interface Converter
 Gbps,Gigabits per second
@@ -96,29 +140,46 @@ GDDR,Graphics Double Data Rate
 GDI,Graphics Device Interface
 GDPR,General Data Protection Regulation
 GEM,Graphics Environment Manager
-GFS,Global File System
-GFS,Google File System
+GEOS,Graphical Environment Operating System
+GFDL,GNU Free Documentation License
+GFS,"Global File System or Google File System"
+GIF,Graphics Interchange Format
 GIGO,Garbage In Garbage Out
 GIMP,GNU Image Manipulation Program
 GIMPS,Great Internet Mersenne Prime Search
-GIS,Geographic Information System
+GIS,"Geographic Information System, or Google Image Search"
 GIYF,Google Is Your Friend
 GKS,Graphical Kernel System
+GLUT,OpenGL Utility Toolkit
 Gmail,Google Mail
+GML,"Generalized Markup Language,Geography Markup Language,Game Maker Language,Graph Modelling Language,Graphical Motion Language,GUI Markup Language"
+GNOME,GNU Network Object Model Environment
 GNU,GNU's Not Unix
 GPF,General Protection Fault
 GPG,GNU Privacy Guard
-GPL,General Public License
+GPL,GNU General Public License
+GPMP,General Purpose Macro Processor
 GPU,Graphics Processing Unit
 GPT,GUID Partition Table
+GTA,Grand Theft Auto (computer game)
 GUI,Graphical User Interface
-HDD,Hard Disk Drive
+GXA,Global XML Web Services Architecture
+GXF,General Exchange Format
+GXL,Graph eXchange Language
+HBCI,Home Banking Computer Interface
+HCI,Human-Computer Interaction/Interface
+HDD,"Hard Disk Drive, or High-Density Disk"
+HDMI,High Definition Multimedia Interface
+HDR,Hard disk recorder
+HDTV,High-Definition Television
+HMM,Hidden Markov model
 IoT,Internet of Things
 IP,Internet Protocol
 ISP,Internet Service Provider
 IT,Information Technology
 LAN,Local Area Network
 LCD,Liquid Crystal Display
+MSDOS,Microsoft Disk Operating System
 NIC,Network Interface Card
 PC,Personal Computer
 RAM,Random Access Memory
@@ -127,11 +188,9 @@ TPM,Trusted Platform Module
 URL,Uniform Resource Locator
 VPN,Virtual Private Network
 VPS,Virtual Private Server
-VRAM,video RAM
-VRF,virtual routing and forwarding
-VRM,vendor risk management
-VRM,voltage regulator module
-VRML,Virtual Reality Modeling Language
+VRAM,Video RAM
+VRF,Virtual Routing and Forwarding
+VRM,"Vendor Risk Management, or Voltage Regulator Module"
 VRML,Virtual Reality Modeling Language
 VRRP,Virtual Router Redundancy Protocol
 VSA,virtual storage appliance

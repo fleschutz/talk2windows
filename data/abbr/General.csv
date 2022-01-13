@@ -14,7 +14,6 @@ Abbr,Term
 3M,Minnesota Mining and Manufacturing Company
 4D,Four-Dimensional (usually three spatial plus one temporal dimension,sometimes four spatial ones)
 4G,Fourth-generation mobile telephone system
-4GL,Fourth-generation programming language
 4WD,Four-wheel drive
 5D,Five-Dimensional
 6D,Six-Dimensional
@@ -41,7 +40,6 @@ AADAC,Alberta Alcohol and Drug Abuse Commission
 AADC,area air defense commander,amino acid decarboxylase,aromatic L-amino acid decarboxylase,Australian Antarctic Data Centre
 AAFC,U.S. Army Air Corps Ferrying Command (1941-1942),All-America Football Conference (1946-1949)
 AAFES,Army and Air Force Exchange Service
-AAI,applied artificial intelligence
 AAIS,advanced airborne interceptor simulator
 AAM,air-to-air missile
 AAMOF,as a matter of fact
@@ -139,7 +137,6 @@ ADAGE,Air Defense Air to Ground Engagement (simulation)
 ADAP,AIDS Drug Assistance Program
 ADAS,(a/i) Asiago-DLR Asteroid Survey
 ADAT,Alesis Digital Audio Tape (recording format)
-ADatP,Automated Data Processing
 ADATS,Agricultural Development and Training Society,Air Defence Anti-Tank System,Australian Defence Air Traffic System
 ADB,Asian Development Bank
 ADC,Aide De Camp,U.S. Air Defense Command (1946-1992),Apple Display Connector,Program Against Digital Counterfeiting of Currency
@@ -721,6 +718,8 @@ CERN,Centre européen pour la recherche nucléaire (French,"European Organizatio
 CERT,Computer Emergency Response Team
 ces,Czech language (ISO 639-2 code)
 CESS,Centre for Earth Science Studies (India)
+CEST,Central European Summer Time
+CET,Central European Time
 CEWC,(a/i) Council for Education in World Citizenship
 Cf,Californium
 CF,Canadian Forces,Central African Republic (ISO 3166 digram),Republic of the Congo (FIPS 10-4 country code)
@@ -745,11 +744,8 @@ CFU,Colony Forming Unit in Microbiology
 CFV,Cavalry Fighting Vehicle
 CFZ,Critical Friendly Zone
 CG,Client Group,Computer Graphics,Controls Group,Democratic Republic of the Congo (FIPS 10-4 country code),Republic of the Congo (ISO 3166 digram)
-CGDC,Computer Game Developers Conference (became GDC in 1998)
-CGF,Computer-Generated Forces (Simulation)
 CGH,Comparative Genomic Hybridisation
 CGIG,Cross-Government Implementation Group
-CGM,Computer Graphics Metafile
 CGO,Republic of the Congo (IOC and FIFA trigram,but not ISO 3166)
 CGS,Chief of the General Staff
 CGT,Capital Gains Tax
@@ -765,7 +761,6 @@ che,Chechen language (ISO 639-2 code)
 CHE,Switzerland (ISO 3166 trigram; from Latin Confoederatio Helvetica)
 CHF,Swiss franc (ISO 4217 currency code)
 CHI,Columbia Helicopters,Inc
-CHI,Computer-Human Interaction
 CHiP,California Highway Patrol
 CHIPS,Cosmic Hot Interstellar Plasma Spectrometer
 CHL,Chile (ISO 3166 trigram)
@@ -820,24 +815,18 @@ CL,Chile (ISO 3166 digram),Co-ordination Line,One Hundred and Fifty (in Roman nu
 CLA,Clutterers Anonymous
 CLEC,Competitive Local Exchange Carrier
 CLEMARS,California Law Enforcement Mutual Aid Radio System
-CLI,Command Line Interface/Interpreter
 CLIC,Compact LInear Collider
 CLO,Cornell Lab of Ornithology
-CLOB,Character Large OBject
 CLOS,Command to Line-Of-Sight (missile control system)
-CLOS,Common Lisp Object System
 CLP,Chilean peso (ISO 4217 currency code),Common [Operating/Operational] Land Picture
 CLPFC,CentroLateral PreFrontal Cortex
 CLRP,College Loan Repayment Program
 Cm,Curium
 CM,Cameroon (FIPS 10-4 country code; ISO 3166 digram),Cruise Missile,Nine Hundred (in Roman numerals)
 CMA,U.S. Chemical Materials Agency,Country Music Association (also used to refer to the organization's annual awards),Crystal Meth Anonymous
-CMB,Cosmic Microwave Background
-CMBR,Cosmic Microwave Background Radiation
-CME,Coronal Mass Ejection (usually Sun)
 CMHC,Canada Mortgage and Housing Corporation
 CMIIAW,Correct me if I am wrong
-CMIS,Content Management Interoperability Services,Common management information service
+CMIS,Common management information service
 CMJ,Christopher Martin-Jenkins (BBC sports commentator)
 CML,Chemical,Chronic Myelogenous Leukemia (formerly Chronic Myeloid Leukemia)
 CMLL,Consejo Mundial de Lucha Libre (Spanish,"Worldwide Wrestling Council"—Mexican professional wrestling promotion)
@@ -863,7 +852,6 @@ CNF,Cost and Freight
 CNI,Communications,Navigation and Identification
 CNI,Clinical Nursing Intern
 CNN,Cable News Network,Cellular Nonlinear Network
-CNO,Computer Network Operations
 CNV,Copy-Number Variable (genetics)
 CNY,Chinese yuan renminbi (ISO 4217 currency code)
 co,Corsican language (ISO 639-1 code)
@@ -872,12 +860,11 @@ COB,Close Of Business [day]
 COBRA,Consolidated Omnibus Budget Reconciliation Act of 1985
 COD,Cash On Delivery,Democratic Republic of the Congo (ISO 3166 trigram)
 CoDA,Co-Dependents Anonymous
-codec,Coder-Decoder / Compressor-Decompressor / Compression-Decompression algorithm
 COGENT,Cognitive Objects within a Graphical EnviroNmenT
 COIL,Chemical Oxygen Iodine Laser
 COK,Cook Islands (ISO 3166 trigram)
 COL,Colombia (ISO 3166 trigram)
-COLA,comp.os.linux.announce,Cost Of Living Adjustment
+COLA,Cost Of Living Adjustment
 COM,Comoros (ISO 3166 trigram),Component Object Model
 COMECON,Council for Mutual Economic Assistance (economic counterpart of the Warsaw Pact,1949-1991)
 CONAD,U.S. Continental Air Defense Command
@@ -889,7 +876,6 @@ COP,Colombian peso (ISO 4217 currency code),Common Operating/Operational Picture
 COPE,U.K. Committee On Publication Ethics
 COPUS,U.K. Committee on the Public Understanding of Science
 cor,Cornish language (ISO 639-2 code)
-CORBA,Common Object Request Broker Architecture
 CORD,(i/a) Common Operational Requirements Document
 CORE,Consortium for Oceanographic Research and Education
 COROT,COnvection,ROtation and planetary Transits
@@ -988,7 +974,6 @@ cv,Chuvash language (ISO 639-1 code)
 CV,many,including curriculum vitae (résumé); see entry
 CVE,Cape Verde escudo (ISO 4217 currency code)
 CVLL,Crypto Variable Logic Label
-CVS,Concurrent Versions System
 CVSD,Continuous Variable Slope Delta (modulation)
 CVT,Continuously Variable Transmission
 CW,Continuous Wave,Clothes Washer,Cook Islands (FIPS 10-4 territory code)
@@ -1010,7 +995,6 @@ d,Deci
 D,Deuterium
 da,Danish language (ISO 639-1 code),deca
 DA,Denmark (FIPS 10-4 country code),Debtors Anonymous,U.S. Department of the Army,District Attorney
-DAB,Digital Audio Broadcasting
 DADVSI,Loi sur le droit d’auteur et les droits voisins dans la société de l’information (French,"Law on copyrights and related rights in the information society")
 DAES,Defence Acquisition Executive Summary,(UK MoD) Directorate of Analysis,Experimentation and Simulation
 DAF,Dissolved Air Flotation,a technique used in water treatment
@@ -1030,10 +1014,9 @@ DAU,(U.S.) Defense Acquisition University
 DAWN,(U.S.) Drug Abuse Warning Network
 dB,Decibel
 Db,Dubnium
-DB,Database,Deutsche Bahn
+DB,Deutsche Bahn
 DBA,De Bellis Antiquitatis (miniature wargaming rules)
 DBBL,(U.S. Army Simulation Center) Dismounted Battlespace Battle Laboratory
-DBCS,Double Byte Character Set
 DBDO,Desert BDO
 DBE,Dame Commander of the Order of the British Empire
 DBF,Detection By Fire (weapon launch signature)
@@ -1045,25 +1028,19 @@ DCA,Defensive Counter Air,Drum Corps Associates,DiChloroAcetate,Ronald Reagan Wa
 DCAA,(U.S.) Defense Contract Audit Agency
 DCAS,Devon and Cornwall Archery Society
 DCC,Dallas Christian College
-DCCP,Datagram Congestion Control Protocol
 DCD,[Organ] Donation after Cardiac Death
 DCE,Data Communication Equipment
 DCFC,Death Cab for Cutie
 DCI,Detection,Classification and Identification,Drum Corps International,Duellists' Convocation International,now known simply by the initials
-DCIM,Digital Camera Images
 DCL,Disney Cruise Line
 DCN,Deacon
 DCOM,Disney Channel Original Movie
-DCOP,Desktop Communication Protocol
 DCSOPS,Deputy Chief of Staff for Operations and plans
 DCW,Digital Chart of the World
 DCYSC,Discovery Channel Young Scientist Challenge
 DD,many,including due diligence and dear daughter (increasingly prevalent on social mailing lists,blogs,and bulletin boards); see entry
-DDA,Digital Differential Analyzer (graphics algorithm),Digital Differential Analyzer,Deputy District Attorney
-DDD,Data Display Debugger,Digital Digital Digital (CD mastering)
-DDL,Digital Data Link
+DDA,Deputy District Attorney
 DDN,U.S. Defense Data Network
-DDoS,Distributed Denial of Service
 DDP,Danish Design Prize,Deutsche Demokratische Partei (German,"German Democratic Party",former political party in Weimar Germany),Diamond Dallas Page (American professional wrestler)
 DDR,Dance Dance Revolution,Deutsche Demokratische Republik (German,"German Democratic Republic" (GDR),East Germany),Double Data Rate,East Germany (ISO 3166 trigram,obsolete since 1990),DDR&E,(U.S.) Defense Department Research and Engineering
 DDS,Doctor of Dental Surgery
@@ -1074,7 +1051,6 @@ DEA,Drug Enforcement Administration
 DEA,Drug Enforcement Agency
 DEC,(a/i) Department of Environmental Conservation,Digital Equipment Corporation,Disasters Emergency Committee
 DeCA,(U.S.) Defense Commissary Agency
-DECT,Digital European Cordless Telephone
 DEFCON,Defence readiness condition
 DEFRA,(UK) Department for Environment,Food and Rural Affairs
 DELT,Dual Ended Line Test (ing)
@@ -1114,10 +1090,8 @@ DIA,U.S. Defense Intelligence Agency
 DIAC,Department of Immigration and Citizenship (Australia) [1]
 DiC,Design Island Centre (computing usually used in a teaching situation)
 DICASS,DIrectional Command Activated Sonobuoy System
-DIF,Data Interchange Format
 DIFAR,DIrectional Frequency Analysis and Recording
 DIME,Dense Inert Metal Explosive
-DIMM,Dual In-line Memory Module (computing)
 DIN,Deutsches Institut für Normung (German,"German Institute for Standardization"),Drug Identification Number (Canadian drug marketing requirement)
 DINA-(p/a) Diesel Nacional (Spanish,"National Diesel"—Mexican bus and truck manufacturer now known as DINA),Dirección de Inteligencia Nacional (Spanish,"National Intelligence Directorate"—former secret police of Chile)
 DINKY,Double Income,No Kids Yet
@@ -1144,7 +1118,6 @@ DL,Dexter's Laboratory
 DLA,U.S. Defense Logistics Agency,Dental Laboratories Association
 DLIC,Detachment Left-In-Contact
 DLIR,Depot-Level Inspection and Repair
-DLL,Dynamic Link Library
 DLPMC,DorsoLateral PreMotor Cortex
 DLR,Deutsches Zentrum für Luft,und Raumfahrt (German,German Aerospace Centre),Docklands Light Railway
 DLRP,Data Link Reference Point
@@ -1158,7 +1131,6 @@ DMA,Designated market area (primarily a U.S. term),U.S. Defense Mapping Agency (
 DMC,(U.S.) Defense Management Council
 DMCA,Digital Millennium Copyright Act
 DMD,dentariae medicinae doctor (Latin,"doctor of dental medicine"),Digital Micromirror Device,Digital Multilayer Disk
-DMI,Desktop Management Interface (computing)
 DMM,Digital Multimeter
 DMOC,Distributed Mission Operations Centre
 DMOS,(i/a) Double Diffused MOS transistor ("dee-moss")
@@ -1192,11 +1164,11 @@ DoDD,U.S. Department of Defense Directive
 DoDEA,(U.S.) Department of Defense Education Activity
 DOE,(i/a) U.S. Department of Energy
 DOHC,Dual-OverHead-Cam engine
-DOI,Digital Object Identifier,U.S. Department of the Interior
+DOI,U.S. Department of the Interior
 DOM,Deo optimo maximo (Latin,"to God,the best and greatest"),Document Object Model,Dominican Republic (ISO 3166 trigram)
 DOP,Dominican peso (ISO 4217 currency code)
 DORA,Defence of the Realm Act
-DOS,Denial of Service (DoS,cf. DDoS),Density of State,Disk Operating System
+DOS,Density of State
 DOT,Department of Transportation (U.S. federal or state),Damage Over Time (common in World of Warcraft)
 DOTA,short-form for DEFENSE OF THE ANCIENTS a popular online epic game
 DotD,Deal of the Day (marketing gimmick)
@@ -1218,7 +1190,6 @@ DQ,Dairy Queen,Jarvis Island (FIPS 10-4 country code)
 DR,Dead Reckoning,Dominican Republic (FIPS 10-4 country code),Danmarks Radio (Danish Broadcasting Corporation)
 DRA,Defence Research Agency (UK,1991-1995),Democratic Republic of America
 DRAGN,Double Radio source Active Galactic Nucleus ("dragon")
-DRAM,Dynamic Random Access Memory ("dee-ram") (computing)
 DRC,Democratic Republic of the Congo
 DRDC,Defence Research & Development Canada
 DREA,(i/a) Defence Research Establishment Atlantic (obsolete 2002)
@@ -1228,7 +1199,6 @@ DREV,(i/a) Defence Research Establishment Valcartier (obsolete 2002)
 DRI,Detection,Recognition,Identification,Dietary Reference Intake
 DRIC,(i/a) (U.S.) Defense Research Information Center
 DRL,Daytime Running Lights,Dorman Roberts Ltd.
-DRM,Digital Rights Management
 DRMS,(U.S.) Defense Revitalization and Marketing Service
 DRPR,Drawing Practices
 DRT,Document Related Technologies
@@ -1256,12 +1226,12 @@ dspm,decessit sine prole mascula [superstite] (Latin,"died without surviving mal
 dspml,decessit sine prole mascula legitima (Latin,"died without legitimate male issue")
 dspms,decessit sine prole mascula superstite (Latin,"died without surviving male issue")
 dsps,Decessit sine prole superstite (Latin,"died without surviving issue")
-DSP,Defense Standardization Program,Defense Support Program,Digital Signal Processing
+DSP,Defense Standardization Program,Defense Support Program,
 DSPL,Design Specialists and Plans Language
 DSR,Deformed Special Relativity
 DSRV,Deaf Sports Recreation Victoria,Deep Submergence Rescue Vehicle
 DSS,Digitized Sky Survey,Discarding-Sabot Shell (ammunition)
-DST,Daylight saving time
+DST,Daylight Saving Time
 DSTL,British Defence Science and Technology Laboratory
 dsvp,d.s.v.p. decessit sine vitae patria (Latin,"died within fathers lifetime")
 DSWA,(U.S.) Defense Special Weapons Agency
@@ -1288,7 +1258,6 @@ DUMBO,Down Under the Manhattan Bridge Overpass (Brooklyn neighborhood)
 DUSD,(U.S.) Deputy Under-Secretary of Defense
 dv,Dhivehi language (ISO 639-1 code)
 DV,Daily Value (FDA food guide),Deo volente (Latin,"God willing")
-DVD,Digital Versatile Disk (was Digital Video Disk)
 DVLC,UK Driver and Vehicle Licencing Centre
 dvm,decessit vita matris (Latin,"died in the lifetime of the mother")
 DVM,Doctor of Veterinary Medicine
@@ -1320,7 +1289,6 @@ EAC,Echelons Above Corps
 EAFUS,"Everything" Added to Food in the United States (FDA list)
 EAPC,Euro-Atlantic Partnership Council
 EAST,Experimental Advanced Superconducting Tokamak
-EBCDIC,(a/i) Extended Binary Coded Decimal Interchange Code (pronounced "eb-see-dik") (cf. BCD)
 EBD,Electronic Brake Distribution
 EBE,Extraterrestrial Biological Entity
 EBO,(i/a) Effects Based Operations,Encyclopædia Britannica Online,European Board of Ophthalmology
@@ -1418,7 +1386,7 @@ EMCON,(Electromagnetic) Emissions Control
 EMD,General Motors Electro-Motive Division,Engineering and Manufacturing Development,European Missile Defence
 EMDG,Euro-Missile Dynamics Group
 EMDR,Eye Movement Desensitisation and Reprocessing
-EMEA,Europe,Middle East and Africa
+EMEA,"Europe,Middle East and Africa"
 EMF,Electromotive force,Epsom Mad Funkers (1990s-2000s indie dance band)
 EMG,ElectroMyoGraph
 EMO,Emergency Measures Organisation, Emotional
@@ -1512,7 +1480,6 @@ eu,Basque language (ISO 639-1 code)
 Eu,Europium
 EU,Europa Island (FIPS 10-4 country code),European Union
 EUCOM,(U.S.) European Command
-EULA,End-User License Agreement ("you-lah")
 EUR,euro (ISO 4217 currency code)
 eus,Basque language (ISO 639-2 code)
 EUUSA,European Union and United States of America
@@ -1566,7 +1533,7 @@ FAS,Federation of American Scientists,Fetal Alcohol Syndrome
 FASCAM,Family of Scatterable Mines[1]
 FASD,Fetal Alcohol Spectrum Disorder
 FASEB,(a/i) Federation of American Societies for Experimental Biology
-FAT,Field Artillery Tractor,File Allocation Table
+FAT,Field Artillery Tractor
 FAVS,Future Armoured Vehicle System
 FAW,Football Association of Wales
 FB,Facebook,An on-line social network
@@ -1588,7 +1555,6 @@ FCW,Florida Championship Wrestling
 FD,Falun Dafa
 FDA,Food and Drug Administration (U.S.)
 FDC,Federal Detention Center (U.S.),Fire Direction Centre
-FDDI,Fibre Distributed Data Interface
 FDBK,(I) Feedback
 FDR,Flight Data Recorder,Franklin Delano Roosevelt
 Fe,Iron (Latin Ferrum)
@@ -1614,7 +1580,7 @@ FET,Field-effect transistor
 FEZ,(a/i) Fighter Engagement Zone
 ff,Fula language (ISO 639-1 code)
 fF,Femtofarad
-FF,Final Fantasy,Firefox (Web browser)
+FF,Final Fantasy
 FFA,Football Federation Australia,Pacific Islands Forum Fisheries Agency,Free-Fire Area,Fusiform Face Area,Future Farmers of America (today the National FFA Organization)
 FFB,Frum From Birth (referring to an observant Jew born into a religiously observant family)
 FFC,Free For Chat
@@ -1624,7 +1590,7 @@ FFG,Guided Missile Frigate (hull classification symbol)
 FFOV,Forward Field Of View
 FFR,Fédération française de rugby (French,"French Rugby (Union) Federation")
 FFS,For Fuck's Sake
-FFT,Fast Fourier Transform,Final Fantasy Tactics,FG[edit]
+FFT,Final Fantasy Tactics,FG[edit]
 FG,Falun Gong
 fg,Femtogram
 FG,Fog (METAR Code),French Guiana (FIPS 10-4 territory code)
@@ -1650,12 +1616,10 @@ FIG,Fédération internationale des géomètres (French,"International Federatio
 FIGJAM,Fuck I'm Good,Just Ask Me
 fij,Fijian language (ISO 639-2 code)
 FILA,Fédération internationale des luttes associées (French,"International Federation of Associated Wrestling Styles"),former name of the sport governing body now known as United World Wrestling
-FILO,First In,Last Out (see also LIFO)
 FIMPT,Fellow of the Institute of Maxillofacial Prosthetists and Technologists
 fin,Finnish language (ISO 639-2 code)
 FIN,Finland (ISO 3166 trigram)
 FINA,(p/a) Fédération internationale de natation (French,"International Swimming Federation")
-FIPS,Federal Information Processing Standard
 FIR,Final Inspection Report,Federazione Italiana Rugby (Italian,"Italian Rugby (Union) Federation")
 FIRES,Fever Induced Refractory Epilepsy Syndrome or Febrile Infection-Related Epilepsy Syndrome
 FIS,(a/i) Fédération internationale de ski (French "International Ski Federation")
@@ -1728,7 +1692,6 @@ FOM,Federation Object Model
 FONSI,Finding of No Significant Impact
 FOO,Forward Observation Officer
 FOR,Field Of Regard,Frame Of Reference
-Fortran,The IBM Mathematical FORmula TRANslating System (programming language)
 FOS,Florida Ornithological Society,Full Operational Status
 FoS,Family of Systems
 FOSE,Fallout 3 Script Extender
@@ -1737,14 +1700,11 @@ FOT,Free on truck
 FOTA,Fellow of the Orthodontic Technicians Association
 FOTC,Flight of the Conchords
 FOUO,For Official Use Only
-FOV,Field Of View
 FP,French Polynesia (FIPS 10-4 territory code)
 FPF,Federação Portuguesa de Futebol ("Portuguese Football Federation" in that language),Final Protective Fire
-fps,frames per second (motion pictures,television,computer graphics)
-FPS,Fire Prevention System,First Person Shooter (computer/video games)
+FPS,Fire Prevention System
 FOOP,Friends Of Organ Pipes (Volunteer group)
 FQ,Baker Island (FIPS 10-4 territory code),French Southern and Antarctic Territories (ISO 3166 digram; obsolete 1979)
-FQDN,Fully Qualified Domain Name
 fr,French language (ISO 639-1 code)
 Fr,Francium
 FR,France (FIPS 10-4 country code; ISO 3166 digram)
@@ -1782,7 +1742,6 @@ fT,Femtotesla
 FTC,Federal Trade Commission
 FTE,Full Time Equivalent
 FTL,Faster Than Light
-FTP,File Transfer Protocol
 FTSE,(a/i) Financial Times Stock Exchange ("footsie")
 FTW,For The Win (a commonly used phrase used online to indicate success) F@#K The World,Forever Together Where ever (gang slogan)
 FTS,Flight Termination System used during some rocket launches
@@ -1872,7 +1831,6 @@ GEL,Georgian lari (ISO 4217 currency code),Gilbert and Ellice Islands (ISO 3166 
 GEMA,Gas and Electricity Markets Authority,Georgia Emergency Management Agency,Gesellschaft für musikalische Aufführungs,und mechanische Vervielfältigungsrechte (German performance rights organisation),Global Engine Manufacturing Alliance
 GEN,Full General (four stars) in the U.S. Army
 GEO,Geostationary Earth Orbit,Georgia (ISO 3166 trigram)
-GEOS,Graphical Environment Operating System
 GEQ,Equatorial Guinea (IOC trigram,but not FIFA or ISO 3166)
 GER,Germany (IOC and FIFA trigram,but not ISO 3166)
 Gestapo,GEheime STAatsPOlizei (German "secret state police")
@@ -1881,7 +1839,6 @@ GEV,Ground Effect Vehicle
 GF,French Guiana (ISO 3166 digram),Gigafarad
 GFCF,Gluten-free,casein-free diet,Gross fixed capital formation
 GFCI,Ground Fault Circuit Interruptor (aka GFI)
-GFDL,GNU Free Documentation License
 GFE,Girlfriend experience (used in escort services),Good Faith Estimate,Government Furnished Equipment
 GFI,Ground Fault Interruptor (aka GFCI)
 GFL,German Football League (Germany's Bundesliga for American football; the English-language name is used in German without translation)
@@ -1897,15 +1854,11 @@ GHC,Ghanan cedi (ISO 4217 currency code)
 Gi,Gibi
 GI,Galvanised Iron,Gastro-Intestinal,General Issue,Gibraltar (ISO 3166 digram; FIPS 10-4 territory code),Government Issue
 GIB,Gibraltar (ISO 3166 trigram)
-GIF,Graphics Interchange Format
 GIG,Global Information Grid
-GIGO,Garbage In Garbage Out (computing)
-GIMP,GNU Image Manipulation Program
 GIN,Guinea (ISO 3166 trigram),Guidelines International Network
 GINK,Going Insane Not Knowing,orig. Colorado 2010 M.Kalfas
 GINO,Godzilla In Name Only
 GIP,Gibraltar pound (ISO 4217 currency code)
-GIS,Geographic Information System,Google Image Search
 GISS,(a/i) General Impression of Size and Shape,Goddard Institute for Space Studies
 GJ,Gigajoule,Grenada (FIPS 10-4 country code),Gujarat (Indian state code)
 GJD,Geocentric Julian Day
@@ -1923,7 +1876,6 @@ glg,Galician language (ISO 639-2 code)
 GLINT,Gallium-arsenide Laser Illuminator for Night TV,Gated Laser Illuminator for Narrow Television,Gated Laser Intensifier (tape),Gospel Literature International,Graphical Linux Installation Tool
 GLONASS,Globalnaya navigatsionnaya sputnikovaya sistema (Russian Глоба́льная Навигацио́нная Спу́тниковая Систе́ма,"Global Navigation Satellite System")
 GLP,Guadeloupe (ISO 3166 trigram)
-GLUT,(a/i) OpenGL Utility Toolkit
 glv,Manx language (ISO 639-2 code)
 GLV,Gained Life Value
 Gm,Gigametre
@@ -1935,7 +1887,6 @@ GMC,U.K. General Medical Council,Gospel Music Channel
 GMD,Gambian dalasi (ISO 4217 currency code)
 GMFSC,Ground Mobile Forces Satellite Communications
 GMI,Generic Model Interface,Geometry Model Instance
-GML-Generalized Markup Language,Geography Markup Language,Game Maker Language,Graph Modelling Language,Graphical Motion Language,GUI Markup Language
 GMO,Genetically Modified Organism
 GMPCS,Global Mobile Personal Communications by Satellite
 GMT,Giant Magellan Telescope,Greenwich Mean Time,GN[edit]
@@ -1945,11 +1896,9 @@ GNAS,Grand National Archery Society
 GNB,Guinea-Bissau (ISO 3166 trigram)
 GNC,"G&C Records" NetLabel,General Nutrition Centers (US sports nutrition retailer branded as GNC)
 GNF,Guinean franc (ISO 4217 currency code)
-GNOME,GNU Network Object Model Environment
 GNP,Gross National Product
 GNQ,Equatorial Guinea (ISO 3166 trigram)
 GnRH,Gonadotropin-Releasing Hormone
-GNU,GNU's Not Unix
 GO,Glorioso Islands (FIPS 10-4 territory code)
 GOA,General of the Army (United States only),Gun Owners of America
 GOAT,Greatest of all time (LL Cool J album title)
@@ -1965,16 +1914,13 @@ GOYADIN,Get Off Your Arse,Do It Now (anti-procrastination mantra)
 GP,General Practitioner,General Purpose,Grand Prix,Guadeloupe (ISO 3166 digram; FIPS 10-4 territory code)
 GPA,Grade Point Average
 GPC,Global Path Cache
-GPG,GNU Privacy Guard
 GPIB,General-Purpose Instrumentation/Interface Bus
-GPL,GNU General Public License
-GPMP,General Purpose Macro Processor
 GPO,General Post Office
 GPPC,Genetics and Public Policy Center
 GPR,Ground-Penetrating Radar
 GPS,General Problem Solver,Global Positioning System
 GPT,GEC-Plessey Telecommunications,General Purpose Technology,Get Paid To website
-GPU,Gosudarstvennoye Politicheskoye Upravlenie (Russian Государственное Политическое Управление,"State Political Administration") (1922-1934),Graphics Processor Unit
+GPU,Gosudarstvennoye Politicheskoye Upravlenie (Russian Государственное Политическое Управление,"State Political Administration") (1922-1934)
 GQ,Equatorial Guinea (ISO 3166 digram),Gentlemen's Quarterly (the original name of the magazine now known simply as GQ),Guam (FIPS 10-4 territory code),GR[edit]
 GR,Greece (FIPS 10-4 country code; ISO 3166 digram),Hail (METAR Code)
 GRAIL,Gravity Recovery and Interior Laboratory
@@ -2009,7 +1955,6 @@ GSS,Generic Security Services
 GST,Goods and Services Tax (Australia,Canada,and other countries)
 GSW,Gunshot wound
 GT,Gigatesla,Gran Turismo,Grand Touring,Guatemala (FIPS 10-4 country code; ISO 3166 digram)
-GTA,Grand Theft Auto
 GTB,Get to bed,namely to get a new job after a long time of searching,usually following a phone call
 GTC,Gran Telescopio Canarias (Spanish,Canaries Great Telescope)
 GTD,Getting Things Done
@@ -2037,11 +1982,8 @@ GWARS,Ground Warfare System (simulation)
 GWAS,Grand Western Archery Society
 GWOT,Global War on Terrorism
 GWS,Gulf War Syndrome,Greater Western Sydney
-GXA,Global XML Web Services Architecture
 GXE,Gene-enivronment interaction
-GXF,General Exchange Format
 GXH,IATA code of Gannan Xiahe Airport
-GXL,Graph eXchange Language
 GXM,Matrox Graphics eXpansion Module
 GXP,Grid Exit Point,Global Xchange Programme,Indication of highest performance level on some Pontiac vehicles
 GxP,Good X Practice (X can mean: clinical,manufacturing,pharmaceutical,etc.)
@@ -2072,24 +2014,19 @@ HAWK,Homing All the Way Killer (air defence system)
 HAZ,Heat-Affected Zone
 HAZMAT,Hazardous Materials
 HBCD,HexaBromoCycloDodecane
-HBCI,Home Banking Computer Interface
 HBO,Home Box Office
 HBR,Harvard Business Review
 HBT,Heterojunction Bipolar Transistor
 HBV,Hepatitis B Virus
 HCCI,Homogeneous Charge Compression Ignition
 HCF,Highest Common Factor
-HCI,Human-Computer Interaction/Interface
 HCSC,Higher Command and Staff Course
 HCT,Higher Colleges of Technology,tertiary education institution in the United Arab Emirates (UAE)
 HD,Henry Draper (star catalogue),Hull-Down (armoured vehicle target,as opposed to Fully Exposed),High Definition,Huntington's Disease
-HDD,Hard Disk Drive,High-Density Disk
 HDL,High-Density Lipoprotein
 HDM,Human Decision-Making
-HDMI,High Definition Multimedia Interface
-HDR,Hard disk recorder,Henningson,Durham & Richardson (founders of the engineering and construction firm now known by their initials),High dynamic range,a term used in both digital imaging and 3D rendering,Hot Dry Rock (experimental geothermal technology),Human Development Report (UN publication)
+HDR,Henningson,Durham & Richardson (founders of the engineering and construction firm now known by their initials),High dynamic range,a term used in both digital imaging and 3D rendering,Hot Dry Rock (experimental geothermal technology),Human Development Report (UN publication)
 HDRA,Henry Doubleday Research Association
-HDTV,High-Definition Television
 he,Hebrew language (ISO 639-1 code)
 He,Helium
 HE,High Explosive
@@ -2156,7 +2093,6 @@ HMCE,Her/His Majesty's Customs and Excise (former UK government department; succ
 HMCS,Her/His Majesty's Canadian Ship,Her Majesty's Courts Service (former UK agency; succeeded by Her Majesty's Courts and Tribunals Service)
 HMD,Heard and McDonald Islands (ISO 3166 trigram)
 HMF,HydroxyMethyl Furfural
-HMM,Hidden Markov model
 HMMWV,High Mobility Multipurpose Wheeled Vehicle ("hum-vee"; "hummer")
 hmo,Hiri Motu language (ISO 639-2 code)
 HMO,Health maintenance organization
