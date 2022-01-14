@@ -34,8 +34,12 @@ try {
 			$Text += "In $Basename $(SpellAbbr $Row.Abbr) means $($Row.Term)"
 		}
 	}
-	if ($Text -eq "") { $Text = "Sorry, I don't know what $(SpellAbbr $abbr) means." }
-	& "$PSScriptRoot/_reply.ps1" "$Text"
+	if ($Text -ne "") {
+		& "$PSScriptRoot/_reply.ps1" "$Text"
+	} else {
+		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $abbr) is unknown to me. Starting Google Search ..."
+		& "$PSScriptRoot/open-browser.ps1" "https://google.com/search?q=$abbr"
+	}
 	exit 0 # success
 } catch {
 	Reply "Sorry: $($Error[0])"
