@@ -25,7 +25,7 @@ Say hello to Windows, simply replace [greeting] by: `good afternoon`, `good even
 
  💻 *"Windows, open [app]."*
 -----------------------------
-Launches the given application, just replace [app] by: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
+Launches the given application, just replace [app] by: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
 
 🔧 *"Windows, install [app]."*
 ------------------------------

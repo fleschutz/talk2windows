@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Launches the Remote Desktop app
+	Launches Remote Desktop
 .DESCRIPTION
-	This PowerShell script launches the Remote Desktop application.
+	This PowerShell script launches the Remote Desktop application for a RDP session.
 .EXAMPLE
 	PS> ./open-remote-desktop
 .NOTES
@@ -12,7 +12,7 @@
 #>
 
 try {
-	start-process ms-rd:
+	start-process mstsc.exe
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
