@@ -23,7 +23,14 @@ try {
 	if ($Pings.count -eq 0) {
 		& "$PSScriptRoot/_reply.ps1" "Sorry, you're offline."
 	} else {
-		& "$PSScriptRoot/_reply.ps1" "You're online."
+		foreach($Ping in $Pings) {
+                	if ($IsLinux) {
+                        	$Latency = $Ping.latency
+               		} else {
+                        	$Latency = $Ping.ResponseTime
+                	}
+		}
+		& "$PSScriptRoot/_reply.ps1" "You're online, latency is $Latency ms."
 	}
 	exit 0 # success
 } catch {
