@@ -30,7 +30,7 @@ try {
                         	$Latency = $Ping.ResponseTime
                 	}
 		}
-		& "$PSScriptRoot/_reply.ps1" "You're online, latency is $Latency ms."
+		& "$PSScriptRoot/_reply.ps1" "You're online with $Latency ms latency."
 	}
 	exit 0 # success
 } catch {

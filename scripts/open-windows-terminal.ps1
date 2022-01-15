@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Launches the Windows Terminal app
+	Launch Windows Terminal
 .DESCRIPTION
 	This PowerShell script launches the Windows Terminal application.
 .EXAMPLE
@@ -11,5 +11,7 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-Start-Process wt.exe
+param([string]$Cmd = "")
+
+Start-Process wt.exe "$Cmd"
 exit 0 # success
