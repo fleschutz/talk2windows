@@ -201,7 +201,7 @@ HDD,"Hard Disk Drive, or High-Density Disk"
 HDMI,High Definition Multimedia Interface
 HDR,Hard disk recorder
 HDTV,High-Definition Television
-HMM,Hidden Markov model
+HMM,Hidden Markov Model
 IoT,Internet of Things
 IP,Internet Protocol
 IRC,Internet Relay Chat
@@ -212,6 +212,7 @@ L2TP,Layer 2 Tunneling Protocol
 LAN,Local Area Network
 LCD,Liquid Crystal Display
 LDMOS,Laterally Diffused MOS transistor 
+LLVM,Compiler Infrastructure (Low Level Virtual Machine)
 MSDOS,Microsoft Disk Operating System
 NIC,Network Interface Card
 PC,Personal Computer
@@ -220,6 +221,7 @@ RAM,Random Access Memory
 RDP,Remote Desktop Protocol
 SSD,Solid-State Drive
 SWAT,Samba Web Administration Tool
+Swift,Programming language released in 2014 by Apple Inc.
 SWF,Shockwave Flash file
 TPM,Trusted Platform Module
 UDP,User Datagram Protocol
