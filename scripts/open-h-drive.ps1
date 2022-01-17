@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Opens the H: drive folder
+	Open H: Drive
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the H: drive folder.
 .EXAMPLE

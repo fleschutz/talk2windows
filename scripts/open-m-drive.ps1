@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Opens the M: drive folder
+	Open M: Drive
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the M: drive folder.
 .EXAMPLE

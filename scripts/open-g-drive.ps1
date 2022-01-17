@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Opens the G: drive folder
+	Open G: Drive 
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the G: drive folder.
 .EXAMPLE

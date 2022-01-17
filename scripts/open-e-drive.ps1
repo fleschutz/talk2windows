@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Opens the E: drive folder
+	Open E: Drive
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the E: drive folder.
 .EXAMPLE
@@ -12,3 +12,4 @@
 #>
 
 & "$PSScriptRoot/open-file-explorer.ps1" "E:"
+exit 0 # success
