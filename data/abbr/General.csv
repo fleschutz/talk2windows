@@ -177,7 +177,7 @@ AFAIC,As Far As I'm Concerned
 AFAICT,As Far As I Can Tell
 AFAIK,As Far As I Know
 AFAIR,As Far As I Remember/Recall
-AFAM-(i/a) Associazione Friulana di Astronomia e Meteorologia (Italian,"Friuli Association of Astronomy and Meteorology"),Department of African and Afro-American Studies,University of North Carolina at Chapel Hill — notable for its links to the school's academic-athletic scandal in the 2010s
+AFAM,Associazione Friulana di Astronomia e Meteorologia (Italian,"Friuli Association of Astronomy and Meteorology"),Department of African and Afro-American Studies,University of North Carolina at Chapel Hill — notable for its links to the school's academic-athletic scandal in the 2010s
 AFATDS,Advanced Field Artillery Tactical Data System
 AFC,American Football Conference,Asian Football Confederation
 AFCEA,Armed Forces Communications and Electronics Association
@@ -315,8 +315,8 @@ AMP,Adenosine MonoPhosphate,Automated Mission Planner
 AMRAAM,Advanced Medium-Range Air-to-Air Missile
 AMRDEC,U.S. Aviation & Missile Research,Development,& Engineering Center
 AMS,Agriculture Marketing Service,American Mathematical Society
-AMSAA,(i/a) U.S. Army Materiel Systems Analysis Activity
-AMSO,(i/a) U.S. Army Model and Simulation Office
+AMSAA,U.S. Army Materiel Systems Analysis Activity
+AMSO,U.S. Army Model and Simulation Office
 AMSU,Advanced Microwave Sounding Unit
 AMTE,UK Admiralty Marine Technology Establishment (1977-1984)
 an,Aragonese language (ISO 639-1 code)
@@ -517,7 +517,7 @@ AWA,American Wrestling Association
 AWACS,Airborne Warning And Control System
 AWC,Air Warfare Centre
 AWD,many,including All Wheel Drive; see entry
-AWE,(i/a) Advanced Warfighting Experiment
+AWE,Advanced Warfighting Experiment
 AWG,Aruban guilder (ISO 4217 currency code)
 AWP,Awaiting Parts (SM&R code)
 AWSIM,Air Warfare SIMulation
@@ -593,7 +593,7 @@ CADCAM,Computer-Aided Design/Computer-Aided Manufacturing
 CADPAT,CAnadian Disruptive PATtern
 CADMID,Concept,Assessment,Demonstration,Manufacture,In service,Disposal (life cycle mnemonic)
 CAE,Canadian Aviation Electronics (originally),Certificate in Advanced English
-CAEn,(i/a) Close Action Engagement (constructive simulation)
+CAEn,Close Action Engagement (constructive simulation)
 CAF,Central African Republic (ISO 3166 trigram),Confederation of African Football (or French Confédération Africaine de Football)
 CAFAD,Combined Arms For Air Defence
 CAFDE,Canadian Association of Film Distributors and Exporters,Computer Aided Federation Development Environment
@@ -843,7 +843,7 @@ CMT,Country Music Television
 CMU,Carnegie Mellon University,Central Michigan University,Concrete Masonry Unit
 CMW,Marconi's Wireless Telegraph Company of Canada,Canadian Manufacturing Week,Canadian Music Week,Catherine McAuley Westmead (school in New South Wales,Australia),Chicago,Missouri and Western (Railway),Compartmented Mode Workstation,Compton's Most Wanted,Continuous Microwave (processing technology),Custom Maintenance Wizard (Microsoft Office Resource Kit)
 CMYK,Cyan Magenta Yellow Key/blacK (colour model)
-CN-(i/s) Canadian National (railway; also the AAR reporting mark for said company),China (ISO 3166 digram),Comoros (FIPS 10-4 country code)
+CN,Canadian National (railway; also the AAR reporting mark for said company),China (ISO 3166 digram),Comoros (FIPS 10-4 country code)
 CNA,Center for Naval Analyses,Certified Network Administrator,Computer Network Attack,Continental (Casualty Company),National (Fire Insurance Company),and American (Casualty Company),the three companies that merged to form what is now known as CNA Financial
 CNBC,(a/i) Consumer News and Business Channel
 CND,Campaign for Nuclear Disarmament,Computer Network Defence
@@ -876,7 +876,7 @@ COP,Colombian peso (ISO 4217 currency code),Common Operating/Operational Picture
 COPE,U.K. Committee On Publication Ethics
 COPUS,U.K. Committee on the Public Understanding of Science
 cor,Cornish language (ISO 639-2 code)
-CORD,(i/a) Common Operational Requirements Document
+CORD,Common Operational Requirements Document
 CORE,Consortium for Oceanographic Research and Education
 COROT,COnvection,ROtation and planetary Transits
 cos,Corsican language (ISO 639-2 code),Cosine
@@ -976,14 +976,14 @@ CVE,Cape Verde escudo (ISO 4217 currency code)
 CVLL,Crypto Variable Logic Label
 CVSD,Continuous Variable Slope Delta (modulation)
 CVT,Continuously Variable Transmission
-CW,Continuous Wave,Clothes Washer,Cook Islands (FIPS 10-4 territory code)
+CW,"Calendar Week, or: Continuous Wave, or: Clothes Washer, or: Cook Islands (FIPS 10-4 territory code)"
 CWC,Chemical Weapons Convention
 CWS,Canadian Wildlife Service
 CWRU,Case Western Reserve University
-CX,Christmas Island (ISO 3166 digram),One Hundred and Ten (in Roman numerals)
+CX,"Christmas Island (ISO 3166 digram),or: One Hundred and Ten (in Roman numerals)"
 CXR,Christmas Island (ISO 3166 trigram)
 cy,Welsh language (ISO 639-1 code)
-CY,Calendar year,Cyprus (ISO 3166 and FIPS 10-4 country code digram)
+CY,"Calendar year, or: Cyprus (ISO 3166 and FIPS 10-4 country code digram)"
 cym,Welsh language (ISO 639-2 code)
 CYM,Cayman Islands (ISO 3166 trigram)
 CYP,Cyprus (ISO 3166 trigram),Cyprus pound (ISO 4217 currency code)
@@ -1004,7 +1004,7 @@ dan,Danish language (ISO 639-2 code)
 DAO,Division Ammunition Officer
 DAQ,Data acquisition,Delivered Audio Quality
 DARE,Drug Abuse Resistance Education
-DARO,(i/a) (U.S.) Defense Airborne Reconnaissance Office
+DARO,(U.S.) Defense Airborne Reconnaissance Office
 DARPA,U.S. Defense Advanced Research Projects Agency
 DART,Disaster Assistance Response Team,Dublin Area Rapid Transit
 DAS,Defensive Aids Suite
@@ -1069,7 +1069,7 @@ DFCB,Data Format Control Book
 DfID,UK Department for International Development
 DFL,Democratic-Farmer-Labor (the full designation of the Minnesota affiliate of the U.S. Democratic Party),Deutsche Fußball Liga (German for "German Football League"),the operator of the top two leagues of German football
 DFM,Dynamic Flowgraph Methodology
-DFM,(ii) Discrete Field Model see Superluminal motion
+DFM,Discrete Field Model see Superluminal motion
 DFSP,Dermatofibrosarcoma protuberans
 DfT,UK Department for Transport
 DFTBA,Don't Forget To Be Awesome,a term commonly used by the Vlogbrothers
@@ -1103,7 +1103,7 @@ DISA,U.S. Defense Information Systems Agency,Distinguished Individual Service Aw
 DISCOM,Division Support Command
 DISE,Deployable Intelligence Support Element
 DISSTAF,DIS Search and Target Acquisition Fidelity experiment
-DITY,(i/a) Do-It-Yourself
+DITY,Do-It-Yourself
 div,Dhivehi language (ISO 639-2 code)
 DIVAD,Division Air Defence
 DIY,Do It Yourself
@@ -1133,7 +1133,6 @@ DMCA,Digital Millennium Copyright Act
 DMD,dentariae medicinae doctor (Latin,"doctor of dental medicine"),Digital Micromirror Device,Digital Multilayer Disk
 DMM,Digital Multimeter
 DMOC,Distributed Mission Operations Centre
-DMOS,(i/a) Double Diffused MOS transistor ("dee-moss")
 DMPA,(U.S.) Defense Medical Programs Activity
 DMPFC,DorsoMedial PreFrontal Cortex
 DMPK,Drug Metabolism and Pharmacokinetics
@@ -1162,7 +1161,7 @@ DOD,U.S. Department of Defense
 DODAF,U.S. Department of Defense Architectural Framework
 DoDD,U.S. Department of Defense Directive
 DoDEA,(U.S.) Department of Defense Education Activity
-DOE,(i/a) U.S. Department of Energy
+DOE,U.S. Department of Energy
 DOHC,Dual-OverHead-Cam engine
 DOI,U.S. Department of the Interior
 DOM,Deo optimo maximo (Latin,"to God,the best and greatest"),Document Object Model,Dominican Republic (ISO 3166 trigram)
@@ -1193,12 +1192,12 @@ DRA,Defence Research Agency (UK,1991-1995),Democratic Republic of America
 DRAGN,Double Radio source Active Galactic Nucleus ("dragon")
 DRC,Democratic Republic of the Congo
 DRDC,Defence Research & Development Canada
-DREA,(i/a) Defence Research Establishment Atlantic (obsolete 2002)
-DRES,(i/a) Defence Research Establishment Suffield (obsolete 2002)
-DRET,(i/a) Defence Research Establishment Toronto (obsolete 2002)
-DREV,(i/a) Defence Research Establishment Valcartier (obsolete 2002)
+DREA,Defence Research Establishment Atlantic (obsolete 2002)
+DRES,Defence Research Establishment Suffield (obsolete 2002)
+DRET,Defence Research Establishment Toronto (obsolete 2002)
+DREV,Defence Research Establishment Valcartier (obsolete 2002)
 DRI,Detection,Recognition,Identification,Dietary Reference Intake
-DRIC,(i/a) (U.S.) Defense Research Information Center
+DRIC,(U.S.) Defense Research Information Center
 DRL,Daytime Running Lights,Dorman Roberts Ltd.
 DRMS,(U.S.) Defense Revitalization and Marketing Service
 DRPR,Drawing Practices
@@ -1292,7 +1291,7 @@ EAPC,Euro-Atlantic Partnership Council
 EAST,Experimental Advanced Superconducting Tokamak
 EBD,Electronic Brake Distribution
 EBE,Extraterrestrial Biological Entity
-EBO,(i/a) Effects Based Operations,Encyclopædia Britannica Online,European Board of Ophthalmology
+EBO,Effects Based Operations,Encyclopædia Britannica Online,European Board of Ophthalmology
 EBSA,Employee Benefits Security Administration
 EBW,Electron Beam Welding
 EBW,Exploding BridgeWire
@@ -1380,7 +1379,7 @@ ELSS,Emergency Life Support Stores
 ELT,Emergency Locator Transmitter
 Em,Exametre
 EM,ElectroMagnetism/ElectroMagnetic
-EMA,(i/a) European Medicines Agency
+EMA,European Medicines Agency
 Embraer,Empresa Brasileira de Aeronáutica (Portuguese,"Brazilian Aeronautics Company")
 EMC,Electric Membership Corporation,Electromagnetic Compatibility,Electro-Motive Corporation,European Muon Collaboration,Evergreen Marine Corporation
 EMCON,(Electromagnetic) Emissions Control
@@ -1604,7 +1603,7 @@ FIA,Fédération internationale de l'automobile (French "International Automobil
 FIAT,Fabbrica Italiana Automobili Torino (Italian "Italian Car Factory of Turin")
 FIB,Fucking Illinois Bastard (Wisconsin slang,variants exist)
 FIBA,originally  Fédération internationale de basket-ball amateur (French,"International Amateur Basketball Federation"); since 1989, Fédération internationale de basket-ball
-FIBUA,(i/a) Fighting In Built-Up Areas
+FIBUA,Fighting In Built-Up Areas
 FIC,Fellowship for Intentional Community
 FID,Foreign Internal Defence
 FIE,Fly-In Echelon
@@ -1682,7 +1681,7 @@ fo,Faroese language (ISO 639-1 code)
 FOAD,Fuck Off And Die
 FOAF,Friend Of A friend
 FoB,Free On Board (shipping)
-FOB,(i/a) Forward Operating Base
+FOB,Forward Operating Base
 FOC,Full Operational Capability,First of Class
 FoE,Friends of the Earth
 FOGC,Federal Oil and Gas Council
@@ -1805,7 +1804,7 @@ GBR,United Kingdom of Great Britain and Northern Ireland (ISO 3166 trigram)
 GBU,Glide-Bomb Unit,Global Business Unit
 GC,East Germany (NATO country code; obsolete 1990),General classification (cycling),General counsel,George Cross (British civil decoration),Gigacoulomb [Grindr cruise]
 GCA,Graduate in Claims Administration
-GCCS,(i/a) Global Command and Control System ("geeks")
+GCCS,Global Command and Control System ("geeks")
 GCD,see entry
 GCF,Greatest Common Factor
 GCI,Ground-controlled interception
@@ -2004,7 +2003,7 @@ HAM,Amateur radio operator
 HANS,Head And Neck Support (device used in many race cars)
 HARM,High-speed Anti-Radiation Missile
 hat,Haitian Creole language (ISO 639-2 code)
-HAT,(i/a) Highest Astronomical Tide (nautical charts),Hungarian Automated Telescope
+HAT,Highest Astronomical Tide (nautical charts),Hungarian Automated Telescope
 hau,Hausa language (ISO 639-2 code)
 HAW,Heavy Antitank Weapon
 HAWK,Homing All the Way Killer (air defence system)
@@ -2160,7 +2159,7 @@ HTR,Heated Towel Rail
 HTS,High-Temperature Superconducting wire
 HTTP,HyperText Transfer Protocol
 HU,Hungary (ISO 3166 digram; FIPS 10-4 country code)
-HUD,(i/a) Head-Up Display,Housing and Urban Development
+HUD,Head-Up Display,Housing and Urban Development
 HUF,Hungarian forint (ISO 4217 currency code)
 HUHA,Head up his/her ass (Marine salute; probably a backcronym)
 hun,Hungarian language (ISO 639-2 code)
@@ -2224,7 +2223,7 @@ ICBM,I see (phonetically "c") BatMan
 ICBN,International Code of Botanical Nomenclature
 ICC,Integrated Command and Control,International Criminal Court,International Cricket Council,Interstate Commerce Commission,International Chamber of Commerce
 ICD,Implantable Cardioverter-Defibrillator,Initial Capabilities Document,International Classification of Diseases
-ICE,(i/a) In case of emergency
+ICE,In case of emergency
 ICES,(a/i) International Council for the Exploration of the Sea
 ICF,Intelligent Community Forum
 ICHTHYS,Iesous Christos,Theou Yios,Soter (Greek,"Jesus Christ,Son of God,Savior")
@@ -2236,7 +2235,7 @@ ICO,Intermediate Circular Orbit
 ICP,Inductively coupled plasma,Insane Clown Posse
 ICPE,(a/i) International Conference on Pharmacoepidemiology,the annual conference of the International Society for Pharmacoepidemiology
 ICRAF,International Centre for Research in Agroforestry (a.k.a. World Agroforestry Centre since 2002)
-ICRISAT,(i/a) International Crops Research Institute for the Semi-Arid Tropics
+ICRISAT,International Crops Research Institute for the Semi-Arid Tropics
 ICRL,Individual Component Repair List
 ICRS,International Celestial Reference System
 ICS,In-Country Support,Intelligence and Communications Systems,Interim Contractor Support
@@ -2272,7 +2271,7 @@ IEEE,Institute of Electrical and Electronics Engineers ("I triple-E")
 IELTS,International English Language Testing System
 IER,Information Exchange Requirement
 IET,Institution of Engineering and Technology
-IET,(ii) Initial Entry Training
+IET,Initial Entry Training
 IETF,Internet Engineering Task Force
 IEW,Intelligence and Electronic Warfare
 IFAB,International Football Association Board
@@ -2293,8 +2292,8 @@ IGNOU,Indira Gandhi National Open University
 IGS,International Ground Station
 IGY,Israeli Gay Youth,International Geophysical Year
 IHH,Idiopathic Hypogonadotropic Hypogonadism
-IHO,(i/a) International Hydrographic Organization
-IHOP,(i/a) International House of Pancakes,the original name of this American restaurant chain ("EYE-hop")
+IHO,International Hydrographic Organization
+IHOP,International House of Pancakes,the original name of this American restaurant chain ("EYE-hop")
 IHR,Institute for Historical Review
 IHSI,Institutum Historicum Societatis Iesu (Jesuit Historical Institute)
 ii,Sichuan Yi language (ISO 639-1 code)
@@ -2424,8 +2423,8 @@ ISEF,Intel International Science and Engineering Fair
 ISEN,Internet Search Environment Number
 ISF,Internal Security Force
 ISI-Indian Standards Institute,former name of the Bureau of Indian Standards,Inter-Services Intelligence (Pakistan),Islamic State of Iraq,an umbrella organization for several Iraqi insurgent groups
-ISIL,(i/a) Islamic State of Iraq and the Levant
-ISIS-(i/a) Institute for Science and International Security,Islamic State of Iraq and Syria
+ISIL,Islamic State of Iraq and the Levant
+ISIS,"Institute for Science and International Security, or: Islamic State of Iraq and Syria"
 ISK,Icelandic krona (ISO 4217 currency code)
 isl,Icelandic language (ISO 639-2 code)
 ISL,Iceland (ISO 3166 trigram)
@@ -2455,7 +2454,7 @@ ITAG,Inertial Terrain-Aided Guidance
 ITALY,I'll Truly Always Love You
 ITAS,Improved Target Acquisition Sight
 ITC,InferoTemporal Cortex (neurophysiology)
-ITCZ,(i/p) Intertropical Convergence Zone
+ITCZ,Intertropical Convergence Zone
 ITEC,Information Technology Exposition & Conference
 ITEMS,Interactive Tactical Environment Management System
 ITER,International Thermonuclear Experimental Reactor
@@ -2475,7 +2474,7 @@ IVD,Internet Video Device,intra vas device
 Iveco,Industrial Vehicles Corporation
 IVF,In Vitro Fertilisation
 IVI,Interchangeable Virtual Instrument
-IVIS,(i/a) Inter-Vehicle Information System
+IVIS,Inter-Vehicle Information System
 IVL,Inter-Visibility Line
 IVM,In Vitro [Oocyte] Maturation
 IVO,In Vicinity Of
@@ -2542,7 +2541,6 @@ JFACC,Joint Force Air Component Commander
 JFACTSU,U.S. Joint Forward Air Control Training and Standards Unit
 JFC,Joint Force Commander
 JFCOM,U.S. Joint Forces Command ("jiff-comm")
-JFET,(i/a) Junction Field-Effect Transistor ("jay-fett")
 JFK,John Fitzgerald Kennedy or the airport named after him.
 JFLCC,Joint Force Land Component Commander
 JFMCC,Joint Force Maritime Component Commander
@@ -2635,7 +2633,7 @@ ka,Georgian language (ISO 639-1 code)
 kA,Kiloampere
 Ka,Kamov Design Bureau
 KA,Knowledge Acquisition,Karnataka (Indian state code)
-KAF,(i/a) Kandahar Air Field
+KAF,Kandahar Air Field
 kal,Kalaallisut language (ISO 639-2 code)
 kan,Kannada language (ISO 639-2 code)
 KANUKOKA,Kalaallit Nunaanni Kommunit Kattuffiannit (Kalaallisut,"Greenlandic Communities Association")
@@ -2790,7 +2788,7 @@ LARP,Live-Action Role-Playing
 LAS,McCarran International Airport (Las Vegas,Nevada)
 Laser,Light Amplification by Stimulated Emission of Radiation (cf. Maser)
 lat,Latin language (ISO 639-2 code)
-LAT-(i/a) Lowest Astronomical Tide (nautical charts),Licensed Athletic Trainer (used in many of the United States; see www.oata.org)
+LAT,"Lowest Astronomical Tide (nautical charts),Licensed Athletic Trainer (used in many of the United States; see www.oata.org)"
 LATA,Local Access Transport Area
 LATCH,Lower Anchors and Tethers for Children (U.S. standard for attachment points for child safety seats in passenger cars)
 lav,Latvian language (ISO 639-2 code)
@@ -2824,7 +2822,6 @@ LDA,Lateral Drift Apparatus (paratroops)
 LDAP,(a/i) Lightweight Directory Access Protocol (pronounced "ell-dap")
 LDC,Lesser Developing/Developed Country
 LDL,Low-Density Lipoprotein
-LDMOS,(i/a) Laterally diffused MOS transistor ("ell-dee-moss")
 LDS,Latter-day Saint (also "Latter Day Saint"); also used as an abbreviation by The Church of Jesus Christ of Latter-day Saints,Liberal Democracy of Slovenia
 LDV,Local Defence Volunteers (British Home Guard)
 LDW,Lane Departure Warning (ADAS)
@@ -3014,7 +3011,7 @@ mal,Malayalam language (ISO 639-2 code)
 MALD,Miniature Air-Launched Decoy
 MANPADS,MAN-Portable Air Defence System
 MANPRINT,MANpower and PeRsonnel INTegration
-MAO-(i/a) Molėtų astronomijos observatorija (Moletai Astronomical Observatory),MonoAmine Oxidase
+MAO,"Molėtų astronomijos observatorija (Moletai Astronomical Observatory),MonoAmine Oxidase"
 MAOI,Monoamine oxidase inhibitor
 MAPS,Monitoring Avian Productivity and Survivorship
 MAQS,Museum of the American Quilter's Society ("max")
@@ -3103,7 +3100,7 @@ MES,Marconi Electronic Systems,Medium Edison screw
 MESSENGER,MErcury Surface,Space ENvironment,GEochemistry and Ranging
 MET,Meteorological,Middle European Time
 METAR,[Meteorological] Aviation Routine weather report
-METL,(i/a) Mission Essential Task List ("mettle")
+METL,Mission Essential Task List ("mettle")
 METOC,Meteorological and Oceanographic
 MEU,U.S. Marine Expeditionary Unit,Maximum Expected Utility
 MeV,Megaelectronvolt
@@ -3262,7 +3259,7 @@ MOND,Modified Newtonian Dynamics
 MOO,Measure Of Outcome
 MOP,Macau pataca (ISO 4217 currency code),Measure Of Performance
 MOPE,Ministry of Population and Environment (Nepal),Most Oppressed People Ever (politics)
-MOPP,(i/a) Mission-Oriented Protective Posture
+MOPP,Mission-Oriented Protective Posture
 MORP,Meteorite Observation and Recovery Project
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor
 MOSS,MObile Submarine Simulator,Moving Object Support System
@@ -3397,7 +3394,7 @@ NAACP,National Association for the Advancement of Colored People ("N double-A CP
 NAAQS,National Ambient Air Quality Standards
 NAAWS,NATO Anti-Air Warfare System
 NABCI,North American Bird Conservation Initiative ("nab-see")
-NAC,(i/a) National Agency Check,U.S. Naval Avionics Center,U.S. Navy Advanced Concepts,North Atlantic Council,Northern Area Command
+NAC,"National Agency Check,U.S. Naval Avionics Center,U.S. Navy Advanced Concepts,North Atlantic Council,Northern Area Command"
 NACA,(U.S.) National Advisory Committee for Aeronautics (1915-1958,became NASA)
 NACC,North Atlantic Cooperation Council
 NACISA,NATO Communications and Information Systems Agency
@@ -3616,7 +3613,7 @@ NMCI,Navy Marine Corps Intranet
 NMCS,Not Mission Capable Supply (SM&R code)
 NMD,U.S. National Missile Defense
 NMN,No middle name
-NMOS,(i/a) N-type/Negative Metal-Oxide-Semiconductor transistor ("enn-moss")
+NMOS,N-type/Negative Metal-Oxide-Semiconductor transistor ("enn-moss")
 NMSG,NATO Modelling and Simulation Group
 NMR,Nuclear Magnetic Resonance
 NMHNFG,Not Made Here,No Fucking Good
@@ -4148,7 +4145,7 @@ PMC,Primary Motor Cortex
 PMI,Positive Material Identification
 PMID,PubMed Identifier
 PMMA,PolyMethylMethAcrylate
-PMOS,(i/a) P-type/Positive Metal-Oxide-Semiconductor transistor ("pee-moss")
+PMOS,P-type/Positive Metal-Oxide-Semiconductor transistor ("pee-moss")
 PMS,Premenstrual Syndrome
 PMSL,Piss Myself Laughing (Internet shorthand)
 PMT,Premenstrual Tension (UK) (see Premenstrual Syndrome)
@@ -4398,7 +4395,7 @@ REACT,Remote Electronically Activated Control Technology
 REAM,Retired Educators Association of Minnesota
 RECCE,Reconnaissance
 REEF,Reef Environmental Education Foundation
-REM,(i/a) Rapid Eye Movement (sleep phase),Rosicrucian Egyptian Museum
+REM,"Rapid Eye Movement (sleep phase),Rosicrucian Egyptian Museum"
 REME,Royal Electrical and Mechanical Engineers
 RERC,Rehabilitation Engineering Research Center
 RES,Radiation Exposure Status,Reserve
@@ -4472,7 +4469,7 @@ RNZI,Radio New Zealand International
 ro,Romanian language (ISO 639-1 code)
 RO,Range Only,Red Orchestra,Romania (ISO 3166 and FIPS 10-4 country code digram)
 ROA,(a/i) Rate Of Ascent
-ROC,(i/a) Receiver Operating Characteristic (statistics),Regional Operations Centre,Republic Of China,Roc-A-Fella Records,Regional Organisations of Councils
+ROC,Receiver Operating Characteristic (statistics),Regional Operations Centre,Republic Of China,Roc-A-Fella Records,Regional Organisations of Councils
 ROD,(a/i) Rate Of Descent,Record Of Decisions,Report Of Discrepancy
 ROE,Rules Of Engagement
 roh,Raeto-Romansh language (ISO 639-2 code)
@@ -4594,7 +4591,7 @@ SDHC,Secure Digital High Capacity
 SDXC,Secure Digital eXtended Capacity
 SE,Seychelles (FIPS 10-4 country code),Societas Europaea (form of business organization in the EU),South-east,Sweden (ISO 3166 digram),Synthetic Environment,System Engineering,SEAD —  Suppression of Enemy Air Defence,SEADI —  Senior Executioner of Approved Driving Instructors,SEAFDEC —  Southeast Asian Fisheries Development Center,SEAL —  SEa-Air-Land,SEAT —  Sociedad Española de Automóviles de Turismo (Spanish for "Spanish Touring Car Company"),SEATO —  Southeast Asia Treaty Organization,SeaWiFS —  Sea-Viewing Wide Field of View Sensor (satellite instrument)
 SEC,U.S. Securities and Exchange Commission,Security,Southeastern Conference,SECAM —  Séquentiel couleur à mémoire (French for “Colour Sequential with Memory”; TV standard,cf. NTSC,PAL),SECDEF —  (U.S.) Secretary of Defense,SED —  CERDEC Software Engineering Directorate,SEDRIS —  Synthetic Environment Data Representation and Interchange Specification,SEE —  Small Emplacement Excavator,SEG —  Society of Exploration Geophysicists,SEG —  Special Escort Group,SEK —  Swedish krona (ISO 4217 currency code),Selkent —  South East London & Kent Bus Company,SELT —  Single Ended Line Test (ing)
-SEM-(i/a) Sensor Employment Manager,Switch to Email Mode,i.e. stop texting as it is more disruptive by making a sound or vibrating and email instead,for a given time
+SEM,Sensor Employment Manager,Switch to Email Mode,i.e. stop texting as it is more disruptive by making a sound or vibrating and email instead,for a given time
 SEN,Senegal (ISO 3166 trigram),Small Extension Node
 SEP,Somebody Else’s Problem,Spherical Error Probable,System Enhancement Package,System Engineering Plan,SEPTA —  Southeastern Pennsylvania Rapid-Transit Authority,SERE —  Survival,Evasion,Resistance and Escape,SESSPE —  Submarine Escape and Surface Survival Personnel Equipment,SET —  Staphylococcal EnteroToxin,SETI —  Search for ExtraTerrestrial Intelligence,SETAC —  Society for Environmental Toxicology and Chemistry
 SEU,Single Event Upset (solid state physics),Slightly Enriched Uranium,Special Evidence Unit,SF[edit]
@@ -4633,7 +4630,7 @@ SOA,service-oriented architecture,Society of Actuaries,State of the art
 SOAP,Simple Object Access Protocol,Supplemental Offer and Acceptance Program (U.S. medical residency matching)
 SOB,Son Of a Bitch,Same Old Bullshit,SOC —  Sector Operations Centre,SOCCSKSARGEN —  South Cotabato,Cotabato,Sultan Kudarat,Sarangani,General Santos City (a region in the Philippines; pronounced “sock-sar-gen”),SOCOM —  (U.S.) Special Operations Command
 SoCon,Southern Conference (U.S. college sports)
-SOD-(i/a) School Of Dentistry,Statement Of Difference[s],Statement Of Direction,Statement Of Documentation,Statement Of Duty/Duties
+SOD,School Of Dentistry,Statement Of Difference[s],Statement Of Direction,Statement Of Documentation,Statement Of Duty/Duties
 SOE,Secret Of Evermore,Special Operations Executive (WWII British organization),State Of Emissions (EW)
 SOF-(a/i) Special Operations Force,Status of Forces,SOFIA —  Stratospheric Observatory For Infrared Astronomy
 SOGAT,Society of Graphical and Allied Trades,Former British printing union,SOHC —  Single-OverHead-Cam engine,SOHO —  Solar and Heliospheric Observatory,SOI —  Signal Operating Instruction,SOL —  Shit Out of Luck,SOLIS —  Synoptic Optical Long-term Investigations of the Sun,som —  Somali language (ISO 639-2 code)
@@ -4676,8 +4673,15 @@ SUI,Sonic user interface,Switzerland (IOC and FIFA trigram,but not ISO 3166),SUK
 SV,El Salvador (ISO 3166 digram),Sportverein (German for “Sport Association”,as in Hamburger SV and SV Werder Bremen),SVC —  Secondary Visual Cortex,SvD —  Svenska Dagbladet (Swedish newspaper)
 SVD,Singular Value Decomposition,Snaiperskaya Vintovka Dragunova (Снайперская винтовка Драгунова,Russian for “Dragunov Sniper Rifle”),SVG —  Scalable Vector Graphics,SVK —  Slovakia (ISO 3166 trigram),SVM —  Support Vector Machine (artificial intelligence),SVN —  Slovenia (ISO 3166 and FIFA trigram),SVO —  subject-verb-object,SVR —  Sluzhba Vneshney Razvedki (Служба Внешней Разведки,Russian for "Foreign Intelligence Service"),SW[edit],sw —  Swahili language (ISO 639-1 code)
 SW,South-West ordinal direction,Sweden (FIPS 10-4 country code),Shortwave,swa —  Swahili language (ISO 639-2 code)
-SWA-(i/a) Secure Web Access,South-West Asia,SWAC —  Southwestern Athletic Conference,SWALK —  Sealed With A Loving Kiss,SWAN —  System for Wearable Audio Navigation,SWAP —  Surface Waters Acidification Programme,SWAPO —  South-West Africa People's Organisation,SWAT —  Special Weapons And Tactics,swe —  Swedish language (ISO 639-2 code),SWE —  Sweden (ISO 3166 trigram)
+SWA,Secure Web Access,South-West Asia
+SWAC,Southwestern Athletic Conference
+SWALK,Sealed With A Loving Kiss,
+SWAN,System for Wearable Audio Navigation
+SWAP,Surface Waters Acidification Programme,
+SWAPO,South-West Africa People's Organisation,
 SWAT,Special Weapons And Tactics
+swe,Swedish language (ISO 639-2 code)
+SWE —  Sweden (ISO 3166 trigram)
 SWF,Single White Female
 SWG,Surface Warfare Group,Symbology Working Group,SWHR —  Society for Women's Health Research,SWIG —  Simplified Wrapper and Interface Generator,SWIR — (a/i) Short Wave InfraRed (“ss-why-are” or “swhirr”)
 SWLABR,She Was Like A Bearded Rainbow,Cream song (Bruce,Clapton and Baker),SWORD —  Subjective WORkload Dominance,SWORDS —  Special Weapons Observation Reconnaissance Detection System,SWOT —  Strengths,Weaknesses,Opportunities,Threats (mnemonic)
@@ -4742,7 +4746,7 @@ TC,Teracoulomb,Turks and Caicos (ISO 3166 digram),United Arab Emirates (FIPS 10-
 TCA,Transformational Communications Architecture,Turks and Caicos (ISO 3166 trigram)
 TCAS,Traffic Collision Avoidance System
 TCAA,Top Counter-Assault Agents
-TCCCS,(i/a) Tactical Command,Control and Communication System ("ticks")
+TCCCS,"Tactical Command,Control and Communication System"
 TCD,Chad (ISO 3166 trigram)
 TCG,Trusted Computing Group,Türkiye Cumhuriyeti Gemisi
 TCHD,Truck Cargo Heavy Duty
@@ -4972,7 +4976,7 @@ U,Uranium
 UA,Ukraine (ISO 3166 digram)  Unit of Action
 UAAP,University Athletic Association of the Philippines
 UAB,University of Alabama at Birmingham
-UAE,(i/s) United Arab Emirates (also IOC and FIFA trigram,but not ISO 3166)
+UAE,United Arab Emirates (also IOC and FIFA trigram,but not ISO 3166)
 UAH,Ukrainian hryvnia (ISO 4217 currency code),University of Alabama in Huntsville
 UAR,Uniformly At Random (probability),Unión Argentina de Rugby (Spanish for "Argentine Rugby Union"),United Arab Republic
 UAV,Unmanned Aerial Vehicle,Unprotected Anal and Vaginal sex,UB[edit]
@@ -4991,15 +4995,12 @@ UCSB,"University of California at Santa Barbara"
 UCSD,"University of California at San Diego"
 UDAS,Uppsala-DLR Asteroid Survey
 UDDI,"Universal Description,Discovery and Integration"
-UDP,User Datagram Protocol
-UDT,Underwater Demolition Team
 UDTS,Uppsala-DLR Trojan Survey
 UE,Unit of Employment
 UEFA,Union of European Football Associations
-UEFI,(i/a) Unified Extensible Firmware Interface
 UESAC,Uppsala-ESO Survey of Asteroids and Comets
 UFC,Ultimate Fighting Championship
-UFO,Unidentified Flying Object,United Farmers of Ontario
+UFO,"Unidentified Flying Object, or: United Farmers of Ontario"
 ug,Uyghur language (ISO 639-1 code)
 UG,Uganda (ISO 3166 and FIPS 10-4 country code digram)
 UGA,Uganda (ISO 3166 trigram)
@@ -5599,7 +5600,7 @@ ZA,South Africa (ISO 3166 digram),Zambia (FIPS 10-4 country code),Zettaampere
 ZAF,South Africa (ISO 3166 trigram)
 ZAMS,Zero age main sequence
 ZAR,South African rand (ISO 4217 currency code),Zaire (ISO 3166 trigram,obsolete 1997)
-ZAS,(i/a) Zylinder Abschaltung System
+ZAS,Zylinder Abschaltung System
 ZBT,Zero-Balance Transfer (accounting)
 zC,Zeptocoulomb
 ZC,Zettacoulomb

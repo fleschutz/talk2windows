@@ -113,6 +113,7 @@ DIF,Data Interchange Format
 DIMM,Dual In-line Memory Module 
 DLL,Dynamic Link Library
 DMI,Desktop Management Interface 
+DMOS,Double Diffused MOS transistor
 DOI,Digital Object Identifier
 DOS,"Denial of Service,or Disk Operating System"
 DRAM,Dynamic Random Access Memory 
@@ -206,18 +207,23 @@ IP,Internet Protocol
 IRC,Internet Relay Chat
 ISP,Internet Service Provider
 IT,Information Technology
+JFET,Junction Field-Effect Transistor 
 L2TP,Layer 2 Tunneling Protocol
 LAN,Local Area Network
 LCD,Liquid Crystal Display
+LDMOS,Laterally Diffused MOS transistor 
 MSDOS,Microsoft Disk Operating System
 NIC,Network Interface Card
 PC,Personal Computer
+PR,Problem Report
 RAM,Random Access Memory
 RDP,Remote Desktop Protocol
 SSD,Solid-State Drive
 SWAT,Samba Web Administration Tool
 SWF,Shockwave Flash file
 TPM,Trusted Platform Module
+UDP,User Datagram Protocol
+UEFI,Unified Extensible Firmware Interface
 URL,Uniform Resource Locator
 VPN,Virtual Private Network
 VPS,Virtual Private Server
@@ -248,3 +254,6 @@ VXLAN,Virtual Extensible LAN
 VXLAN,gateway Virtual Extensible VLAN gateway
 WAN,Wide Area Network
 WWW,World Wide Web
+XWM,X window manager
+XWN,eXtended WordNet
+XWS,X Window System
