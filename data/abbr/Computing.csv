@@ -59,7 +59,7 @@ ARP,Address Resolution Protocol
 ASCII,American Standard Code for Information Interchange
 ASP,Application Service Provider
 ATM,Asynchronous Transfer Mode
-ATX,Advanced Technology eXtended (a form factor for personal computer motherboards and power supplies)
+ATX,Advanced Technology eXtended (a form factor for motherboards and power supplies)
 AVR,Audio/Video Receiver
 AWS,Amazon Web Services
 Bash,Bourne-Again Shell
@@ -225,8 +225,9 @@ VRAM,Video RAM
 VRF,Virtual Routing and Forwarding
 VRM,"Vendor Risk Management, or Voltage Regulator Module"
 VRML,Virtual Reality Modeling Language
+VRR,Voice Recognition and Response
 VRRP,Virtual Router Redundancy Protocol
-VSA,virtual storage appliance
+VSA,Virtual Storage Appliance
 VSA,virtual SAN appliance
 VSAM,Virtual Storage Access Method
 VSAN,virtual storage area network
@@ -241,7 +242,7 @@ VSPP,VMware Service Provider Program
 VSTO,Visual Studio Tools for Office or Microsoft Visual Studio Tools
 VSTS,Visual Studio Team System
 VTAM,Virtual Telecommunications Access Method
-VTL,virtual tape library
+VTL,Virtual Tape Library
 VUM,VMware vSphere Update Manager
 VXLAN,Virtual Extensible LAN
 VXLAN,gateway Virtual Extensible VLAN gateway

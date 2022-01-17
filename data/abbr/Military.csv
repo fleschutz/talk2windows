@@ -730,6 +730,7 @@ TAI,Target Area of Interest
 TAMP,Transition Assistance Management Program
 TANS,Tactical Air Navigation System
 TBO,Time Between Overhauls
+TBD,Torpedo Boat Destroyer
 TBT,Tank Bridge Transporter
 TCCC,Tactical Combat Casualty Care
 TCF,Tactical Combat Force
@@ -801,9 +802,9 @@ VISA,Voluntary Intermodal Sealift Agreement
 VISN,Veterans Integrated Service Network
 VistA,Veterans Health Information Systems and Technology Architecture
 VSEL,Vickers Shipbuilding and Engineering LTD
-VSO,Veteran Service organization
 VSO,Veterans Service Organization
-VTAS,Voice, Throttle and Stick
+VSTOL,Vertical Short Take-Off and Landing
+VTAS,"Voice, Throttle and Stick"
 VTOL,Vertical Take-Off and Landing
 WARM,Wartime Reserve Modes
 WARNORD,Warning Order
