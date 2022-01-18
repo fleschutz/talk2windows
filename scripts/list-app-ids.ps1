@@ -12,6 +12,5 @@
 #>
 
 & "$PSScriptRoot/_reply.ps1" "OK."
-Get-StartApps | Out-GridView
-sleep 600
+Get-StartApps | Out-GridView -wait
 exit 0 # success

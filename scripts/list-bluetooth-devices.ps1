@@ -12,8 +12,7 @@
 #>
 
 try {
-	Get-PnpDevice | Where-Object {$_.Class -eq "Bluetooth"} | Out-GridView
-	sleep 600
+	Get-PnpDevice | Where-Object {$_.Class -eq "Bluetooth"} | Out-GridView -wait
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

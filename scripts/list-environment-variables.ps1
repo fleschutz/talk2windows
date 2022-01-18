@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-	Lists the Environment Variables
+	Lists Environment Variables
 .DESCRIPTION
 	This PowerShell script lists all environment variables in a table.
 .EXAMPLE
@@ -12,8 +12,7 @@
 #>
 
 try {
-	Get-ChildItem env: | Out-GridView
-	sleep 600
+	Get-ChildItem env: | Out-GridView -wait
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

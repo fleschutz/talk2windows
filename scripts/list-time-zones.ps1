@@ -12,6 +12,5 @@
 #>
 
 & "$PSScriptRoot/_reply.ps1" "OK."
-Get-Timezone -ListAvailable | Out-GridView
-sleep 600
+Get-Timezone -ListAvailable | Out-GridView -wait
 exit 0 # success

@@ -12,8 +12,7 @@
 #>
 
 try {
-	Get-LocalGroup | Out-GridView
-	sleep 600
+	Get-LocalGroup | Out-GridView -wait
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
