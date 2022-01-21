@@ -14,6 +14,7 @@
 #Requires -Version 2.0
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "OK."
 	Add-Type -AssemblyName System.Speech
 	$Synth = New-Object System.Speech.Synthesis.SpeechSynthesizer
 	$Synth.GetInstalledVoices() | 

@@ -12,6 +12,7 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "OK."
 	Get-LocalGroup | Out-GridView -wait
 	exit 0 # success
 } catch {
