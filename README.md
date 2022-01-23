@@ -114,7 +114,7 @@ Launches the Windows settings, replace [name] by: `activation`, `apps`, `backgro
 
 ❔ *"Windows, list [table]"*
 ---------------------------
-Shows the given table, just replace [table] by: `bluetooth devices`, `earthquakes`, `environment variables`, `headlines`, `installed apps`, `installed software`, `installed voices`, `network adapters`, `printers`, `running processes`, `services`, `system info`, `tasks`, `time zones`, or `user groups`.
+Shows the given table, just replace [table] by: `bluetooth devices`, `city weather`, `earthquakes`, `environment variables`, `headlines`, `installed apps`, `installed software`, `installed voices`, `network adapters`, `printers`, `running processes`, `services`, `system info`, `tasks`, `time zones`, or `user groups`.
 
 
 🔧 *"Windows, [action] computer."*

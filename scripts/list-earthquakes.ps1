@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Lists Major Earthquakes
 .DESCRIPTION
-	This script lists earthquakes with magnitude >= 5.0 in the last 30 days.
+	This PowerShell script lists major earthquakes in the last 30 days sorted by magnitude.
 .EXAMPLE
 	PS> ./list-earthquakes
 .NOTES
@@ -24,7 +24,7 @@ function ListEarthquakes {
  
 try {
 	& "$PSScriptRoot/_reply.ps1" "Hold on."
-	ListEarthquakes | Select-Object -property Mag,Depth,Location,Type,Time,ID,Lat,Long | Out-GridView -title "Earthquakes with magnitude >= 5.0 in the last 30 days" -wait
+	ListEarthquakes | Select-Object -property Mag,Depth,Location,Type,Time,ID,Lat,Long | Out-GridView -title "List of major earthquakes in the last 30 days sorted by magnitude" -wait
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
