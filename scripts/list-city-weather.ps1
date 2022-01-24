@@ -20,7 +20,7 @@ function ListCityWeather {
 	}
 }
 try {
-	ListCityWeather | Select-Object -property City,Weather | Out-GridView -title "Current City Weather (west to east)"
+	ListCityWeather | Select-Object -property City,Weather | Out-GridView -title "Current City Weather (west to east)" -wait
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
