@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script launches the Web browser with the FlightRadar24 website.
 .EXAMPLE
-	PS> ./open-flight-radar
+	PS> ./open-flight-radar-website
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
