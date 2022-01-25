@@ -85,8 +85,8 @@ COSMOS,HST survey programme
 Cou-,Council Document
 CP,Calibration Programme
 CPI,Consumer Price Index
-CRIRES,Cryogenic InfraRed Echelle Spectrometer (VLT)
 CRIRES+,Planned upgrade to CRIRES
+CRIRES,Cryogenic InfraRed Echelle Spectrometer (VLT)
 CSV,Commissioning and Science Verification
 CTA,Cherenkov Telescope Array
 CTA-S,Cherenkov Telescope Array South
@@ -128,8 +128,8 @@ ePOD,education and Public Outreach Department
 ERC,European Research Council
 ERIS,Enhanced Resolution Imager and Spectrograph
 ERP,Enterprise Resource Planning (Administration software)
-ESAC,European Space Astronomy Centre (ESA, Spain)
 ESAC,European Science Advisory Committee (for ALMA)
+ESAC,European Space Astronomy Centre (ESA, Spain)
 ESC,ELT Subcommittee
 ESE,ELT Science and Engineering
 ESM,European School Munich
@@ -145,8 +145,8 @@ ExA,Journal, Experimental Astronomy
 ExTrA,(La Silla) Exoplanets in Transit and their Atmospheres
 FC,Finance Committee
 FDR,Final Design Review
-FE,Front End
 FE IPT,Front-End Integrated Project Team (ALMA)
+FE,Front End
 FEA,Finite Element Analysis
 FEED,Front-End Engineering Design (ELT)
 FEIC,Front End Integration Centre (ALMA)
@@ -162,7 +162,6 @@ FP6,Sixth EC Framework Programme
 FP7,Seventh EC Framework Programme
 FWHM,Full Width at Half Maximum
 GALACSI,Ground Atmospheric Layer Adaptive Optics for Spectroscopic Imaging (AOF)
-GÉANT,European multi-gigabit computer network for research and education purposes
 GIRAFFE,Fibre-fed multi-object spectrograph and part of the VLT FLAMES facility
 GLAO,Ground Layer Adaptive Optics
 gNLT,Garching Night Log Tool
@@ -172,6 +171,7 @@ GROND,Gamma-Ray Burst Optical/Near-Infrared Detector (MPG/ESO 2.2-metre)
 GTC,Gran Telescopio Canarias
 GTO,Guaranteed Time for Observation
 GWh,Gigawatt hours
+GÉANT,European multi-gigabit computer network for research and education purposes
 H-LTAO,HARMONI Laser Tomography Adaptive Optics
 H2020,(EU) Horizon 2020 Programme
 HARMONI,Proposed first light integral field spectrograph for the ELT
@@ -240,8 +240,8 @@ LSM,Local Staff Members
 LSP,La Silla ­Paranal Subcommittee
 LTAO,Laser Tomography Adaptive Optics
 LVSM,Large Visible Sensor Module
-M,million/1,000,000
 M#,Mirror #
+M,million/1,000,000
 MACAO,Multiple Application Curvature Adaptive Optic
 MACCON,Motion controller manufacturer
 MAD,Multi-conjugate Adaptive optics Demonstrator

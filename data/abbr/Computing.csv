@@ -38,12 +38,12 @@ ABP,AdBlock Plus
 AC,Alternating Current
 ACCT,Account
 ACE,Access Control Entry
+ACID,"Atomicity, Consistency, Isolation, Durability"
 Ack,Acknowledgement
 ACL,Access Control list
+ACL,Access Control List
 ACPI,Advanced Configuration and Power Interface
 ACR,Absolute Cell Reference
-ACID,"Atomicity, Consistency, Isolation, Durability"
-ACL,Access Control List
 ADatP,Automated Data Processing
 ADC,Analog-to-Digital Converter
 ADF,Automatic Document Feeder
@@ -74,9 +74,9 @@ BSOD,Blue Screen of Death
 BTX,Balanced Technology eXtended (a form factor for personal computer motherboards)
 BYOA,Bring Your Own Apps
 BYOC,Bring Your Own Cloud
-BYON,Bring Your Own Network
-BYOI,Bring Your Own Identity
 BYOE,Bring Your Own Encryption
+BYOI,Bring Your Own Identity
+BYON,Bring Your Own Network
 CAD,Computer-Aided Design
 CAN,Campus Area Network
 CD,Compact Disc
@@ -87,7 +87,6 @@ CHI,Computer-Human Interaction
 CLI,Command Line Interface/Interpreter
 CLOB,Character Large OBject
 CLOS,Common Lisp Object System
-CPU,Central Processing Unit
 CMIS,Content Management Interoperability Services
 CMOS,Complementary Metal–Oxide–Semiconductor
 CMS,Cisco Meeting Server
@@ -95,6 +94,7 @@ CNO,Computer Network Operations
 Codec,"Coder-Decoder / Compressor-Decompressor / Compression-Decompression algorithm"
 COLA,"comp.os.linux.announce"
 CORBA,Common Object Request Broker Architecture
+CPU,Central Processing Unit
 CSS,Cascading Style Sheets
 CSV,Comma Separated Values (file format)
 CVS,Concurrent Versions System
@@ -122,8 +122,8 @@ DSP,Digital Signal Processing
 DVD,"Digital Versatile Disk (was Digital Video Disk)"
 EBCDIC,Extended Binary Coded Decimal Interchange Code
 ECC,"Elliptic Curve Cryptography or Error-Correcting Code"
-EULA,End-User License Agreement 
 EOF,End of File
+EULA,End-User License Agreement 
 FAT,File Allocation Table
 FC-PGA,Flip-Chip Pin Grid Array
 FD,"Floppy Drive or File Descriptor"
@@ -161,7 +161,6 @@ FRAM,Ferroelectric RAM
 FRU,Field-replacable Unit
 FS,File System
 FTP,File Transfer Protocol
-IDE,Integrated Development Environment
 GBIC,Gigabit Interface Converter
 Gbps,Gigabits per second
 GCC,GNU Compiler Collection
@@ -188,8 +187,8 @@ GPF,General Protection Fault
 GPG,GNU Privacy Guard
 GPL,GNU General Public License
 GPMP,General Purpose Macro Processor
-GPU,Graphics Processing Unit
 GPT,GUID Partition Table
+GPU,Graphics Processing Unit
 GTA,Grand Theft Auto (computer game)
 GUI,Graphical User Interface
 GXA,Global XML Web Services Architecture
@@ -202,6 +201,7 @@ HDMI,High Definition Multimedia Interface
 HDR,Hard disk recorder
 HDTV,High-Definition Television
 HMM,Hidden Markov Model
+IDE,Integrated Development Environment
 IoT,Internet of Things
 IP,Internet Protocol
 IRC,Internet Relay Chat
@@ -221,8 +221,8 @@ RAM,Random Access Memory
 RDP,Remote Desktop Protocol
 SSD,Solid-State Drive
 SWAT,Samba Web Administration Tool
-Swift,Programming language released in 2014 by Apple Inc.
 SWF,Shockwave Flash file
+Swift,Programming language released in 2014 by Apple Inc.
 TPM,Trusted Platform Module
 UDP,User Datagram Protocol
 UEFI,Unified Extensible Firmware Interface
@@ -235,8 +235,8 @@ VRM,"Vendor Risk Management, or Voltage Regulator Module"
 VRML,Virtual Reality Modeling Language
 VRR,Voice Recognition and Response
 VRRP,Virtual Router Redundancy Protocol
-VSA,Virtual Storage Appliance
 VSA,virtual SAN appliance
+VSA,Virtual Storage Appliance
 VSAM,Virtual Storage Access Method
 VSAN,virtual storage area network
 VSAT,Very Small Aperture Terminal
@@ -252,11 +252,11 @@ VSTS,Visual Studio Team System
 VTAM,Virtual Telecommunications Access Method
 VTL,Virtual Tape Library
 VUM,VMware vSphere Update Manager
-VXLAN,Virtual Extensible LAN
 VXLAN,gateway Virtual Extensible VLAN gateway
+VXLAN,Virtual Extensible LAN
 WAN,Wide Area Network
 WWW,World Wide Web
-XYZ,Internet top-level domain (.xyz) released in 2014
 XWM,X window manager
 XWN,eXtended WordNet
 XWS,X Window System
+XYZ,Internet top-level domain (.xyz) released in 2014
