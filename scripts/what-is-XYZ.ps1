@@ -25,13 +25,18 @@ function SpellAbbr { param([string]$Text)
 try {
 	$Files = (Get-ChildItem "$PSScriptRoot/../data/abbr/*.csv")
 	$Text = ""
+	$PrevBasename = ""
 	foreach($File in $Files) {
 		$Table = Import-CSV "$File"
 		foreach($Row in $Table) {
 			if ($Row.Abbr -ne $abbr) { continue }
 			$Basename = (Get-Item "$File").Basename
-			if ($Text -ne "") { $Text += ".`n" }
-			$Text += "In $Basename $(SpellAbbr $Row.Abbr) means $($Row.Term)"
+			if ($Basename -ne $PrevBasename) {
+				$Text += "`n In $Basename $(SpellAbbr $Row.Abbr) may refer to $($Row.Term)"
+			} else {
+				$Text += ", or: $($Row.Term)"
+			}
+			$PrevBasename = $Basename
 		}
 	}
 	if ($Text -ne "") {
