@@ -4,18 +4,17 @@
 .DESCRIPTION
 	This PowerShell script does a SSH login into the given host.
 .EXAMPLE
-	PS> ./ssh-into-XYZ alpha
+	PS> ./ssh-into-XYZ MYPC
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
-param([string]$Hostname = "")
+param([string]$Part1 = "", [string]$Part2 = "", [string]$Part3 = "")
 
 try {
-	if ($Hostname -eq "") { throw "No host name or IP address given" }
-
+	$Hostname = "$($Part1)$($Part2)$($Part3)"
 	& "$PSScriptRoot/open-windows-terminal.ps1" "ssh $Hostname"
 	exit 0 # success
 } catch {
