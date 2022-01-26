@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-	Wakeup a Computer
+	Wake up a Computer
 .DESCRIPTION
 	This PowerShell script sends a magic UDP packet twice to the given computer to wake him up (requires Wake-On-LAN).
 .PARAMETER Hostname
@@ -13,7 +13,7 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-param([string]$Hostname = "")
+param([string]$Part1 = "", [string]$Part2 = "", [string]$Part3 = "")
 	
 function Send-WOL { param([string]$mac, [string]$ip, [int]$port = 9) 
 	$broadcast = [Net.IPAddress]::Parse($ip) 
@@ -28,6 +28,7 @@ function Send-WOL { param([string]$mac, [string]$ip, [int]$port = 9)
 } 
 
 try {
+	$Hostname = "$($Part1)$($Part2)$($Part3)"
 	$Ping = Test-Connection -count 1 -computerName $Hostname
         if ($Ping.count -ne 0) {
 		& "$PSScriptRoot/_reply.ps1" "$Hostname is already up and running."
@@ -37,7 +38,7 @@ try {
 	$Table = Import-CSV "$PSScriptRoot/../data/hosts.csv"
 	foreach($Row in $Table) {
 		if ($Hostname -ne $Row.Hostname) { continue }
-		& "$PSScriptRoot/_reply.ps1" "OK, I'm trying to wake up $Hostname ..."
+		& "$PSScriptRoot/_reply.ps1" "OK, waking up $Hostname ..."
 		Send-WOL $Row.MAC $Row.IPv4
 		start-sleep -milliseconds 100
 		Send-WOL $Row.MAC $Row.IPv4

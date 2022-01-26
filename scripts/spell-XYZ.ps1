@@ -1,22 +1,23 @@
 <#
 .SYNOPSIS
-	Spells Text
+	Spells a Text
 .DESCRIPTION
 	This PowerShell script spells the given text by text-to-speech (TTS).
 .PARAMETER text
         Specifies the text to spell
 .EXAMPLE
-	PS> ./spell
+	PS> ./spell-XYZ TRITON
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
-param([string]$text = "")
+param([string]$Part1 = "", [string]$Part2 = "", [string]$Part3 = "")
 
 try {
-	[char[]]$ArrayOfChars = $text.ToUpper()
+	$Text = "$($Part1)$($Part2)$($Part3)"
+	[char[]]$ArrayOfChars = $Text.ToUpper()
 	$Reply = ""
 	foreach($Char in $ArrayOfChars) {
 		$Reply += "$Char "
