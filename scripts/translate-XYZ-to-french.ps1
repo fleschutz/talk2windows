@@ -23,7 +23,7 @@ function UseLibreTranslate { param([string]$Text, [string]$SourceLangCode, [stri
 
 try {
 	$Translation = UseLibreTranslate $Text "en" "fr"
-	& "$PSScriptRoot/_speak-french.ps1" "$Translation"
+	& "$PSScriptRoot/_reply-in.ps1" "French" "$Translation"
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
