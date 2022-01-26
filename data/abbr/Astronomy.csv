@@ -104,10 +104,6 @@ DIG,Deep Imaging Group (Vitacura)
 DL,Delay Line (VLTI)
 DMO,Data Management and Operations Division
 DMS,Dome and Main Structure
-DoA,Directorate of Administration
-DoE,Directorate of Engineering
-DoO,Directorate of Operations
-DoP,Directorate of Programmes
 DRS,DRS, formerly Boeing, detector manufacturer
 DSC,Directorate for Science
 DSM,Deformable Secondary Mirror
@@ -225,6 +221,7 @@ Kueyan,VLT Unit Telescope 2
 LABOCA,Large APEX Bolometer CAmera
 LAOG,Laboratoire d'Astrophysique de l'Observatoire de Grenoble
 LCS,Local Control System
+LEO,Low Earth Orbit
 LFC,Laser Frequency Comb
 LGS,Laser Guide Star
 LGSF,Laser Guide Star Facility
