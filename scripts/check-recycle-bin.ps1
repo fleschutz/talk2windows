@@ -11,27 +11,31 @@
 	Author: Markus Fleschutz / License: CC0
 #>
 
-function Get-CurrentUserSID { [CmdletBinding()] param()
-	Add-Type -AssemblyName System.DirectoryServices.AccountManagement
-	return ([System.DirectoryServices.AccountManagement.UserPrincipal]::Current).SID.Value
-}
-
 try {
-	$TargetDir = 'C:\$Recycle.Bin\' + "$(Get-CurrentUserSID)"
-	if (-not(test-path "$TargetDir" -pathType container)) {
-		throw "Recycle bin folder at $TargetDir doesn't exist."
+	$Shell = New-Object -com shell.application
+	$RecycleBin = $Shell.Namespace(10)
+	[int]$NumFolders = 0
+	[int]$NumFiles = 0
+	foreach($Item in $RecycleBin.items()) {
+		if ($Item.IsFolder()) {
+			$NumFolders++;
+		} else {
+			$NumFiles++
+		}
 	}
-
-	[int]$NumFiles = 0	
-	$Files = (Get-ChildItem "$TargetDir/*")
-	foreach($File in $Files) {
-		$NumFiles++
-	}
-	if ($NumFiles -eq 0) {
-		$Reply = "Recycle bin is empty."
+	if (($NumFolders -eq 0) -and ($NumFiles -eq 0)) {
+		$Reply = "The recycle bin is empty."
 	} else {
-		$Reply = "$NumFiles files in recycle bin."
-	}
+		$Reply = "The recycle bin contains"
+		if ($NumFolders -eq 1) {	$Reply += " one folder"
+		} elseif ($NumFolders -gt 1) {  $Reply += " $NumFolders folders"
+		} 
+
+		if ($NumFiles -eq 1) {		$Reply += " one file"
+		} elseif ($NumFiles -gt 1) {	$Reply += " $NumFiles files"
+		} 
+		$Reply += "."
+	} 
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
 } catch {
