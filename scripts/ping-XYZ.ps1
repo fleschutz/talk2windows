@@ -6,30 +6,27 @@
 .PARAMETER Hostname
 	Specifies the hostname or IP address
 .EXAMPLE
-	PS> ./ping-XYZ
+	PS> ./ping-XYZ myhost
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
-param([string]$Hostname = "")
+param([string]$Part1 = "", [string]$Part2 = "", [string]$Part3 = "")
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "OK."
+	$Hostname = "$($Part1)$($Part2)$($Part3)"
 
-	$Pings = test-connection -count 1 -computerName $Hostname
+	$Pings = Test-Connection -count 1 -computerName $Hostname
         if ($Pings.count -eq 0) {
-                & "$PSScriptRoot/_reply.ps1" "Sorry, $Hostname is offline."
+                & "$PSScriptRoot/_reply.ps1" "Sorry, '$Hostname' is offline."
         } else {
                 foreach($Ping in $Pings) {
-                        if ($IsLinux) {
-                                $Latency = $Ping.latency
-                        } else {
-                                $Latency = $Ping.ResponseTime
-                        }
+                        if ($IsLinux) { $Latency = $Ping.latency } else { $Latency = $Ping.ResponseTime }
                 }
-                & "$PSScriptRoot/_reply.ps1" "$Hostname is online with $Latency ms latency."
+                & "$PSScriptRoot/_reply.ps1" "'$Hostname' is online with $Latency ms latency."
         }
 	exit 0 # success
 } catch {
