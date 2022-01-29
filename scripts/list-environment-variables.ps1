@@ -13,7 +13,7 @@
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "OK."
-	Get-ChildItem env: | Out-GridView -wait
+	Get-ChildItem env: | Out-GridView -title "Environment Variables (sorted alphabetically)" -wait
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
