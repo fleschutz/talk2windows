@@ -11,18 +11,20 @@
 	https://github.com/fleschutz/talk2windows
 #> 
 
-$Cities="Hawaii","Los Angeles","Mexico City","Miami","New York","Rio de Janeiro","Paris","London","Berlin","Cape Town","Dubai","Mumbai","Singapore","Hong Kong","Peking","Tokyo","Sydney"
+$Cities="Hawaii","Los Angeles","Mexico City","Dallas","Miami","New York","Rio de Janeiro","Paris","London","Berlin","Cape Town","Dubai","Mumbai","Singapore","Hong Kong","Perth","Peking","Tokyo","Sydney"
 
 function ListCityWeather {
 	foreach($City in $Cities) {
-		$Line = (Invoke-WebRequest http://wttr.in/${City}?format="%c +%t+%p+%h+%P+%w +%S →+%s" -UserAgent "curl" -useBasicParsing).Content
-		New-Object PSObject -Property @{ City="$City"; Weather="$Line" }
+		$Conditions = (Invoke-WebRequest http://wttr.in/${City}?format="%c  +%t`t+%p`t+%h`t+%P  +%w" -UserAgent "curl" -useBasicParsing).Content
+		$Sun = (Invoke-WebRequest http://wttr.in/${City}?format="+%S →+%s" -UserAgent "curl" -useBasicParsing).Content
+		New-Object PSObject -Property @{ City="$City"; Conditions="$Conditions"; Sun="$Sun" }
 	}
 }
 try {
-	ListCityWeather | Select-Object -property City,Weather | Out-GridView -title "Current City Weather (west to east)" -wait
+	& "$PSScriptRoot/_reply.ps1" "OK."
+	ListCityWeather | Select-Object -property City,Conditions,Sun | Out-GridView -title "Current City Weather (from West to East)" -wait
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }
