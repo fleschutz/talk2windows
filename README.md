@@ -69,7 +69,7 @@ Launches the default Web browser (or opens a new tab) with the given exchange ra
 
 🎵 *"Windows, play [genre] music."*
 ------------------------------------
-Launches the default Web browser (or opens a new tab) and plays a music genre. Replace [genre] by: `Alternative Rock`, `Blues`, `Chillout`, `Christmas`, `Classical`, `Country`, `Dance`, `Folk`, `Hip Hop`, `House`, `Indie`, `Jazz`, `Metal`, `Pop`,`Reggae`, `Relax`, `RnB`, `Rock`, or `Workout`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
+Launches the default Web browser (or opens a new tab) and plays a music genre. Replace [genre] by: `70s`, `80s`, `90s`, `Alternative Rock`, `Blues`, `Chillout`, `Christmas`, `Classical`, `Country`, `Dance`, `Folk`, `Hip Hop`, `House`, `Indie`, `Jazz`, `Metal`, `Pop`,`Reggae`, `Relax`, `RnB`, `Rock`, or `Workout`. When finished say: *"Windows, close [name] browser"* to close the Web browser.
 
 
 🔈 *"Windows, play [name] sound."*
