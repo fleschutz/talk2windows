@@ -1,4 +1,15 @@
 Abbr,Term
+.cc,Common filename suffix for C++ source code files
+.csv,Common filename suffix for comma-separated value files
+.cfg,Common filename suffix for configuration files
+.h,Common filename suffix for C/C++ header files
+.jpeg,Common filename suffix for JPEG image files
+.jpg,Common filename suffix for JPEG image files
+.m3u,Common filename suffix for audio playlists
+.md,Common filename suffix for Markdown files
+.mp3,Common filename suffix for MPEG layer 3 audio files
+.ps1,Common filename suffix for PowerShell script files
+.txt,Common filename suffix for text files
 1NF,First Normal Form
 2.5D,Two-And-A-Half-Dimensional
 286,Intel 80286 processor
@@ -640,8 +651,7 @@ CSS,customer service and support
 CSS1,Cascading Style Sheet, level 1
 CSU/DSU,Channel Service Unit/Data Service Unit
 CSV,Cluster Shared Volumes
-CSV,Comma Separated Values (file format)
-CSV,comma-separated values file
+CSV,Comma Separated Values (a file format)
 CTC,click-to-talk
 CTC,community technology center
 CTCI,Computer-to-computer interface
