@@ -11,6 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-$Reply = "I’m so happy.", "I love it when you say things like that.", "Thank you for loving me." | Get-Random
+$Reply = "I'm so happy.", "I love it when you say things like that.", "Thank you for loving me." | Get-Random
 & "$PSScriptRoot/_reply.ps1" "$Reply"
 exit 0 # success
