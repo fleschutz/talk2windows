@@ -8,7 +8,7 @@
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 & "$PSScriptRoot/_reply.ps1" "Hello everyone."
