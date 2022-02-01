@@ -207,60 +207,187 @@ PtF,Permit to Fly
 QFE,the altimeter setting that will cause the altimeter to read the height above a specific aerodrome or ground level, and therefore read zero on landing
 QNE,pressure altitude at the landing runway threshold
 QNH,atmospheric pressure adjusted to mean sea level
+RADAR,Radio Detection And Ranging
+RADNET,Radar Network
+RAIM,Receiver Autonomous Integrity Monitoring (GPS)
 RAT,Reliability Acceptance Test (see also FAT and SAT)
+RAM,Radar Absorbent Material
+RAP,Recognised Air Picture
+RASP,Recognised Air and Surveillance Picture
+RB,Relative Bearing
+RBI,Relative Bearing Indicator
 RBAF,Royal Belgium Armed Forces
 RCAF,Royal Canadian Air Force
+RCC,Rescue Co-ordination Centre
+RCL,Runway Centre Line Lighting
+RCS,Radar Cross Section
 RET,Rapid Exit Taxiways
+RF,Radio Frequency
 RFFS,Rescue and Fire Fighting Services
+RIMCAS,Runway Incursion Monitoring and Conflict Alert System
 RJAF,Royal Jordanian Air Force
+RJC,Reject
 RPI,Runway Point of Intercept
 RPM,Rotations per Minute
+RMI,Radio Magnetic Indicator
+RNAV,Area Navigation
+RNP,Required Navigation Performance
+ROC,Rate Of Climb
+ROC,Required Obstacle Clearance
+RPM,Revolutions Per Minute
+RPS,Radar Position Symbol
+RTCA,Radio Technical Commission for Aeronautics
 RVR,Runway Visual Range
+RVSM,Reduced Vertical Separation Minimum
+RWR,Radar Warning Receiver
 RWY,Runway
+SADL,Situational Awareness Data Link
+SAR,Search and Rescue
+SAR,Synthetic Aperture Radar
+SARPS,Standards and Recommended Practices (ICAO)
 SAT,Site Acceptance Test (see also FAT and RAT)
 SATCO,Senior Air Traffic Control Officer
+SATCOM,Satellite Communication
+SATNAV,Satellite Navigation
+SATSE,State Air Traffic Services Enterprise
+SDD,Situation Data Display
+SELCAL,Selective Calling System
+SES,Single European Sky
+SESAME,Single European Sky ATM Master Plan
+SFL,Sequencing Flashing Light
 SFO,Simulated Flameout Operation
+SI,Selective Interrogation
+SIAP,Standard Instrument Approach Procedure
 SID,Standard Instrument Departure
-SKYGUIDE,ATC Swiss
+SIF,Selective Identification Friend or Foe
+SIGMET,Significant Meteorological (Information) Report
+SILs,Sector Inbound Lists
+SIM,Simulator
+SKYGUIDE,Swiss Air Traffic Control
+SLB,Side lobe Blanking
+SLC,Side lobe Cancellation
 SLOC,Slovenia Control
+SM,Statute Mile
 SOW,Statement of Work
+SRC,Safety Regulation Commission (EUROCONTROL)
+SRU,Safety Regulation Unit (EUROCONTROL)
 SSR,Secondary Surveillance Radar
-STARS,Standard Arrival Routes
+STAR,Standard Arrival Route or Standard Terminal Arrival Route
+STARS,Standard Terminal Automation Replacement System
+STB,Stop Bar
+STCA,Short Term Conflict Alert
+STD,Synthetic Training Device
+STDMA,Self-organising Time Division Multiple Access (known as VHF digital link - Mode 4)
+STNA,Service Technique de la Navigation Aerienne
 STOL,Short Take Off and Landing
+STRATFOR,Eurocontrol Statistics and Forecasts Service
+SUA,Special Use Airspace
+SV,Supervisor
+SVFR,Special Visual Flight Rules
 SWT,Switch
+SYSCO,System Coordination – Data Exchange and Coordination
 TA,Terminal Airspace
-TAF,Terminal Aerodrome Forecast
+TAA,Terminal Arrival Area
+TAAM,Total Airspace and Airport Modeller
+TACAN,Tactical Air Navigation (System)
+TACS,Theater Air Control System
+TACTICOS,Tactical Information and Command System
+TAF,Terminal Aerodrome/Area Forecast
+TAIS,Tactical Airspace Integration System (US Army)
+TAIS,Tactical Air Intelligence System
+TAP,Target Acquisition Protocol
+TARMAC,Taxi and Ramp Management and Control
 TAS,Terminal Airspace System
 TAS,True Airspeed
-TCAS,Traffic Collision Avoidance System
+TAWS,Terrain Awareness and Warning System
+TCAS,Traffic alert and Collision Avoidance System
 TCDS,Type Certificate Data Sheet
+TCH,Threshold Crossing Height
 TCL,Taxi Center Lights
+TDW,Tower Display Workstation
+TDZ,Runway Touchdown Zone Lighting
+TDZE,Touch Down Zone Elevation
+TERPS,US Standard for Terminal Instrument Procedures
 TFDM,Terminal Flight Data Management
+TFDPS,Tower Flight Data Processing System
+TFM,Traffic Flow Management
+TFR,Temporary Flight Restriction
+TH,True Heading
+TID,Touch Input Device
+TIGPRO,TOWSIM Image Generator Protocol
+TIS,Traffic Information System
+TM,Traffic Management
 TMA,Terminal Control Area
+TOC,Top Of Climb
+TOD,Top Of Descent
+TOR,Terms Of Reference
+TOR,Tornado aircraft
+TOWSIM,Tower Simulator
+TRACON,Terminal Radar Approach Control
+TSO,Technical Standard Order
 TSTC,Texas State Technical College
-TWR,Control Tower,
+TT,True Track
+TVOR,Terminal VOR
+TWEB,Transcribed Weather Broadcast (USA for ATIS)
+TWR,Control Tower
+TWY,Taxiway
+TXC,Taxiway Centreline Lights
+TXE,Taxiway Edge Lights
 UAA,University of Alaska Anchorage
-UKCAA,Civil Aviation Authority (UK)
+UAC,Upper Area Control Centre
+UAT,Universal Access Transceiver
+UAV,Unmanned Aerial Vehicle
+UDF,Ultra High Frequency Direction Finding
+UEI,"Units, Equipment, Installations"
+UHF,Ultra High Frequency
+UIR,Upper Flight Information Region
+UKCAA,United Kingdom Civil Aviation Authority
 UMASS,University of Massachusetts
+URET,User Request Evaluation Tool
 USAF,US Air Force
 UTA,Upper Traffic Area
 V1,Decision speed, the speed beyond which takeoff should no longer be aborted
 V2,Takeoff speed. The speed at which the aircraft may safely be climbed with one engine inoperative
+VAR,Variation
 VASI,Visual Approach Slope Indicator
 VASIS,Visual Approach Slope Indicator System 
+VCS,Voice Communication System
+VCCS,Voice Communication Control System
+VDF,Very High Frequency Direction Finding
+VDGS,Visual Database Generation System
+VDL-4,VHF digital link Mode 4 (see also STDMA)
+VDU,Visual Display Unit
+VFOW,Vertical Field of View
 VFR,Visual Flight Rules
 VHF,Very High Frequency
+VLF,Very Low Frequency
 VMC,Visual Meteorological Conditions
 VMO,maximum operation speed is the air speed than should never be exceeded deliberately in normal operation, whatever the flight situation isVOR,VHF Omni-directional Range
+VOLMET,Meteorological Information for Aircraft in Flight
+VOR,VHF Omni-directional Radio Range
+VORTAC,VOR -TACAN combination
 VREF,1.3 times the stalling speed of the aircraft in the stated landing configuration and at the prevailing aircraft weight
-VRR,Voice Recognition & Response
-VS,Stall speed, defined as the minimum steady flight speed at which the airplane is controllable
+VRR,Voice Recognition and Response
+VRS,Voice Recognition System
+VS,"Stall speed, defined as the minimum steady flight speed at which the airplane is controllable"
+VSBY,Visibility
 VSP,Vertical Speed
-VSTOL,vertical short take-off and landing
+VSTOL,Vertical Short Take-Off and Landing
 VTC,Visual Terminal Chart
-VTOL,vertical take-off and landing
-VTOSL,vertical take-off and short landing
+VTC,Virtual Training Centre
+VTOL,Vertical Take-Off and Landing
+VTOSL,Vertical Take-Off and Short Landing
 VTS,Vehicle Tracking System
+WA,Wind Angle
+WAAS,Wide Area Augmentation System
+WAM,Wide Area Multilateration
+WBS,Work Break-down Structure
+WCA,Wind Correction Angle
 WDI,Wind Direction Indicator
+WGS,World Geodetic System
+WIAS,Wetter Informations- und Anzeigesystem (German)
+WP,Waypoint
+WS,Work Station
 WTC,Wake Turbulence Category
+WTWS,Wake Turbulence Warning System
 WX,Weather
