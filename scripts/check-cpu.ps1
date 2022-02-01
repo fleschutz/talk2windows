@@ -12,6 +12,8 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay."
+
 	if (test-path "/sys/class/thermal/thermal_zone0/temp" -pathType leaf) {
 		[int]$IntTemp = get-content "/sys/class/thermal/thermal_zone0/temp"
 		$Temp = [math]::round($IntTemp / 1000.0, 1)
@@ -33,7 +35,7 @@ try {
 		$Reply = "CPU is $($Temp)°C extremely cold!"
 	}
 
-	& "$PSScriptRoot/_reply.ps1" "$Reply"
+	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
