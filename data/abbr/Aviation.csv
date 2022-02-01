@@ -122,22 +122,67 @@ ATA,Actual Time of Arrival
 ATC,Air Traffic Control
 ATIS,Automatic Terminal Information Service
 ATO,Air Traffic Organization
+AWACS,Airborne Warning And Control System
+BC,Back Course
 BAF,Belgian Air Force
+BIRTAM,NOTAM on Bird Activity
+BIT,Build-In Test
+BITE,Build-In Test Equipment
+BRNAV,Basic Area Navigation
 BWI,Baltimore/Washington International Thurgood Marshall Airport
+C2,Command and Control
+C3,"Communication, Command and Control"
+C4I,"Communication, Command, Control, Computers and Intelligence"
 CAAC,Civil Aviation Administration of China
 CAAS,Civil Aviation Authorization of Singapore
+CAL,Computer Assisted Learning
+CAMACA,Common Agreed Methodology for Airport airside Capacity Assessment
+CANAC,Computer Assisted National Air Traffic Control Centre (Belgium)
 CANSO,Civil Air Navigation Services Organization
+CARMA,CATC Radar Simulator Allahabad
 CAS,Calibrated Airspeed
+CASE,Controlled Airspace Synthetic Environment (Simulator of Alenia Marconi)
 CAT,Category of Aircraft
-CAVOK,Ceiling And Visibility OK
+CATC,Civil Air Traffic Control
+CAVOK,Clouds And Visibility OK
+CBT,Computer-based Training
 CCBC,Community College Baltimore County
+CCIS,Closed Circuit Information System
+CDA,Continuous Descent Approach
+CDI,Course Deviation Indicator
+CDM,Collaborative Decision Making
+CDTI,Cockpit Display of Traffic Information
+CDU,Cockpit Display Unit
+CEATS,Central European Air Traffic Services
+CESC,Chief Executive Standing Conference
+CFIT,Controlled Flight Into Terrain
+CFMU,Central Flow Management Unit
 COG,Center of Gravity
-COTS,Commercial-of-the-shelf
+CGD,Combined Graphic Display
+CISM,Critical Incident Stress Management
+CLC,Course Line Computer
 CRDA,Converging Runway Display Aid
+CMIC,Civil/Military Interface Standing Committee
+CNS,"Communication, Navigation, Surveillance"
+CODA,Central Office for Delay Analysis
+ConOps,Concept of Operations
+COPS,Changeover Point(s)
+CORA, Conflict Resolution Advisory
+COTS,Commercial Of-The-Shelf
+CPA,Closest Point of Approach
+CPDLC,Controller Pilot Data Link Communication
+CRC,Control and Reporting Centre
+CREDOS,Crosswind Reduced Separations for Departure Operations
 CTA,Controlled Area
 CTA,Controlled Time of Arrival
 CTOT,Calculated Take-Off Time
 CTR,Control Zone or Controlled Traffic Region
+CVFR,Controlled Visual Flight Rule (flight)
+CVSM,Conventional Vertical Separation Minimum
+CW,Continous Wave
+CW,Cold Weather
+CWS,Collision Warning System
+CWP,Controller Working Position
 DAS,DFS Aviation Services (DFS subcompany for services outside Germany)
 DCIA,Dependent Converging Instrument Approach
 DFS,Deutsche Flugsicherung (ATC in Germany)
