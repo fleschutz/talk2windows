@@ -4,11 +4,11 @@
 .DESCRIPTION
 	This PowerShell script unmutes the audio output.
 .EXAMPLE
-	PS> .\turn-volume-on.ps1
+	PS> ./turn-volume-on
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {
@@ -17,6 +17,6 @@ try {
 	& "$PSScriptRoot/_reply.ps1" "Audio is on."
 	exit 0 # success
 } catch {
-	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }
