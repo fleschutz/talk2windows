@@ -29,6 +29,9 @@ try {
 	$Expr = $Expr -replace "multiplied","*"
 	$Expr = $Expr -replace "divided","/"
 	$Expr = $Expr -replace "by",""
+	$Expr = $Expr -replace "pi","3.14159265359"
+	$Expr = $Expr -replace "tau","6.283185307179586"
+	$Expr = $Expr -replace "gravity","9.81"
 	$Result = Invoke-Expression $Expr
 	& "$PSScriptRoot/_reply.ps1" "It's $Result."
 	exit 0 # success
