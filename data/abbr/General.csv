@@ -1883,9 +1883,9 @@ GLP,Guadeloupe (ISO 3166 trigram)
 GLV,Gained Life Value
 glv,Manx language (ISO 639-2 code)
 Gm,Gigametre
-GM,The Gambia (ISO 3166 digram),GameMaster (role-playing),General Motors,Genetically Modified,Germany (FIPS 10-4 country code),Guru Meditation (computing)
-GMAC,General Motors Acceptance Corporation,the original name of the company now known as Ally Financial,Graduate Management Admission Council,G-MAC,Great Midwest Athletic Conference
-GMB,The Gambia (ISO 3166 trigram),General,Municipal,Boilermakers (and Allied Trade Union)
+GM,"The Gambia (ISO 3166 digram),GameMaster (role-playing),General Motors,Genetically Modified,Germany (FIPS 10-4 country code),Guru Meditation (computing)"
+GMAC,"General Motors Acceptance Corporation,the original name of the company now known as Ally Financial,Graduate Management Admission Council,G-MAC,Great Midwest Athletic Conference"
+GMB,"The Gambia (ISO 3166 trigram),General,Municipal,Boilermakers (and Allied Trade Union)"
 GmbH,Gesellschaft mit beschränkter Haftung (German,"Company with limited liability")
 GMC,U.K. General Medical Council,Gospel Music Channel
 GMD,Gambian dalasi (ISO 4217 currency code)
@@ -1904,41 +1904,42 @@ GNP,Gross National Product
 GNQ,Equatorial Guinea (ISO 3166 trigram)
 GnRH,Gonadotropin-Releasing Hormone
 GO,Glorioso Islands (FIPS 10-4 territory code)
-GOA,General of the Army (United States only),Gun Owners of America
-GOAT,Greatest of all time (LL Cool J album title)
+GOA,General of the Army (United States only)
+GOA,Gun Owners of America"
+GOAT,Greatest Of All Time
 GOC,General Officer Commanding
 GOES,Geostationary Operational Environmental Satellite
 GOP,Grand Old Party
-gorp,granola,oats,raisins,peanuts (another name for trail mix),probably a backronym
-GOSC,(a/i) General Officer Steering Committee
+gorp,"granola,oats,raisins,peanuts (another name for trail mix),probably a backronym"
+GOSC,General Officer Steering Committee
 GOSH,Great Ormond Street Hospital
 GOSP,Gas/Oil Separation Plant
 GOTS,Government off-the-shelf
-GOYADIN,Get Off Your Arse,Do It Now (anti-procrastination mantra)
-GP,General Practitioner,General Purpose,Grand Prix,Guadeloupe (ISO 3166 digram; FIPS 10-4 territory code)
+GOYADIN,"Get Off Your Arse,Do It Now (anti-procrastination mantra)"
+GP,"General Practitioner,General Purpose,Grand Prix,Guadeloupe (ISO 3166 digram; FIPS 10-4 territory code)"
 GPA,Grade Point Average
 GPC,Global Path Cache
 GPIB,General-Purpose Instrumentation/Interface Bus
 GPO,General Post Office
 GPPC,Genetics and Public Policy Center
 GPR,Ground-Penetrating Radar
-GPS,General Problem Solver,Global Positioning System
-GPT,GEC-Plessey Telecommunications,General Purpose Technology,Get Paid To website
+GPS,"General Problem Solver,Global Positioning System"
+GPT,"GEC-Plessey Telecommunications,General Purpose Technology,Get Paid To website"
 GPU,Gosudarstvennoye Politicheskoye Upravlenie (Russian Государственное Политическое Управление,"State Political Administration") (1922-1934)
-GQ,Equatorial Guinea (ISO 3166 digram),Gentlemen's Quarterly (the original name of the magazine now known simply as GQ),Guam (FIPS 10-4 territory code),GR[edit]
-GR,Greece (FIPS 10-4 country code; ISO 3166 digram),Hail (METAR Code)
+GQ,"Equatorial Guinea (ISO 3166 digram),Gentlemen's Quarterly (the original name of the magazine now known simply as GQ),Guam (FIPS 10-4 territory code),GR[edit]"
+GR,"Greece (FIPS 10-4 country code; ISO 3166 digram),Hail (METAR Code)"
 GRAIL,Gravity Recovery and Interior Laboratory
 GRAS,Generally recognized as safe (FDA list)
 GRB,Gamma-Ray Burst
 GRC,Greece (ISO 3166 trigram)
 GRD,Grenada (ISO 3166 trigram)
-GRE,Graduate Record Examination,Greece (IOC and FIFA trigram,but not ISO 3166)
-grep,[search] Globally for Regular Expression,Print [lines]
+GRE,"Graduate Record Examination,Greece (IOC and FIFA trigram,but not ISO 3166)"
+grep,"[search] Globally for Regular Expression,Print [lines]"
 GRID,Gay-Related Immune Deficiency (original name of AIDS)
-GRid,Global Release Identifier,a music industry identifier from the RIAA and IFPI
+GRid,"Global Release Identifier,a music industry identifier from the RIAA and IFPI"
 GriT,Girl raised in Texas (Woman presenting firm southern traits/beliefs)
 GRL,Greenland (ISO 3166 trigram)
-GRN,Grenada (IOC and FIFA trigram,but not ISO 3166),Goods Received Note
+GRN,"Grenada (IOC and FIFA trigram,but not ISO 3166),Goods Received Note"
 grn,Guaraní language (ISO 639-2 code)
 GRP,Graphite-reinforced plastic,see Carbon-fiber-reinforced polymer
 GRU,Glavnoje Razvedyvatel'noje Upravlenije/Главное Разведывательное Управление (Russian,"Main Intelligence Directorate" [of the former Soviet and now Russian armed forces])
@@ -3536,7 +3537,6 @@ NFG,No Fucking Good
 NFHS,National Federation of State High School Associations
 NFI,Not F****** Interested
 NFK,Norfolk Island (ISO 3166 trigram)
-NFL,National Football League,No-Fire Line
 Nfld,Newfoundland
 NFPA,National Fluid Power Association (United States)
 NFT,No Further Text
