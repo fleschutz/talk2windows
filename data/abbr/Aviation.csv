@@ -192,10 +192,12 @@ DW,Downwind
 EAS,Equivalent Airspeed
 EAVA,Estonian Aviation Academy
 ECAC,European Civil Aviation Conference
+ELEV,Field Elevation
 EFM,Gesellschaft für Enteisen und Flugzeugschleppen
 ETA,Estimated Time of Arrival
 ETOPS,Extended-range Twin-engine Operational Performance Standards
 ETVS,Enhanced Terminal Voice Switch system
+FAA,U.S. Federal Aviation Administration
 FAR,Fuel Air Ratio
 FAS,Final Approach Segment
 FAS,Final Approach Speed
@@ -407,7 +409,7 @@ USAF,US Air Force
 UTA,Upper Traffic Area
 V1,Decision speed, the speed beyond which takeoff should no longer be aborted
 V2,Takeoff speed. The speed at which the aircraft may safely be climbed with one engine inoperative
-VAR,Variation
+VAR,Magnetic Variation
 VASI,Visual Approach Slope Indicator
 VASIS,Visual Approach Slope Indicator System 
 VCS,Voice Communication System
