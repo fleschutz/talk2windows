@@ -11,5 +11,7 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-browser.ps1" "https://google.com"
+param([string]$Text = "")
+
+& "$PSScriptRoot/open-browser.ps1" "https://google.com/search?q=$Text"
 exit 0 # success

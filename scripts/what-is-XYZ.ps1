@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Explains an Abbreviation
 .DESCRIPTION
-	This PowerShell script tells the maining of the given abbreviation by text-to-speech (TTS).
+	This PowerShell script explains the meaning of the given abbreviation by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./what-is-XYZ ECC
 .NOTES
@@ -42,8 +42,8 @@ try {
 	if ($Text -ne "") {
 		& "$PSScriptRoot/_reply.ps1" "$Text"
 	} else {
-		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $abbr) is unknown to me. Starting Google Search ..."
-		& "$PSScriptRoot/open-browser.ps1" "https://google.com/search?q=$abbr"
+		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $abbr) is unknown to me. Let's google this..."
+		& "$PSScriptRoot/open-google-search.ps1" $abbr
 	}
 	exit 0 # success
 } catch {
