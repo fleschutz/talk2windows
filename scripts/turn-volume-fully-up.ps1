@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Turns the volume fully up
 .DESCRIPTION
-	This PowerShell script turns the audio volume up to maximum.
+	This PowerShell script turns the audio volume up to 100%.
 .EXAMPLE
 	PS> ./turn-volume-fully-up
 .NOTES
@@ -16,7 +16,7 @@ try {
 	for ([int]$i = 0; $i -lt 100; $i += 2) {
 		$obj.SendKeys([char]175) # each tick is +2%
 	}
-	& "$PSScriptRoot/_reply.ps1" "At maximum now."
+	& "$PSScriptRoot/_reply.ps1" "Hundred percent now."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
