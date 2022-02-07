@@ -24,6 +24,7 @@ try {
 	$Expr = $Expr -replace "eight","8"
 	$Expr = $Expr -replace "nine","9"
 	$Expr = $Expr -replace "ten","10"
+	$Expr = $Expr -replace "point","."
 	$Expr = $Expr -replace "plus","+"
 	$Expr = $Expr -replace "minus","-"
 	$Expr = $Expr -replace "multiplied","*"
