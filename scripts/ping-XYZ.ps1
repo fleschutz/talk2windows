@@ -25,7 +25,11 @@ try {
                 foreach($Ping in $Pings) {
                         if ($IsLinux) { $Latency = $Ping.latency } else { $Latency = $Ping.ResponseTime }
                 }
-                $Reply = "'$Hostname' is online with $Latency ms latency."
+		if ($Latency -eq 0) {
+   	             $Reply = "'$Hostname' is online without latency."
+		} else {
+   	             $Reply = "'$Hostname' is online with $Latency ms latency."
+		}
         }
 	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
