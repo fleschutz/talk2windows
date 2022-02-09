@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Shows the Starlink Satellites
+	Shows Starlink 
 .DESCRIPTION
 	This PowerShell script launches the Web browser and shows the Starlink satellites.
 .EXAMPLE
-	PS> ./show-starlink-satellites
+	PS> ./show-star-link
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
