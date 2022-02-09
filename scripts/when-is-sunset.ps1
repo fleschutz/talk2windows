@@ -1,17 +1,17 @@
 <#
 .SYNOPSIS
-	Checks the Time of Sunrise
+	Replies to 'When is sunset?"
 .DESCRIPTION
-	This PowerShell script queries the time of sunrise and answers by text-to-speech (TTS).
+	This PowerShell script replies to 'When is sunset?' by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./check-sunrise
+	PS> ./when-is-sunset
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
-function TimeSpanToString { param([TimeSpan]$Delta)
+function GetTimeSpan { param([TimeSpan]$Delta)
         $Result = ""
         if ($Delta.Hours -eq 1) {       $Result += "1 hour and "
         } elseif ($Delta.Hours -gt 1) { $Result += "$($Delta.Hours) hours and "
@@ -24,18 +24,18 @@ function TimeSpanToString { param([TimeSpan]$Delta)
 
 try {
 	[system.threading.thread]::currentThread.currentCulture=[system.globalization.cultureInfo]"en-US"
-	$String = (Invoke-WebRequest http://wttr.in/?format="%S" -UserAgent "curl" -useBasicParsing).Content
+	$String = (Invoke-WebRequest http://wttr.in/?format="%s" -UserAgent "curl" -useBasicParsing).Content
 	$Hour,$Minute,$Second = $String -split ':'
-	$Sunrise = Get-Date -Hour $Hour -Minute $Minute -Second $Second
+	$Sunset = Get-Date -Hour $Hour -Minute $Minute -Second $Second
 	$Now = [DateTime]::Now
-	if ($Now -lt $Sunrise) {
-                $TimeSpan = TimeSpanToString($Sunrise - $Now)
-                $Reply = "Sunrise is in $TimeSpan at $($Sunrise.ToShortTimeString())."
+	if ($Now -lt $Sunset) {
+                $TimeSpan = GetTimeSpan($Sunset - $Now)
+                $Reply = "Sunset is in $TimeSpan at $($Sunset.ToShortTimeString())."
         } else {
-                $TimeSpan = TimeSpanToString($Now - $Sunrise)
-                $Reply = "Sunrise was $TimeSpan ago at $($Sunrise.ToShortTimeString())."
+                $TimeSpan = GetTimeSpan($Now - $Sunset)
+                $Reply = "Sunset was $TimeSpan ago at $($Sunset.ToShortTimeString())."
         }
-	& "$PSScriptRoot/_reply.ps1" "$Reply"
+	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
