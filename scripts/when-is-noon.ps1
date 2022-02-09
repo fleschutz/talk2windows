@@ -1,17 +1,17 @@
 <#
 .SYNOPSIS
-	Checks for Noon
+	Tells the time until Noon
 .DESCRIPTION
-	This PowerShell script checks the time until Noon and replies by text-to-speech (TTS).
+	This PowerShell script tells the time until Noon by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./check-noon
+	PS> ./when-is-noon
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
 
-function TimeSpanToString { param([TimeSpan]$Delta)
+function GetTimeSpan { param([TimeSpan]$Delta)
 	$Result = ""
 	if ($Delta.Hours -eq 1) {       $Result += "1 hour and "
 	} elseif ($Delta.Hours -gt 1) { $Result += "$($Delta.Hours) hours and "
@@ -26,10 +26,10 @@ try {
 	$Now = [DateTime]::Now
 	$Noon = Get-Date -Hour 12 -Minute 0 -Second 0
 	if ($Now -lt $Noon) {
-		$TimeSpan = TimeSpanToString($Noon - $Now)
+		$TimeSpan = GetTimeSpan($Noon - $Now)
 		$Reply = "Noon is in $TimeSpan."
 	} else {
-		$TimeSpan = TimeSpanToString($Now - $Noon)
+		$TimeSpan = GetTimeSpan($Now - $Noon)
 		$Reply = "Noon was $TimeSpan ago."
 	}
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
