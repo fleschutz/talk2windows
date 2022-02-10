@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Say the current date 
+	Replies to 'What is the date today?'
 .DESCRIPTION
-	This PowerShell script speaks the current date by text-to-speech (TTS).
+	This PowerShell script replies to 'What is the date today?' by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./check-date
+	PS> ./what-is-the-date-today
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
