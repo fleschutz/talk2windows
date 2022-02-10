@@ -13,7 +13,7 @@
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "Hold on."
-	$Reply = (git pull)
+	$Reply = (git -C "$PSScriptRoot" pull)
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
 } catch {
