@@ -32,7 +32,8 @@ try {
 			if ($Row.Abbr -ne $abbr) { continue }
 			$Basename = (Get-Item "$File").Basename
 			if ($Basename -ne $PrevBasename) {
-				$Text += "`n In $Basename $(SpellAbbr $Row.Abbr) may refer to $($Row.Term)"
+				if ($PrevBasename -ne "") { $Text += ".`n" }
+				$Text += "In $Basename $(SpellAbbr $Row.Abbr) may refer to $($Row.Term)"
 			} else {
 				$Text += ", or: $($Row.Term)"
 			}
@@ -40,7 +41,7 @@ try {
 		}
 	}
 	if ($Text -ne "") {
-		& "$PSScriptRoot/_reply.ps1" "$Text"
+		& "$PSScriptRoot/_reply.ps1" $Text
 	} else {
 		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $abbr) is unknown to me. Let's google this..."
 		& "$PSScriptRoot/open-google-search.ps1" $abbr
