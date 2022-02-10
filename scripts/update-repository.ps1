@@ -12,9 +12,9 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay."
-	& git pull
-	& "$PSScriptRoot/_reply.ps1" "Updated."
+	& "$PSScriptRoot/_reply.ps1" "Hold on."
+	$Reply = (git pull)
+	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
 } catch {
         & "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
