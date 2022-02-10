@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Replies to 'How many sun hours today?'
+	Replies to 'How many sun hours?'
 .DESCRIPTION
-	This PowerShell script replies to 'How many sun hours today?' and answers by text-to-speech (TTS).
+	This PowerShell script replies to 'How many sun hours?' and answers by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./how-many-sun-hours-today
+	PS> ./how-many-sun-hours
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
@@ -34,7 +34,7 @@ try {
         $Sunset = Get-Date -Hour $Hour -Minute $Minute -Second $Second
 
         $TimeSpan = GetTimeSpan($Sunset - $Sunrise)
-        $Reply = "$TimeSpan between $($Sunrise.ToShortTimeString()) and $($Sunset.ToShortTimeString())."
+        $Reply = "Today it's $TimeSpan between $($Sunrise.ToShortTimeString()) and $($Sunset.ToShortTimeString())."
 	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
 } catch {
