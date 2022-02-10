@@ -124,7 +124,7 @@ Performs the given action to the computer, replace [action] by: `hibernate`, `lo
 
 ❔ *"Windows, [question]"*
 --------------------------
-Asks Windows a question, just replace [question] by: `are you a computer?`, `are you here?`, `are you listening?`, `are you ready?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how old are you?`, `what about ...?`, `what is [abbreviation]`, `what's the time?`, `what time is it?`, `when is noon?`, `when is sunrise?`, `when is sunset?`, `where am I?`, `where are you?`, `where is the ISS`, `who is your father?`, or `you can talk?`.
+Asks Windows a question, just replace [question] by: `are you a computer?`, `are you here?`, `are you listening?`, `are you ready?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how many sun hours today?`, `how old are you?`, `what about ...?`, `what is [abbreviation]`, `what's the time?`, `what time is it?`, `when is noon?`, `when is sunrise?`, `when is sunset?`, `where am I?`, `where are you?`, `where is the ISS`, `who is your father?`, or `you can talk?`.
 
 
 💭 *"Windows, [command]"*
