@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Replies to "Are you ready?"
+	Replies to: 'Are you ready?'
 .DESCRIPTION
 	This PowerShell script replies to 'Are you ready?' by text-to-speech (TTS).
 .EXAMPLE
@@ -11,6 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-$Reply = "Always.", "Yes.", "Sure." | Get-Random
+$Reply = "Always.", "Yes.", "Sure.", "Ready when you are!", "I was born ready." | Get-Random
 & "$PSScriptRoot/_reply.ps1" $Reply
 exit 0 # success
