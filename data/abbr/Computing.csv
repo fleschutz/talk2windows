@@ -1,7 +1,11 @@
 Abbr,Term
+.bat,Common filename suffix for Batch script files
 .cc,Common filename suffix for C++ source code files
 .csv,Common filename suffix for comma-separated value files
 .cfg,Common filename suffix for configuration files
+.dll,Common filename suffix for Windows library files
+.exe,Common filename suffix for Windows executables
+.gif,Common filename suffix for GIF image files
 .h,Common filename suffix for C/C++ header files
 .jpeg,Common filename suffix for JPEG image files
 .jpg,Common filename suffix for JPEG image files
@@ -1251,6 +1255,7 @@ GLONASS,Globalnaya Navigatsionnay Sputnikovaya Sistema
 GlusterFS,Gluster File System
 GLUT,OpenGL Utility Toolkit
 GLV,grating light valve
+GMAIL,Google Mail
 GML,Generalized Markup Language
 GMP,Good Manufacturing Practices
 GMPLS,Generalized Multiprotocol Label Switching or Multiprotocol Lambda Switching
@@ -1260,7 +1265,7 @@ GNOME,GNU Network Object Model Environment
 GNSS,Global Navigation Satellite System
 GNU,GNU's Not Unix
 gOS,good operating system
-GP,Editor Group Policy Editor
+GP,Group Policy
 GPF,General Protection Fault
 GPG,GNU Privacy Guard
 GPL,GNU General Public License
