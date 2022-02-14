@@ -11,9 +11,10 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-param([string]$Expr = "")
+param([string]$Part1 = "", [string]$Part2 = "", [string]$Part3 = "", [string]$Part4 = "", [string]$Part5 = "", [string]$Part6 = "")
 
 try {
+	$Expr = "$Part1 $Part2 $Part3 $Part4 $Part5 $Part6"
 	$Expr = $Expr -replace "one","1"
 	$Expr = $Expr -replace "two","2"
 	$Expr = $Expr -replace "three","3"
@@ -30,7 +31,8 @@ try {
 	$Expr = $Expr -replace "multiplied","*"
 	$Expr = $Expr -replace "divided","/"
 	$Expr = $Expr -replace "by",""
-	$Expr = $Expr -replace "pi","3.14159265359"
+	$Expr = $Expr -replace "e","2.71828182845905"
+	$Expr = $Expr -replace "pi","3.14159265358979"
 	$Expr = $Expr -replace "tau","6.283185307179586"
 	$Expr = $Expr -replace "gravity","9.81"
 	$Result = Invoke-Expression $Expr
