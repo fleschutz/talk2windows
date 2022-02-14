@@ -84,7 +84,7 @@ Launches the default Web browser (or opens a new tab) and lets you play a free b
 
 🔦 *"Windows, check [item]."*
 ------------------------------
-Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas`, `CPU`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Easter Sunday`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `Git version`, `headlines`, `Independence Day`, `internet connection`, `internet speed`, `midnight`, `moon phase`, `month`, `New Year`, `operating system`, `ping`, `recycle bin`, `Santa`, `swap space`, `tea time`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `wind`, `year`, or `zenith`.
+Lets the computer check something. Replace [item] by: `Bitcoin rate`, `Christmas`, `CPU`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Easter Sunday`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `Git version`, `headlines`, `Independence Day`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `ping`, `recycle bin`, `Santa`, `swap space`, `tea time`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `wind`, `year`, or `zenith`.
 
 
 🎨 *"Windows, next [category] wallpaper."*
@@ -124,7 +124,7 @@ Performs the given action to the computer, replace [action] by: `hibernate`, `lo
 
 ❔ *"Windows, [question]"*
 --------------------------
-Asks Windows a question, just replace [question] by: `are you a computer?`, `are you here?`, `are you listening?`, `are you ready?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how many sun hours?`, `how old are you?`, `what about ...?`, `what is [abbreviation]`, `what's the date today?`, `what's the time?`, `what time is it?`, `when is noon?`, `when is sunrise?`, `when is sunset?`, `where am I?`, `where are you?`, `where is the ISS`, `who is your father?`, or `you can talk?`.
+Asks Windows a question, just replace [question] by: `are you a computer?`, `are you here?`, `are you listening?`, `are you ready?`, `are you there?`, `are you with me?`, `can you talk?`, `do you listen?`, `how are you?`, `how do you do?`, `how many sun hours?`, `how old are you?`, `what about ...?`, `what is [abbreviation]`, `what's the date today?`, `what's the time?`, `what time is it?`, `when is midnight?`, `when is noon?`, `when is sunrise?`, `when is sunset?`, `where am I?`, `where are you?`, `where is the ISS`, `who is your father?`, or `you can talk?`.
 
 
 💭 *"Windows, [command]"*
