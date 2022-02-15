@@ -1,19 +1,30 @@
 Abbr,Term
+.7z,Common filename suffix for archive files in 7z format
 .bat,Common filename suffix for Batch script files
-.cc,Common filename suffix for C++ source code files
+.bz2,Common filename suffix for archive files in bzip2 format
+.c,Common filename suffix for C source code files
+.cpp,Common filename suffix for C++ source code files
 .csv,Common filename suffix for comma-separated value files
 .cfg,Common filename suffix for configuration files
 .dll,Common filename suffix for Windows library files
 .exe,Common filename suffix for Windows executables
 .gif,Common filename suffix for GIF image files
+.gz,Common filename suffix for archive files in gzip format
 .h,Common filename suffix for C/C++ header files
+.hpp,Common filename suffix for C++ header files
 .jpeg,Common filename suffix for JPEG image files
 .jpg,Common filename suffix for JPEG image files
 .m3u,Common filename suffix for audio playlists
 .md,Common filename suffix for Markdown files
 .mp3,Common filename suffix for MPEG layer 3 audio files
 .ps1,Common filename suffix for PowerShell script files
+.sln,Common filename suffix for MSBuild solution files
+.tar,Common filename suffix for archive files in tar format
 .txt,Common filename suffix for text files
+.vcxproj,Common filename suffix for Visual Studio project files
+.xml,Common filename suffix for XML files
+.xz,Common filename suffix for archive files in XZ format
+.zip,Common filename suffix for archive files in Zip format
 1NF,First Normal Form
 2.5D,Two-And-A-Half-Dimensional
 286,Intel 80286 processor
