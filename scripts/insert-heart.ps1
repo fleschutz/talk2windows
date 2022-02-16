@@ -12,11 +12,13 @@
 #>
 
 try {
-	Set-Clipboard -value "$([char]0x2665)"
+	$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
+	
+	Set-Clipboard -value "❤️"
 
-    $obj = New-Object -com wscript.shell
-    $obj.SendKeys("^V")
-    & "$PSScriptRoot/_reply.ps1" "Okay."
+	$obj = New-Object -com wscript.shell
+	$obj.SendKeys("^V")
+	& "$PSScriptRoot/_reply.ps1" "Okay."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
