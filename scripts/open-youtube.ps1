@@ -11,6 +11,7 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Okay."
 $CurrentYear = (Get-Date).Year
 & "$PSScriptRoot/open-browser.ps1" "https://www.youtube.com/results?search_query=Mega+Hits+$CurrentYear"
 exit 0 # success
