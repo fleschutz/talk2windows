@@ -12,5 +12,5 @@
 #>
 
 & "$PSScriptRoot/_reply.ps1" "Okay."
-& "$PSScriptRoot/close-program.ps1" "Serenade.ai" "serenade" ""
+tskkill Serenade
 exit 0 # success
