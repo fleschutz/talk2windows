@@ -13,6 +13,7 @@
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "Okay."
+
 	$obj = New-Object -com wscript.shell
 	$obj.SendKeys("OK")
 	exit 0 # success

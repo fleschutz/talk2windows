@@ -1,8 +1,8 @@
 ﻿<#
 .SYNOPSIS
-	Inserts a Heart
+	Inserts the Heart Symbol
 .DESCRIPTION
-	This PowerShell script inserts a heart Unicode character.
+	This PowerShell script inserts the heart Unicode character.
 .EXAMPLE
 	PS> ./insert-heart
 .NOTES
@@ -12,13 +12,13 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay."
+
 	$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
-	
 	Set-Clipboard -value "❤️"
 
 	$obj = New-Object -com wscript.shell
 	$obj.SendKeys("^V")
-	& "$PSScriptRoot/_reply.ps1" "Okay."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

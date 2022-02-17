@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-	Inserts a Copyright Symbol
+	Inserts the Copyright Symbol
 .DESCRIPTION
 	This PowerShell script inserts the copyright symbol.
 .EXAMPLE
@@ -12,9 +12,9 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay."
 	$obj = New-Object -com wscript.shell
 	$obj.SendKeys("©")
-	& "$PSScriptRoot/_reply.ps1" "Okay."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

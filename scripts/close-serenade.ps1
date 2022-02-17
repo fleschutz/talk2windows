@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Okay."
 & "$PSScriptRoot/close-program.ps1" "Serenade.ai" "serenade" ""
 exit 0 # success

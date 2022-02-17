@@ -1,8 +1,8 @@
 ﻿<#
 .SYNOPSIS
-	Inserts a Smiley
+	Inserts the Smiley Symbol
 .DESCRIPTION
-	This PowerShell script inserts a smiley Unicode character.
+	This PowerShell script inserts the smiley Unicode character.
 .EXAMPLE
 	PS> ./insert-smiley
 .NOTES
@@ -12,13 +12,13 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Done."
+
 	$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
-	
 	Set-Clipboard -value "😊"
 
 	$obj = New-Object -com wscript.shell
 	$obj.SendKeys("^V")
-	& "$PSScriptRoot/_reply.ps1" "Done."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
