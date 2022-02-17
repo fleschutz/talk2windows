@@ -12,9 +12,9 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay."
 	$obj = New-Object -com wscript.shell
 	$obj.SendKeys("^C")
+	& "$PSScriptRoot/_reply.ps1" "Copied."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
