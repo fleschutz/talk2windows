@@ -1,8 +1,8 @@
 ﻿<#
 .SYNOPSIS
-	Checks the Recycle Bin
+	Check Recycle Bin
 .DESCRIPTION
-	This PowerShell script checks the user's recycle bin folder.
+	This PowerShell script checks the content of the user's recycle bin folder.
 .EXAMPLE
 	PS> ./check-recycle-bin
 .LINK
@@ -17,16 +17,12 @@ try {
 	[int]$NumFolders = 0
 	[int]$NumFiles = 0
 	foreach($Item in $RecycleBin.items()) {
-		if ($Item.IsFolder()) {
-			$NumFolders++;
-		} else {
-			$NumFiles++
-		}
+		if ($Item.IsFolder()) {	$NumFolders++; } else {	$NumFiles++ }
 	}
 	if (($NumFolders -eq 0) -and ($NumFiles -eq 0)) {
-		$Reply = "The recycle bin is empty."
+		$Reply = "It's empty."
 	} else {
-		$Reply = "The recycle bin contains"
+		$Reply = "It contains"
 		if ($NumFolders -eq 1) {	$Reply += " one folder"
 		} elseif ($NumFolders -gt 1) {  $Reply += " $NumFolders folders"
 		} 
@@ -36,7 +32,7 @@ try {
 		} 
 		$Reply += "."
 	} 
-	& "$PSScriptRoot/_reply.ps1" "$Reply"
+	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
