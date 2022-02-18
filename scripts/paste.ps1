@@ -11,12 +11,7 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-try {
-	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("^V")
-	& "$PSScriptRoot/_reply.ps1" "Pasted."
-	exit 0 # success
-} catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+$obj = New-Object -com wscript.shell
+$obj.SendKeys("^V")
+& "$PSScriptRoot/_reply.ps1" "Pasted."
+exit 0 # success
