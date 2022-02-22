@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Checks the time until Christmas
+	Replies to 'When is Christmas?'
 .DESCRIPTION
-	This PowerShell script checks the time until Christmas and replies by text-to-speech (TTS).
+	This PowerShell script replies to 'When is Christmas?' by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./check-christmas
+	PS> ./when-is-christmas
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
