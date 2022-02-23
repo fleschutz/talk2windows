@@ -37,7 +37,7 @@ try {
 	} elseif ($Free -lt $MinLevel) {
         	$Reply = "Swap space has only $Free GB left to use! ($Used of $Total GB used, minimum is $MinLevel GB)"
 	} else {
-		$Reply = "Swap space uses $Used GB, $Free GB are available."
+		$Reply = "Swap space uses $Used of $Total GB total, $Free GB left to use."
 	}
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
