@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Repeats the last reply
+	Replies to "What?"
 .DESCRIPTION
-	This PowerShell script repeats the last reply by text-to-speech (TTS).
+	This PowerShell script replies to 'What?' by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./repeat-last-reply
+	PS> ./what
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
@@ -21,9 +21,9 @@ function GetTempDir {
 try {
 	$Path = "$(GetTempDir)/talk2windows_last_reply.txt"
 	if (test-path "$Path" -pathType leaf) {
-		$Reply = "It was: " + (Get-Content "$Path")
+		$Reply = "I said: " + (Get-Content "$Path")
 	} else {
-		$Reply = "Sorry, I can't remember."
+		$Reply = "Never mind." | Get-Random
 	}
 	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
