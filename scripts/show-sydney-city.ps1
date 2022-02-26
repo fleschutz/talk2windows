@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows Sydney city in Google Maps 
+	Show Sydney city in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at Sydney city (Australia).
 .EXAMPLE
 	PS> ./show-sydney-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

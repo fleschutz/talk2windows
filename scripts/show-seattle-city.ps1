@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows Seattle city in Google Maps 
+	Show Seattle city in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at Seattle city (USA).
 .EXAMPLE
 	PS> ./show-seattle-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

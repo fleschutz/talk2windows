@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows Panama city in Google Maps 
+	Show Panama city in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at Panama city (Panama).
 .EXAMPLE
 	PS> ./show-panama-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

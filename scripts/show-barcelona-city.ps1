@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows Barcelona city in Google Maps 
+	Show Barcelona city in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at Barcelona city (Spain).
 .EXAMPLE
 	PS> ./show-barcelona-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

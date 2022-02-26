@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows Tokyo city in Google Maps 
+	Show Tokyo city in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at Tokyo city (Japan).
 .EXAMPLE
 	PS> ./show-tokyo-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

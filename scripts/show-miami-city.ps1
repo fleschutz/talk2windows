@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows Miami city in Google Maps 
+	Show Miami city in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at Miami city (USA).
 .EXAMPLE
 	PS> ./show-miami-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows NYC in Google Maps 
+	Show NYC in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at New York City (USA).
 .EXAMPLE
 	PS> ./show-new-york-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

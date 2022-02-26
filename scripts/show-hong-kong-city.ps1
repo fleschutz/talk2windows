@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows Hong Kong city in Google Maps 
+	Show Hong Kong city in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at Hong Kong city (China).
 .EXAMPLE
 	PS> ./show-hong-kong-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>

@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-	Shows Toronto city in Google Maps 
+	Show Toronto city in Google Maps 
 .DESCRIPTION
 	This PowerShell script launches the Web browser with Google Maps at Toronto city (Canada).
 .EXAMPLE
 	PS> ./show-toronto-city
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
 #>
