@@ -27,6 +27,7 @@ Say hello to Windows, simply replace [greeting] by: `good afternoon`, `good even
 -----------------------------
 Launches the given application, just replace [app] by: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, or `Windows Terminal`. When finished say: *"Windows, close [app]"* to close the application.
 
+
 🔧 *"Windows, install [app]."*
 ------------------------------
 Installs the given application from Microsoft Store, replace [app] by: `9 ZIP`, `CrystalDiskInfo`, `CrystalDiskMark`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. Note that Microsoft Store can automatically install app updates, so they will always be up-to-date. Say: *"Windows, uninstall [app]"* to uninstall the application.
@@ -40,6 +41,11 @@ Launches the default Web browser (or opens a new tab) with the given website. Re
 ❔ *"Windows, [shortcut]"*
 -------------------------
 Presses a keyboard shortcut to navigate in a browser window. Replace [shortcut] by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
+
+
+📝 *"Windows, insert [character]"*
+---------------------------------
+Inserts a character (or text) at the current text cursor position. Replace [character] by: `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `copyright`, `date`, `dollar`, `euro`, `good morning`, `hashtag`, `heart`, `OK`, `shrugging`, `smiley`, `thumbs up`, or `trademark`.
 
 
 📋 *"Windows, open Google [service]."*
