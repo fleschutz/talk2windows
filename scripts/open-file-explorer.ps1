@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Starts the File Explorer
+	Launches the File Explorer
 .DESCRIPTION
-	This PowerShell script launches the File Explorer.
+	This PowerShell script launches the File Explorer (optional with the given path).
 .EXAMPLE
 	PS> ./open-file-explorer
 .PARAMETER Path
@@ -16,6 +16,7 @@
 param([string]$Path = "")
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay"
 	if ("$Path" -ne "") {
 		start-process explorer.exe "$Path"
 	} else {
