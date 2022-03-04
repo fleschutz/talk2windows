@@ -13,5 +13,10 @@
 
 param([string]$Cmd = "")
 
-Start-Process wt.exe "$Cmd"
+& "$PSScriptRoot/_reply.ps1" "Okay"
+if ("$Cmd" -ne "") {
+	Start-Process wt.exe "$Cmd"
+} else {
+	Start-Process wt.exe
+}
 exit 0 # success
