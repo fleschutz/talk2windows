@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Launches the Thunderbird app
+	Launches Thunderbird
 .DESCRIPTION
 	This PowerShell script launches the Mozilla Thunderbird email application.
 .EXAMPLE
@@ -19,6 +19,7 @@ function TryToExec { param($Folder, $Binary)
 }
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay"
 	TryToExec "C:\Program Files (x86)\Mozilla Thunderbird" "thunderbird.exe"
 	throw "It seems Thunderbird isn't installed yet."
 } catch {

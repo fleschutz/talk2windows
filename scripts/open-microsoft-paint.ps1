@@ -12,6 +12,7 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay"
 	start-process mspaint.exe
 	exit 0 # success
 } catch {

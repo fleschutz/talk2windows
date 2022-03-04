@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Launches the Firefox browser
+	Launches Firefox
 .DESCRIPTION
 	This PowerShell script launches the Mozilla Firefox Web browser.
 .EXAMPLE
@@ -16,6 +16,7 @@
 param([string]$URL = "http://www.fleschutz.de")
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay"
 	$App = Get-AppxPackage -Name Mozilla.FireFox
 	if ($App.Status -eq "Ok") {
 		# starting Firefox UWP app:
