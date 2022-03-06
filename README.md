@@ -143,6 +143,6 @@ Lets Windows execute a command, replace [command] by: `calculate [expression]`, 
 Say good-bye to Windows and replace [farewell] by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
 
 
-® Trademarks
-------------
-All trademarks are the property of their respective owners.
+® Registered Trademarks
+-----------------------
+All registered trademarks are the property of their respective owners.
