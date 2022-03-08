@@ -19,10 +19,10 @@ function TryToExec { param($Folder, $Binary)
 }
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay"
 	TryToExec "C:\Program Files (x86)\GitExtensions" "GitExtensions.exe"
 	TryToExec "C:\Program Files\GitExtensions" "GitExtensions.exe"
-	& "$PSScriptRoot/_reply.ps1" "Sorry, can't find Git Extensions."
-	exit 1
+	throw "Can't find Git Extensions."
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
