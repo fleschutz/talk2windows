@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Turns the volume on
+	Turn volume on
 .DESCRIPTION
 	This PowerShell script unmutes the audio output.
 .EXAMPLE

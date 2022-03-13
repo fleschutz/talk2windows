@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Turns the volume fully up
+	Turn volume fully up
 .DESCRIPTION
 	This PowerShell script turns the audio volume up to 100%.
 .EXAMPLE

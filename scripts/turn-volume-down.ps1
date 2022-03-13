@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Turn Volume Down 
+	Turn volume down 
 .DESCRIPTION
 	This PowerShell script turns the audio volume down by 10%.
 .EXAMPLE
