@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Opens Windows developer settings 
+	Opens the developer settings of Windows
 .DESCRIPTION
-	This PowerShell script launches the Windows developer settings.
+	This PowerShell script launches the developer settings of Windows.
 .EXAMPLE
 	PS> ./open-developer-settings
 .NOTES

@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Opens Windows date & time settings 
+	Opens the date & time settings of Windows
 .DESCRIPTION
-	This PowerShell script launches the Windows date & time settings.
+	This PowerShell script launches the date & time settings of Windows.
 .EXAMPLE
 	PS> ./open-date-settings
 .NOTES

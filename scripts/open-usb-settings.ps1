@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Opens Windows USB settings 
+	Opens the USB settings of Windows
 .DESCRIPTION
-	This PowerShell script launches the Windows USB settings application.
+	This PowerShell script launches the USB settings of Windows.
 .EXAMPLE
 	PS> ./open-usb-settings
 .NOTES
@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "U.S.B..."
 Start-Process ms-settings:usb
 exit 0 # success

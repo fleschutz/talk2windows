@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Opens Windows background settings 
+	Opens the background settings of Windows
 .DESCRIPTION
-	This PowerShell script launches the Windows background settings.
+	This PowerShell script launches the background settings of Windows.
 .EXAMPLE
 	PS> ./open-background-settings
 .NOTES

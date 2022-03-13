@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Opens Windows activation settings 
+	Opens the Activation settings of Windows
 .DESCRIPTION
-	This PowerShell script launches the Windows activation settings.
+	This PowerShell script launches the activation settings of Windows.
 .EXAMPLE
 	PS> ./open-activation-settings
 .NOTES

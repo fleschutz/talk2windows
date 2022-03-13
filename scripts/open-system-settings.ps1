@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Opens Windows system settings 
+	Opens the system settings of Windows
 .DESCRIPTION
-	This PowerShell script launches the Windows system settings application.
+	This PowerShell script launches the system settings of Windows.
 .EXAMPLE
 	PS> ./open-system-settings
 .NOTES
@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "System..."
 Start-Process ms-settings:
 exit 0 # success

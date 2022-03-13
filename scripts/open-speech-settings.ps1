@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Opens Windows speech settings 
+	Opens the speech settings of Windows
 .DESCRIPTION
-	This PowerShell script launches the Windows speech settings application.
+	This PowerShell script launches the speech settings of Windows.
 .EXAMPLE
 	PS> ./open-speech-settings
 .NOTES
@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Speech..."
 Start-Process ms-settings:speech
 exit 0 # success
