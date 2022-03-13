@@ -13,5 +13,6 @@
 
 param([string]$Text = "")
 
+& "$PSScriptRoot/_reply.ps1" "Search..."
 & "$PSScriptRoot/open-browser.ps1" "https://google.com/search?q=$Text"
 exit 0 # success

@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Drawings..."
 & "$PSScriptRoot/open-browser.ps1" "https://docs.google.com/drawings"
 exit 0 # success

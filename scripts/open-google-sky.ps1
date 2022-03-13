@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Sky..."
 & "$PSScriptRoot/open-browser.ps1" "https://www.google.com/sky/"
 exit 0 # success

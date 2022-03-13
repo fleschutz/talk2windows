@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Sheets..."
 & "$PSScriptRoot/open-browser.ps1" "https://docs.google.com/spreadsheets/u/0/"
 exit 0 # success

@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Shopping list..."
 & "$PSScriptRoot/open-browser.ps1" "https://shoppinglist.google.com"
 exit 0 # success

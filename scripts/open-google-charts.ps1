@@ -11,5 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Charts..."
 & "$PSScriptRoot/open-browser.ps1" "https://developers.google.com/chart" 
 exit 0 # success
