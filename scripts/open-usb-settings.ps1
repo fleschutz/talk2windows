@@ -11,6 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "U.S.B..."
+& "$PSScriptRoot/_reply.ps1" "USB."
 Start-Process ms-settings:usb
 exit 0 # success
