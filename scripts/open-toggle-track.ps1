@@ -11,6 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Okay."
+& "$PSScriptRoot/_reply.ps1" "Hold on."
 & "$PSScriptRoot/open-browser.ps1" "https://track.toggl.com"
 exit 0 # success
