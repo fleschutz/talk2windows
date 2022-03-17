@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Locks the Computer
+	Locks the computer
 .DESCRIPTION
 	This PowerShell script immediately locks the computer desktop.
 .EXAMPLE
@@ -12,6 +12,7 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Bye bye."
 	rundll32.exe user32.dll,LockWorkStation
 	exit 0 # success
 } catch {

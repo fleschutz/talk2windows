@@ -6,12 +6,13 @@
 .EXAMPLE
 	PS> ./shut-down-computer
 .NOTES
-	Author: Markus Fleschutz · License: CC0
+	Author: Markus Fleschutz / License: CC0
 .LINK
-	https://github.com/fleschutz/PowerShell
+	https://github.com/fleschutz/talk2windows
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Bye bye."
 	& shutdown.exe -s
 	exit 0 # success
 } catch {

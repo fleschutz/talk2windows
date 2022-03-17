@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Suspends the Computer
+	Suspends the computer
 .DESCRIPTION
 	This PowerShell script suspends the computer immediately.
 .EXAMPLE
@@ -12,7 +12,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Bye, I'm going to sleep..."
+	& "$PSScriptRoot/_reply.ps1" "Bye bye."
 	& rundll32.exe powrprof.dll,SetSuspendState 0,1,0 # bHibernate,bForce,bWakeupEventsDisabled
 	exit 0 # success
 } catch {

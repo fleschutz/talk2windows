@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Hibernates the Computer
+	Hibernates the computer
 .DESCRIPTION
 	This PowerShell script hibernates the computer immediately.
 .EXAMPLE
@@ -12,7 +12,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Bye, I'm going to sleep..."
+	& "$PSScriptRoot/_reply.ps1" "Bye bye."
 	& rundll32.exe powrprof.dll,SetSuspendState 1,1,0 # bHibernate,bForce,bWakeupEventsDisabled
 	exit 0 # success
 } catch {

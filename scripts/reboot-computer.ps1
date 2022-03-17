@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Reboots the Computer
+	Reboots the computer
 .DESCRIPTION
 	This PowerShell script reboots the computer immediately.
 .EXAMPLE
@@ -12,6 +12,7 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Okay."
 	& shutdown.exe -r
 	exit 0 # success
 } catch {
