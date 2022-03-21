@@ -14,7 +14,7 @@ This repository adds voice control to Windows®. Be faster and more productive b
 Usage
 -----
 1. Launch *Serenade*.
-2. Click into the circle to enable Listening mode (the circle moves when speaking into the mic).
+2. Click the slider to switch from Paused to Listening mode. Raise the microphone audio level if a 'low voice' is shown.
 3. Speak the voice command **"*Windows, open calculator*"** into the mic, this executes the script `open-calculator.ps1` which launches the calculator application. All supported voice commands are described below.
 
 
