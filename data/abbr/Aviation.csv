@@ -311,6 +311,7 @@ RVSM,Reduced Vertical Separation Minimum
 RWR,Radar Warning Receiver
 RWY,Runway
 SADL,Situational Awareness Data Link
+SAF,Sustainable Aviation Fuel
 SAR,Search and Rescue
 SAR,Synthetic Aperture Radar
 SARPS,Standards and Recommended Practices (ICAO)
@@ -323,6 +324,7 @@ SDD,Situation Data Display
 SELCAL,Selective Calling System
 SES,Single European Sky
 SESAME,Single European Sky ATM Master Plan
+SESAR,Single European Sky ATM Research
 SFL,Sequencing Flashing Light
 SFO,Simulated Flameout Operation
 SI,Selective Interrogation
