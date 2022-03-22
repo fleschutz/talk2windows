@@ -271,8 +271,9 @@ PIC,Pilot in Command
 PNF,Pilot Not Flying 
 POH,Pilot's Operating Handbook
 PPL,Private Pilot's License
+PTAC,"Position, Turn, Altitude, Clearance (also known as Approach Clearance)"
 PtF,Permit to Fly
-QFE,the altimeter setting that will cause the altimeter to read the height above a specific aerodrome or ground level, and therefore read zero on landing
+QFE,"the altimeter setting that will cause the altimeter to read the height above a specific aerodrome or ground level, and therefore read zero on landing"
 QNE,pressure altitude at the landing runway threshold
 QNH,atmospheric pressure adjusted to mean sea level
 RADAR,Radio Detection And Ranging
