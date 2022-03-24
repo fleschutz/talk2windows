@@ -11,6 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "D drive"
 & "$PSScriptRoot/open-file-explorer.ps1" "D:"
 exit 0 # success
