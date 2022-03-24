@@ -12,24 +12,21 @@
 #>
  
 try {
-	$StopWatch = [system.diagnostics.stopwatch]::startNew()
-	write-progress "Reading Data/domain-names.csv..."
+	& "$PSScriptRoot/_reply.ps1" "Hold on."
 
+	$StopWatch = [system.diagnostics.stopwatch]::startNew()
 	$PathToRepo = "$PSScriptRoot/.."
-	$Table = import-csv "$PathToRepo/Data/domain-names.csv"
+	$Table = Import-CSV "$PathToRepo/data/domain-names.csv"
 
 	foreach($Row in $Table) {
-		write-progress "Resolving $($Row.Domain) ..."
 		if ($IsLinux) {
 			$Ignore = nslookup $Row.Domain
 		} else {
 			$Ignore = resolve-dnsName $Row.Domain
 		}
 	}
-	$Count = $Table.Length
-
 	[int]$Elapsed = $StopWatch.Elapsed.TotalSeconds
-	$Average = [math]::round($Count / $Elapsed, 1)
+	$Average = [math]::round($Table.Length / $Elapsed, 1)
 
 	& "$PSScriptRoot/_reply.ps1" "$Average domains per second DNS resolution"
 	exit 0 # success
