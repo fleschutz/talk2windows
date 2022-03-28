@@ -11,6 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "VPN."
+& "$PSScriptRoot/_reply.ps1" "Hold on."
 Start-Process ms-settings:network-vpn
 exit 0 # success
