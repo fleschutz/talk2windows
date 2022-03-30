@@ -42,13 +42,13 @@ function AddVoiceCmdDEBUG { param([string]$WakeWord, [string]$Keywords, [string]
 
 
 try {
-	"(1) Wake word is: `'$WakeWord`'"
+	"(1) Using wake word `'$WakeWord`'..."
 	$WakeWord = $WakeWord.toLower()
 
 	$Scripts = Get-ChildItem "$FilePattern"
-	"(2) Found $($Scripts.Count) PowerShell scripts in subfolder `'scripts`'"
+	"(2) Found $($Scripts.Count) PowerShell scripts in subfolder `'scripts`'..."
 
-	"(3) Writing custom JavaScript file to: $TargetFile..."
+	"(3) Writing custom JavaScript file to '$TargetFile'..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$TargetFile"
 	foreach($Script in $Scripts) {
 		$Basename = $Script.basename
@@ -70,7 +70,7 @@ try {
 			AddVoiceCmd $WakeWord $Basename $Script 
 		}
 	}
-	"Export to Serenade was successful - launch Serenade now to talk to Windows."
+	":-) Export to Serenade was successful - launch Serenade now to talk to Windows."
 	exit 0 # success
 } catch {
 	write-error "Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
