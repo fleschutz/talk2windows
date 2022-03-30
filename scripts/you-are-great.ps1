@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Replies to "You are right"
+	Replies to "You are great"
 .DESCRIPTION
-	This PowerShell script replies to "You are right" by text-to-speech (TTS).
+	This PowerShell script replies to "You are great" by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./you-are-right.ps1
+	PS> ./you-are-great.ps1
 .LINK
 	https://github.com/fleschutz/talk2windows
 .NOTES
