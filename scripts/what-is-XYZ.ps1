@@ -43,7 +43,7 @@ try {
 	if ($Text -ne "") {
 		& "$PSScriptRoot/_reply.ps1" $Text
 	} else {
-		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $abbr) is unknown to me. Let's google this..."
+		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $abbr) is unknown to me."
 		& "$PSScriptRoot/open-google-search.ps1" $abbr
 	}
 	exit 0 # success
