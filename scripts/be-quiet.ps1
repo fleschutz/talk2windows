@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script mutes the audio device immediately.
 .EXAMPLE
-	PS> ./shut-up.ps1
+	PS> ./be-quiet.ps1
 .LINK
 	https://github.com/fleschutz/talk2windows
 .NOTES
