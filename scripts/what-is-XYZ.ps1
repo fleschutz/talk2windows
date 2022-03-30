@@ -17,7 +17,7 @@ function SpellAbbr { param([string]$Text)
 	[char[]]$ArrayOfChars = $Text
 	$Result = ""
 	foreach($Char in $ArrayOfChars) {
-		$Result += $Char + "."
+		$Result += $Char + " "
 	}
 	return $Result
 }

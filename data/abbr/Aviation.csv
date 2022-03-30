@@ -6,6 +6,13 @@ A/F,Autofeather
 A/FD,Airport/Facility Directory
 A/P,Autopilot
 A/R,Altitude Rate
+A300,Airbus A300 twinjet
+A310,Airbus A310 twinjet
+A320,Airbus A320 family of twinjets
+A330,Airbus A330 twinjet
+A340,Airbus A340 quadjet
+A350,Airbus A350 twinjet
+A380,Airbus A380 quadjet
 AAA,Airport Airspace Analysis
 AAE,Above Aerodrome Elevation
 AAF,Airway Facilities Service
