@@ -2,32 +2,43 @@
 .SYNOPSIS
 	Checks for snow
 .DESCRIPTION
-	Queries the current weather report for snow and answers by text-to-speech (TTS).
-.PARAMETER location
-	Specifies the location to use (determined automatically per default)
+	This PowerShell script queries the current weather report for snow and answers by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./check-for-snow
-.NOTES
-	Author: Markus Fleschutz · License: CC0
+	PS> ./check-for-snow.ps1
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 param([string]$location = "") # empty means determine automatically
+
+function GetCategory { param([int]$PrecipMM)
+	if ($PrecipMM -lt "0.2") { return "Light snow" }
+	if ($PrecipMM -lt "0.5") { return "Moderate snow" }
+	return "Heavy snow"
+}
 
 try {
 	$Weather = (Invoke-WebRequest http://wttr.in/${location}?format=j1 -userAgent "curl" -useBasicParsing).Content | ConvertFrom-Json
 	$Temp = $Weather.current_condition.temp_C
 	$Precip = $Weather.current_condition.precipMM
 	
-	if ($Precip -eq "0.0") {
-		$Reply = "No snow right now."
-	} elseif ($Temp -lt "0.0") {
-		$Reply = "Snow with $($Precip)mm/h."
+	if (($Precip -ne "0.0") -and ($Temp -lt "0.0")) {
+		$Reply = "It's currently snowing with $($Precip) millimeters per hour."
 	} else {
-		$Reply = "It's raining $($Precip)mm/h."
+		$Day = "today"
+		$Reply = "No snow expected in the next 48 hours."
+		foreach ($Hourly in $Weather.weather.hourly) {
+			if (($Hourly.precipMM -ne "0.0") -and ($Hourly.tempC -lt "0.0")) {
+				$Snow = GetCategory $Hourly.precipMM 
+				$Reply = "$Snow expected $Day at $($Hourly.time / 100) o'clock with $($Hourly.precipMM) millimeters per hour."
+				break
+			}
+			if ($Hourly.time -eq "2100") { if ($Day -eq "today") { $Day = "tomorrow" } else { $Day = "day after tomorrow" } }
+		}
 	}
-	& "$PSScriptRoot/_reply.ps1" "$Reply"
+	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
