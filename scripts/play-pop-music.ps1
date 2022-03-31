@@ -4,7 +4,7 @@
 .DESCRIPTION
 	This PowerShell script launches the Web browser and plays pop music.
 .EXAMPLE
-	PS> ./play-pop-music
+	PS> ./play-pop-music.ps1
 .LINK
 	https://github.com/fleschutz/talk2windows
 .NOTES
