@@ -13,9 +13,9 @@
 
 param([string]$location = "") # empty means determine automatically
 
-function GetCategory { param([int]$PrecipMM)
-	if ($PrecipMM -lt "0.2") { return "Light snow" }
-	if ($PrecipMM -lt "0.5") { return "Moderate snow" }
+function GetSnowCategory { param([float]$VisibKM)
+	if ($VisibKM -gt "1.0") { return "Light snow" }
+	if ($VisibKM -gt "0.5") { return "Moderate snow" }
 	return "Heavy snow"
 }
 
@@ -31,7 +31,7 @@ try {
 		$Reply = "No snow expected in the next 48 hours."
 		foreach ($Hourly in $Weather.weather.hourly) {
 			if (($Hourly.precipMM -ne "0.0") -and ($Hourly.tempC -lt "0.0")) {
-				$Snow = GetCategory $Hourly.precipMM 
+				$Snow = GetSnowCategory $Hourly.visibility 
 				$Reply = "$Snow expected $Day at $($Hourly.time / 100) o'clock with $($Hourly.precipMM) millimeters per hour."
 				break
 			}
