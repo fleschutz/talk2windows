@@ -1,17 +1,16 @@
 <#
 .SYNOPSIS
-	Answers to 'good morning'
+	Answers to "good morning"
 .DESCRIPTION
 	This PowerShell script replies to "good morning" by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./good-morning
-.NOTES
-	Author: Markus Fleschutz / License: CC0
+	PS> ./good-morning.ps1
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
-$Reply = "Good morning! How can I help?", "Good morning to you too.", "Good morning! How are you?" | Get-Random
-
-& "$PSScriptRoot/_reply.ps1" "$Reply"
+$Reply = "Good morning.", "Good morning to you too.", "Good morning $USERNAME" | Get-Random
+& "$PSScriptRoot/_reply.ps1" $Reply
 exit 0 # success
