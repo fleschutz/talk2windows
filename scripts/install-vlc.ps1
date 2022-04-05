@@ -5,19 +5,19 @@
 	This PowerShell script installs the VLC media player from the Microsoft Store.
 .EXAMPLE
 	PS> ./install-vlc
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Installing VLC media player from Microsoft Store, please wait..."
+	& "$PSScriptRoot/_reply.ps1" "Installing VLC media player, please wait..."
 
 	& winget install "VLC" --source msstore --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
-	& "$PSScriptRoot/_reply.ps1" "VLC media player is installed now."
+	& "$PSScriptRoot/_reply.ps1" "VLC media player installed successfully."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
