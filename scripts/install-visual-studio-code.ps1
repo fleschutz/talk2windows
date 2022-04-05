@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Installs Visual Studio Code
 .DESCRIPTION
-	This PowerShell script installs Visual Studio Code from Microsoft Store.
+	This PowerShell script installs Visual Studio Code.
 .EXAMPLE
 	PS> ./install-visual-studio-code
 .LINK
@@ -14,7 +14,7 @@
 try {
 	& "$PSScriptRoot/_reply.ps1" "Installing Visual Studio Code, please wait..."
 
-	& winget install "Visual Studio Code" --source msstore --accept-package-agreements --accept-source-agreements
+	& winget install --id Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "Visual Studio Code installed successfully."
