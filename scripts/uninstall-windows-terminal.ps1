@@ -5,16 +5,16 @@
 	This PowerShell script uninstalls Windows Terminal from the local computer.
 .EXAMPLE
 	PS> ./uninstall-windows-terminal
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "Uninstalling Windows Terminal, please wait..."
 
-	& winget uninstall "Windows Terminal"
+	& winget uninstall --id Microsoft.WindowsTerminal
 	if ($lastExitCode -ne "0") { throw "Can't uninstall Windows Terminal, is it installed?" }
 
 	& "$PSScriptRoot/_reply.ps1" "Windows Terminal is uninstalled now."
