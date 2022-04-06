@@ -7,24 +7,17 @@
 	PS> ./open-firefox
 .PARAMETER URL
 	Specifies an URL
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 param([string]$URL = "http://www.fleschutz.de")
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "Okay"
-	$App = Get-AppxPackage -Name Mozilla.FireFox
-	if ($App.Status -eq "Ok") {
-		# starting Firefox UWP app:
-		explorer.exe shell:appsFolder\$($App.PackageFamilyName)!FIREFOX
-	} else {
-		# starting Firefox program:
-		start-process firefox.exe "$URL"
-	}
+	start-process firefox.exe "$URL"
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
