@@ -1,14 +1,14 @@
 <#
 .SYNOPSIS
-	Connects to the VPN
+	Connects to VPN
 .DESCRIPTION
-	This PowerShell script tries to connect to the VPN.
+	This PowerShell script tries to establish a VPN connection.
 .EXAMPLE
 	PS> ./connect-vpn
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
@@ -20,7 +20,7 @@ try {
 			if ($lastExitCode -ne "0") { throw "Cannot establish connection" }
 			& "$PSScriptRoot/_reply.ps1" "Connected now."
 			exit 0 # success
-		} elseif ($Connection.ConnectionStatus -eq "Connected") { throw "Already connected to VPN $($Connection.Name)" }
+		} elseif ($Connection.ConnectionStatus -eq "Connected") { throw "VPN $($Connection.Name) is already connected" }
 	}
 	throw "No VPN connection available"
 } catch {
