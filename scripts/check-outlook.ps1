@@ -19,7 +19,10 @@ try {
 	foreach($Item in $Inbox.Items) {
 		if ($Item.Unread -eq $true) { $Unread++ }
 	}
-	if ($Unread -eq 0) { $Reply = "No new mails" } else { $Reply = "$Unread new mails" }
+	if ($Unread -eq 0) {		$Reply = "No new mails."
+	} elseif ($Unread -eq 1) {	$Reply = "One new mail."
+	} else {			$Reply = "$Unread new mails."
+	}
 	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
 } catch {
