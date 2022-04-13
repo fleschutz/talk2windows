@@ -20,8 +20,8 @@ try {
 		if ($Item.Unread -eq $true) { $Unread++ }
 	}
 	if ($Unread -eq 0) {		$Reply = "No new mails."
-	} elseif ($Unread -eq 1) {	$Reply = "One new mail."
-	} else {			$Reply = "$Unread new mails."
+	} elseif ($Unread -eq 1) {	$Reply = "You've got one new mail."
+	} else {			$Reply = "You've got $Unread new mails."
 	}
 	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
