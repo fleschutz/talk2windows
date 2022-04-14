@@ -12,15 +12,16 @@
 #>
 
 try {
-	$Outlook = New-Object -com Outlook.application
-	$MAPI = $Outlook.GetNameSpace("MAPI")
-	$Inbox = $MAPI.GetDefaultFolder(6) # 6 = olFolderInbox
+	Add-Type -assembly "Microsoft.Office.Interop.Outlook"
+	$Outlook = New-Object -comobject Outlook.Application
+	$Namespace = $Outlook.GetNameSpace("MAPI")
+	$Inbox = $Namespace.GetDefaultFolder(6) # 6 = olFolderInbox
 	[int]$Unread = 0
-	foreach($Item in $Inbox.Items) {
-		if ($Item.Unread -eq $true) { $Unread++ }
+	foreach($Mail in $Inbox.Items) {
+		if ($Mail.Unread -eq $true) { $Unread++; $Sender = $Mail.SenderName; $Subject = $Mail.Subject }
 	}
 	if ($Unread -eq 0) {		$Reply = "No new mails."
-	} elseif ($Unread -eq 1) {	$Reply = "You've got one new mail."
+	} elseif ($Unread -eq 1) {	$Reply = "One new mail from $Sender regarding $Subject."
 	} else {			$Reply = "You've got $Unread new mails."
 	}
 	& "$PSScriptRoot/_reply.ps1" $Reply
