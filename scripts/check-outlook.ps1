@@ -17,12 +17,18 @@ try {
 	$Namespace = $Outlook.GetNameSpace("MAPI")
 	$Inbox = $Namespace.GetDefaultFolder(6) # 6 = olFolderInbox
 	[int]$Unread = 0
+	$Sender = ""
 	foreach($Mail in $Inbox.Items) {
-		if ($Mail.Unread -eq $true) { $Unread++; $Sender = $Mail.SenderName; $Subject = $Mail.Subject }
+		if ($Mail.Unread -eq $false) { continue }
+		$Unread++
+		if ("$Sender" -eq "") { $Sender = $Mail.SenderName
+		} elseif ("$Sender" -ne "$($Mail.SenderName)") { $Sender = "" }
+		$Subject = $Mail.Subject
 	}
 	if ($Unread -eq 0) {		$Reply = "No new mails."
 	} elseif ($Unread -eq 1) {	$Reply = "One new mail from $Sender regarding $Subject."
-	} else {			$Reply = "You've got $Unread new mails."
+	} elseif ("$Sender" -ne "") {   $Reply = "$Unread new mails from $Sender."
+	} else {			$Reply = "$Unread new mails."
 	}
 	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
