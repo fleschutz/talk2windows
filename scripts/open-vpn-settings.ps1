@@ -1,16 +1,16 @@
 <#
 .SYNOPSIS
-	Opens the VPN settings of Windows
+	Opens the VPN settings
 .DESCRIPTION
 	This PowerShell script launches the VPN settings of Windows.
 .EXAMPLE
 	PS> ./open-vpn-settings
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Hold on."
+& "$PSScriptRoot/_reply.ps1" "Just a moment."
 Start-Process ms-settings:network-vpn
 exit 0 # success
