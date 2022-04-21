@@ -18,16 +18,17 @@ try {
 	$Inbox = $Namespace.GetDefaultFolder(6) # 6 = olFolderInbox
 	[int]$Unread = 0
 	$Sender = ""
+	[switch]$SameSender = $true
 	foreach($Mail in $Inbox.Items) {
 		if ($Mail.Unread -eq $false) { continue }
 		$Unread++
 		if ("$Sender" -eq "") { $Sender = $Mail.SenderName
-		} elseif ("$Sender" -ne "$($Mail.SenderName)") { $Sender = "" }
+		} elseif ("$Sender" -ne "$($Mail.SenderName)") { $SameSender = $false }
 		$Subject = $Mail.Subject
 	}
 	if ($Unread -eq 0) {		$Reply = "No new mails."
 	} elseif ($Unread -eq 1) {	$Reply = "One new mail from $Sender regarding $Subject."
-	} elseif ("$Sender" -ne "") {   $Reply = "$Unread new mails from $Sender."
+	} elseif ($SameSender) {	$Reply = "$Unread new mails from $Sender."
 	} else {			$Reply = "$Unread new mails."
 	}
 	& "$PSScriptRoot/_reply.ps1" $Reply
