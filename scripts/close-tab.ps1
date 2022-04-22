@@ -1,20 +1,20 @@
 <#
 .SYNOPSIS
-	Close the current tab
+	Close tab
 .DESCRIPTION
 	This PowerShell script sends a hotkey that closes the current tab.
 .EXAMPLE
 	PS> ./close-tab
-.NOTES
-	Author:  Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("^w")
-	& "$PSScriptRoot/_reply.ps1" "OK."
+	$o = New-Object -com wscript.shell
+	$o.SendKeys("^w")
+	& "$PSScriptRoot/_reply.ps1" "Closed now."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
