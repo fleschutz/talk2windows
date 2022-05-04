@@ -23,7 +23,7 @@ try {
 		if (Test-Path "$Item" -pathType container) { $NumFolders++ } else { $NumFiles++ }
 	}
 	if ($NumFolders -eq 0) {
-		if ($NumFiles -eq 0) {		$Reply = "Download folder is empty."
+		if ($NumFiles -eq 0) {		$Reply = "No downloads yet."
 		} elseif ($NumFiles -eq 1) {	$Reply = "One file downloaded."
 		} else {			$Reply = "$NumFiles files downloaded."
 		}
