@@ -12,7 +12,11 @@
 #>
 
 try {
-	$Path = (New-Object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path
+	if ($IsLinux) {
+		$Path = Resolve-Path "$HOME/Downloads"
+	} else {
+		$Path = (New-Object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path
+	}
 	if (-not(Test-Path "$Path" -pathType container)) {
 		throw "Downloads folder at $Path doesn't exist (yet)"
 	}
