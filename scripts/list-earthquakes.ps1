@@ -2,13 +2,13 @@
 .SYNOPSIS
 	Lists Major Earthquakes
 .DESCRIPTION
-	This PowerShell script lists major earthquakes in the last 30 days sorted by magnitude.
+	This PowerShell script lists major earthquakes worldwide in the past 30 days (sorted by magnitude).
 .EXAMPLE
 	PS> ./list-earthquakes
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 $Format="csv" # csv, geojson, kml, text, xml
@@ -24,7 +24,7 @@ function ListEarthquakes {
  
 try {
 	& "$PSScriptRoot/_reply.ps1" "Hold on."
-	ListEarthquakes | Select-Object -property Mag,Depth,Location,Type,Time,ID,Lat,Long | Out-GridView -title "List of major earthquakes in the last 30 days sorted by magnitude" -wait
+	ListEarthquakes | Select-Object -property Mag,Depth,Location,Type,Time,ID,Lat,Long | Out-GridView -title "Major earthquakes worldwide in the past 30 days (sorted by magnitude)" -wait
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
