@@ -1298,6 +1298,7 @@ GPT,GUID Partition Table
 GPU,Graphics Processing Unit
 GRC,"governance, risk management and compliance"
 GRE,Generic Routing Encapsulation
+gRPC,general-purpose Remote Procedure Calls
 GRUB,GRand Unified Bootloader
 GSM,Global System for Mobile communication
 GSM,Microsoft System Center Global Service Monitor
@@ -1400,8 +1401,8 @@ HVD,holographic versatile disc
 HVD,hosted virtual desktop
 I&T,integration testing or integration and testing
 I/O,Input Output
-I18N,internationalization
-IA,internal audit
+I18N,Internationalization
+IA,Internal Audit
 IaaS,Infrastructure as a Service
 IAB,Internet Advertising Bureau
 IAB,Internet Architecture Board
@@ -1409,11 +1410,11 @@ IAM,identity access management
 IAM,integrated access management
 IANA,Internet Assigned Numbers Authority
 IAO,Information Awareness Office
-IAP,Internet access provider
+IAP,Internet Access Provider
 IAX,Inter-Asterisk Exchange Protocol
 IBM,International Business Machines
 IBP,integrated business planning
-IC,integrated circuit
+IC,Integrated Circuit
 IC-BPMS,integration-centric business process management suite
 ICANN,Internet Corporation for Assigned Names and Numbers
 ICE,In Case of Emergency
@@ -1425,7 +1426,7 @@ ICP,Internet commerce provider
 ICR,intelligent character recognition
 ICT,information and communications technology - or technologies
 ICT4D,Information and Communications Technologies for Development
-ID,intrusion detection
+ID,Intrusion Detection
 IDaaS,identity as a Service
 IDE,Integrated Development Environment
 IDE,Integrated Drive Electronics
@@ -1434,9 +1435,9 @@ IDEF,Integrated Definition
 iDEN,Integrated Digital Enhanced Network
 IDF,interface device
 IDIS,Integrated Disbursement and Information System
-IDL,interface definition language
+IDL,Interface Definition Language
 IDoc,intermediate document
-IDS,intrusion detection system
+IDS,Intrusion Detection System
 IE,Internet Explorer
 IEAK,Internet Explorer Administration Kit
 IEC,International Electrotechnical Commission
@@ -2614,6 +2615,7 @@ TPI,Total Profit Improvement
 TPM,Total Productive Maintenance
 TPM,Trusted Platform Module
 TPOP,Time-Phased Order Point
+TPU,Tensor Processing Unit
 TPS,terminal proxy server
 TQC,Total Quality Control
 TQM,Total Quality Management
