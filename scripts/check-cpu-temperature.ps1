@@ -1,18 +1,18 @@
 <#
 .SYNOPSIS
-	Checks the CPU 
+	Checks the CPU temperature
 .DESCRIPTION
-	This PowerShell script checks the CPU temperature.
+	This PowerShell script determines the CPU temperature and replies by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./check-cpu
-.NOTES
-	Author: Markus Fleschutz / License: CC0
+	PS> ./check-cpu-temperature
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay."
+	& "$PSScriptRoot/_reply.ps1" "Hold on."
 
 	if (test-path "/sys/class/thermal/thermal_zone0/temp" -pathType leaf) {
 		[int]$IntTemp = get-content "/sys/class/thermal/thermal_zone0/temp"
@@ -22,19 +22,17 @@ try {
 		$Temp = @($data)[0].HighPrecisionTemperature
 		$Temp = [math]::round($Temp / 100.0, 1)
 	}
-
 	if ($Temp -gt 80) {
-		$Reply = "CPU is $($Temp)°C extremely hot!"
+		$Reply = "CPU is extremely hot at $($Temp) degrees Celsius!"
 	} elseif ($Temp -gt 50) {
-		$Reply = "CPU is $($Temp)°C hot."
+		$Reply = "CPU is $($Temp) degrees Celsius hot."
 	} elseif ($Temp -gt 0) {
-		$Reply = "CPU is $($Temp)°C warm."
+		$Reply = "CPU is $($Temp) degrees Celsius warm."
 	} elseif ($Temp -gt -20) {
-		$Reply = "CPU is $($Temp)°C cold."
+		$Reply = "CPU is $($Temp) degrees Celsius cold."
 	} else {
-		$Reply = "CPU is $($Temp)°C extremely cold!"
+		$Reply = "CPU is extremely cold at $($Temp) degrees Celsius!"
 	}
-
 	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
 } catch {
