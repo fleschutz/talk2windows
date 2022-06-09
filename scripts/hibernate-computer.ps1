@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Hibernates the computer
 .DESCRIPTION
-	This PowerShell script hibernates the computer immediately.
+	This PowerShell script enables hibernate mode for the local computer immediately. 
 .EXAMPLE
 	PS> ./hibernate-computer
 .NOTES
