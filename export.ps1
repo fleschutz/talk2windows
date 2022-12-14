@@ -45,13 +45,13 @@ try {
 	"Step 1/4 - Checking requirements..."
 	if (!(Test-Path "$HOME\.serenade" -pathType container)) { throw "The Serenade app is missing - please download and install it from serenade.ai" }
 
-	"Step 2/4 - Wake word is `'$WakeWord`'... (specify an argument to change this)"
+	"Step 2/4 - Wake word is `'$WakeWord`'... (change this by specifying an argument)"
 	$WakeWord = $WakeWord.toLower()
 
 	$Scripts = Get-ChildItem "$FilePattern"
 	"Step 3/4 - Found $($Scripts.Count) voice phrases (PowerShell scripts) in subfolder `'scripts`'..."
 
-	"Step 4/4 - Writing custom JavaScript file to '$TargetFile'..."
+	"Step 4/4 - Writing custom file to '$TargetFile'..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$TargetFile"
 	foreach($Script in $Scripts) {
 		$Basename = $Script.basename
@@ -73,7 +73,7 @@ try {
 			AddVoiceCmd $WakeWord $Basename $Script 
 		}
 	}
-	"OK, launch Serenade now to talk to Windows."
+	"Export succeeded. Launch Serenade now and unpause it, then speak into the mic: `'$WakeWord, hi`'"
 	exit 0 # success
 } catch {
 	Write-Error "ERROR: $($Error[0])"
