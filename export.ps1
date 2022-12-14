@@ -42,13 +42,16 @@ function AddVoiceCmdDEBUG { param([string]$WakeWord, [string]$Keywords, [string]
 
 
 try {
-	"(1) Using wake word `'$WakeWord`'..."
+	"(1/4) Checking requirements..."
+	if (!(Test-Path "$HOME\.serenade" -pathType container)) { throw "The Serenade app is missing - please download and install it from serenade.ai" }
+
+	"(2/4) Using wake word `'$WakeWord`'..."
 	$WakeWord = $WakeWord.toLower()
 
 	$Scripts = Get-ChildItem "$FilePattern"
-	"(2) Found $($Scripts.Count) PowerShell scripts in subfolder `'scripts`'..."
+	"(3/4) Found $($Scripts.Count) PowerShell scripts in subfolder `'scripts`'..."
 
-	"(3) Writing custom JavaScript file to '$TargetFile'..."
+	"(4/4) Writing custom JavaScript file to '$TargetFile'..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$TargetFile"
 	foreach($Script in $Scripts) {
 		$Basename = $Script.basename
@@ -73,6 +76,6 @@ try {
 	":-) Export to Serenade was successful - launch Serenade now to talk to Windows."
 	exit 0 # success
 } catch {
-	write-error "Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
+	Write-Error "ERROR: $($Error[0])"
 	exit 1
 }
