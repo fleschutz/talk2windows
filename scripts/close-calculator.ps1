@@ -11,9 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-TaskKill /im Calculator.exe /f /t
-if ($lastExitCode -ne "0") {
-	& "$PSScriptRoot/_reply.ps1" "Sorry, calculator isn't running."
-	exit 1
-}
+Stop-Process -name "CalculatorApp"
 exit 0 # success
