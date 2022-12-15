@@ -12,5 +12,5 @@
 #>
 
 & "$PSScriptRoot/_reply.ps1" "Okay."
-tskkill Serenade
+TaskKill /im Serenade.exe /f
 exit 0 # success
