@@ -11,6 +11,6 @@
 	Author: Markus Fleschutz | License: CC0
 #>
 
-$Reply = "Good morning.", "Good morning to you too.", "Good morning $USERNAME" | Get-Random
+$Reply = "Good morning!", "Good morning to you too!", "Good morning early bird!", "Hey there, early bird!", "Good morning - I was just thinking about you!" | Get-Random
 & "$PSScriptRoot/_reply.ps1" $Reply
 exit 0 # success
