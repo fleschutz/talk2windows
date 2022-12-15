@@ -15,22 +15,13 @@
 
 param([string]$text = "")
 
-function GetTempDir {
-	if ("$env:TEMP" -ne "")	{ return "$env:TEMP" }
-	if ("$env:TMP" -ne "")	{ return "$env:TMP" }
-	if ($IsLinux) { return "/tmp" }
-	return "C:\Temp"
-}
+$TTS = New-Object -ComObject SAPI.SPVoice
+foreach ($Voice in $TTS.GetVoices()) { if ($Voice.GetDescription() -like "*- English*") { $TTS.Voice = $Voice }	}
+[void]$TTS.Speak($text)
 
-try {
-	$Voice = New-Object -ComObject SAPI.SPVoice
-	foreach ($OtherVoice in $Voice.GetVoices()) {
-		if ($OtherVoice.GetDescription() -like "*- English*") { $Voice.Voice = $OtherVoice }
-	}
-	[void]$Voice.Speak($text)
-	"$text" > "$(GetTempDir)/talk2windows_last_reply.txt"
-	exit 0 # success
-} catch {
-	"ERROR: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
-	exit 1
-}
+if ("$env:TEMP" -ne "")	{	$TempDir = "$env:TEMP"
+} elseif ("$env:TMP" -ne "") {	$TempDir = "$env:TMP"
+} elseif ($IsLinux) {		$TempDir = "/tmp"
+} else {			$TempDir = "C:\Temp" }
+"$text" > "$TempDir/talk2windows_last_reply.txt"
+exit 0

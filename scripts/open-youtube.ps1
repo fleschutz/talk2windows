@@ -12,6 +12,5 @@
 #>
 
 & "$PSScriptRoot/_reply.ps1" "Okay."
-$CurrentYear = (Get-Date).Year
-& "$PSScriptRoot/open-browser.ps1" "https://www.youtube.com/results?search_query=Mega+Hits+$CurrentYear"
+& "$PSScriptRoot/open-browser.ps1" "https://www.youtube.com/results?search_query=Summer+Mega+Hits+2023"
 exit 0 # success
