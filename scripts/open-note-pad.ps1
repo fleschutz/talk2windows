@@ -12,8 +12,9 @@
 #>
 
 try {
-	start-process notepad.exe
-	exit 0 # success
+	& "$PSScriptRoot/_reply.ps1" "Okay."
+	Start-Process notepad.exe
+	exit 0 
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1

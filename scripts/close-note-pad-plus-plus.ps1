@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-	Closes Notepad
+	Closes Notepad++
 .DESCRIPTION
-	This PowerShell script closes the Notepad application gracefully.
+	This PowerShell script closes the Notepad++ application gracefully.
 .EXAMPLE
-	PS> ./close-note-pad
+	PS> ./close-note-pad-plus-plus
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
@@ -12,5 +12,5 @@
 #>
 
 & "$PSScriptRoot/_reply.ps1" "Okay."
-& "$PSScriptRoot/close-program.ps1" "Notepad" "notepad" "notepad"
+& "$PSScriptRoot/close-program.ps1" "Notepad++" "notepad++" ""
 exit 0 # success
