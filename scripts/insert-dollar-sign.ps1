@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Inserts the Dollar sign
 .DESCRIPTION
-	This PowerShell script inserts the Dollar sign ('$').
+	This PowerShell script inserts the Dollar sign ('$') at the current text cursor position.
 .EXAMPLE
 	PS> ./insert-dollar-sign
 .LINK
@@ -12,10 +12,9 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay."
-
 	$obj = New-Object -com wscript.shell
 	$obj.SendKeys("$")
+	& "$PSScriptRoot/_reply.ps1" "Okay."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

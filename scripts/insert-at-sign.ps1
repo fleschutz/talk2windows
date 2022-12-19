@@ -12,10 +12,9 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay."
-
 	$sh = New-Object -com wscript.shell
 	$sh.SendKeys("@")
+	& "$PSScriptRoot/_reply.ps1" "Okay."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
