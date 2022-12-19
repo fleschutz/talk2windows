@@ -13,6 +13,6 @@
 
 param([string]$Location = "")
 
-& "$PSScriptRoot/_reply.ps1" "Hold on."
+& "$PSScriptRoot/_reply.ps1" "It's here."
 & "$PSScriptRoot/open-browser.ps1" "https://www.google.com/maps/place/$Location"
 exit 0 # success
