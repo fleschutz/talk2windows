@@ -11,11 +11,21 @@
 	Author: Markus Fleschutz | License: CC0
 #>
 
+function GetScreenshotsFolder {
+        if ($IsLinux) {
+                $Path = "$HOME/Pictures"
+		if (-not(Test-Path "$Path" -pathType container)) { throw "Pictures folder at $Path doesn't exist (yet)"	}
+		if (Test-Path "$Path/Screenshots" -pathType container) { $Path = "$Path/Screenshots" }
+        } else {
+                $Path = [Environment]::GetFolderPath('MyPictures')
+		if (-not(Test-Path "$Path" -pathType container)) { throw "Pictures folder at $Path doesn't exist (yet)" }
+		if (Test-Path "$Path\Screenshots" -pathType container) { $Path = "$Path\Screenshots" }
+        }
+	return $Path
+}
+
 try {
-	$Path = Resolve-Path "$HOME/Pictures/Screenshots"
-	if (-not(Test-Path "$Path" -pathType container)) {
-		throw "Screenshots folder at $Path doesn't exist (yet)"
-	}
+	$Path = GetScreenshotsFolder
 	& "$PSScriptRoot/open-file-explorer.ps1" "$Path"
 	exit 0 # success
 } catch {

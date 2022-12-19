@@ -2,9 +2,7 @@
 .SYNOPSIS
 	Saves a single screenshot
 .DESCRIPTION
-	This PowerShell script takes a single screenshot and saves it into a target folder (the user's pictures folder by default).
-.PARAMETER TargetFolder
-	Specifies the target folder (the user's pictures folder by default)
+	This PowerShell script takes a single screenshot and saves it into the user's screenshots folder.
 .EXAMPLE
 	PS> ./save-screenshot
 .NOTES
@@ -13,7 +11,18 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-param([string]$TargetFolder = "$HOME/Pictures")
+function GetScreenshotsFolder {
+        if ($IsLinux) {
+                $Path = "$HOME/Pictures"
+                if (-not(Test-Path "$Path" -pathType container)) { throw "Pictures folder at $Path doesn't exist (yet)"}
+                if (Test-Path "$Path/Screenshots" -pathType container) { $Path = "$Path/Screenshots" }
+        } else {
+                $Path = [Environment]::GetFolderPath('MyPictures')
+                if (-not(Test-Path "$Path" -pathType container)) { throw "Pictures folder at $Path doesn't exist (yet)" }
+                if (Test-Path "$Path\Screenshots" -pathType container) { $Path = "$Path\Screenshots" }
+        }
+        return $Path
+}
 
 function TakeScreenshot { param([string]$FilePath)
 	Add-Type -Assembly System.Windows.Forms            
@@ -27,15 +36,13 @@ function TakeScreenshot { param([string]$FilePath)
 }
 
 try {
-        if (-not(test-path "$TargetFolder" -pathType container)) {
-                throw "Target folder at $TargetFolder doesn't exist"
-        }
+	$TargetFolder = GetScreenshotsFolder
 	$Time = (Get-Date)
 	$Filename = "$($Time.Year)-$($Time.Month)-$($Time.Day)T$($Time.Hour)-$($Time.Minute)-$($Time.Second).png"
 	$FilePath = (Join-Path $TargetFolder $Filename)
 	TakeScreenshot $FilePath
 
-	& "$PSScriptRoot/_reply.ps1" "OK, saved to pictures folder."
+	& "$PSScriptRoot/_reply.ps1" "OK, saved into screenshots folder."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
