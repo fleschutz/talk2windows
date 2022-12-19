@@ -1,20 +1,21 @@
 ﻿<#
 .SYNOPSIS
-	Inserts the Copyright Symbol
+	Inserts the Euro sign
 .DESCRIPTION
-	This PowerShell script inserts the copyright symbol.
+	This PowerShell script inserts the Euro sign ('€').
 .EXAMPLE
-	PS> ./insert-copyright
-.NOTES
-	Author: Markus Fleschutz / License: CC0
+	PS> ./insert-euro-sign
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "Okay."
+
 	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("©")
+	$obj.SendKeys("€")
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

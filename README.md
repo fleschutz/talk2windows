@@ -48,7 +48,7 @@ Presses a keyboard shortcut to navigate in a browser window. Replace [shortcut] 
 
 📝 *"Windows, insert [character]"*
 ---------------------------------
-Inserts a character (or text) at the current text cursor position. Replace [character] by: `at`, `backslash`, `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `copyright`, `date`, `dollar`, `euro`, `good-bye`, `good morning`, `hashtag`, `heart`, `OK`, `shrugging`, `smiley`, `thumbs up`, or `trademark`.
+Inserts a character (or text) at the current text cursor position. Replace [character] by: `at sign`, `backslash`, `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `copyright sign`, `date`, `Dollar sign`, `Euro sign`, `good-bye`, `good morning`, `hashtag`, `heart`, `OK`, `Pound sign`, `shrugging`, `smiley`, `thumbs up`, `trademark sign`, or `Yen sign`.
 
 
 📋 *"Windows, open Google [service]"*

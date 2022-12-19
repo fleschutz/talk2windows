@@ -4,11 +4,11 @@
 .DESCRIPTION
 	This PowerShell script inserts the Dollar sign ('$').
 .EXAMPLE
-	PS> ./insert-dollar
-.NOTES
-	Author: Markus Fleschutz / License: CC0
+	PS> ./insert-dollar-sign
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {

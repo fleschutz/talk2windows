@@ -1,14 +1,14 @@
 ﻿<#
 .SYNOPSIS
-	Inserts the Trademark Symbol
+	Inserts the trademark sign
 .DESCRIPTION
-	This PowerShell script inserts the trademark symbol.
+	This PowerShell script inserts the trademark sign.
 .EXAMPLE
-	PS> ./insert-trademark
-.NOTES
-	Author: Markus Fleschutz / License: CC0
+	PS> ./insert-trademark-sign
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {

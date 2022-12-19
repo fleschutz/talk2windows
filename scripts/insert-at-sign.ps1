@@ -1,14 +1,14 @@
 ﻿<#
 .SYNOPSIS
-	Inserts the At Symbol
+	Inserts the at sign
 .DESCRIPTION
-	This PowerShell script inserts the at symbol at the current text cursor position.
+	This PowerShell script inserts the at sign ("@") at the current text cursor position.
 .EXAMPLE
-	PS> ./insert-at
-.NOTES
-	Author: Markus Fleschutz / License: CC0
+	PS> ./insert-at-sign
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
