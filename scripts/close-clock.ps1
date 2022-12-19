@@ -11,5 +11,6 @@
 	Author: Markus Fleschutz | License: CC0
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Okay."
 TaskKill /im Time.exe /f
 exit 0 # success
