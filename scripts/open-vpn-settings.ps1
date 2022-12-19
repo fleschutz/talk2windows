@@ -11,6 +11,6 @@
 	Author: Markus Fleschutz | License: CC0
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Just a moment."
+& "$PSScriptRoot/_reply.ps1" "Hold on."
 Start-Process ms-settings:network-vpn
 exit 0 # success
