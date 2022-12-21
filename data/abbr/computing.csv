@@ -1071,7 +1071,7 @@ ESMR,Enhanced Specialized Mobile Radio
 ESMTP,Extended Simple Mail Transfer Protocol
 ESP,event stream processing
 ESS,employee self-service
-ETL,extract, transform, load
+ETL,"extract, transform, load"
 ETM,Enterprise Transportation Management
 ETO,Engineer To Order
 ETP,Enterprise Transportation Planning
@@ -1092,7 +1092,6 @@ ExRCA,Exchange Remote Connectivity Analyzer
 EZ/EC,Empowerment Zone/Enterprise Community
 FA,Flexible Automation
 FACTA,Fair and Accurate Credit Transactions Act
-FAQ,frequently-asked questions
 FAR,Federal Acquisition Regulation
 FAS,Final Assembly Schedule
 FASAB,Federal Accounting Standards Advisory Board
@@ -1195,7 +1194,7 @@ FPS,First-Person Shooter
 fps,Frames Per Second
 FPT,Fine Pitch Technology
 FPU,Floating-Point Unit
-FQA,frequently questioned answers
+FQA,Frequently Questioned Answers
 FQDN,Fully Qualified Domain Name
 FR,Frame Relay
 FRA,Federal Railroad Administration
@@ -1298,7 +1297,6 @@ GPT,GUID Partition Table
 GPU,Graphics Processing Unit
 GRC,"governance, risk management and compliance"
 GRE,Generic Routing Encapsulation
-gRPC,general-purpose Remote Procedure Calls
 GRUB,GRand Unified Bootloader
 GSM,Global System for Mobile communication
 GSM,Microsoft System Center Global Service Monitor
@@ -1401,8 +1399,8 @@ HVD,holographic versatile disc
 HVD,hosted virtual desktop
 I&T,integration testing or integration and testing
 I/O,Input Output
-I18N,Internationalization
-IA,Internal Audit
+I18N,internationalization
+IA,internal audit
 IaaS,Infrastructure as a Service
 IAB,Internet Advertising Bureau
 IAB,Internet Architecture Board
@@ -1410,11 +1408,11 @@ IAM,identity access management
 IAM,integrated access management
 IANA,Internet Assigned Numbers Authority
 IAO,Information Awareness Office
-IAP,Internet Access Provider
+IAP,Internet access provider
 IAX,Inter-Asterisk Exchange Protocol
 IBM,International Business Machines
 IBP,integrated business planning
-IC,Integrated Circuit
+IC,integrated circuit
 IC-BPMS,integration-centric business process management suite
 ICANN,Internet Corporation for Assigned Names and Numbers
 ICE,In Case of Emergency
@@ -1426,7 +1424,7 @@ ICP,Internet commerce provider
 ICR,intelligent character recognition
 ICT,information and communications technology - or technologies
 ICT4D,Information and Communications Technologies for Development
-ID,Intrusion Detection
+ID,intrusion detection
 IDaaS,identity as a Service
 IDE,Integrated Development Environment
 IDE,Integrated Drive Electronics
@@ -1435,9 +1433,9 @@ IDEF,Integrated Definition
 iDEN,Integrated Digital Enhanced Network
 IDF,interface device
 IDIS,Integrated Disbursement and Information System
-IDL,Interface Definition Language
+IDL,interface definition language
 IDoc,intermediate document
-IDS,Intrusion Detection System
+IDS,intrusion detection system
 IE,Internet Explorer
 IEAK,Internet Explorer Administration Kit
 IEC,International Electrotechnical Commission
@@ -2615,7 +2613,6 @@ TPI,Total Profit Improvement
 TPM,Total Productive Maintenance
 TPM,Trusted Platform Module
 TPOP,Time-Phased Order Point
-TPU,Tensor Processing Unit
 TPS,terminal proxy server
 TQC,Total Quality Control
 TQM,Total Quality Management
