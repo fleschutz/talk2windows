@@ -26,7 +26,7 @@ param([string]$WakeWord = "Windows", [string]$FilePattern = "$PSScriptRoot/scrip
 function AddVoiceCmd { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
 	$Basename = $Basename -replace "-"," "
 	$ScriptPath = $ScriptPath -replace "\\","\\"
-	"serenade.global().command(`"$WakeWord $Basename`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$ScriptPath`"]);});" | Add-Content "$TargetFile"
+	"serenade.global().command(`"$WakeWord $Basename`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`",[`"-NoProfile`",`"$ScriptPath`"]);});" | Add-Content "$TargetFile"
 }
 
 function AddVoiceCmdWithArgument { param([string]$WakeWord, [string]$Basename, [string]$ScriptPath)
