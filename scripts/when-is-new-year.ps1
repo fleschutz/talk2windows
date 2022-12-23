@@ -1,14 +1,14 @@
 <#
 .SYNOPSIS
-	Checks the time until New Year
+	Answers to 'When is New Year?"
 .DESCRIPTION
 	This PowerShell script checks the time until New Year and replies by text-to-speech (TTS).
 .EXAMPLE
-	PS> ./check-new-year
-.NOTES
-	Author: Markus Fleschutz / License: CC0
+	PS> ./when-is-new-year
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
