@@ -1,36 +1,37 @@
-<#
+﻿<#
 .SYNOPSIS
 	Checks the DNS resolution 
 .DESCRIPTION
-	This PowerShell script checks the DNS resolution with frequently used domain names.
+	This PowerShell script measures and prints the DNS resolution speed by using 200 frequently used domain names.
 .EXAMPLE
 	PS> ./check-dns
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
  
 try {
 	& "$PSScriptRoot/_reply.ps1" "Hold on."
+	$Table = Import-CSV "$PSScriptRoot/../Data/frequent-domains.csv"
+	$NumRows = $Table.Length
 
 	$StopWatch = [system.diagnostics.stopwatch]::startNew()
-	$PathToRepo = "$PSScriptRoot/.."
-	$Table = Import-CSV "$PathToRepo/data/domain-names.csv"
-
-	foreach($Row in $Table) {
-		if ($IsLinux) {
-			$Ignore = nslookup $Row.Domain
-		} else {
-			$Ignore = resolve-dnsName $Row.Domain
-		}
+	if ($IsLinux) {
+		foreach($Row in $Table){$nop=dig $Row.Domain +short}
+	} else {
+		foreach($Row in $Table){$nop=Resolve-DNSName $Row.Domain}
 	}
-	[int]$Elapsed = $StopWatch.Elapsed.TotalSeconds
-	$Average = [math]::round($Table.Length / $Elapsed, 1)
+	[float]$Elapsed = $StopWatch.Elapsed.TotalSeconds
 
-	& "$PSScriptRoot/_reply.ps1" "$Average domains per second DNS resolution"
+	$Average = [math]::round($NumRows / $Elapsed, 1)
+	if ($Average -gt 10.0) {
+		& "$PSScriptRoot/_reply.ps1" "DNS resolves $Average domains per second"
+	} else {  
+		& "$PSScriptRoot/_reply.ps1" "DNS resolves only $Average domains per second!"
+	}
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
 	exit 1
 }
