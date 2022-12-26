@@ -1,47 +1,54 @@
-<#
+﻿<#
 .SYNOPSIS
 	Checks the swap space
 .DESCRIPTION
-	This PowerShell script determines the swap space details and replies by text-to-speech (TTS).
-.PARAMETER MinLevel
-	Specifies the minimum level (50 GB by default)
+	This PowerShell script checks the free swap space.
 .EXAMPLE
 	PS> ./check-swap-space
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
 #>
 
-param([int]$MinLevel = 50) # minimum level in GB
+param([int]$MinLevel = 10) # minimum level in GB
+
+function MB2String { param([int64]$Bytes)
+        if ($Bytes -lt 1000) { return "$($Bytes)MB" }
+        $Bytes /= 1000
+        if ($Bytes -lt 1000) { return "$($Bytes)GB" }
+        $Bytes /= 1000
+        if ($Bytes -lt 1000) { return "$($Bytes)TB" }
+        $Bytes /= 1000
+        if ($Bytes -lt 1000) { return "$($Bytes)PB" }
+        $Bytes /= 1000
+        if ($Bytes -lt 1000) { return "$($Bytes)EB" }
+}
 
 try {
-	if ($IsLinux) {
-		$Result = $(free --mega | grep Swap:)
-		[int]$Total = $Result.subString(5,14)
-		[int]$Used = $Result.substring(20,13)
-		[int]$Free = $Result.substring(31,12)
-	} else {
-		$Items = get-wmiobject -class "Win32_PageFileUsage" -namespace "root\CIMV2" -computername localhost 
-		foreach ($Item in $Items) { 
-			[int]$Total = $Item.AllocatedBaseSize
-			[int]$Used = $Item.CurrentUsage
-			[int]$Free = ($Total - $Used)
-		} 
-	}
-
-	if ($Total -eq "0") {
+	[int]$Total = [int]$Used = [int]$Free = 0
+	$Items = Get-WmiObject -class "Win32_PageFileUsage" -namespace "root\CIMV2" -computername localhost 
+	foreach ($Item in $Items) { 
+		$Total = $Item.AllocatedBaseSize
+		$Used = $Item.CurrentUsage
+		$Free = ($Total - $Used)
+	} 
+	if ($Total -eq 0) {
         	$Reply = "No swap space configured!"
-	} elseif ($Used -eq 0) {
-		$Reply = "No swap space in use, $Free GB are available."
+	} elseif ($Free -eq 0) {
+		$Reply = "Swap space of $(MB2String $Total) is full!"
 	} elseif ($Free -lt $MinLevel) {
-        	$Reply = "Swap space has only $Free GB left to use! ($Used of $Total GB used, minimum is $MinLevel GB)"
+		$Reply = "Swap space of $(MB2String $Total) is nearly full ($(MB2String $Free) free)!"
+	} elseif ($Used -eq 0) {
+		$Reply = "Swap space with $(MB2String $Total) reserved"
+	} elseif ($Used -lt $Free) {
+		$Reply = "Swap space uses $(MB2String $Used) of $(MB2String $Total)"
 	} else {
-		$Reply = "Swap space uses $Used of $Total GB total, $Free GB left to use."
+		$Reply = "Swap space has $(MB2String $Free) of $(MB2String $Total) free"
 	}
 	& "$PSScriptRoot/_reply.ps1" "$Reply"
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
 	exit 1
 }
