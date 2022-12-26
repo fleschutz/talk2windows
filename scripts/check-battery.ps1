@@ -14,18 +14,18 @@
 try {
 	Add-Type -Assembly System.Windows.Forms
 	$Details = [System.Windows.Forms.SystemInformation]::PowerStatus
+	switch ($Details.PowerLineStatus) {
+	"Online"  { $PowerStatus = "Plugged in to AC power" }
+	"Offline" { $PowerStatus = "No AC power" }
+	}
 	if ($Details.BatteryChargeStatus -eq "NoSystemBattery") {
 		$BatteryStatus = "No battery"
 	} else {
 		[int]$Percent = 100*$Details.BatteryLifePercent
 		[int]$Remaining = $Details.BatteryLifeRemaining / 60
-		$BatteryStatus = "Battery $Percent%, $Remaining min left"
+		$BatteryStatus = "$Percent% battery life, $Remaining min left"
 	}
-	switch ($Details.PowerLineStatus) {
-	"Online"  { $PowerStatus = "plugged in to AC power" }
-	"Offline" { $PowerStatus = "disconnected from AC power" }
-	}
-	& "$PSScriptRoot/_reply.ps1" "$BatteryStatus, $PowerStatus"
+	& "$PSScriptRoot/_reply.ps1" "$PowerStatus, $($BatteryStatus)."
 	exit 0 # success
 } catch {
 	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
