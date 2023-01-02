@@ -32,8 +32,8 @@ try {
 			if ($Row.Abbr -ne $abbr) { continue }
 			$Basename = (Get-Item "$File").Basename
 			if ($Basename -ne $PrevBasename) {
-				if ($PrevBasename -ne "") { $Text += ".`n" }
-				$Text += "In $Basename $(SpellAbbr $Row.Abbr) may refer to $($Row.Term)"
+				if ($PrevBasename -ne "") { $Text += ", or: " }
+				$Text += "$(SpellAbbr $Row.Abbr) may refer to $($Row.Term) in $Basename"
 			} else {
 				$Text += ", or: $($Row.Term)"
 			}
