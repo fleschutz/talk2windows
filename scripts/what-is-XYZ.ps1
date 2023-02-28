@@ -30,7 +30,7 @@ try {
 		$Table = Import-CSV "$File"
 		foreach($Row in $Table) {
 			if ($Row.Abbr -ne $abbr) { continue }
-			$Basename = (Get-Item "$File").Basename
+			$Basename = (Get-Item "$File").Basename -Replace "_"," "
 			if ($Basename -ne $PrevBasename) {
 				if ($PrevBasename -ne "") { $Text += ", or: " }
 				$Text += "$(SpellAbbr $Row.Abbr) may refer to $($Row.Term) in $Basename"

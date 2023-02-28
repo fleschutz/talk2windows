@@ -1,4 +1,4 @@
-Abbr,Term
+ABBR,TERM
 .7z,Common filename extension for archive files in 7z format
 .bat,Common filename extension for Batch script files
 .bz2,Common filename extension for archive files in bzip2 format
@@ -457,9 +457,8 @@ CCS,common channel signaling
 CCS,hundred call second or centum call second
 CCSP,Cisco Certified Security Professional
 CCTV,closed circuit television
-CD,burner CD recorder
 CD,cardholder data
-CD,compact disc
+CD,Continuous Delivery
 CD,Compact Disc
 CD-i,Compact Disc - interactive
 CD-MO,CD-Magneto Optical
@@ -2776,7 +2775,7 @@ VRM,"Vendor Risk Management, or Voltage Regulator Module"
 VRM,vendor risk management
 VRM,voltage regulator module
 VRML,Virtual Reality Modeling Language
-VRR,Voice Recognition and Response
+VRR,"Voice Recognition and Response, or Variable Refresh Rate"
 VRRP,Virtual Router Redundancy Protocol
 VSA,virtual SAN appliance
 VSA,Virtual Storage Appliance
