@@ -11,5 +11,6 @@
 	Author: Markus Fleschutz / License: CC0
 #>
 
+& "$PSScriptRoot/_reply.ps1" "Okay."
 & "$PSScriptRoot/open-browser.ps1" "https://login.hrworks.de/"
 exit 0 # success
