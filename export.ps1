@@ -42,16 +42,16 @@ function AddVoiceCmdDEBUG { param([string]$WakeWord, [string]$Keywords, [string]
 
 
 try {
-	"Step 1/4 - Checking requirements..."
+	"(1/4) Checking requirements..."
 	if (!(Test-Path "$HOME\.serenade" -pathType container)) { throw "The Serenade app is missing - please download and install it from serenade.ai" }
 
-	"Step 2/4 - Wake word is `'$WakeWord`'... (change this by specifying an argument)"
+	"(2/4) Using wake word: `'$WakeWord`' (change this by specifying an argument)..."
 	$WakeWord = $WakeWord.toLower()
 
 	$Scripts = Get-ChildItem "$FilePattern"
-	"Step 3/4 - Found $($Scripts.Count) voice phrases (PowerShell scripts) in subfolder `'scripts`'..."
+	"(3/4) Found $($Scripts.Count) voice phrases in subfolder `'scripts`' (each script is a voice phrase)..."
 
-	"Step 4/4 - Writing custom file to '$TargetFile'..."
+	"(4/4) Exporting custom file to '$TargetFile'..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$TargetFile"
 	foreach($Script in $Scripts) {
 		$Basename = $Script.basename
@@ -73,7 +73,7 @@ try {
 			AddVoiceCmd $WakeWord $Basename $Script 
 		}
 	}
-	"Export succeeded. Launch Serenade now and unpause it, then speak into the mic: `'$WakeWord, hi`'"
+	"OK, done. Launch Serenade now and unpause it, then speak into the mic: `'$WakeWord, hi`'."
 	exit 0 # success
 } catch {
 	Write-Error "ERROR: $($Error[0])"
