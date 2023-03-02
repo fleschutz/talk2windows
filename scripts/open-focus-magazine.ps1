@@ -11,6 +11,6 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Focus..."
+& "$PSScriptRoot/_reply.ps1" "Okay."
 & "$PSScriptRoot/open-browser.ps1" "https://www.focus.de"
 exit 0 # success
