@@ -1033,8 +1033,8 @@ EMS,Microsoft Exchange Management Shell
 ENISA,European Network and Information Security Agency
 EOF,End of File
 EoIP,Electricity over IP
-EOL,end of life
-EOM,end of message
+EOL,"End of Life, End of Line"
+EOM,End of Message
 EOP,Microsoft Exchange Online Protection
 EOQ,Economic Order Quantity
 EPA,Microsoft Exchange Server Profile Analyzer
@@ -2115,8 +2115,7 @@ PPM,"Pages per minute (a measurement of printing speed), Perl package manager (f
 PPP,Point-to-Point Protocol
 PPPoE,Point-to-Point Protocol over Ethernet
 PPTP,Point-to-Point Tunneling Protocol
-PR,Problem Report
-PR,Process Reengineering
+PR,"Problem Report, Process Reengineering"
 PRI,Primary Rate Interface
 PRM,partner relationship management
 PRNG,pseudo-random number generator
@@ -2325,8 +2324,7 @@ SAML,Security Assertion Markup Language
 SAN,storage area network
 SAPI,Speech Application Program Interface
 SAPPHIRE,SAP User Conference
-SAR,segmentation and reassembly
-SAR,Suspicious Activity Report
+SAR,"Segmentation and Reassembly, Suspicious Activity Report"
 SAS,serial-attached SCSI
 SASID,Self-Scanned Amorphous Silicon Integrated Display
 SAX,Simple API for XML

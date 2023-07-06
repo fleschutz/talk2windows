@@ -368,6 +368,7 @@ JAG,Judge Advocate General
 JAGIC,Joint Air-Ground Integration Center
 JAOC,Joint Air Operations Center
 JAOP,Joint Air Operations Plan
+JASDF,Japan Air Self Defense Force
 JAST,Joint Advanced Strike Technology
 JCN,Joint Communications Network
 JDAM,Joint Direct Attack Munition
@@ -393,9 +394,6 @@ JTB,Joint Transportation Board
 JTF,Joint Task Force
 JTIDS,Joint Tactical Information Distribution System
 JVSG,Jobs for Veterans State Grant
-KCAS,Calibrated AirSpeed (in Knots)
-KIAS,Knots Indicated AirSpeed
-KTAS,True AirSpeed in Knots
 LA,Lead Agent
 LABS,Low Altitude Bombing System
 LAD,Latest Arrival Date
@@ -442,7 +440,6 @@ MAXORD,Maximum Ordinate
 MBT,Main Battle Tank
 MCCS,Marine Corps Community Services
 MCM,Mine Countermeasures
-MCM,Mine Countermeasures
 MCRMC,Military Compensation and Retirement Modernization Commission
 MCSC,Managed Care Support Contract
 MCX,Marine Corps Exchange
@@ -459,11 +456,9 @@ MGIB-SR,Montgomery GI Bill Selected Reserve
 MHA,Military Housing Allowance
 MHA,Military Housing Area
 MHS,Military Health System
-MHS,Military Health System
 MIA,Missing in Action
 MIB,Military Intelligence Board
 MIDB,Modernized Integrated Database
-MILCON,military construction
 MILCON,Military Construction
 MILDEC,military deception
 MILDEP,Military Department
@@ -490,10 +485,10 @@ MPS,Military Postal Service
 MPSA,Military Postal Service Agency
 MR,Maritime Reconnaissance
 MRAV,Multi-Role Armored Vehicle
-MRBM,Medium Range Ballistic Missile
 MRBM,Medium-Range Ballistic Missile
 MRF,Military Retirement F
 MRR,Minimum-Risk Route
+MSAS,Mobility Support Advisory Squadron
 MSC,Military Sealift Command
 MSF,Mobile Security Force
 MSG,Master Sergeant
@@ -526,7 +521,6 @@ NFA,No-Fire Area
 NFL,No-Fire Line
 NFLS,Naval Forward Logistic Site
 NGFS,Naval Gunfire Support
-NGO,Nongovernmental Organization
 NIMS,National Incident Management System
 NLW,Nonlethal Weapon
 nm,Nautical Mile
@@ -660,7 +654,6 @@ SAC,Strategic Air Command
 SAFE kit,Sexual Assault Forensic Examination Kit
 SAM,Surface-to-Air Missile
 SAP,Special Access Program
-SAR,Search And Rescue
 SAR,Search and Rescue
 SAS,Special Air Service
 SBA,Small Business Administration
@@ -687,7 +680,7 @@ SLS,Shoot-Look-Shoot
 SMC,Specialized Military Condition
 SMG,SubMachine Gun
 SMU,Special Mission Unit
-SNAFU,Situation Normal, All 'Fouled' Up
+SNAFU,"Situation Normal, All 'Fouled' Up"
 SNAP,Supplemental Nutrition Assistance Program
 SOCOM,Special Operations Command
 SOF,Special Operations Forces
@@ -751,16 +744,11 @@ TSP,Thrift Savings Plan
 TSSAM,Tri-Service Stand-off Attack Missile
 TTT,Time to Target
 TU,Task Unit
-UA,Unmanned Aircraft
-UAS,Unmanned Aircraft System
-UAV,Unmanned Aerial Vehicle
-UCAV,Unmanned Combat Aerial Vehicle
 UCMJ,Uniform Code of Military Justice
 UCP,Unified Command Plan
 UCX,Unemployment Compensation for Ex-Servicemembers
 UDT,Underwater Demolition Team
 UETF,Unified Exchange Task Force
-UHF,Ultra-High Fequency (300MHz to 3 GHz)
 UIC,Unit Identification Code
 UJTL,Universal Joint Task List
 ULN,Unit Line Number
@@ -777,6 +765,7 @@ USMTF,United States Message Text Format
 USN,United States Navy
 USNS,United States Naval Ship
 USW,Undersea Warfare
+USSF,"United States Space Force, the space service branch of the United States Armed Forces"
 UTC,Unit Type Code
 UXO,Unexploded Explosive Ordnance
 V/STOL,Vertical or Short Take-Off and Landing
@@ -786,7 +775,6 @@ VANF,VA National Formulary
 VBIED,Vehicle-Borne Improvised Explosive Device
 VDU,Visual Display Unit
 VHA,Veterans Health Administration
-VHF,Very High Frequency (3 to 300MHz)
 VI,visual information
 VISA,Voluntary Intermodal Sealift Agreement
 VISN,Veterans Integrated Service Network
@@ -795,12 +783,11 @@ VSEL,Vickers Shipbuilding and Engineering LTD
 VSO,Veterans Service Organization
 VSTOL,Vertical Short Take-Off and Landing
 VTAS,"Voice, Throttle and Stick"
-VTOL,Vertical Take-Off and Landing
 WARM,Wartime Reserve Modes
 WARNORD,Warning Order
 WEZ,Weapon Engagement Zone
 WG,Working Group
-WIC,Women, Infants and Children
+WIC,"Women, Infants and Children"
 WLG,Washington Liaison Group
 WMD,Weapons of Mass Destruction
 WO,Warrant Officer
