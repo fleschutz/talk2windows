@@ -1,4 +1,4 @@
-ABBR,TERM
+ABBR,MEANING
 00A,Total Rf Heliport (USA)
 00AA,Aero B Ranch Airport (USA)
 00AK,Lowell Field (USA)
@@ -34575,7 +34575,7 @@ KAZO,Kalamazoo Battle Creek International Airport (USA)
 KB16,Whitfords Airport (USA)
 KB19,Biddeford Municipal Airport (USA)
 KB21,Sugarloaf Regional Airport (USA)
-KBAB,Beale Air Force Base (USA)
+KBAB,"Beale Air Force Base (Marysville, California, USA)"
 KBAD,Barksdale Air Force Base (USA)
 KBAF,Westfield-Barnes Regional Airport (USA)
 KBAK,Columbus Municipal Airport (USA)
@@ -36281,7 +36281,7 @@ KLLR,Little River Airport (USA)
 KLLU,Lamar Municipal Airport (USA)
 KLMO,Vance Brand Airport (USA)
 KLMS,Louisville Winston County Airport (USA)
-KLMT,Crater Lake-Klamath Regional Airport (USA)
+KLMT,"Crater Lake-Klamath Regional Airport (Oregon, USA)"
 KLNA,Palm Beach County Park Airport (USA)
 KLNC,Lancaster Airport (USA)
 KLND,Hunt Field (USA)

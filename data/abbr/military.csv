@@ -1,4 +1,4 @@
-ABBR,TERM
+ABBR,MEANING
 AA,Air-to-Air
 AA,Anti-Aircraft
 AAA,Anti-Aircraft Artillery
@@ -361,6 +361,7 @@ IRR,Individual Ready Reserve
 IRS,Inertial Reference System
 IRST,Infra-Red Search-and-Track
 ISOPREP,Isolated Personnel Report
+ISW,Institute for the Study of War
 IT,Information Technology
 JA,Judge Advocate
 JAAT,Joint Air Attack Team
@@ -523,7 +524,6 @@ NFLS,Naval Forward Logistic Site
 NGFS,Naval Gunfire Support
 NIMS,National Incident Management System
 NLW,Nonlethal Weapon
-nm,Nautical Mile
 NMCS,National Military Command System
 NMCS,Not Mission Capable, Supply
 NMS,National Military Strategy
@@ -573,6 +573,7 @@ PCM,Primary Care Manager
 PCS,Permanent Change of Station
 PD,Probability of Damage
 PDRL,Permanently Disabled Retired List
+PEGASUS,Persistent German Airborne Surveillance System
 PFC,Private First Class
 PFM,Personal Financial Management
 PFT,Physical Fitness Test
@@ -754,7 +755,6 @@ UJTL,Universal Joint Task List
 ULN,Unit Line Number
 USAAC,United States Army Air Corps
 USAAF,United States Army Air Forces
-USAF,United States Air Force
 USAFE,United States Air Force in Europe
 USCG,United States Coast Guard
 USDA,U.S. Department of Agriculture

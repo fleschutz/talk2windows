@@ -1,4 +1,4 @@
-ABBR,TERM
+ABBR,MEANING
 .7z,Common filename extension for archive files in 7z format
 .bat,Common filename extension for Batch script files
 .bz2,Common filename extension for archive files in bzip2 format
@@ -55,7 +55,7 @@ ABBR,TERM
 3NF,Third Normal Form
 3PL,third-party logistics
 3PV,Peak Player Production Values
-3Vs,volume, variety and velocity
+3Vs,"volume, variety and velocity"
 4-D,printing four-dimensional printing
 40GbE,40 Gigabit Ethernet
 42,"the answer to the ultimate question of life, the universe, and everything (from 'The Hitchhiker's Guide to the Galaxy' by Douglas Adams)"
@@ -237,7 +237,7 @@ ASCII,American Standard Code for Information Interchange
 ASD,agile software development
 ASE,Adaptive Server Enterprise
 ASF,Apache Software Foundation
-ASHRAE,American Society of Heating, Refrigerating, and Air-Conditioning Engineers
+ASHRAE,"American Society of Heating, Refrigerating, and Air-Conditioning Engineers"
 ASIC,application-specific integrated circuit
 ASIO,Audio Stream Input/Output
 ASLR,address space layout randomization
@@ -323,9 +323,7 @@ BGP,Border Gateway Protocol
 BHIE,Bidirectional Health Information Exchange
 BI,business intelligence
 BIA,business impact analysis
-BIC,bank identifier code
-BIC,Best In Class
-BIC,business information center
+BIC,"bank identifier code, Best In Class, business information center"
 BICC,Bearer Independent Call Control
 BICC,business intelligence competency center
 BIOS,Basic Input/Output System
@@ -357,7 +355,7 @@ BPM,business process management
 BPMI,Business Process Management Initiative
 BPML,Business Process Modeling Language
 BPMN,Business Process Modeling Notation
-BPMS Business process management suite
+BPMS,Business process management suite
 BPO,business process outsourcing
 BPR,Business Process Reengineering
 bps,bit/sec bits per second
@@ -466,7 +464,7 @@ CD,Continuous Delivery
 CD,Compact Disc
 CD-i,Compact Disc - interactive
 CD-MO,CD-Magneto Optical
-CD-R,compact disc, recordable
+CD-R,"compact disc, recordable"
 CD-ROM XA,"Compact Disc - read-only-memory, extended architecture"
 CD-RW,"compact disc, rewriteable"
 CDA,Clinical Document Architecture
@@ -493,7 +491,6 @@ CEBP,communications-enabled business processes
 CELL,Cell processor
 CEM,customer experience management
 CEMS,Contract Electronic Manufacturing Services
-CEO,Chief Executive Officer
 CEP,complex event processing
 CERCLA,"Comprehensive Environmental Response, Compensation and Litigation Act"
 CERN,Conseil Europeen pour la Recherche Nucleaire
@@ -613,7 +610,7 @@ CONUS,continental United States
 COO,Cell of Origin
 COO,Chief Operating Officer
 COO,Cost of Ownership
-COPE,corporate-owned, personally-enabled
+COPE,"corporate-owned, personally-enabled"
 COPPA,Children's Online Privacy Protection Act
 COPS,Common Open Policy Service Protocol
 CORBA,Common Object Request Broker Architecture
@@ -645,7 +642,7 @@ CQE,Certified Quality Engineer
 CR,cognitive radio
 CRA,customer relationship analysis
 CRAC,computer room air conditioning unit
-CRAH computer room air handler
+CRAH,computer room air handler
 CRAM,challenge-response authentication mechanism
 CRC,Cyclic Redundancy Check
 CRL,Certificate Revocation List
@@ -668,14 +665,14 @@ CSMA,Carrier Sense Multiple Access
 CSO,Chief Security Officer
 CSO,Chief Strategy Officer
 CSP,Commerce Service Provider
-CSR Certificate Signing Request
+CSR,Certificate Signing Request
 CSR,Carrier Sensitive Routing
 CSR,corporate social responsibility
 CSS,Cascading Style Sheets
 CSS,Content Scrambling System
 CSS,customer self-service
 CSS,customer service and support
-CSS1,Cascading Style Sheet, level 1
+CSS1,"Cascading Style Sheet, level 1"
 CSU/DSU,Channel Service Unit/Data Service Unit
 CSV,Cluster Shared Volumes
 CSV,Comma Separated Values (a file format)
@@ -727,7 +724,6 @@ DAML,DARPA Agent Markup Language
 DAO,Data Access Objects
 DAQ,Data Acquisition
 DARC,Defense Acquisition Regulatory Council
-DARPA,Defense Advanced Research Projects Agency
 DAS,direct-attached storage
 DAS,distributed antenna system
 DASD,direct access storage device
@@ -914,7 +910,7 @@ DTP,Distributed Transaction Processing
 DTR,data transfer rate
 DTTV,digital terrestrial television
 DTV,digital television
-DTX discontinuous transmission 
+DTX,discontinuous transmission 
 DUNDi,Distributed Universal Number Discovery
 Duqu,W32.Duqu
 DUT,Device Under Test
@@ -946,7 +942,7 @@ EAP,Extensible Authentication Protocol
 EB,exabyte
 EBCDIC,Extended Binary Coded Decimal Interchange Code
 EBIF,Enhanced TV Binary Interchange Format
-EBITDA,earnings before interest, taxes, depreciation, and amortization
+EBITDA,"earnings before interest, taxes, depreciation, and amortization"
 EBPP,electronic bill presentment and payment
 EBR,Electronic Batch Record
 ebXML,electronic business xml
@@ -971,10 +967,10 @@ ECRC,Electronic Commerce Resource Center
 EDA,Electronic Document Access
 EDA,event-driven architecture
 EDE,electronic disposal efficiency
-EDGAR,Electronic Data Gathering, Analysis and Retrieval
+EDGAR,"Electronic Data Gathering, Analysis and Retrieval"
 EDGE,Enhanced Data GSM Environment
 EDI,Electronic Data Interchange
-EDIFACT,Electronic Data Interchange for Administration, Commerce and Transport
+EDIFACT,"Electronic Data Interchange for Administration, Commerce and Transport"
 EDL,enhanced driver's license
 EDM,Electrical Discharge Machine or Machining
 EDM,Electronic Document Management
@@ -1013,7 +1009,7 @@ ELED,entangled light-emitting diode
 ELF,extremely low frequency
 ELM,event log manager 
 ELMS,Event log management software
-ELT,Extract, Load, Transform
+ELT,"Extract, Load, Transform"
 ELV,End of Life Vehicle
 EMAS,Eco-Management and Audit Scheme
 EMC,Exchange Management Console
@@ -1251,7 +1247,6 @@ GCC,GNU Compiler Collection
 GDDR,Graphics Double Data Rate
 GDI,Graphics Device Interface
 GDMO,Guidelines for Definition of Managed Objects
-GDP,Gross Domestic Product
 GDPR,General Data Protection Regulation
 GEM,Generic Equipment Model
 GEM,Graphics Environment Manager
@@ -1522,8 +1517,6 @@ ISRS,information storage and retrieval system
 ISSU,in-service software upgrade
 ISV,Independent Software Vendor
 IT,Information Technology
-n Technology Agremeement
-positive test/positive test/IT-ISAC,Information Technology Information Sharing and Analysis Center
 ITAA,Information Technology Association of America
 ITaaS,IT as a Service
 ITAC,International Telework Association and Council
@@ -1644,6 +1637,7 @@ LMS,learning management system
 LNA,Local Noise Amplifier
 LNP,Local Number Portability
 LOB,line-of-business
+LOC,Lines Of Code
 LOINC,Logical Observation Identifiers Names and Codes
 LOM,lights-out management
 LP,Lean Production
@@ -1716,7 +1710,7 @@ MFT,managed file transfer
 MFT,master file table
 MGCP,Media Gateway Control Protocol
 MHP,Multimedia Home Platform
-MIB management information base 
+MIB,management information base 
 MIC,microwave integrated circuit
 MICR,magnetic ink character recognition
 MID,mobile Internet device
@@ -1748,6 +1742,7 @@ MOM,Manufacturing operation management
 MOOC,massive open online course
 MOS,mean opinion score
 MOSFET,metal-oxide semiconductor field-effect transistor
+MOSH,mobile shell
 MOSPF,Multicast Open Shortest Path First
 MOSS,Microsoft Office SharePoint Server
 MOU,memorandum of understanding
@@ -1784,15 +1779,12 @@ MSS,maximum segment size
 MSS,mobile satellite services
 MSSP,managed security service provider
 MT,medical transcription
-MTBF,mean time between failures
 MTO,Make To Order
 Mtops,million theoretical operations per second
 MTPOD,maximum tolerable period of disruption
 MTS,Make To Stock
 MTS,medical transcription software
 MTS,Microsoft Transaction Server
-MTTR,mean time to repair
-MTTR,Mean Time To Restore
 MTU,maximum transmission unit
 MUA,mail user agent
 MUD,Multi-User Dungeon
@@ -1884,6 +1876,7 @@ NSAPI,Netscape Server Application Programming Interface
 NSIS,Next Steps in Signaling
 NSP,network service provider
 NT1,network terminator 1
+NTIA,"(U.S.) National Telecommunications and Information Administration"
 NTFS,New Technology File System
 NTP,Network Time Protocol
 NTR,Normal Trade Relations
@@ -2148,6 +2141,7 @@ QAM,quadrature amplitude modulation
 QB,Quality Breakdown
 QBE,Query by Example
 QC,Quality Control
+QD,Quantum Dots
 QDOS,86-DOS
 QFE,Quad FastEthernet
 QFE,Quick Fix Engineering
@@ -2302,6 +2296,7 @@ RUP,Rational Unified Process
 RWU,remote wakeup
 RZ,return-to-zero
 S&OP,sales and operations planning
+S/FTP,Screened Foil Twisted Pair
 S-HTTP,Secure HTTP
 S.M.A.R.T.,Self-Monitoring Analysis & Reporting Technology
 S/MIME,Secure Multi-Purpose Internet Mail Extensions
@@ -2331,6 +2326,7 @@ SAX,Simple API for XML
 SBAs,search-based applications
 SBC,session border controller
 SBIR,Small Business Innovative Research
+SBOM,Software bill of materials
 SBR,skill-based routing
 SC,sunk cost
 SC,supply chain
@@ -2392,6 +2388,7 @@ SFA,single-factor authentication
 SFF,small form factor
 SFP,small form-factor pluggable
 SFS,stepless frequency control
+SFTP,Secure File Transfer Protocol
 SFX,special effects
 SGA,"Selling, General and Administrative expenses"
 SGF,Structured Graph Format
@@ -2508,7 +2505,6 @@ SS7,Signaling System 7
 SSA,Serial Storage Architecture
 SSADM,Structured Systems Analysis & Design Method
 SSD,Solid-State Drive
-SSD,solid-state drive
 SSH,Secure Shell
 SSI,server-side include
 SSI,single-system image
@@ -2551,7 +2547,6 @@ SWAT,Samba Web Administration Tool
 SWF,Shockwave Flash file
 Swift,Programming language released in 2014 by Apple Inc.
 SWIFT,Simulated Work Input and Flow Time
-SWIFT,Society for the Worldwide Interbank Financial Telecommunication
 SWOT,"Strengths, Weakness, Opportunity and Threats Analysis"
 sysadmin,system administrator
 sysop,system operator
@@ -2618,7 +2613,8 @@ TPI,Total Profit Improvement
 TPM,Total Productive Maintenance
 TPM,Trusted Platform Module
 TPOP,Time-Phased Order Point
-TPS,terminal proxy server
+TPS,Terminal Proxy Server
+TPU,Tensor Processing Unit
 TQC,Total Quality Control
 TQM,Total Quality Management
 TRI,Toxic Release Inventory
@@ -2680,6 +2676,7 @@ USB,Universal Serial Bus
 USGCB,United States Government Configuration Baseline
 USITC,United States International Trade Commission
 USP,unique selling point
+USR,"Universal System Resources (the /usr directory in a *NIX filesystem)"
 USSD,Unstructured Supplementary Service Data
 USSS,United States Secret Service
 UTF,Unicode Transformation Format
@@ -2800,6 +2797,7 @@ VSTO,Visual Studio Tools for Office or Microsoft Visual Studio Tools
 VSTS,Visual Studio Team System
 VTAM,Virtual Telecommunications Access Method
 VTL,Virtual Tape Library
+VUGM,Virtual User Group Meeting
 VUM,VMware vSphere Update Manager
 VXLAN,Virtual Extensible LAN
 W-CDMA,Wideband Code-Division Multiple Access
@@ -2858,7 +2856,7 @@ WIM,Windows Imaging Format
 WiMAX,Worldwide Interoperability for Microwave Access
 WIMP,"windows, icons, mouse, and pull-down menus"
 WIMP,Woefully Inept Manufacturing Process
-WinDirStat Windows Directory Statistics
+WinDirStat,Windows Directory Statistics
 Wine,Wine is not an emulator
 WinFS,Windows File System
 WinFX,.NET 3.0
@@ -2872,29 +2870,31 @@ WMI,Windows Management Instrumentation
 WMIC,Windows Management Instrumentation Command line
 WML,Wireless Markup Language
 WMM,Wi-Fi Multimedia
-WMN,wireless mesh network
+WMN,Wireless Mesh Network
 WMP,Windows Media Player
 WMS,Warehouse Management System
-WMTS,wireless medical telemetry services
+WMTS,Wireless Medical Telemetry Services
 WORA,"write once, run anywhere"
 WORM,"write once, read many"
 WPA,Wi-Fi Protected Access
 WPA,Windows Product Activation
 WPAD,Web Proxy Autodiscovery
-WPAN,wireless personal area network
+WPAN,Wireless Prsonal Area Network
 WPAS,Windows Process Activation Service
 WPF,Windows Presentation Foundation
 WRAM,Window RAM
+WSA,Windows Subsystem for Android
 WSCI,Web Service Choreography Interface
 WSD,white space device
 WSDL,Web Services Description Language
 WSFC,Windows Server Failover Clustering
-WSP,wireless service provider
+WSL,Windows Subsystem for Linux
+WSP,Wireless Service Provider
 WSS,Windows Sharepoint Services
 WSTx,Web Services Transactions
 WSUS,Windows Server Update Services 
 WTLS,Wireless Transport Layer Security
-WTS,Microsoft Windows Terminal Server
+WTS,Windows Terminal Server
 WUE,water usage effectiveness
 WUSB,wireless USB
 WWN,World Wide Name
@@ -2936,7 +2936,7 @@ XYZ,Internet top-level domain (.xyz) released in 2014
 Y2K,year 2000
 yacc,yet another compiler compiler
 YMS,yard management system
-YUM,Yellowdog Updater, Modified
+YUM,"Yellowdog Updater, Modified"
 ZBR,zoned-bit recording
 ZBT,zero-based thinking
 ZIF,Zero Insertion Force 
