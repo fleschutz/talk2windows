@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Explains an Abbreviation
+	Explains an abbreviation
 .DESCRIPTION
 	This PowerShell script explains the meaning of the given abbreviation by text-to-speech (TTS).
 .EXAMPLE
@@ -48,6 +48,6 @@ try {
 	}
 	exit 0 # success
 } catch {
-	Reply "Sorry: $($Error[0])"
+	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 	exit 1
 }
