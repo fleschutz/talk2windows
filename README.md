@@ -1,6 +1,6 @@
-TALK2WINDOWS®
-=============
-This repo adds voice recognition and voice commands to control the Windows desktop. Using your voice besides keyboard and mouse increases your productivity and is really cool. 
+TALK2WINDOWS
+============
+This repo adds voice recognition and voice commands to control the Windows® desktop. Using your voice besides keyboard and mouse increases your productivity and is really awesome. 
 
 🔧 Installation
 ----------------
@@ -9,7 +9,7 @@ Required is Windows 10 or 11, a headset (or microphone and loudspeaker), and the
 1. Download the free *Serenade* application from https://serenade.ai and install it (during installation no plugin and no programming language need to be selected). Close *Serenade* when finished.
 2. Download the *talk2windows* ZIP file from [https://github.com/fleschutz/talk2windows/archive/master.zip]( https://github.com/fleschutz/talk2windows/archive/master.zip) and unzip it.
 3. Open *Windows PowerShell (Administrator)* and execute: `Set-ExecutionPolicy RemoteSigned` to allow execution of PowerShell scripts.
-4. Open *Windows PowerShell* and execute: `./export.ps1` in the unzipped *talk2windows* folder. 
+4. Open *Windows PowerShell* and execute: `./export.ps1` in the unzipped *talk2windows* folder. This exports the voice commands with default wake word 'Windows' to Serenade.
 
 Usage
 -----
