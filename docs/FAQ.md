@@ -8,7 +8,7 @@ PowerShell is a task automation and configuration management framework from Micr
 
 How to get PowerShell?
 ----------------------
-* **Windows 7 and newer** provide PowerShell by default. However, script execution is **disallowed by default** (execution policy is "restricted"). To enable this, enter as administrator:
+* **Windows 7 and newer** provide PowerShell by default. However, script execution is **disallowed by default** (execution policy is "restricted"). To enable this, enter in a terminal window as administrator:
    ```
    PS> Set-ExecutionPolicy RemoteSigned
    ```
@@ -21,7 +21,13 @@ How to get the Repository?
 
 How to add the scripts to the search path?
 ------------------------------------------
-Open the environment variables dialogue and add the full path to Scripts/ to the system environment variable "Path"
+Open the environment variables dialogue and add the full path to Scripts/ to the system environment variable "Path".
+
+
+How to improve the voice recognition rate?
+------------------------------------------
+1. Place the microphone right and check the microphone in the sound settings. The loudness should have short spikes up to 100%.
+2. Use another wake word than 'Windows', e.g. 'Alexa' or 'Siri'. 
 
 
 Want to contribute or found a bug or issue?
