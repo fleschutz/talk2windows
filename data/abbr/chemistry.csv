@@ -1,4 +1,4 @@
-ABBR,MEANING
+TERM,MEANING
 A,Atom
 a,atto prefix (10-18)
 AA,Acetic Acid
@@ -425,7 +425,6 @@ HOAc,Acetic Acid
 HOMO,Highest Occupied Molecular Orbital
 HOQS,Highest Occupied Quantum State
 HP,High Pressure
-hp,horsepower
 HPHT,High Pressure/High Temperature
 HPLC,High Pressure Liquid Chromatography
 HPPT,High Pressure Phase Transformation
@@ -458,8 +457,7 @@ IAEA,International Atomic Energy Agency
 IAQ,Indoor Air Quality
 IB,Ion Balance
 IC,Ice Crystals
-ICE,"Initial, Change, Equilibrium"
-ICE,Internal Combustion Engine
+ICE,"Initial, Change, Equilibrium, or: Internal Combustion Engine"
 ICP,Inductively Coupled Plasma
 ICSC,International Chemical Safety Card
 ICSD,Inorganic Crystal Structure Database
@@ -927,7 +925,6 @@ RO,Reverse Osmosis
 ROHS,Restriction Of Hazardous Substances
 ROS,Reactive Oxygen Species
 ROWPU,Reverse Osmosis Water Purification Unit
-RPM,Revolutions Per Minute
 RPT,Repeat
 RSC,Royal Society of Chemistry
 RT,Energy (Rydberg Constant x Temperature)

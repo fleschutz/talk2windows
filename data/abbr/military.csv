@@ -1,4 +1,4 @@
-ABBR,MEANING
+TERM,MEANING
 AA,Air-to-Air
 AA,Anti-Aircraft
 AAA,Anti-Aircraft Artillery
@@ -87,8 +87,11 @@ ASV,Anti-Surface Vessel
 ASVAB,Armed Services Vocational Aptitude Battery
 ASW,Anti-Submarine Warfare
 AT,Anti-Tank
+ATACMS,Army TACtical Missile System
+ATAS,Air-To-Air Stinger (missile)
 ATBM,Anti-Tactical Ballistic Missile
 ATCS,Air Traffic Control Section
+ATCCIS,Army Tactical Command and Control Information System
 ATGW,Anti-Tank Guided Weapon
 ATR,Anti-Tank Rifle
 AUW,All-Up Weight
@@ -432,6 +435,7 @@ MAAP,Master Air Attack Plan
 MAC,Military Airlift Command
 MACH,Measure of Airspeed (Mach 1 = 1,223 kph/760 mph at sea level)
 MAD,Magnetic Anomaly Detector
+MADIS,Marine Air Defense Integrated System
 MAJ,Major
 MAP,Medical Advisory Panel
 MAP,Military Assistance Program
@@ -529,6 +533,7 @@ NMCS,Not Mission Capable, Supply
 NMS,National Military Strategy
 NOC,National Operations Center
 NOE,Nap of the Earth
+NORAD,North American Aerospace Defense Command (formerly North American Air Defense Command)
 NSC,National Security Council
 NSFS,Naval Surface Fire Support
 NSL,No-Strike List
@@ -614,7 +619,7 @@ R&D,Research & Development
 R&R,Rest and Recuperation
 RA,Risk Assessment
 RAAWS,Radar Altimeter and Altitude Warning System
-RAM,Radar Absorbing Material
+RAM,"Radar Absorbing Material, Rolling Airframe Missile"
 RAST,Recovery Assist, Secure and Traverse system
 RATO,Rocket-Assisted Take-Off
 RC,Reserve Component
@@ -638,8 +643,6 @@ ROE,Rules of Engagement
 ROZ,Restricted Operations Zone
 RP,Rocket Propelled
 RPG,Rocket Propelled Grenade
-RPM,Revolutions Per Minute
-RPM,Rounds Per Minute
 RPV,Remotely-Piloted Vehicle
 RR,Reattack Recommendation
 RRCC,Regional Response Coordination Center

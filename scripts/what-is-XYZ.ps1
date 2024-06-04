@@ -1,17 +1,18 @@
 <#
 .SYNOPSIS
-	Explains an abbreviation
+	Explains a term/abbreviation/etc.
 .DESCRIPTION
 	This PowerShell script explains the meaning of the given abbreviation by text-to-speech (TTS).
 .EXAMPLE
 	PS> ./what-is-XYZ ECC
-.NOTES
-	Author: Markus Fleschutz / License: CC0
 .LINK
 	https://github.com/fleschutz/talk2windows
+.NOTES
+	Author: Markus Fleschutz | License: CC0
+
 #>
 
-param([string]$abbr = "")
+param([string]$term = "")
 
 function SpellAbbr { param([string]$Text)
 	[char[]]$ArrayOfChars = $Text
@@ -23,28 +24,28 @@ function SpellAbbr { param([string]$Text)
 }
 
 try {
-	$Files = (Get-ChildItem "$PSScriptRoot/../data/abbr/*.csv")
+	$files = (Get-ChildItem "$PSScriptRoot/../data/abbr/*.csv")
 	$Text = ""
 	$PrevBasename = ""
-	foreach($File in $Files) {
-		$Table = Import-CSV "$File"
-		foreach($Row in $Table) {
-			if ($Row.Abbr -ne $abbr) { continue }
-			$Basename = (Get-Item "$File").Basename -Replace "_"," "
-			if ($Basename -ne $PrevBasename) {
+	foreach($file in $files) {
+		$table = Import-CSV "$file"
+		foreach($row in $table) {
+			if ($row.TERM -ne $term) { continue }
+			$basename = (Get-Item "$file").Basename -Replace "_"," "
+			if ($basename -ne $PrevBasename) {
 				if ($PrevBasename -ne "") { $Text += ", or: " }
-				$Text += "$(SpellAbbr $Row.Abbr) may refer to $($Row.Term) in $Basename"
+				$Text += "$(SpellAbbr $row.TERM) in $basename refers to $($row.MEANING) "
 			} else {
-				$Text += ", or: $($Row.Term)"
+				$Text += ", or: $($row.MEANING)"
 			}
-			$PrevBasename = $Basename
+			$PrevBasename = $basename
 		}
 	}
 	if ($Text -ne "") {
 		& "$PSScriptRoot/_reply.ps1" $Text
 	} else {
-		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $abbr) is unknown to me."
-		& "$PSScriptRoot/open-google-search.ps1" $abbr
+		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $term) is unknown to me."
+		& "$PSScriptRoot/open-google-search.ps1" $term
 	}
 	exit 0 # success
 } catch {

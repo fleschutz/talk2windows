@@ -1,10 +1,8 @@
-ABBR,MEANING
+TERM,MEANING
 3M,The Minnesota Mining and Manufacturing Company
 A&W,Allen and Wright (founders Roy Allen and Frank Wright)
 AATF,"American Association of Teachers of French, or: African Agricultural Technology Foundation"
-ABC,American Broadcasting Corporation
-ABC,Associated British Corporation
-ABC,Australian Broadcasting Corporation
+ABC,"American Broadcasting Corporation, Associated British Corporation, Australian Broadcasting Corporation"
 ACLU,American Civil Liberties Union
 ADB,Asian Development Bank
 AIIB,Asian Infrastructure Investment Bank
@@ -15,7 +13,8 @@ BMW, Bavarian Motor Works
 BND,Bundesnachrichtendienst (Germany)
 BVD, Bradley, Voorhees, and Day
 CERN,European Organization for Nuclear Research
-DHS,U.S. Department of Homeland
+CIA,U.S. Central Intelligence Agency
+CPUC,California Public Utilities Commission
 DOC,U.S. Department of Commerce
 DOD,U.S. Department of Defense
 DOE,U.S. Department of Energy
@@ -40,22 +39,21 @@ IMF,International Monetary Fund
 ISO,International Organization for Standardization
 J&J,Johnson & Johnson
 JBL, James Bullough Lansing
-JPL, NASA Jet Propulsion Laboratory
 L.L. Bean, Leon Leonwood Bean
 LAPD,Los Angeles Police Department
 LBA,Luftfahrtbundesamt (German aviation agency)
 M&M, Mars & Murrie’s
 MILF,Moro Islamic Liberation Front
-MIT,Massachusetts Institute of Technology
 NASA,National Aeronautics and Space Administration
-NATO,North Atlantic Treaty Organization
 NBC,National Broadcasting Company
 NIST,U.S. National Institute of Standards and Technology
 NIWA,National Institute of Water and Atmospheric Research Limited
 NHTSA,U.S. National Highway Traffic Safety Administration
-NORAD,North American Aerospace Defense Command (formerly North American Air Defense Command)
+NSA,U.S. National Security Agency
 NYPD,New York Police Department
 OECD,Organization for Economic Cooperation & Development
+ONCD,Office of the National Cyber Director
+RSF,Reporters Sans Frontières (French for: Reporters Without Borders)
 SAARC,South Asian Association for Regional Cooperation
 TREAS,U.S. Department of the Treasury
 ULA,United Launch Alliance
