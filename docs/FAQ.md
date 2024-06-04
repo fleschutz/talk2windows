@@ -1,5 +1,5 @@
-TALK 2 WINDOWS FAQ
-==================
+TALK2WINDOWS FAQ
+================
 
 What is PowerShell?
 -------------------
