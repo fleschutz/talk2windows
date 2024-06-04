@@ -39,4 +39,4 @@ Or even better: Fork the repository, add or fix the script and submit a pull req
 
 Your question is not answered here?
 -----------------------------------
-Send your question to: markus [at] fleschutz [dot] de
+Send your question by e-mail to: markus.fleschutz [at] gmail [dot] com.
