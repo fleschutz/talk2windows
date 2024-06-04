@@ -1,6 +1,6 @@
 TALK2WINDOWS
 ============
-This repo adds voice recognition and voice commands to control the Windows® desktop. Using your voice besides keyboard and mouse increases your productivity and is really awesome. 
+This repo adds recognition of voice commands to control the Windows® desktop. Using your voice besides keyboard and mouse increases your productivity and is really awesome. 
 
 🔧 Installation
 ----------------
