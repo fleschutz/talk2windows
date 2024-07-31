@@ -20,7 +20,7 @@ The following voice commands are currently supported:
 
 👋 *"Windows, [greeting]"*
 ---------------------------
-Say hello to Windows, simply replace [greeting] by: `good afternoon`, `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy holidays`, `happy mother's day`, `happy new year`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hey`, `hi`, `howdy`, `merry christmas`, `morning`, `nice to meet you`, `say hello`, or `you alright?`.
+Say hello to Windows, just replace [greeting] by: `good afternoon`, `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy holidays`, `happy mother's day`, `happy new year`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hey`, `hi`, `howdy`, `merry christmas`, `morning`, `nice to meet you`, `say hello`, or `you alright?`.
 
 🔧 *"Windows, install [app]"*
 -----------------------------
