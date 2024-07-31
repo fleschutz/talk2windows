@@ -13,14 +13,14 @@ Required is Windows 10 or 11, a headset (or mic + loudspeaker), and the free Ser
 
 Usage
 -----
-1. Launch the *Serenade* app and click the slider to switch from *Paused* to *Listening* mode (raise the mic audio level in case a *'low voice'* is shown).
-3. Speak the voice command **"*Windows, open calculator*"** into the mic (this executes the script `open-calculator.ps1` which launches the calculator app)
+1. Launch the *Serenade* app and click the slider to switch from *Paused* to *Listening* mode. Raise the mic audio level in case a *'low voice'* is shown.
+3. Speak the voice command **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `open-calculator.ps1` which launches the calculator app.
  
 The following voice commands are currently supported:
 
 👋 *"Windows, [greeting]"*
 ---------------------------
-Say hello to Windows, simply replace [greeting] by: `good afternoon`, `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy holidays`, `happy mother's day`, `happy new year`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hey`, `hi`, `howdy`, `merry christmas`, `morning`, `nice to meet you`, `say hello`, or `you alright?`.
+Say hello to Windows, just replace [greeting] by: `good afternoon`, `good evening`, `good morning`, `good night`, `happy christmas`, `happy easter`, `happy father's day`, `happy halloween`, `happy holidays`, `happy mother's day`, `happy new year`, `happy thanksgiving`, `happy valentine's day`, `hello`, `hey`, `hi`, `howdy`, `merry christmas`, `morning`, `nice to meet you`, `say hello`, or `you alright?`.
 
 🔧 *"Windows, install [app]"*
 -----------------------------
