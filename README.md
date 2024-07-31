@@ -76,7 +76,7 @@ Launches the default Web browser (or opens a new tab) and lets you play a free b
 
 🔦 *"Windows, check [item]"*
 -----------------------------
-Lets the computer check something. Replace [item] by: `Bitcoin rate`, `CPU temperature`, `dawn`, `day`, `DNS`, `downloads`, `drives`, `dusk`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `Git version`, `headlines`, `Independence Day`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `Outlook`, `ping`, `recycle bin`, `Santa`, `swap space`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `wind`, `year`, or `zenith`.
+Let the computer check something for you. Replace [item] by: `Bitcoin rate`, `CPU temperature`, `dawn`, `day`, `DNS`, `downloads`, `drives`, `dusk`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `Git version`, `headlines`, `Independence Day`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `Outlook`, `ping`, `recycle bin`, `Santa`, `swap space`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `the wind`, `year`, or `zenith`.
 
 🎨 *"Windows, next [category] wallpaper"*
 ------------------------------------------
