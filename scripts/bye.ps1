@@ -3,15 +3,9 @@
 	Replies to 'bye'
 .DESCRIPTION
 	This PowerShell script says a reply to 'bye' by text-to-speech (TTS).
-.EXAMPLE
-	PS> ./bye
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-$Reply = "Bye.", "Good bye.", "See you.", "Bye bye." | Get-Random
+$reply = "Bye!", "Bye bye!", "Good bye!", "See you!", "See ya!", "Cheers!", "So long!", "Take care!" | Get-Random
 
-& "$PSScriptRoot/_reply.ps1" "$Reply"
+& "$PSScriptRoot/_reply.ps1" $reply
 exit 0 # success
