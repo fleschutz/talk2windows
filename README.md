@@ -13,8 +13,7 @@ Required is Windows 10 or 11, a headset (or mic + loudspeaker), and the free Ser
 
 Usage
 -----
-1. Launch the *Serenade* app and click the slider to switch from *Paused* to *Listening* mode.
-2. Raise the microphone audio level in case a *'low voice'* is shown.
+1. Launch the *Serenade* app and click the slider to switch from *Paused* to *Listening* mode (raise the mic audio level in case a *'low voice'* is shown).
 3. Speak the voice command **"*Windows, open calculator*"** into the mic (this executes the script `open-calculator.ps1` which launches the calculator app)
  
 The following voice commands are currently supported:
