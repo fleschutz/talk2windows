@@ -3,24 +3,15 @@
 	Launches the File Explorer
 .DESCRIPTION
 	This PowerShell script launches the File Explorer (optional with the given path).
-.EXAMPLE
-	PS> ./open-file-explorer
-.PARAMETER Path
-	Specifies the path to the folder to display 
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-param([string]$Path = "")
+param([string]$path = "")
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay"
-	if ("$Path" -ne "") {
-		start-process explorer.exe "$Path"
+	if ("$path" -ne "") {
+		Start-Process explorer.exe "$path"
 	} else {
-		start-process explorer.exe
+		Start-Process explorer.exe
 	}
 	exit 0 # success
 } catch {
