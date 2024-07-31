@@ -2,9 +2,9 @@
 .SYNOPSIS
 	Uninstalls Rufus
 .DESCRIPTION
-	This PowerShell script uninstalls Rufus from the local computer.
+	This PowerShell script uninstalls the Rufus application from the local computer.
 .EXAMPLE
-	PS> ./uninstall-rufus
+	PS> ./uninstall-rufus.ps1
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
@@ -12,7 +12,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Uninstalling Rufus, please wait..."
+	& "$PSScriptRoot/_reply.ps1" "Uninstalling Rufus, wait a second..."
 
 	& winget uninstall "Rufus"
 	if ($lastExitCode -ne "0") { throw "Can't uninstall Rufus, is it installed?" }
