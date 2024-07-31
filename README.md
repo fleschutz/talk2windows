@@ -116,7 +116,7 @@ Lets Windows execute a command, replace [command] by: `calculate [expression]`, 
 
 🖖 *"Windows, [farewell]"*
 ---------------------------
-Say good-bye to Windows and replace [farewell] by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
+Say good-bye to Windows, just replace [farewell] by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
 
 📧 Feedback
 ------------
