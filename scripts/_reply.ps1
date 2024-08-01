@@ -3,20 +3,12 @@
 	Gives a reply 
 .DESCRIPTION
 	This PowerShell script replies by text-to-speech (TTS) in English.
-.PARAMETER text
-	Specifies the text to speak
-.EXAMPLE
-	PS> ./_reply "Hello World"
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$text = "")
 
 $TTS = New-Object -ComObject SAPI.SPVoice
-foreach ($Voice in $TTS.GetVoices()) { if ($Voice.GetDescription() -like "*- English*") { $TTS.Voice = $Voice }	}
+foreach($v in $TTS.GetVoices()) { if ($v.GetDescription() -like "*- English*") { $TTS.Voice = $v } }
 [void]$TTS.Speak($text)
 
 if ("$env:TEMP" -ne "")	{	$TempDir = "$env:TEMP"
