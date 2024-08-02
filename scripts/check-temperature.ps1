@@ -6,6 +6,7 @@
 #>
 
 try {
+	& "$PSScriptRoot/_reply.ps1" "Hold on..."
 	$weather = (Invoke-WebRequest http://wttr.in/${Location}?format=j1 -userAgent "curl" -useBasicParsing).Content | ConvertFrom-Json
 	[int]$tempNow = $weather.current_condition.temp_C
 	[int]$maxTemp = -100

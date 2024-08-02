@@ -3,46 +3,40 @@
 	Takes a single screenshot
 .DESCRIPTION
 	This PowerShell script takes a single screenshot and saves it into the user's screenshots folder.
-.EXAMPLE
-	PS> ./take-screenshot
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-function GetScreenshotsFolder {
+function GetScreenshotsDir {
         if ($IsLinux) {
-                $Path = "$HOME/Pictures"
-                if (-not(Test-Path "$Path" -pathType container)) { throw "Pictures folder at $Path doesn't exist (yet)"}
-                if (Test-Path "$Path/Screenshots" -pathType container) { $Path = "$Path/Screenshots" }
-        } else {
-                $Path = [Environment]::GetFolderPath('MyPictures')
-                if (-not(Test-Path "$Path" -pathType container)) { throw "Pictures folder at $Path doesn't exist (yet)" }
-                if (Test-Path "$Path\Screenshots" -pathType container) { $Path = "$Path\Screenshots" }
-        }
-        return $Path
+		$path = "$HOME/Pictures"
+		if (-not(Test-Path "$path" -pathType container)) { throw "Pictures folder at $path doesn't exist (yet)"}
+		if (Test-Path "$path/Screenshots" -pathType container) { return "$path/Screenshots" }
+	} else {
+		$path = [Environment]::GetFolderPath('MyPictures')
+ 		if (-not(Test-Path "$path" -pathType container)) { throw "Pictures folder at $path doesn't exist (yet)" }
+		if (Test-Path "$path/Screenshots" -pathType container) { return "$path/Screenshots" }
+	}
+	return $path
 }
 
-function TakeScreenshot { param([string]$FilePath)
+function TakeScreenshot { param([string]$filepath)
 	Add-Type -Assembly System.Windows.Forms            
-	$ScreenBounds = [Windows.Forms.SystemInformation]::VirtualScreen
-	$ScreenshotObject = New-Object Drawing.Bitmap $ScreenBounds.Width, $ScreenBounds.Height
-	$DrawingGraphics = [Drawing.Graphics]::FromImage($ScreenshotObject)
-	$DrawingGraphics.CopyFromScreen( $ScreenBounds.Location, [Drawing.Point]::Empty, $ScreenBounds.Size)
-	$DrawingGraphics.Dispose()
-	$ScreenshotObject.Save($FilePath)
-	$ScreenshotObject.Dispose()
+	$screenBounds = [Windows.Forms.SystemInformation]::VirtualScreen
+	$screenshotObj = New-Object Drawing.Bitmap $screenBounds.Width, $screenBounds.Height
+	$drawingGraphics = [Drawing.Graphics]::FromImage($screenshotObj)
+	$drawingGraphics.CopyFromScreen( $screenBounds.Location, [Drawing.Point]::Empty, $screenBounds.Size)
+	$drawingGraphics.Dispose()
+	$screenshotObj.Save($filepath)
+	$screenshotObj.Dispose()
 }
 
 try {
-	$TargetFolder = GetScreenshotsFolder
-	$Time = (Get-Date)
-	$Filename = "$($Time.Year)-$($Time.Month)-$($Time.Day)T$($Time.Hour)-$($Time.Minute)-$($Time.Second).png"
-	$FilePath = (Join-Path $TargetFolder $Filename)
-	TakeScreenshot $FilePath
+	& "$PSScriptRoot/_reply.ps1" "Hold on..."
 
-	& "$PSScriptRoot/_reply.ps1" "OK, saved into screenshots folder."
+	$targetDir = GetScreenshotsDir
+	$filepath = "$targetDir/IMG_" + (Get-Date).ToString('yyyyMMdd_HHmmss') + ".png"
+	TakeScreenshot $filepath
+
+	& "$PSScriptRoot/_reply.ps1" "Saved into screenshots folder."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
