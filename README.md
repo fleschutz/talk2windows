@@ -114,9 +114,9 @@ Asks Windows a question, just replace [question] by: `are you a computer?`, `are
 -------------------------
 Lets Windows execute a command, replace [command] by: `calculate [expression]`, `connect VPN`, `count down from [number]`, `empty recycle bin`, `enable god mode`, `I need help`, `locate my phone`, `minimize all windows`, `ping [host]`, `repeat last reply`, `roll a dice`, `save screenshot`, `set volume to [number] percent`, `shut up`, `sound check`, `sorry`, `spell [text]`, `tell me a joke`, `tell me a quote`, `thank you`, `thanks`, `translate [text] to [language]`, `turn volume off`, `turn volume on`, `turn volume up`, `turn volume fully up`, `turn volume down`, `update repository`, or `wakeup [hostname]`.
 
-🖖 *"Windows, [farewell]"*
+🖖 *"Windows, <farewell>"*
 ---------------------------
-Say good-bye to Windows, just replace [farewell] by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
+Say good-bye to Windows, just replace <farewell> by: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
 
 📧 Feedback
 ------------
