@@ -40,7 +40,7 @@ Presses a keyboard shortcut to navigate in a browser window. Replace [shortcut] 
 
 📝 *"Windows, insert [char] sign"*
 ---------------------------------------
-Inserts a character at the current text cursor position. Replace [char] by: `at`, `backslash`, `copyright`, `Dollar`, `Euro`, `hashtag`, `Pound`, `slash`, `trademark`, or `Yen`.
+Inserts a character at the current text cursor position. Replace [char] by: `at`, `backslash`, `copyright`, `Dollar`, `Euro`, `hashtag`, `Pound`, `slash`, `trademark`, 'underscore', or `Yen`.
 
 📝 *"Windows, insert [text]"*
 ---------------------------------
