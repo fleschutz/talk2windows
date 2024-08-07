@@ -38,9 +38,13 @@ Launches the default Web browser (or opens a new tab) with the given website. Re
 -------------------------
 Presses a keyboard shortcut to navigate in a browser window. Replace [shortcut] by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
 
-📝 *"Windows, insert [character]"*
+📝 *"Windows, insert [character] sign"*
+---------------------------------------
+Inserts a character at the current text cursor position. Replace [character] by: `at`, `backslash`, `bomb`, `checkmark`, `copyright`, `Dollar`, `Euro`, `hashtag`, `Pound`, `trademark`, or `Yen`.
+
+📝 *"Windows, insert [text]"*
 ---------------------------------
-Inserts a character (or text) at the current text cursor position. Replace [character] by: `at sign`, `backslash`, `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `copyright sign`, `date`, `Dollar sign`, `Euro sign`, `good-bye`, `good morning`, `hashtag`, `heart`, `OK`, `Pound sign`, `shrugging`, `smiley`, `thumbs up`, `trademark sign`, or `Yen sign`.
+Inserts text at the current text cursor position. Replace [text] by: `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `date`, `good-bye`, `good morning`, `heart`, `OK`, `shrugging`, `smiley`, or `thumbs up`.
 
 📋 *"Windows, open Google [service]"*
 -------------------------------------
