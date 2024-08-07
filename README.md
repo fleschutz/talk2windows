@@ -70,9 +70,9 @@ Launches the default Web browser (or opens a new tab) and plays a music genre. R
 ---------------------------------
 Starts the playback of the given sound, just replace [name] by: `alarm`, `bee`, `beep`, `Big Ben`, `car`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
 
-🎮 *"Windows, play [name] game"*
+🎮 *"Windows, let's play [game]"*
 ---------------------------------
-Launches the default Web browser (or opens a new tab) and lets you play a free browser game. Replace [name] by: `2048`, `Agar`, `Catan Universe`, `Chess`, `Cube`, `ISS Docking Simulator`, `Pacman`, `Santa Tracker`, `Slither`, `Tetris`, `TicTacToe`, `Tower`, `Vanis`, `War Brokers`, or `Wordle`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) and lets you play a free browser game. Replace [game] by: `2048`, `Agar`, `Catan Universe`, `Chess`, `Cube`, `ISS Docking Simulator`, `Pacman`, `Santa Tracker`, `Slither`, `Tetris`, `TicTacToe`, `Tower`, `Vanis`, `War Brokers`, or `Wordle`. When finished say: **"Windows, close tab"** to close the browser tab.
 
 🔦 *"Windows, check [item]"*
 -----------------------------
