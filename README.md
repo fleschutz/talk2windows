@@ -6,7 +6,7 @@ Required is *Windows* 10 or 11, a headset (or mic + loudspeaker), and the free *
 
 🔧 Installation
 ----------------
-1. **Download Serenade** from: [https://serenade.ai](https://serenade.ai/download) (it's free) and install it. Choose *no plugin* and *no programming language* during installation and close the application when finished.
+1. **Download Serenade** from: [https://serenade.ai](https://serenade.ai/download) and install it (it's free). Choose *no plugin* and *no programming language* during installation and close the application when finished.
 2. **Download this repo** from: [https://github.com/fleschutz/talk2windows](https://github.com/fleschutz/talk2windows/archive/main.zip) and unzip it.
 3. **Open *Windows PowerShell (Administrator)* and execute:** `Set-ExecutionPolicy RemoteSigned` to allow the execution of PowerShell scripts.
 4. **Open *Windows PowerShell* and execute:** `./install.ps1` in the unzipped *talk2windows* folder. This exports the PowerShell scripts as *Serenade's* voice phrases.
