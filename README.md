@@ -2,7 +2,7 @@ TALK2WINDOWS
 ============
 This repo adds recognition of voice commands to control the *Windows*® desktop. Using your voice besides keyboard and mouse increases your productivity and is really awesome. 
 
-Required is *Windows* 10 or 11, a headset (or mic + loudspeaker), and the free *Serenade* application.
+Required is *Windows* 10 or 11, a headset, and the free *Serenade* application.
 
 🔧 Installation
 ----------------
