@@ -3,17 +3,10 @@
 	Opens a New Tab
 .DESCRIPTION
 	This PowerShell script sends a keyboard shortcut that opens a new tab.
-.EXAMPLE
-	PS> ./open-new-tab
-.NOTES
-	Author:  Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 try {
-	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("^t")
+	(New-Object -com wscript.shell).SendKeys("^t")
 	& "$PSScriptRoot/_reply.ps1" "OK."
 	exit 0 # success
 } catch {

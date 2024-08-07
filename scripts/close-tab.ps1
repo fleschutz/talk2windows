@@ -6,9 +6,8 @@
 #>
 
 try {
-	$o = New-Object -com wscript.shell
-	$o.SendKeys("^w")
-	& "$PSScriptRoot/_reply.ps1" "Done."
+	(New-Object -com wscript.shell).SendKeys("^w")
+	& "$PSScriptRoot/_reply.ps1" "Closed."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
