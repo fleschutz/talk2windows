@@ -38,9 +38,9 @@ Launches the default Web browser (or opens a new tab) with the given website. Re
 -------------------------
 Presses a keyboard shortcut to navigate in a browser window. Replace [shortcut] by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
 
-📝 *"Windows, insert [character] sign"*
+📝 *"Windows, insert [char] sign"*
 ---------------------------------------
-Inserts a character at the current text cursor position. Replace [character] by: `at`, `backslash`, `bomb`, `checkmark`, `copyright`, `Dollar`, `Euro`, `hashtag`, `Pound`, `trademark`, or `Yen`.
+Inserts a character at the current text cursor position. Replace [char] by: `at`, `backslash`, `bomb`, `checkmark`, `copyright`, `Dollar`, `Euro`, `hashtag`, `Pound`, `trademark`, or `Yen`.
 
 📝 *"Windows, insert [text]"*
 ---------------------------------
