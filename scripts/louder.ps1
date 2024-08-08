@@ -3,12 +3,6 @@
 	Turn Volume Up
 .DESCRIPTION
 	This PowerShell script turns the audio volume up by 10%.
-.EXAMPLE
-	PS> ./louder
-.NOTES
-	Author:  Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 param([int]$percent = 10)

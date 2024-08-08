@@ -1,6 +1,6 @@
 param([string]$txt="")
 $TTS=New-Object -ComObject SAPI.SPVoice
-foreach($v in $TTS.GetVoices()) {if($v.GetDescription() -like "*- English*") {$TTS.Voice=$v}}
+foreach($v in $TTS.GetVoices()){if($v.GetDescription() -like "*- English*"){$TTS.Voice=$v}}
 [void]$TTS.Speak($txt)
 
 if("$env:TEMP" -ne "")	{	$TempDir="$env:TEMP"
