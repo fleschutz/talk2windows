@@ -5,5 +5,9 @@
 	This PowerShell script closes the Disney+ application gracefully.
 #>
 
-& "$PSScriptRoot/close-program.ps1" "Disney+" "ApplicationFrameHost" "RuntimeBroker"
+TaskKill /im msedge.exe /f /t
+if ($lastExitCode -ne "0") {
+        & "$PSScriptRoot/_reply.ps1" "Sorry, Disney Plus isn't running."
+        exit 1
+}
 exit 0 # success

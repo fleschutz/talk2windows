@@ -5,5 +5,13 @@
 	This PowerShell script launches the Disney+ application.
 #>
 
-Start-Process disney+:
-exit 0 # success
+try {
+        $App = Get-AppxPackage -Name Disney.37853FC22B2CE
+        if ($App.Status -ne "Ok") { throw "Can't open Disney Plus, is it installed?" }
+
+        explorer.exe shell:appsFolder\$($App.PackageFamilyName)!App
+        exit 0 # success
+} catch {
+        & "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+        exit 1
+}
