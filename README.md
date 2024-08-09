@@ -93,7 +93,7 @@ Sets a reminder, just replace [time] by: `at 1 AM/PM`, `at 2 AM/PM`, `at 3 AM/PM
 
 💽 *"Windows, open &lt;letter&gt; drive"*
 ------------------------------------
-Launches the File Explorer with the given drive. Replace &lt;letter&gt; by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+Launches the *File Explorer* with the given drive. Replace &lt;letter&gt; by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: **"Windows, close file explorer"** to close the File Explorer.
 
 📂 *"Windows, open &lt;name&gt; folder"*
 -----------------------------------
