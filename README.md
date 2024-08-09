@@ -1,6 +1,6 @@
 TALK2WINDOWS
 ============
-This repo adds recognition of voice commands to control the *Windows*® desktop. Using your voice besides keyboard and mouse increases your productivity and is really awesome. 
+This repo installs voice commands to control the *Windows*® desktop. Using keyboard, mouse, and also your voice increases your productivity and is really awesome. 
 
 Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recognition application.
 
@@ -9,14 +9,14 @@ Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recogni
 1. **Download the free *Serenade* app** from [https://serenade.ai](https://serenade.ai/download) and install it. Choose *no plugin* and *no programming language* during installation and close the application when finished.
 2. **Download this repo** from [https://github.com/fleschutz/talk2windows](https://github.com/fleschutz/talk2windows/archive/main.zip) and unzip it.
 3. **Open *Windows PowerShell (Administrator)* and execute:** `Set-ExecutionPolicy RemoteSigned` to allow the execution of PowerShell scripts.
-4. **Open *Windows PowerShell* and execute:** `./install.ps1` in the unzipped *talk2windows* folder. It exports the PowerShell scripts as *Serenade's* voice phrases and launches *Serenade*.
+4. **Open *Windows PowerShell* and execute:** `./install.ps1` in the unzipped *talk2windows* folder. It exports voice commands to *Serenade*, then launches it.
 
 Usage
 -----
 1. Click *Serenade's* slider to switch from *Paused* to *Listening* mode. Raise the mic audio level in case a *'low voice'* is shown.
-2. Now, speak the voice command **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `open-calculator.ps1` in subfolder 'scripts' which launches the calculator app.
+2. Now, speak the voice command **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app.
  
-The following voice commands are currently supported: (when wake word 'Windows' is used)
+Supported are the following voice commands: (if wake word 'Windows' is used)
 
 👋 *"Windows, [greeting]"*
 ---------------------------
