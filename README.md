@@ -91,17 +91,17 @@ Replaces the desktop background by a random photo from Unsplash.com. Replace [ca
 ---------------------------------
 Sets a reminder, just replace [time] by: `at 1 AM/PM`, `at 2 AM/PM`, `at 3 AM/PM`, `at 4 AM/PM`, `at 5 AM/PM`, `at 6 AM/PM`, `at 7 AM/PM`, `at 8 AM/PM`, `at 9 AM/PM`, `at 10 AM/PM`, `at 11 AM/PM`, `at midnight`, `at noon`, `at sunrise`, `at sunset`, `at tea time`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
 
-💽 *"Windows, open [letter] drive"*
+💽 *"Windows, open &lt;letter&gt; drive"*
 ------------------------------------
-Launches the File Explorer with the given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+Launches the File Explorer with the given drive. Replace &lt;letter&gt; by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
 
-📂 *"Windows, open [name] folder"*
+📂 *"Windows, open &lt;name&gt; folder"*
 -----------------------------------
-Launches the File Explorer with the given folder. Just replace [name] by: `apps`, `applications`, `autostart`, `crash dumps`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `SSH`, `Talk2Windows`, `temporary`, `videos`, or 'Windows'. When finished say: **"Windows, close file explorer"** to close the File Explorer.
+Launches the File Explorer with the given folder. Replace &lt;name&gt; by: `apps`, `applications`, `autostart`, `crash dumps`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `SSH`, `Talk2Windows`, `temporary`, `videos`, or 'Windows'. When finished say: **"Windows, close file explorer"** to close the File Explorer.
 
-⚙️ *"Windows, open [name] settings"*
+⚙️ *"Windows, open &lt;name&gt; settings"*
 -------------------------------------
-Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
+Launches the Windows settings, replace &lt;name&gt; by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 ❔ *"Windows, list &lt;table&gt;"*
 ---------------------------
