@@ -4,8 +4,8 @@ This repo installs voice commands to control the *Windows*® desktop. Using keyb
 
 Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recognition application.
 
-🔧 Installation (once)
------------------------
+🔧 Installation (just once)
+----------------------------
 1. **Download the free *Serenade* app** from [https://serenade.ai](https://serenade.ai/download) and install it. Choose *no plugin* and *no programming language* during installation and close the application when finished.
 2. **Download this repo** from [https://github.com/fleschutz/talk2windows](https://github.com/fleschutz/talk2windows/archive/main.zip) and unzip it.
 3. **Open *Windows PowerShell (Administrator)* and execute:** `Set-ExecutionPolicy RemoteSigned` to allow the execution of PowerShell scripts.
@@ -15,7 +15,7 @@ Usage
 -----
 1. Put your headset on and make sure it's connected and working fine.
 2. Launch *Serenade* and click the slider to switch from *Paused* to *Listening* mode. Raise the mic audio level in case a *'low voice'* is shown.
-3. Now, speak the voice command **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app.
+3. Now, speak voice commands like **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app.
  
 Supported are the following voice commands: (if wake word 'Windows' is used)
 
