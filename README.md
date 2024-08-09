@@ -1,20 +1,21 @@
 TALK2WINDOWS
 ============
-This repo installs voice commands to control the *Windows*® desktop. Using keyboard, mouse, and also your voice increases your productivity and is really awesome. 
+This repo installs voice commands to control the *Windows*® desktop. Using keyboard, mouse, and also your voice increases productivity and is really awesome. 
 
 Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recognition application.
 
-🔧 Installation
-----------------
+🔧 Installation (just once)
+----------------------------
 1. **Download the free *Serenade* app** from [https://serenade.ai](https://serenade.ai/download) and install it. Choose *no plugin* and *no programming language* during installation and close the application when finished.
 2. **Download this repo** from [https://github.com/fleschutz/talk2windows](https://github.com/fleschutz/talk2windows/archive/main.zip) and unzip it.
 3. **Open *Windows PowerShell (Administrator)* and execute:** `Set-ExecutionPolicy RemoteSigned` to allow the execution of PowerShell scripts.
-4. **Open *Windows PowerShell* and execute:** `./install.ps1` in the unzipped *talk2windows* folder. It exports voice commands to *Serenade*, then launches it.
+4. **Open *Windows PowerShell* and execute:** `./install.ps1` in the unzipped *talk2windows* folder. It exports the voice commands to *Serenade*.
 
 Usage
 -----
-1. Click *Serenade's* slider to switch from *Paused* to *Listening* mode. Raise the mic audio level in case a *'low voice'* is shown.
-2. Now, speak the voice command **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app.
+1. Put your headset on and make sure it's connected and working fine.
+2. Launch *Serenade* and click the slider to switch from *Paused* to *Listening* mode. Raise the mic audio level in case a *'low voice'* is shown.
+3. Now, speak voice commands like **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app.
  
 Supported are the following voice commands: (if wake word 'Windows' is used)
 
@@ -24,11 +25,11 @@ Say hello to your computer, just replace [greeting] by: `good afternoon`, `good 
 
 🔧 *"Windows, install [app]"*
 -----------------------------
-Installs an application from Microsoft Store, replace [app] by: `CrystalDiskInfo`, `CrystalDiskMark`, `Edge`, `Discord`, `Firefox`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. To uninstall the application simply say: **"Windows, uninstall [app]"**.
+Installs an application from Microsoft Store, replace [app] by: `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. To uninstall the application simply say: **"Windows, uninstall [app]"**.
 
  💻 *"Windows, open [app]"*
 ----------------------------
-Launches an application, just replace [app] by: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, or `Windows Terminal`. To close the application simply say: **"Windows, close [app]"**.
+Launches an application, just replace [app] by: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, or `Windows Terminal`. To close the application simply say: **"Windows, close [app]"**.
 
 🌐 *"Windows, open [name] website"*
 ------------------------------------
@@ -90,17 +91,17 @@ Replaces the desktop background by a random photo from Unsplash.com. Replace [ca
 ---------------------------------
 Sets a reminder, just replace [time] by: `at 1 AM/PM`, `at 2 AM/PM`, `at 3 AM/PM`, `at 4 AM/PM`, `at 5 AM/PM`, `at 6 AM/PM`, `at 7 AM/PM`, `at 8 AM/PM`, `at 9 AM/PM`, `at 10 AM/PM`, `at 11 AM/PM`, `at midnight`, `at noon`, `at sunrise`, `at sunset`, `at tea time`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
 
-💽 *"Windows, open [letter] drive"*
+💽 *"Windows, open &lt;letter&gt; drive"*
 ------------------------------------
-Launches the File Explorer with the given drive. Replace [letter] by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: *"Windows, close file explorer"* to close the File Explorer.
+Launches the *File Explorer* with the given drive. Replace &lt;letter&gt; by: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: **"Windows, close file explorer"** to close the File Explorer.
 
-📂 *"Windows, open [name] folder"*
+📂 *"Windows, open &lt;name&gt; folder"*
 -----------------------------------
-Launches the File Explorer with the given folder. Just replace [name] by: `apps`, `applications`, `autostart`, `crash dumps`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `SSH`, `Talk2Windows`, `temporary`, `videos`, or 'Windows'. When finished say: **"Windows, close file explorer"** to close the File Explorer.
+Launches the File Explorer with the given folder. Replace &lt;name&gt; by: `apps`, `applications`, `autostart`, `crash dumps`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `SSH`, `Talk2Windows`, `temporary`, `videos`, or 'Windows'. When finished say: **"Windows, close file explorer"** to close the File Explorer.
 
-⚙️ *"Windows, open [name] settings"*
+⚙️ *"Windows, open &lt;name&gt; settings"*
 -------------------------------------
-Launches the Windows settings, replace [name] by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
+Launches the Windows settings, replace &lt;name&gt; by: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
 
 ❔ *"Windows, list &lt;table&gt;"*
 ---------------------------
