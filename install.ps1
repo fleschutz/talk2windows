@@ -29,16 +29,16 @@ function AddVoiceCmdWithArgument { param([string]$wakeWord, [string]$baseName, [
 }
 
 try {
-	"`n(1/5) Checking requirements for Talk2Windows..."
+	"`n(1/4) Checking requirements for Talk2Windows..."
 	if (!(Test-Path "$HOME\.serenade" -pathType container)) { throw "The Serenade app is missing - please download and install it from serenade.ai" }
 
-	$wakeWord = Read-Host "(2/5) Enter your personal wake word, e.g. 'Alexa', 'Jarvis', 'Siri', 'Windows'"
+	$wakeWord = Read-Host "(2/4) Enter your personal wake word, e.g. 'Alexa', 'Jarvis', 'Siri', 'Windows'"
 	$wakeWord = $wakeWord.toLower()
 
 	$scripts = Get-ChildItem "$filePattern"
-	"(3/5) Importing $($scripts.Count) PowerShell scripts from:    $filePattern..."
+	"(3/4) Importing $($scripts.Count) PowerShell scripts from:    $filePattern..."
 
-	"(4/5) Exporting as Serenade's voice phrases to: $targetFile..."
+	"(4/4) Exporting as Serenade's voice phrases to: $targetFile..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$targetFile"
 	foreach($script in $scripts) {
 		$baseName = $script.basename
@@ -60,9 +60,7 @@ try {
 			AddVoiceCmd $wakeWord $baseName $script 
 		}
 	}
-	"(5/5) Launching the Serenade app..."
-	Start-Process serenade:
-	"`nSUCCESS - now unpause Serenade, then speak into the mic: `'$wakeWord, hi`'."
+	"`nSUCCESS - now launch Serenade and unpause it, then speak into the mic: `'$wakeWord, hi`'."
 	exit 0 # success
 } catch {
 	Write-Error "ERROR: $($Error[0])"
