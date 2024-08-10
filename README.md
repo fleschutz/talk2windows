@@ -35,21 +35,21 @@ Launches an application, just replace &lt;app&gt; by: `3D-Viewer`, `9 ZIP`, `Cal
 ------------------------------------
 Launches the default Web browser (or opens a new tab) with the given website. Replace &lt;name&gt; by: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `FlightRadar`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Space Weather`, `SpaceX`, `Spotify`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, `YouTube`, or `Zoom`. When finished say: **"Windows, close tab"** to close the browser tab.
 
-❔ *"Windows, [shortcut]"*
+❔ *"Windows, &lt;shortcut&gt;"*
 -------------------------
-Presses a keyboard shortcut to navigate in a browser window. Replace [shortcut] by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
+Presses a keyboard shortcut to navigate in a browser window. Replace &lt;shortcut&gt; by: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
 
-📝 *"Windows, insert [char] sign"*
+📝 *"Windows, insert &lt;char&gt; sign"*
 ---------------------------------------
-Inserts a character at the current text cursor position. Replace [char] by: `at`, `backslash`, `copyright`, `Dollar`, `Euro`, `hashtag`, `Pound`, `slash`, `trademark`, `underscore`, or `Yen`.
+Inserts a character at the current text cursor position. Replace &lt;char&gt; by: `at`, `backslash`, `copyright`, `Dollar`, `Euro`, `hashtag`, `Pound`, `slash`, `trademark`, `underscore`, or `Yen`.
 
-📝 *"Windows, insert [text]"*
+📝 *"Windows, insert &lt;text&gt;"*
 ---------------------------------
-Inserts text at the current text cursor position. Replace [text] by: `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `date`, `good-bye`, `good morning`, `heart`, `OK`, `shrugging`, `smiley`, or `thumbs up`.
+Inserts text at the current text cursor position. Replace &lt;text&gt; by: `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `date`, `good-bye`, `good morning`, `heart`, `OK`, `shrugging`, `smiley`, or `thumbs up`.
 
-📋 *"Windows, open Google [service]"*
+📋 *"Windows, open Google &lt;service&gt;"*
 -------------------------------------
-Launches the default Web browser (or opens a new tab) with a Google® service. Replace [service] by: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) with a Google® service. Replace &lt;service&gt; by: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"** to close the browser tab.
 
 📖 *"Windows, open [name] magazine"*
 -------------------------------------
