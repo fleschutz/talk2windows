@@ -25,15 +25,15 @@ Say hello to your computer, just replace &lt;greeting&gt; with: `good afternoon`
 
 🔧 *"Windows, install &lt;app&gt;"*
 -----------------------------
-Installs a Microsoft Store application, replace &lt;app&gt; with: `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. To uninstall the application simply say: **"Windows, uninstall &lt;app&gt;"**.
+Installs a Microsoft Store application, replace &lt;app&gt; with: `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Paint 3D`, `Rufus`, `Spotify`, `Skype`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, or `Windows Terminal`. To uninstall it simply say: **"Windows, uninstall &lt;app&gt;"**.
 
  💻 *"Windows, open &lt;app&gt;"*
 ----------------------------
-Launches an application, replace &lt;app&gt; with: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, or `Windows Terminal`. To close the application simply say: **"Windows, close &lt;app&gt;"**.
+Launches an application, replace &lt;app&gt; with: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, or `Windows Terminal`. To close it simply say: **"Windows, close &lt;app&gt;"**.
 
 🌐 *"Windows, open &lt;name&gt; website"*
 ------------------------------------
-Launches the default Web browser (or opens a new tab) with the given website. Replace &lt;name&gt; with: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `FlightRadar`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Space Weather`, `SpaceX`, `Spotify`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, `YouTube`, or `Zoom`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) with the given website. Replace &lt;name&gt; with: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `FlightRadar`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Space Weather`, `SpaceX`, `Spotify`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, `YouTube`, or `Zoom`. When finished say: **"Windows, close tab"**.
 
 🔦 *"Windows, check &lt;item&gt;"*
 -----------------------------
@@ -53,27 +53,27 @@ Inserts text at the current text cursor position. Replace &lt;text&gt; with: `bo
 
 📋 *"Windows, open Google &lt;service&gt;"*
 -------------------------------------
-Launches the default Web browser (or opens a new tab) with a Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) with a Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"**.
 
 📖 *"Windows, open [name] magazine"*
 -------------------------------------
-Launches the default Web browser (or opens a new tab) with a magazine website. Replace [name] with: `Cosmopolitan`, `Focus`, `Golf`, `GQ`, `Health`, `National Geographic`, `People`, `RollingStone`, `Scientific American`, `Spiegel`, `Sports Illustrated`, `SZ`, `The Oprah`, `Time`, `Vanity Fair`, `Vogue`, or `Wired`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) showing the given magazine website. Replace [name] with: `Cosmopolitan`, `Focus`, `Golf`, `GQ`, `Health`, `National Geographic`, `People`, `RollingStone`, `Scientific American`, `Spiegel`, `Sports Illustrated`, `SZ`, `The Oprah`, `Time`, `Vanity Fair`, `Vogue`, or `Wired`. When finished say: **"Windows, close tab"**.
 
 📓 *"Windows, open [name] manual"*
 -----------------------------------
-Launches the default Web browser (or opens a new tab) with the given manual. Replace [name] with: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) with the given manual. Replace [name] with: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: **"Windows, close tab"**.
 
 🏦 *"Windows, show [name] city"*
 ---------------------------------
-Launches the default Web browser (or opens a new tab) with Google Maps at the given city. Replace [name] with: `Amsterdam`, `Atlanta`, `Barcelona`, `Berlin`, `Boston`, `Cairo`, `Calgary`, `Cape Town`, `Chicago`, `Dallas`, `Denver`, `Dubai`, `Dublin`, `Frankfurt`, `Hamburg`, `Hong Kong`, `Honolulu`, `Jerusalem`, `Kansas`, `Las Vegas`, `Lisbon`, `London`, `Los Angeles`, `Madrid`, `Mexico`, `Miami`, `Montreal`, `Moscow`, `Munich`, `New York`, `Panama`, `Paris`, `Rome`, `San Francisco`, `Seattle`, `Singapore`, `Sydney`, `Tokyo`, `Toronto`, `Tunis`, `Vienna`, `Washington`, or `Zurich`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) showing the given city in *Google Maps*. Replace [name] with: `Amsterdam`, `Atlanta`, `Barcelona`, `Berlin`, `Boston`, `Cairo`, `Calgary`, `Cape Town`, `Chicago`, `Dallas`, `Denver`, `Dubai`, `Dublin`, `Frankfurt`, `Hamburg`, `Hong Kong`, `Honolulu`, `Jerusalem`, `Kansas`, `Las Vegas`, `Lisbon`, `London`, `Los Angeles`, `Madrid`, `Mexico`, `Miami`, `Montreal`, `Moscow`, `Munich`, `New York`, `Panama`, `Paris`, `Rome`, `San Francisco`, `Seattle`, `Singapore`, `Sydney`, `Tokyo`, `Toronto`, `Tunis`, `Vienna`, `Washington`, or `Zurich`. When finished say: **"Windows, close tab"**.
 
  📈 *"Windows, show [name] rate"*
 ----------------------------------
-Launches the default Web browser (or opens a new tab) with the given exchange rate. Replace [name] with: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) showing the given exchange rate. Replace [name] with: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: **"Windows, close tab"**.
 
 🎵 *"Windows, play [genre] music"*
 -----------------------------------
-Launches the default Web browser (or opens a new tab) and plays a music genre. Replace [genre] with: `70s`, `80s`, `90s`, `Alternative Rock`, `Blues`, `Chillout`, `Christmas`, `Classical`, `Country`, `Dance`, `Folk`, `Hip Hop`, `House`, `Indie`, `Jazz`, `Metal`, `Pop`,`Reggae`, `Relax`, `RnB`, `Rock`, or `Workout`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) and plays a music genre. Replace [genre] with: `70s`, `80s`, `90s`, `Alternative Rock`, `Blues`, `Chillout`, `Christmas`, `Classical`, `Country`, `Dance`, `Folk`, `Hip Hop`, `House`, `Indie`, `Jazz`, `Metal`, `Pop`,`Reggae`, `Relax`, `RnB`, `Rock`, or `Workout`. When finished say: **"Windows, close tab"**.
 
 🔈 *"Windows, play &lt;name&gt; sound"*
 ---------------------------------
@@ -81,7 +81,7 @@ Starts the playback of the given sound, just replace &lt;name&gt; with: `alarm`,
 
 🎮 *"Windows, let's play &lt;game&gt;"*
 ---------------------------------
-Launches the default Web browser (or opens a new tab) and lets you play a free browser game. Replace &lt;game&gt; with: `2048`, `Agar`, `Catan Universe`, `Chess`, `Cube`, `ISS Docking Simulator`, `Pacman`, `Santa Tracker`, `Slither`, `Tetris`, `TicTacToe`, `Tower`, `Vanis`, `War Brokers`, or `Wordle`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) and lets you play a free browser game. Replace &lt;game&gt; with: `2048`, `Agar`, `Catan Universe`, `Chess`, `Cube`, `ISS Docking Simulator`, `Pacman`, `Santa Tracker`, `Slither`, `Tetris`, `TicTacToe`, `Tower`, `Vanis`, `War Brokers`, or `Wordle`. When finished say: **"Windows, close tab"**.
 
 🎨 *"Windows, next &lt;category&gt; wallpaper"*
 ------------------------------------------
@@ -93,15 +93,15 @@ Sets a reminder, just replace &lt;time&gt; with: `at 1 AM/PM`, `at 2 AM/PM`, `at
 
 💽 *"Windows, open &lt;letter&gt; drive"*
 ------------------------------------
-Launches the *File Explorer* showing the given drive. Replace &lt;letter&gt; with: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: **"Windows, close file explorer"** to close the File Explorer.
+Launches the *File Explorer* showing the given drive. Replace &lt;letter&gt; with: `C:`, `D:`, `E:`, `F:`, `G:`, `H:` or `M:`. When finished say: **"Windows, close file explorer"**.
 
 📂 *"Windows, open &lt;name&gt; folder"*
 -----------------------------------
-Launches the File Explorer with the given folder. Replace &lt;name&gt; with: `apps`, `applications`, `autostart`, `crash dumps`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `SSH`, `Talk2Windows`, `temporary`, `videos`, or `Windows`. When finished say: **"Windows, close file explorer"** to close the File Explorer.
+Launches the File Explorer with the given folder. Replace &lt;name&gt; with: `apps`, `applications`, `autostart`, `crash dumps`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `SSH`, `Talk2Windows`, `temporary`, `videos`, or `Windows`. When finished say: **"Windows, close file explorer"**.
 
 ⚙️ *"Windows, open &lt;name&gt; settings"*
 -------------------------------------
-Launches the Windows settings, replace &lt;name&gt; with: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: *"Windows, close system settings"* to close the Windows settings.
+Launches the Windows settings, replace &lt;name&gt; with: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: **"Windows, close system settings"**.
 
 ❔ *"Windows, list &lt;table&gt;"*
 ---------------------------
