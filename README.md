@@ -17,7 +17,7 @@ Usage
 2. Launch *Serenade* and click the slider to switch from *Paused* to *Listening* mode. Raise the mic audio level in case a *'low voice'* is shown.
 3. Now, speak voice commands like **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app.
  
-Most voice commands follow the scheme: *&lt;wake word&gt; &lt;verb&gt; &lt;subject&gt;*. Supported are the following voice commands: (if wake word 'Windows' is used)
+Most voice commands follow the simple scheme: *&lt;wake word&gt; &lt;verb&gt; &lt;subject&gt;*. Supported are the following voice commands: (if wake word 'Windows' is used)
 
 👋 *"Windows, &lt;greeting&gt;"*
 ---------------------------
@@ -71,25 +71,25 @@ Launches the default Web browser (or opens a new tab) with the given exchange ra
 -----------------------------------
 Launches the default Web browser (or opens a new tab) and plays a music genre. Replace [genre] by: `70s`, `80s`, `90s`, `Alternative Rock`, `Blues`, `Chillout`, `Christmas`, `Classical`, `Country`, `Dance`, `Folk`, `Hip Hop`, `House`, `Indie`, `Jazz`, `Metal`, `Pop`,`Reggae`, `Relax`, `RnB`, `Rock`, or `Workout`. When finished say: **"Windows, close tab"** to close the browser tab.
 
-🔈 *"Windows, play [name] sound"*
+🔈 *"Windows, play &lt;name&gt; sound"*
 ---------------------------------
-Starts the playback of the given sound, just replace [name] by: `alarm`, `bee`, `beep`, `Big Ben`, `car`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
+Starts the playback of the given sound, just replace &lt;name&gt; by: `alarm`, `bee`, `beep`, `Big Ben`, `car`, `cat`, `cow`, `dog`, `donkey`, `elephant`, `elk`, `frog`, `goat`, `gorilla`, `horse`, `lion`, `parrot`, `pig`, `rattlesnake`, `vulture`, or `wolf`.
 
-🎮 *"Windows, let's play [game]"*
+🎮 *"Windows, let's play &lt;game&gt;"*
 ---------------------------------
-Launches the default Web browser (or opens a new tab) and lets you play a free browser game. Replace [game] by: `2048`, `Agar`, `Catan Universe`, `Chess`, `Cube`, `ISS Docking Simulator`, `Pacman`, `Santa Tracker`, `Slither`, `Tetris`, `TicTacToe`, `Tower`, `Vanis`, `War Brokers`, or `Wordle`. When finished say: **"Windows, close tab"** to close the browser tab.
+Launches the default Web browser (or opens a new tab) and lets you play a free browser game. Replace &lt;game&gt; by: `2048`, `Agar`, `Catan Universe`, `Chess`, `Cube`, `ISS Docking Simulator`, `Pacman`, `Santa Tracker`, `Slither`, `Tetris`, `TicTacToe`, `Tower`, `Vanis`, `War Brokers`, or `Wordle`. When finished say: **"Windows, close tab"** to close the browser tab.
 
-🔦 *"Windows, check [item]"*
+🔦 *"Windows, check &lt;item&gt;"*
 -----------------------------
-Let the computer check something for you. Replace [item] by: `Bitcoin rate`, `CPU temperature`, `dawn`, `day`, `DNS`, `downloads`, `drives`, `dusk`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `Git version`, `headlines`, `Independence Day`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `Outlook`, `ping`, `recycle bin`, `Santa`, `swap space`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `the wind`, `year`, or `zenith`.
+Let the computer check something for you. Replace &lt;item&gt; by: `Bitcoin rate`, `CPU temperature`, `dawn`, `day`, `DNS`, `downloads`, `drives`, `dusk`, `Earth` (fun), `Ether rate`, `for rain`, `for snow`, `Git version`, `headlines`, `Independence Day`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `Outlook`, `ping`, `recycle bin`, `Santa`, `swap space`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `the wind`, `year`, or `zenith`.
 
-🎨 *"Windows, next [category] wallpaper"*
+🎨 *"Windows, next &lt;category&gt; wallpaper"*
 ------------------------------------------
-Replaces the desktop background by a random photo from Unsplash.com. Replace [category] by: `Animal`, `Beach`, `Car`, `Christmas`, `City`, `Desert`, `Fantasy`, `Military`, `Movie`, `Music`, `Nature`, `Plane`, `Random`, `Space`, `Sports`, or `Winter`.
+Replaces the desktop background by a random photo from Unsplash.com. Replace &lt;category&gt; by: `Animal`, `Beach`, `Car`, `Christmas`, `City`, `Desert`, `Fantasy`, `Military`, `Movie`, `Music`, `Nature`, `Plane`, `Random`, `Space`, `Sports`, or `Winter`.
 
-⏰ *"Windows, remind me [time]"*
+⏰ *"Windows, remind me &lt;time&gt;"*
 ---------------------------------
-Sets a reminder, just replace [time] by: `at 1 AM/PM`, `at 2 AM/PM`, `at 3 AM/PM`, `at 4 AM/PM`, `at 5 AM/PM`, `at 6 AM/PM`, `at 7 AM/PM`, `at 8 AM/PM`, `at 9 AM/PM`, `at 10 AM/PM`, `at 11 AM/PM`, `at midnight`, `at noon`, `at sunrise`, `at sunset`, `at tea time`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
+Sets a reminder, just replace &lt;time&gt; by: `at 1 AM/PM`, `at 2 AM/PM`, `at 3 AM/PM`, `at 4 AM/PM`, `at 5 AM/PM`, `at 6 AM/PM`, `at 7 AM/PM`, `at 8 AM/PM`, `at 9 AM/PM`, `at 10 AM/PM`, `at 11 AM/PM`, `at midnight`, `at noon`, `at sunrise`, `at sunset`, `at tea time`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
 
 💽 *"Windows, open &lt;letter&gt; drive"*
 ------------------------------------
