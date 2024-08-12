@@ -13,7 +13,7 @@ Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recogni
 
 Usage
 -----
-1. Put your headset on and make sure it's connected and working fine.
+1. Put your headset on and check that it's working.
 2. Launch *Serenade* and click the slider to switch from *Paused* to *Listening* mode. 
 3. Say a voice command like **"*Windows, open calculator*"** with a calm voice into the mic.
 
