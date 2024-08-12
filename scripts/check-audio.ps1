@@ -1,14 +1,8 @@
 ﻿<#
 .SYNOPSIS
-	Performs a sound check
+	Check audio 
 .DESCRIPTION
-	This PowerShell script performs a text-to-speech (TTS) sound check.
-.EXAMPLE
-	PS> ./sound-check
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
+	This PowerShell script performs an audio sound check.
 #>
 
 function Speak { param([string]$Text)
@@ -58,6 +52,6 @@ try {
 	}
 	exit 0 # success
 } catch {
-	"Error: $($Error[0])"
+	"Sorry: $($Error[0])"
 	exit 1
 }
