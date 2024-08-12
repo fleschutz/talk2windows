@@ -57,25 +57,25 @@ Inserts text at the current text cursor position. Replace &lt;text&gt; with: `bo
 -------------------------------------
 Launches the default Web browser (or opens a new tab) showing the given Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"**.
 
-📖 *"Windows, open [name] magazine"*
+📖 *"Windows, open &lt;name&gt; magazine"*
 -------------------------------------
-Launches the default Web browser (or opens a new tab) showing the given magazine website. Replace [name] with: `Cosmopolitan`, `Focus`, `Golf`, `GQ`, `Health`, `National Geographic`, `People`, `RollingStone`, `Scientific American`, `Spiegel`, `Sports Illustrated`, `SZ`, `The Oprah`, `Time`, `Vanity Fair`, `Vogue`, or `Wired`. When finished say: **"Windows, close tab"**.
+Launches the default Web browser (or opens a new tab) showing the given magazine website. Replace &lt;name&gt; with: `Cosmopolitan`, `Focus`, `Golf`, `GQ`, `Health`, `National Geographic`, `People`, `RollingStone`, `Scientific American`, `Spiegel`, `Sports Illustrated`, `SZ`, `The Oprah`, `Time`, `Vanity Fair`, `Vogue`, or `Wired`. When finished say: **"Windows, close tab"**.
 
-📓 *"Windows, open [name] manual"*
+📓 *"Windows, open &lt;name&gt; manual"*
 -----------------------------------
-Launches the default Web browser (or opens a new tab) with the given manual. Replace [name] with: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: **"Windows, close tab"**.
+Launches the default Web browser (or opens a new tab) with the given manual. Replace &lt;name&gt; with: `Ant`, `Apple`, `Audacity`, `Azure`, `Bash`, `Blender`, `Chrome`, `Edge`, `Firefox`, `GCC`, `Git`, `Jenkins`, `MSBuild`, `OBS Studio`, `PowerShell`, `Serenade`, `SystemRescue`, `Toyota`, `Vim`, `Voice` *(yes, this page!)*, `Volkswagen`, or `Windows`. When finished say: **"Windows, close tab"**.
 
-🏦 *"Windows, show [name] city"*
+🏦 *"Windows, show &lt;name&gt; city"*
 ---------------------------------
-Launches the default Web browser (or opens a new tab) showing the given city in *Google Maps*. Replace [name] with: `Amsterdam`, `Atlanta`, `Barcelona`, `Berlin`, `Boston`, `Cairo`, `Calgary`, `Cape Town`, `Chicago`, `Dallas`, `Denver`, `Dubai`, `Dublin`, `Frankfurt`, `Hamburg`, `Hong Kong`, `Honolulu`, `Jerusalem`, `Kansas`, `Las Vegas`, `Lisbon`, `London`, `Los Angeles`, `Madrid`, `Mexico`, `Miami`, `Montreal`, `Moscow`, `Munich`, `New York`, `Panama`, `Paris`, `Rome`, `San Francisco`, `Seattle`, `Singapore`, `Sydney`, `Tokyo`, `Toronto`, `Tunis`, `Vienna`, `Washington`, or `Zurich`. When finished say: **"Windows, close tab"**.
+Launches the default Web browser (or opens a new tab) showing the given city in *Google Maps*. Replace &lt;name&gt; with: `Amsterdam`, `Atlanta`, `Barcelona`, `Berlin`, `Boston`, `Cairo`, `Calgary`, `Cape Town`, `Chicago`, `Dallas`, `Denver`, `Dubai`, `Dublin`, `Frankfurt`, `Hamburg`, `Hong Kong`, `Honolulu`, `Jerusalem`, `Kansas`, `Las Vegas`, `Lisbon`, `London`, `Los Angeles`, `Madrid`, `Mexico`, `Miami`, `Montreal`, `Moscow`, `Munich`, `New York`, `Panama`, `Paris`, `Rome`, `San Francisco`, `Seattle`, `Singapore`, `Sydney`, `Tokyo`, `Toronto`, `Tunis`, `Vienna`, `Washington`, or `Zurich`. When finished say: **"Windows, close tab"**.
 
- 📈 *"Windows, show [name] rate"*
+ 📈 *"Windows, show &lt;name&gt; rate"*
 ----------------------------------
-Launches the default Web browser (or opens a new tab) showing the given exchange rate. Replace [name] with: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: **"Windows, close tab"**.
+Launches the default Web browser (or opens a new tab) showing the given exchange rate. Replace &lt;name&gt; with: `Bitcoin`, `Cardano`, `Ether`, `Euro`, `NFT collections`, `Solana`, `Tether`, or `US dollar`. When finished say: **"Windows, close tab"**.
 
-🎵 *"Windows, play [genre] music"*
+🎵 *"Windows, play &lt;genre&gt; music"*
 -----------------------------------
-Launches the default Web browser (or opens a new tab) and plays a music genre. Replace [genre] with: `70s`, `80s`, `90s`, `Alternative Rock`, `Blues`, `Chillout`, `Christmas`, `Classical`, `Country`, `Dance`, `Folk`, `Hip Hop`, `House`, `Indie`, `Jazz`, `Metal`, `Pop`,`Reggae`, `Relax`, `RnB`, `Rock`, or `Workout`. When finished say: **"Windows, close tab"**.
+Launches the default Web browser (or opens a new tab) and plays a music genre. Replace &lt;genre&gt; with: `70s`, `80s`, `90s`, `Alternative Rock`, `Blues`, `Chillout`, `Christmas`, `Classical`, `Country`, `Dance`, `Folk`, `Hip Hop`, `House`, `Indie`, `Jazz`, `Metal`, `Pop`,`Reggae`, `Relax`, `RnB`, `Rock`, or `Workout`. When finished say: **"Windows, close tab"**.
 
 🔈 *"Windows, play &lt;name&gt; sound"*
 ---------------------------------
