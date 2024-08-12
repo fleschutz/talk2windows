@@ -31,7 +31,7 @@ Installs a Microsoft Store application, replace &lt;app&gt; with: `CrystalDiskIn
 
  💻 *"Windows, open &lt;app&gt;"*
 ----------------------------
-Launches an application, replace &lt;app&gt; with: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, `Windows Terminal`, or `WhatsApp`. To close it simply say: **"Windows, close &lt;app&gt;"**.
+Launches an installed application, replace &lt;app&gt; with: `3D-Viewer`, `9 ZIP`, `Calculator`,  `Character Map`, `Chrome`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Paint 3D`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, `Windows Terminal`, or `WhatsApp`. To close it simply say: **"Windows, close &lt;app&gt;"**.
 
 🌐 *"Windows, open &lt;name&gt; website"*
 ------------------------------------
@@ -123,7 +123,7 @@ Lets Windows execute a command, replace &lt;command&gt; with: `calculate [expres
 
 🖖 *"Windows, &lt;farewell&gt;"*
 ---------------------------
-Say good-bye to your computer - replace &lt;farewell&gt; with: `bye`, `bye-bye`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
+Say good-bye to your computer by replacing &lt;farewell&gt; with: `bye`, `bye-bye`, `ciao`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
 
 📧 Feedback
 ------------
