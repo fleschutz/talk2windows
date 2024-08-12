@@ -16,16 +16,16 @@
 param([string]$filePattern = "$PSScriptRoot\scripts\*.ps1", [string]$app = "terminal", [string]$targetFile = "$HOME\.serenade\scripts\talk2windows.js")
 
 function AddVoiceCmd { param([string]$wakeWord, [string]$baseName, [string]$scriptPath)
-	$baseName = $baseName -replace "-"," "
+	$newBaseName = $baseName -replace "-"," "
 	$scriptPath = $scriptPath -replace "\\","\\"
-	"serenade.global().command(`"$wakeWord $baseName`",async(api)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`",[`"-NoProfile`",`"$scriptPath`"]);});" | Add-Content "$targetFile"
+	"serenade.global().command(`"$wakeWord $newBaseName`",async(api)=>{await api.runShell(A,[C,B+`"$baseName.ps1`"]);});" | Add-Content "$targetFile"
 }
 
 function AddVoiceCmdWithArgument { param([string]$wakeWord, [string]$baseName, [string]$scriptPath)
 	$baseName = $baseName -replace "-XYZ","-<%text%>"
 	$baseName = $baseName -replace "-"," "
 	$scriptPath = $scriptPath -replace "\\","\\"
-	"serenade.global().command(`"$wakeWord $baseName`",async(api,matches)=>{await api.runShell(`"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`", [`"-NoProfile`",`"$scriptPath`",matches.text]);});" | Add-Content "$targetFile"
+	"serenade.global().command(`"$wakeWord $baseName`",async(api,matches)=>{await api.runShell(PS, [`"-NoProfile`",`"$scriptPath`",matches.text]);});" | Add-Content "$targetFile"
 }
 
 try {
@@ -40,6 +40,11 @@ try {
 
 	"(4/4) Exporting as Serenade's voice phrases to: $targetFile..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$targetFile"
+	"var A = `"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`";" | Add-Content "$targetFile"
+	$scriptRoot = "$PSScriptRoot"
+	$scriptRoot = $scriptRoot -replace "\\","\\"
+	"var B = `"$scriptRoot\\scripts\\`";" | Add-Content "$targetFile"
+	"var C = `"-NoProfile`";" | Add-Content "$targetFile"
 	foreach($script in $scripts) {
 		$baseName = $script.basename
 		if ($baseName[0] -eq "_") { continue } # internal script, don't export it
