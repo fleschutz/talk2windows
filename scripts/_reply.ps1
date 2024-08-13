@@ -1,11 +1,11 @@
-param([string]$txt="")
+param([string]$t="")
 $TTS=New-Object -ComObject SAPI.SPVoice
 foreach($v in $TTS.GetVoices()){if($v.GetDescription() -like "*- English*"){$TTS.Voice=$v}}
-[void]$TTS.Speak($txt)
+[void]$TTS.Speak($t)
 
-if("$env:TEMP" -ne "")	{	$TempDir="$env:TEMP"
-} elseif("$env:TMP" -ne "") {	$TempDir="$env:TMP"
-} elseif($IsLinux) {		$TempDir="/tmp"
-} else{				$TempDir="C:\Temp" }
-"$text" > "$TempDir/talk2windows_last_reply.txt"
+if("$env:TEMP" -ne ""){$tmpDir="$env:TEMP"
+}elseif("$env:TMP" -ne ""){$tmpDir="$env:TMP"
+}elseif($IsLinux){$tmpDir="/tmp"
+}else{$tmpDir="C:\Temp" }
+"$t" > "$tmpDir/talk2windows.txt"
 exit 0

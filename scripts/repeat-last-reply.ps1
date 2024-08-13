@@ -3,12 +3,6 @@
 	Repeats the last reply
 .DESCRIPTION
 	This PowerShell script repeats the last reply by text-to-speech (TTS).
-.EXAMPLE
-	PS> ./repeat-last-reply
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 function GetTempDir {
@@ -19,13 +13,13 @@ function GetTempDir {
 }
 
 try {
-	$Path = "$(GetTempDir)/talk2windows_last_reply.txt"
-	if (test-path "$Path" -pathType leaf) {
-		$Reply = "It was: " + (Get-Content "$Path")
+	$path = "$(GetTempDir)/talk2windows.txt"
+	if (Test-Path "$path" -pathType leaf) {
+		$reply = "It was: " + (Get-Content "$path")
 	} else {
-		$Reply = "Sorry, I can't remember."
+		$reply = "Sorry, I can't remember."
 	}
-	& "$PSScriptRoot/_reply.ps1" $Reply
+	& "$PSScriptRoot/_reply.ps1" $reply
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
