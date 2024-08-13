@@ -15,22 +15,19 @@
 
 param([string]$filePattern = "$PSScriptRoot\scripts\*.ps1", [string]$app = "terminal", [string]$targetFile = "$HOME\.serenade\scripts\talk2windows.js")
 
-function AddVoiceCmd { param([string]$wakeWord, [string]$baseName, [string]$scriptPath)
-	$newBaseName = $baseName -replace "-"," "
-	$scriptPath = $scriptPath -replace "\\","\\"
-	"serenade.global().command(`"$wakeWord $newBaseName`",async(api)=>{await api.runShell(A,[C,B+`"$baseName.ps1`"]);});" | Add-Content "$targetFile"
+function AddVoiceCmd { param([string]$phrase, [string]$scriptName)
+	$phrase = $phrase -replace "-"," "
+	"serenade.global().command(W+`"$phrase`",async(api)=>{await api.runShell(A,[N,B+`"$scriptName`"]);});" | Add-Content "$targetFile"
 }
 
-function AddVoiceCmdWithArgument { param([string]$wakeWord, [string]$baseName, [string]$scriptPath)
-	$baseName = $baseName -replace "-XYZ","-<%text%>"
-	$baseName = $baseName -replace "-"," "
-	$scriptPath = $scriptPath -replace "\\","\\"
-	"serenade.global().command(`"$wakeWord $baseName`",async(api,matches)=>{await api.runShell(PS, [`"-NoProfile`",`"$scriptPath`",matches.text]);});" | Add-Content "$targetFile"
+function AddMatchingVoiceCmd { param([string]$phrase, [string]$scriptName)
+	$phrase = $phrase -replace "-"," "
+	"serenade.global().command(W+`"$phrase`",async(api,matches)=>{await api.runShell(A,[N,B+`"$scriptName`",matches.text]);});" | Add-Content "$targetFile"
 }
 
 try {
 	"`n(1/4) Checking requirements for Talk2Windows..."
-	if (!(Test-Path "$HOME\.serenade" -pathType container)) { throw "The Serenade app is missing - please download and install it from serenade.ai" }
+	if (!(Test-Path "$HOME\.serenade" -pathType container)) { throw "No Serenade app installed - please download and install it from serenade.ai" }
 
 	$wakeWord = Read-Host "(2/4) Enter your personal wake word, e.g. 'Alexa', 'Jarvis', 'Siri', 'Windows'"
 	$wakeWord = $wakeWord.toLower()
@@ -44,25 +41,28 @@ try {
 	$scriptRoot = "$PSScriptRoot"
 	$scriptRoot = $scriptRoot -replace "\\","\\"
 	"var B = `"$scriptRoot\\scripts\\`";" | Add-Content "$targetFile"
-	"var C = `"-NoProfile`";" | Add-Content "$targetFile"
+	"var N = `"-NoProfile`";" | Add-Content "$targetFile"
+	"var W = `"$wakeWord `";" | Add-Content "$targetFile"
 	foreach($script in $scripts) {
 		$baseName = $script.basename
-		if ($baseName[0] -eq "_") { continue } # internal script, don't export it
+		if ($baseName[0] -eq "_") { continue } # internal script
 		if ($baseName -like "*-XYZ*") {
-			AddVoiceCmdWithArgument $wakeWord $baseName $script
+			$phrase = $baseName -replace "-XYZ","-<%text%>"
+			AddMatchingVoiceCmd $phrase "$baseName.ps1"
 		} elseif ($baseName -like "*-is-*") {
-			AddVoiceCmd $wakeWord $baseName $script
-			$baseName = $baseName -replace "-is-","'s-"
-			AddVoiceCmd $wakeWord $baseName $script
+			AddVoiceCmd $baseName "$baseName.ps1"
+			$phrase = $baseName -replace "-is-","'s-"
+			AddVoiceCmd $phrase "$baseName.ps1"
 		} elseif ($baseName -like "i-am-*") {
-			$baseName = $baseName -replace "-am-","'m-"
-			AddVoiceCmd $wakeWord $baseName $script
-
+			AddVoiceCmd $baseName "$baseName.ps1"
+			$phrase = $baseName -replace "-am-","'m-"
+			AddVoiceCmd $phrase "$baseName.ps1"
 		} elseif ($baseName -like "i-will-*") {
-			$baseName = $baseName -replace "-will-","'ll-"
-			AddVoiceCmd $wakeWord $baseName $script
+			AddVoiceCmd $baseName "$baseName.ps1"
+			$phrase = $baseName -replace "-will-","'ll-"
+			AddVoiceCmd $phrase "$baseName.ps1"
 		} else {
-			AddVoiceCmd $wakeWord $baseName $script 
+			AddVoiceCmd $baseName "$baseName.ps1"
 		}
 	}
 	"`nSUCCESS - now launch Serenade and unpause it, then speak into the mic: `'$wakeWord, hi`'."
