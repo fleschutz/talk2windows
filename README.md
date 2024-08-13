@@ -47,7 +47,7 @@ Presses a keyboard shortcut to navigate in a browser window. Replace &lt;shortcu
 
 📝 *"Windows, insert &lt;char&gt; sign"*
 ---------------------------------------
-Inserts a character at the current text cursor position. Replace &lt;char&gt; with: `at`, `backslash`, `copyright`, `Dollar`, `Euro`, `hashtag`, `minus`, `percent`, `pipe`, `plus`, `Pound`, `slash`, `trademark`, `underscore`, or `Yen`.
+Inserts the given character at the current text cursor position. Replace &lt;char&gt; with: `at`, `backslash`, `copyright`, `Dollar`, `Euro`, `hashtag`, `minus`, `percent`, `pipe`, `plus`, `Pound`, `slash`, `trademark`, `underscore`, or `Yen`.
 
 📝 *"Windows, insert &lt;text&gt;"*
 ---------------------------------
