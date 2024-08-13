@@ -1,10 +1,10 @@
 ﻿<#
 .SYNOPSIS
-	Inserts the Slash sign
+	Insert Slash sign
 .DESCRIPTION
 	This PowerShell script inserts the slash sign at the current text cursor position.
 #>
 
 (New-Object -com wscript.shell).SendKeys("/")
-& "$PSScriptRoot/_reply.ps1" "Okay."	
+& "$PSScriptRoot/_reply.ps1" "Slash sign."	
 exit 0 # success
