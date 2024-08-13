@@ -3,19 +3,13 @@
 	Installs 7-Zip
 .DESCRIPTION
 	This PowerShell script installs 7-Zip.
-.EXAMPLE
-	PS> ./install-seven-zip
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "Installing 7-Zip, please wait..."
 
 	& winget install --id 7zip.7zip --accept-package-agreements --accept-source-agreements
-	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
+	if ($lastExitCode -ne "0") { throw "Installation of 7-Zip failed, maybe it's already installed." }
 
 	& "$PSScriptRoot/_reply.ps1" "7-Zip installed successfuly."
 	exit 0 # success
