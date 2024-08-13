@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("®")
-& "$PSScriptRoot/_reply.ps1" "Trademark sign."
+& "$PSScriptRoot/_reply.ps1" "Trademark."

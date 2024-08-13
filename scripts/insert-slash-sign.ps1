@@ -6,5 +6,5 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("/")
-& "$PSScriptRoot/_reply.ps1" "Slash sign."	
+& "$PSScriptRoot/_reply.ps1" "Slash."
 exit 0 # success
