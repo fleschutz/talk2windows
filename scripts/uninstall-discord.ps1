@@ -3,12 +3,6 @@
 	Uninstalls Discord
 .DESCRIPTION
 	This PowerShell script uninstalls Discord from the local computer.
-.EXAMPLE
-	PS> ./uninstall-discord
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 try {

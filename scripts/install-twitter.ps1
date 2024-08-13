@@ -3,12 +3,6 @@
 	Installs Twitter
 .DESCRIPTION
 	This PowerShell script installs Twitter from the Microsoft Store.
-.EXAMPLE
-	PS> ./install-twitter
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {

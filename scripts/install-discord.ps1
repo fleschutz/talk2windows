@@ -3,18 +3,12 @@
 	Installs Discord
 .DESCRIPTION
 	This PowerShell script installs Discord from the Microsoft Store.
-.EXAMPLE
-	PS> ./install-discord
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
 	& "$PSScriptRoot/_reply.ps1" "Installing Discord, please wait..."
 
-	& winget install "Discord" --source msstore --accept-package-agreements --accept-source-agreements
+	& winget install --id XPDC2RH70K22MN --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/_reply.ps1" "Discord installed successfully."
