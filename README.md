@@ -19,7 +19,7 @@ Usage
 
 This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app. Raise the mic audio level in case a *'low voice'* is shown. Most voice commands follow the simple scheme: *&lt;wake word&gt; &lt;verb&gt; &lt;subject&gt;*.
 
-The following voice commands are supported: (if wake word "Windows" is used)
+The following voice commands are supported: (using wake word "Windows")
 
 👋 *"Windows, &lt;greeting&gt;"*
 ---------------------------
