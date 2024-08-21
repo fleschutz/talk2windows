@@ -3,23 +3,15 @@
 	Uninstalls Rufus
 .DESCRIPTION
 	This PowerShell script uninstalls the Rufus application from the local computer.
-.EXAMPLE
-	PS> ./uninstall-rufus.ps1
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Uninstalling Rufus, wait a second..."
+	& "$PSScriptRoot/_reply.ps1" "Uninstalling Rufus, hold on..."
 
-	& winget uninstall "Rufus"
-	if ($lastExitCode -ne "0") { throw "Can't uninstall Rufus, is it installed?" }
+	& winget uninstall --id 9PC3H3V7Q9CH
+	if ($lastExitCode -ne "0") { throw "Can't uninstall Rufus, maybe it's not installed." }
 
-	& "$PSScriptRoot/_reply.ps1" "Rufus is uninstalled now."
-	exit 0 # success
+	& "$PSScriptRoot/_reply.ps1" "Rufus is gone."
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
-	exit 1
 }

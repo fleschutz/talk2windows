@@ -3,19 +3,13 @@
 	Installs Rufus
 .DESCRIPTION
 	This PowerShell script installs Rufus from the Microsoft Store.
-.EXAMPLE
-	PS> ./install-rufus
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Installing Rufus, please wait..."
+	& "$PSScriptRoot/_reply.ps1" "Installing Rufus from Microsoft Store, hold on..."
 
-	& winget install "Rufus" --source msstore --accept-package-agreements --accept-source-agreements
-	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
+	& winget install --id 9PC3H3V7Q9CH --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "Rufus installation failed, maybe it's already installed." }
 
 	& "$PSScriptRoot/_reply.ps1" "Rufus installed successfully."
 	exit 0 # success
