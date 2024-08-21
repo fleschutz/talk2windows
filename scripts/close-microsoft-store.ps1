@@ -1,19 +1,14 @@
 <#
 .SYNOPSIS
-	Closes the Microsoft Store app
+	Closes Microsoft Store
 .DESCRIPTION
 	This PowerShell script closes the Microsoft Store application gracefully.
-.EXAMPLE
-	PS> ./close-microsoft-store
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 TaskKill /im WinStore.App.exe /f /t
-if ($lastExitCode -ne "0") {
-	& "$PSScriptRoot/_reply.ps1" "Sorry, Microsoft Store isn't running."
-	exit 1
+if ($lastExitCode -eq "0") {
+	$reply = "Closed."
+} else {
+	$reply = "Sorry, Microsoft Store isn't running."
 }
-exit 0 # success
+& "$PSScriptRoot/_reply.ps1" $reply
