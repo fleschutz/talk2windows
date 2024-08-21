@@ -1,27 +1,19 @@
 <#
 .SYNOPSIS
-	Launches Thunderbird
+	Opens Thunderbird
 .DESCRIPTION
-	This PowerShell script launches the Mozilla Thunderbird email application.
-.EXAMPLE
-	PS> ./open-thunderbird
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
+	This PowerShell script launches the Mozilla Thunderbird application.
 #>
 
-function TryToExec { param($Folder, $Binary)
-        if (test-path "$Folder/$Binary" -pathType leaf) {
-                start-process "$Folder/$Binary" -WorkingDirectory "$Folder"
-                exit 0 # success
-        }
-}
-
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay"
-	TryToExec "C:\Program Files (x86)\Mozilla Thunderbird" "thunderbird.exe"
-	throw "It seems Thunderbird isn't installed yet."
+	& "$PSScriptRoot/_reply.ps1" "Hold on."
+
+	$app = Get-AppxPackage -Name MozillaThunderbird.MZLA
+	if ($app.Status -ne "Ok") { throw "Can't open Mozilla Thunderbird, maybe it's not installed." }
+
+	explorer.exe shell:appsFolder\$($app.PackageFamilyName)!App
+
+	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
 }

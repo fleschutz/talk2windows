@@ -3,19 +3,13 @@
 	Installs Thunderbird
 .DESCRIPTION
 	This PowerShell script installs Mozilla Thunderbird.
-.EXAMPLE
-	PS> ./install-thunderbird
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Installing Mozilla Thunderbird, please wait..."
+	& "$PSScriptRoot/_reply.ps1" "Installing Mozilla Thunderbird from Microsoft Store, hold on..."
 
-	& winget install --id Mozilla.Thunderbird --accept-package-agreements --accept-source-agreements
-	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
+	& winget install --id 9PM5VM1S3VMQ --accept-package-agreements --accept-source-agreements
+	if ($lastExitCode -ne "0") { throw "Mozilla Thunderbird installation failed, maybe it's already installed." }
 
 	& "$PSScriptRoot/_reply.ps1" "Mozilla Thunderbird installed successfully."
 	exit 0 # success
