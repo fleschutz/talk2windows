@@ -1,22 +1,9 @@
 <#
 .SYNOPSIS
-	Presses the Reload Page hotkey
+	Reloads a Web page
 .DESCRIPTION
-	This PowerShell script presses the Reload Page keyboard shortcut.
-.EXAMPLE
-	PS> ./reload-page
-.NOTES
-	Author:  Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
+	This PowerShell script presses the keyboard shortcut for 'Reload Page'.
 #>
 
-try {
-	$obj = New-Object -com wscript.shell
-	$obj.SendKeys("^{F5}")
-	& "$PSScriptRoot/_reply.ps1" "OK."
-	exit 0 # success
-} catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+(New-Object -com wscript.shell).SendKeys("^{F5}")
+& "$PSScriptRoot/_reply.ps1" "Reloaded."
