@@ -26,8 +26,9 @@ function AddMatchingVoiceCmd { param([string]$phrase, [string]$scriptName)
 }
 
 try {
-	"`n(1/4) Checking requirements for Talk2Windows..."
-	if (!(Test-Path "$HOME\.serenade" -pathType container)) { throw "No Serenade app installed - please download and install it from serenade.ai" }
+	Write-Host "`n(1/4) Checking for Serenade app... " -noNewline
+	if (!(Test-Path "~\.serenade" -pathType container)) { throw "Serenade app isn't installed yet - please download and install it from https://serenade.ai" }
+	Write-Host "OK"
 
 	$wakeWord = Read-Host "(2/4) Enter your personal wake word, e.g. 'Alexa', 'Jarvis', 'Siri', 'Windows'"
 	$wakeWord = $wakeWord.toLower()
@@ -65,7 +66,7 @@ try {
 			AddVoiceCmd $baseName "$baseName.ps1"
 		}
 	}
-	"`nSUCCESS - now launch Serenade and unpause it, then speak into the mic: `'$wakeWord, hi`'."
+	"`nSUCCESS - now launch the Serenade app and unpause it, then speak into the mic: `'$wakeWord, hi`'."
 	exit 0 # success
 } catch {
 	Write-Error "ERROR: $($Error[0])"
