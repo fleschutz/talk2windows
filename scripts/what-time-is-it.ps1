@@ -6,5 +6,4 @@
 #>
 
 [system.threading.thread]::currentThread.currentCulture = [system.globalization.cultureInfo]"en-US"
-$now = (Get-Date).ToShortTimeString()
-& "$PSScriptRoot/_reply.ps1" "It's $now."
+& "$PSScriptRoot/_reply.ps1" "It's $((Get-Date).ToShortTimeString())."

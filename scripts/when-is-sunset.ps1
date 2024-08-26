@@ -5,31 +5,30 @@
 	This PowerShell script replies to 'When is sunset?' by text-to-speech (TTS).
 #>
 
-function GetTimeSpan { param([TimeSpan]$Delta)
-        $Result = ""
-        if ($Delta.Hours -eq 1) {       $Result += "1 hour and "
-        } elseif ($Delta.Hours -gt 1) { $Result += "$($Delta.Hours) hours and "
-        }
-        if ($Delta.Minutes -eq 1) { $Result += "1 minute"
-        } else {                    $Result += "$($Delta.Minutes) minutes"
-        }
-        return $Result
+function GetTimeSpan { param([TimeSpan]$delta)
+	$ret = ""
+	if ($delta.Hours -eq 1) {       $ret += "1 hour and "
+	} elseif ($delta.Hours -gt 1) { $ret += "$($delta.Hours) hours and "
+	}
+	if ($delta.Minutes -eq 1) { $ret += "1 minute"
+	} else {                    $ret += "$($delta.Minutes) minutes"
+	}
+	return $ret
 }
 
 try {
 	[system.threading.thread]::currentThread.currentCulture=[system.globalization.cultureInfo]"en-US"
-	$String = (Invoke-WebRequest -URI http://wttr.in/?format="%s" -UserAgent "curl" -useBasicParsing).Content
-	$Hour,$Minute,$Second = $String -split ':'
+	$string = (Invoke-WebRequest -URI http://wttr.in/?format="%s" -UserAgent "curl" -useBasicParsing).Content
+	$Hour,$Minute,$Second = $string -split ':'
 	$Sunset = Get-Date -Hour $Hour -Minute $Minute -Second $Second
-	$Now = [DateTime]::Now
-	if ($Now -lt $Sunset) {
-                $TimeSpan = GetTimeSpan($Sunset - $Now)
-                $Reply = "Sunset is in $TimeSpan at $($Sunset.ToShortTimeString())."
+	$now = [DateTime]::Now
+	if ($now -lt $Sunset) {
+                $timeSpan = GetTimeSpan($Sunset - $now)
+                & "$PSScriptRoot/_reply.ps1" "Sunset is in $timeSpan at $($Sunset.ToShortTimeString())."
         } else {
-                $TimeSpan = GetTimeSpan($Now - $Sunset)
-                $Reply = "Sunset was $TimeSpan ago at $($Sunset.ToShortTimeString())."
+                $timeSpan = GetTimeSpan($now - $Sunset)
+                & "$PSScriptRoot/_reply.ps1" "Sunset was $timeSpan ago at $($Sunset.ToShortTimeString())."
         }
-	& "$PSScriptRoot/_reply.ps1" $Reply
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
