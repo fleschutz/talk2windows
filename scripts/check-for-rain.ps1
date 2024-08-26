@@ -29,8 +29,9 @@ try {
 	
 	if ($precipMM -eq "0.0") {
 		foreach($hourly in $weather.weather.hourly) {
+			[int]$chance = $hourly.chanceofrain
 			if (($day -eq "today") -and ($now -gt $hourly.time)) {
-			} elseif ($hourly.chanceofrain -gt "30") { # more than 30%
+			} elseif (($chance -gt 30) -and ($hourly.precipMM -ne "0.0")) { # >30% and >0.0mm
 				& "$PSScriptRoot/_reply.ps1" "$($hourly.weatherDesc.value) expected $day at $($hourly.time / 100) o'clock with $($hourly.precipMM) millimeters per hour."
 				exit 0 # success
 			}
