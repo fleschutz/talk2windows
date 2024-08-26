@@ -3,12 +3,6 @@
 	Checks the Ping Time
 .DESCRIPTION
 	This PowerShell script checks the ping latency from the local computer to selected Internet hosts.
-.EXAMPLE
-	PS> ./check-ping
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 param()
@@ -16,7 +10,7 @@ param()
 try {
 	& "$PSScriptRoot/_reply.ps1" "Hold on."
 
-	$hosts = "amazon.com,bing.com,cnn.com,dropbox.com,facebook.com,google.com,live.com,twitter.com,youtube.com"
+	$hosts = "bing.com,cnn.com,dropbox.com,github.com,google.com,ibm.com,live.com,meta.com,x.com,youtube.com"
 	$HostsArray = $hosts.Split(",")
 	$Pings = Test-Connection -count 1 -computerName $HostsArray
 
@@ -30,7 +24,7 @@ try {
 		$Avg += $Latency
 	}
 	$Avg = $Avg / $Pings.count
-	& "$PSScriptRoot/_reply.ps1" "Ping is $($Avg)ms average, ($($Min)ms min, $($Max)ms max."
+	& "$PSScriptRoot/_reply.ps1" "Ping latency is from $($Min)ms min to $($Max)ms max, average is $($Avg)ms."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
