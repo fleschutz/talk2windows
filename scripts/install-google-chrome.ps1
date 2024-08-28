@@ -1,14 +1,8 @@
 <#
 .SYNOPSIS
-	Installs Chrome
+	Installs Google Chrome
 .DESCRIPTION
 	This PowerShell script installs the Google Chrome browser.
-.EXAMPLE
-	PS> ./install-chrome
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
