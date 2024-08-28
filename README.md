@@ -14,7 +14,7 @@ Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recogni
 Usage
 -----
 1. Put your headset on and check that it's working.
-2. Launch *Serenade* and click the slider to switch from *Paused* to *Listening* mode. 
+2. Launch *Serenade*, wait a bit, and click the slider to switch from *Paused* to *Listening* mode. 
 3. Say a voice command like **"*Windows, open calculator*"** with a calm voice into the mic.
 
 This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app. Raise the mic audio level in case a *'low voice'* is shown. Most voice commands follow the simple scheme: *&lt;wake word&gt; &lt;verb&gt; &lt;subject&gt;*.
