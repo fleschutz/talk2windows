@@ -5,7 +5,5 @@
 	This PowerShell script launches the default Web browser with a given URL.
 #>
 
-param([string]$URL = "https://github.com/fleschutz/talk2windows")
-
+param([string]$URL)
 Start-Process $URL
-exit 0 # success
