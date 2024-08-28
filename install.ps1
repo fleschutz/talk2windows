@@ -66,7 +66,7 @@ try {
 			AddVoiceCmd $baseName "$baseName.ps1"
 		}
 	}
-	"Installation succeeded - now use it as follows:"
+	"Talk2Windows installed successfully. Now perform the following steps to use it:"
 	""
 	" 1. Put your headset on and check that it's working."
 	""
