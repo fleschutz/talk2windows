@@ -1,27 +1,22 @@
 <#
 .SYNOPSIS
-	Opens the repositories folder
+	Opens the repos folder
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the user's Git repositories folder.
-.EXAMPLE
-	PS> ./open-repos-folder
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-        if (Test-Path "$HOME\Repos" -pathType Container) {              # try short name
-		 $Path = "$HOME\Repos"
-	} elseif (Test-Path "$HOME\Repositories" -pathType Container) { # try long name
-                $Path = "$HOME\Repositories"
-	} elseif (Test-Path "$HOME\source\repos" -pathType Container) { # try Visual Studio default
-                $Path = "$HOME\source\repos"
+        if (Test-Path "$HOME\Repos" -pathType container) {              # try short name
+		 $path = "$HOME\Repos"
+	} elseif (Test-Path "$HOME\Repositories" -pathType container) { # try long name
+                $path = "$HOME\Repositories"
+	} elseif (Test-Path "$HOME\source\repos" -pathType container) { # try Visual Studio default
+                $path = "$HOME\source\repos"
         } else {
-                throw "The folder for Git repositories in your home directory doesn't exist (yet)."
+                throw "Your Git repositories folder in your home directory doesn't exist yet."
         }
-	& "$PSScriptRoot/open-file-explorer.ps1" "$Path"
+	& "$PSScriptRoot/open-file-explorer.ps1" "$path"
+	& "$PSScriptRoot/_reply.ps1" "Your Git repos".
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
