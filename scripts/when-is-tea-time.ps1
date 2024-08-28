@@ -3,38 +3,27 @@
 	Replies the time until Tea time
 .DESCRIPTION
 	This PowerShell script checks the time until Tea time and replies by text-to-speech (TTS).
-.EXAMPLE
-	PS> ./when-is-tea-time
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
-function TimeSpan2String { param([TimeSpan]$Delta)
+function TimeSpan2String { param([TimeSpan]$delta)
 	$Result = ""
-	if ($Delta.Hours -eq 1) {       $Result += "1 hour and "
-	} elseif ($Delta.Hours -gt 1) { $Result += "$($Delta.Hours) hours and "
+	if ($delta.Hours -eq 1) {       $Result += "1 hour and "
+	} elseif ($delta.Hours -gt 1) { $Result += "$($delta.Hours) hours and "
 	}
-	if ($Delta.Minutes -eq 1) { $Result += "1 minute"
-	} else {                    $Result += "$($Delta.Minutes) minutes"
+	if ($delta.Minutes -eq 1) { $Result += "1 minute"
+	} else {                    $Result += "$($delta.Minutes) minutes"
 	}
 	return $Result
 }
 
 try {
-	$Now = [DateTime]::Now
-	$TeaTime = Get-Date -Hour 16 -Minute 0 -Second 0
-	if ($Now -lt $TeaTime) {
-		$TimeSpan = TimeSpan2String($TeaTime - $Now)
-		$Reply = "Tea time is in $TimeSpan."
+	$now = [DateTime]::Now
+	$teaTime = Get-Date -Hour 16 -Minute 0 -Second 0
+
+	if ($now -lt $teaTime) {
+		$reply = "Tea time is in $(TimeSpan2String($teaTime - $now))."
 	} else {
-		$TimeSpan = TimeSpan2String($Now - $TeaTime)
-		$Reply = "Tea time was $TimeSpan ago."
+		$reply = "Tea time was $(TimeSpan2String($now - $teaTime)) ago."
 	}
-	& "$PSScriptRoot/_reply.ps1" $Reply
-	exit 0 # success
-} catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+} catch { $reply = "Sorry: $($Error[0])" }
+& "$PSScriptRoot/_reply.ps1" $reply

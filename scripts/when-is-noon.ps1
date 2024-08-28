@@ -3,38 +3,26 @@
 	Tells the time until Noon
 .DESCRIPTION
 	This PowerShell script tells the time until Noon by text-to-speech (TTS).
-.EXAMPLE
-	PS> ./when-is-noon
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-function GetTimeSpan { param([TimeSpan]$Delta)
-	$Result = ""
-	if ($Delta.Hours -eq 1) {       $Result += "1 hour and "
-	} elseif ($Delta.Hours -gt 1) { $Result += "$($Delta.Hours) hours and "
+function GetTimeSpan { param([TimeSpan]$delta)
+	$result = ""
+	if ($delta.Hours -eq 1) {       $result += "1 hour and "
+	} elseif ($delta.Hours -gt 1) { $result += "$($delta.Hours) hours and "
 	}
-	if ($Delta.Minutes -eq 1) { $Result += "1 minute"
-	} else {                    $Result += "$($Delta.Minutes) minutes"
+	if ($delta.Minutes -eq 1) { $result += "1 minute"
+	} else {                    $result += "$($delta.Minutes) minutes"
 	}
-	return $Result
+	return $result
 }
 
 try {
-	$Now = [DateTime]::Now
-	$Noon = Get-Date -Hour 12 -Minute 0 -Second 0
-	if ($Now -lt $Noon) {
-		$TimeSpan = GetTimeSpan($Noon - $Now)
-		$Reply = "Noon is in $TimeSpan."
+	$now = [DateTime]::Now
+	$noon = Get-Date -Hour 12 -Minute 0 -Second 0
+	if ($now -lt $noon) {
+		$reply = "Noon is in $(GetTimeSpan($noon - $now))."
 	} else {
-		$TimeSpan = GetTimeSpan($Now - $Noon)
-		$Reply = "Noon was $TimeSpan ago."
+		$reply = "Noon was $(GetTimeSpan($now - $noon)) ago."
 	}
-	& "$PSScriptRoot/_reply.ps1" "$Reply"
-	exit 0 # success
-} catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+} catch { $reply = "Sorry: $($Error[0])" }
+& "$PSScriptRoot/_reply.ps1" $reply
