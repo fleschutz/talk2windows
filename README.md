@@ -91,7 +91,7 @@ Replaces the desktop background by a random photo from Unsplash.com. Replace &lt
 
 ⏰ *"Windows, remind me &lt;time&gt;"*
 ---------------------------------
-Sets a reminder, just replace &lt;time&gt; with: `at 1 AM/PM`, `at 2 AM/PM`, `at 3 AM/PM`, `at 4 AM/PM`, `at 5 AM/PM`, `at 6 AM/PM`, `at 7 AM/PM`, `at 8 AM/PM`, `at 9 AM/PM`, `at 10 AM/PM`, `at 11 AM/PM`, `at midnight`, `at noon`, `at sunrise`, `at sunset`, `at tea time`, `in 5 minutes`, `in 10 minutes`, `in 15 minutes`, or `in 30 minutes`.
+Sets a reminder, just replace &lt;time&gt; with: `at 1 AM/PM`, `at 2 AM/PM`, `at 3 AM/PM`, `at 4 AM/PM`, `at 5 AM/PM`, `at 6 AM/PM`, `at 7 AM/PM`, `at 8 AM/PM`, `at 9 AM/PM`, `at 10 AM/PM`, `at 11 AM/PM`, `at midnight`, `at noon`, `at sunrise`, `at sunset`, `at tea time`, or `in &lt;number&gt; minutes`.
 
 💽 *"Windows, open &lt;letter&gt; drive"*
 ------------------------------------
