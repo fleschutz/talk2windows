@@ -1,27 +1,17 @@
 <#
 .SYNOPSIS
-	Empty Recycle Bin
+	Empty the recycle bin
 .DESCRIPTION
 	This PowerShell script removes the content of all the local computer's recycle bins permanently. NOTE: this cannot be undo!
-.EXAMPLE
-	PS> ./empty-recycle-bin
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-        $Shell = New-Object -com shell.application
-        $RecycleBin = $Shell.Namespace(10)
-        foreach($Item in $RecycleBin.items()) {
-		& "$PSScriptRoot/_reply.ps1" "Okay."
-           	Clear-RecycleBin -Force -Confirm:$false
-		& "$PSScriptRoot/_reply.ps1" "Empty now."
-		exit 0 # success
+	& "$PSScriptRoot/_reply.ps1" "Okay."
+        $recycleBin = (New-Object -com shell.application).Namespace(10)
+	$reply = "It's already empty."
+        foreach($item in $recycleBin.items()) {
+           	Clear-RecycleBin -force -confirm:$false
+		$reply = "Empty now."
         }
-	throw "It's empty"
-} catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])."
-	exit 1
-}
+} catch { $reply = "Sorry: $($Error[0])." }
+& "$PSScriptRoot/_reply.ps1" $reply

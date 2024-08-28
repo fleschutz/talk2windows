@@ -2,14 +2,11 @@
 .SYNOPSIS
 	Close tab
 .DESCRIPTION
-	This PowerShell script sends a hotkey that closes the current tab.
+	This PowerShell script sends a hotkey that closes the current Web browser tab.
 #>
 
 try {
 	(New-Object -com wscript.shell).SendKeys("^w")
-	& "$PSScriptRoot/_reply.ps1" "Closed."
-	exit 0 # success
-} catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+	$reply = "Closed."
+} catch { $reply = "Sorry: $($Error[0])" }
+& "$PSScriptRoot/_reply.ps1" $reply
