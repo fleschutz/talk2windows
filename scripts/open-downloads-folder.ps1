@@ -3,24 +3,13 @@
 	Opens the user's downloads folder
 .DESCRIPTION
 	This PowerShell script launches the File Explorer showing the user's downloads folder.
-.EXAMPLE
-	PS> ./open-downloads-folder
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-	if ($IsLinux) {
-		$Path = Resolve-Path "$HOME/Downloads"
-	} else {
-		$Path = (New-Object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path
-	}
-	if (-not(Test-Path "$Path" -pathType container)) {
-		throw "Downloads folder at $Path doesn't exist (yet)"
-	}
-	& "$PSScriptRoot/open-file-explorer.ps1" $Path
+	$path = (New-Object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path
+	if (-not(Test-Path "$path" -pathType container)) { throw "Your downloads folder at $path doesn't exist (yet)" }
+	& "$PSScriptRoot/open-file-explorer.ps1" "$path"
+	& "$PSScriptRoot/_reply.ps1" "Your downloads."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

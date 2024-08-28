@@ -3,13 +3,14 @@
 	Open F: Drive 
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the F: drive folder.
-.EXAMPLE
-	PS> ./open-f-drive
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-file-explorer.ps1" "F:"
-exit 0 # success
+try {
+        if (-not(Test-Path "F:" -pathType container)) { throw "There is no F drive." }
+        & "$PSScriptRoot/open-file-explorer.ps1" "F:"
+        & "$PSScriptRoot/_reply.ps1" "Your F drive."
+        exit 0 # success
+} catch {
+        & "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+        exit 1
+}

@@ -3,13 +3,14 @@
 	Open D: Drive
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the D: drive folder.
-.EXAMPLE
-	PS> ./open-d-drive
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-file-explorer.ps1" "D:"
-exit 0 # success
+try {
+	if (-not(Test-Path "D:" -pathType container)) { throw "There is no D drive." }
+	& "$PSScriptRoot/open-file-explorer.ps1" "D:"
+	& "$PSScriptRoot/_reply.ps1" "Your D drive."
+	exit 0 # success
+} catch {
+        & "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+        exit 1
+}

@@ -5,7 +5,8 @@
 	This PowerShell script launches the File Explorer with the crash dumps folder.
 #>
 
-[string]$path = Resolve-Path -Path "~\AppData\Local\CrashDumps"
-& "$PSScriptRoot/open-file-explorer.ps1" $path
+$path = Resolve-Path "~\AppData\Local\CrashDumps"
+& "$PSScriptRoot/open-file-explorer.ps1" "$path"
+& "$PSScriptRoot/_reply.ps1" "Your crash dumps."
 exit 0 # success
 

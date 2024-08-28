@@ -7,9 +7,9 @@
 
 try {
 	$path = Resolve-Path "~"
-	if (-not(Test-Path "$path" -pathType container)) { throw "Home folder at $path doesn't exist (yet)" }
+	if (-not(Test-Path "$path" -pathType container)) { throw "Your home folder at $path doesn't exist (yet)" }
 	& "$PSScriptRoot/open-file-explorer.ps1" "$path"
-	& "$PSScriptRoot/_reply.ps1" "Okay."
+	& "$PSScriptRoot/_reply.ps1" "Your home folder."
 	exit 0 # success
 } catch {
 	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"

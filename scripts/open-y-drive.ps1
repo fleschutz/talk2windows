@@ -3,13 +3,14 @@
 	Open Y: Drive 
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the Y: drive folder.
-.EXAMPLE
-	PS> ./open-y-drive
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-file-explorer.ps1" "Y:"
-exit 0 # success
+try {
+	if (-not(Test-Path "Y:" -pathType container)) { throw "There is no Y drive." }
+        & "$PSScriptRoot/open-file-explorer.ps1" "Y:"
+        & "$PSScriptRoot/_reply.ps1" "Your Y drive."
+        exit 0 # success
+} catch {
+        & "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+        exit 1
+}

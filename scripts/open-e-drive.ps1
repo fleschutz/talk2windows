@@ -3,13 +3,14 @@
 	Open E: Drive
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the E: drive folder.
-.EXAMPLE
-	PS> ./open-e-drive
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/open-file-explorer.ps1" "E:"
-exit 0 # success
+try {
+        if (-not(Test-Path "E:" -pathType container)) { throw "There is no E drive." }
+        & "$PSScriptRoot/open-file-explorer.ps1" "E:"
+        & "$PSScriptRoot/_reply.ps1" "Your E drive."
+        exit 0 # success
+} catch {
+        & "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+        exit 1
+}
