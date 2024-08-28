@@ -66,7 +66,14 @@ try {
 			AddVoiceCmd $baseName "$baseName.ps1"
 		}
 	}
-	"`nSUCCESS - now launch the Serenade app and unpause it, then speak into the mic: `'$wakeWord, hi`'."
+	"Installation succeeded - now use it as follows:"
+	""
+	" 1. Put your headset on and check that it's working."
+	""
+	" 2. Launch the Serenade app and click the slider to switch from Paused to Listening mode."
+	""
+	" 3. Say a voice command like `"$wakeWord, hi`" with a calm voice into the mic."
+	""
 	exit 0 # success
 } catch {
 	Write-Error "ERROR: $($Error[0])"
