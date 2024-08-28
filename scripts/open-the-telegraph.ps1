@@ -7,4 +7,3 @@
 
 & "$PSScriptRoot/_reply.ps1" "Okay."
 & "$PSScriptRoot/open-browser.ps1" "https://www.telegraph.co.uk/"
-exit 0 # success

@@ -1,25 +1,19 @@
 <#
 .SYNOPSIS
-	Launches Git Extensions 
+	Opens Git Extensions 
 .DESCRIPTION
 	This PowerShell script launches the Git Extensions application.
-.EXAMPLE
-	PS> ./open-git-extensions
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-function TryToExec { param($Folder, $Binary)
-	if (test-path "$Folder/$Binary" -pathType leaf) {
-		start-process "$Folder/$Binary" -WorkingDirectory "$Folder"
+function TryToExec { param($folder, $binary)
+	if (Test-Path "$folder/$binary" -pathType leaf) {
+		Start-Process "$folder/$binary" -workingDirectory "$folder"
 		exit 0 # success
 	}
 }
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay"
+	& "$PSScriptRoot/_reply.ps1" "Hold on."
 	TryToExec "C:\Program Files (x86)\GitExtensions" "GitExtensions.exe"
 	TryToExec "C:\Program Files\GitExtensions" "GitExtensions.exe"
 	throw "Can't find Git Extensions."
