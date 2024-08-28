@@ -5,6 +5,5 @@
 	This PowerShell script closes the Serenade application gracefully.
 #>
 
-& "$PSScriptRoot/_reply.ps1" "See you."
 TaskKill /im Serenade.exe /f
-exit 0
+& "$PSScriptRoot/_reply.ps1" "Closed now."

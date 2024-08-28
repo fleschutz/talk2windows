@@ -70,7 +70,7 @@ try {
 	""
 	" 1. Put your headset on and check that it's working."
 	""
-	" 2. Launch the Serenade app and click the slider to switch from Paused to Listening mode."
+	" 2. Launch the Serenade app, wait a bit, and click the slider to switch from Paused to Listening mode."
 	""
 	" 3. Say a voice command like `"$wakeWord, hi`" with a calm voice into the mic."
 	""
