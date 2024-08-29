@@ -31,7 +31,6 @@ try {
 	Write-Host "Serenade is installed."
 
 	$wakeWord = Read-Host "(2/4) Enter your personal wake word, e.g. 'Alexa', 'Jarvis', 'Siri', 'Windows'"
-	$wakeWord = $wakeWord.toLower()
 
 	$scripts = Get-ChildItem "$filePattern"
 	"(3/4) Importing $($scripts.Count) PowerShell scripts from:    $filePattern..."
@@ -43,7 +42,7 @@ try {
 	$scriptRoot = $scriptRoot -replace "\\","\\"
 	"var B = `"$scriptRoot\\scripts\\`";" | Add-Content "$targetFile"
 	"var N = `"-NoProfile`";" | Add-Content "$targetFile"
-	"var W = `"$wakeWord `";" | Add-Content "$targetFile"
+	"var W = `"$($wakeWord.toLower()) `";" | Add-Content "$targetFile"
 	foreach($script in $scripts) {
 		$baseName = $script.basename
 		if ($baseName[0] -eq "_") { continue } # internal script
@@ -66,13 +65,13 @@ try {
 			AddVoiceCmd $baseName "$baseName.ps1"
 		}
 	}
-	"Talk2Windows installed successfully. Now perform the following steps to use it:"
+	"Talk2Windows with wake word '$wakeWord' installed successfully."
 	""
-	" 1. Put your headset on and check that it's working."
+	"Use Talk2Windows as follows:"
 	""
-	" 2. Launch the Serenade app, wait a bit, and click the slider to switch from Paused to Listening mode."
-	""
-	" 3. Say a voice command like `"$wakeWord, hi`" with a calm voice into the mic."
+	"  1. Put your headset on and check that it's working."
+	"  2. Launch the Serenade app, wait a bit, and click the slider to switch from Paused to Listening mode."
+	"  3. Say a voice command like `"$wakeWord, hi`" with a calm voice into the mic."
 	""
 	exit 0 # success
 } catch {
