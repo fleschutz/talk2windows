@@ -6,5 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("123456")
-& "$PSScriptRoot/_reply.ps1" "Done."
-exit 0 # success
+& "$PSScriptRoot/_reply.ps1" "PIN inserted."

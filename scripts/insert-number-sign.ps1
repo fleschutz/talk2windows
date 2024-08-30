@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("#")
-& "$PSScriptRoot/_reply.ps1" "Okay."
+& "$PSScriptRoot/_reply.ps1" "Number sign inserted."

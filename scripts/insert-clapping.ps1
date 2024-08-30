@@ -3,12 +3,6 @@
 	Inserts Clapping Hands
 .DESCRIPTION
 	This PowerShell script inserts the clapping hands Unicode character.
-.EXAMPLE
-	PS> ./insert-clapping
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 try {
