@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Opens the documents folder
+	Opens the docs folder
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the documents folder.
 #>
