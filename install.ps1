@@ -33,9 +33,9 @@ try {
 	$wakeWord = Read-Host "(2/4) Enter your personal wake word, e.g. 'Alexa', 'Jarvis', 'Siri', 'Windows'"
 
 	$scripts = Get-ChildItem "$filePattern"
-	"(3/4) Importing $($scripts.Count) PowerShell scripts from:    $filePattern..."
+	"(3/4) Importing $($scripts.Count) PowerShell scripts from: $filePattern..."
 
-	"(4/4) Exporting as Serenade's voice phrases to: $targetFile..."
+	"(4/4) Exporting as Serenade's voice commands to: $targetFile..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$targetFile"
 	"var A = `"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`";" | Add-Content "$targetFile"
 	$scriptRoot = "$PSScriptRoot"
