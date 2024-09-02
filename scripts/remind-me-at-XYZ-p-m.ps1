@@ -1,15 +1,11 @@
 <#
 .SYNOPSIS
-	Sets a Reminder at 7 PM
+	Sets a Reminder at XYZ PM
 .DESCRIPTION
-	This PowerShell script displays a reminder popup message when it's 7 PM.
-.EXAMPLE
-	PS> ./remind-me-at-7-pm
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
+	This PowerShell script displays a reminder popup message when it's XYZ PM.
 #>
+
+param([int]$number)
 
 function TimeSpanToString { param([TimeSpan]$Delta)
         if ($Delta.Hours -eq 1) {       $Result += "1 hour and "
@@ -23,15 +19,15 @@ function TimeSpanToString { param([TimeSpan]$Delta)
 
 try {
 	[system.threading.thread]::currentThread.currentCulture = [system.globalization.cultureInfo]"en-US"
-	$TimePoint = Get-Date -Hour 19 -Minute 0 -Second 0
+	$TimePoint = Get-Date -Hour (12 + $number) -Minute 0 -Second 0
         $Now = [DateTime]::Now
         if ($Now -lt $TimePoint) {
                $TimeSpan = TimeSpanToString($TimePoint - $Now)
 		& "$PSScriptRoot/_reply.ps1" "OK, in $TimeSpan."
-		& "$PSScriptRoot/_set-reminder.ps1" "It's exactly 7 PM." "$TimePoint"
+		& "$PSScriptRoot/_set-reminder.ps1" "It's exactly $number PM." "$TimePoint"
 	} else {
         	$TimeSpan = TimeSpanToString($Now - $TimePoint)
-		& "$PSScriptRoot/_reply.ps1" "Sorry, 7 PM was $TimeSpan ago."
+		& "$PSScriptRoot/_reply.ps1" "Sorry, $number PM was $TimeSpan ago."
 	}
 	exit 0 # success
 } catch {

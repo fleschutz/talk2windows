@@ -1,18 +1,9 @@
 <#
 .SYNOPSIS
-	Shows the Manual for Talk2Windows
+	Shows the Talk2Windows Manual
 .DESCRIPTION
-	This PowerShell script launches the Web browser with the manual for Talk2Windows.
-.EXAMPLE
-	PS> ./i-need-help
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
+	This PowerShell script launches the Web browser with the voice manual for Talk2Windows.
 #>
 
-$Reply = "Okay.", "Hold on.", "Just a second.", "Help is on the way." | Get-Random
-& "$PSScriptRoot/_reply.ps1" $Reply
-
+& "$PSScriptRoot/_reply.ps1" "Just a second."
 & "$PSScriptRoot/open-browser.ps1" "https://github.com/fleschutz/talk2windows"
-exit 0 # success

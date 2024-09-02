@@ -1,15 +1,11 @@
 <#
 .SYNOPSIS
-	Sets a Reminder at 4 PM
+	Sets a Reminder at XYZ AM
 .DESCRIPTION
-	This PowerShell script displays a reminder popup message when it's 4 PM.
-.EXAMPLE
-	PS> ./remind-me-at-4-pm
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
+	This PowerShell script displays a reminder popup message when it's XYZ AM.
 #>
+
+param([int]$number)
 
 function TimeSpanToString { param([TimeSpan]$Delta)
         if ($Delta.Hours -eq 1) {       $Result += "1 hour and "
@@ -23,15 +19,15 @@ function TimeSpanToString { param([TimeSpan]$Delta)
 
 try {
 	[system.threading.thread]::currentThread.currentCulture = [system.globalization.cultureInfo]"en-US"
-	$TimePoint = Get-Date -Hour 16 -Minute 0 -Second 0
-        $Now = [DateTime]::Now
-        if ($Now -lt $TimePoint) {
-               $TimeSpan = TimeSpanToString($TimePoint - $Now)
+	$TimePoint = Get-Date -Hour $number -Minute 0 -Second 0
+        $now = [DateTime]::Now
+        if ($now -lt $TimePoint) {
+               $TimeSpan = TimeSpanToString($TimePoint - $now)
 		& "$PSScriptRoot/_reply.ps1" "OK, in $TimeSpan."
-		& "$PSScriptRoot/_set-reminder.ps1" "It's exactly 4 PM." "$TimePoint"
+		& "$PSScriptRoot/_set-reminder.ps1" "It's exactly $number AM." "$TimePoint"
 	} else {
-        	$TimeSpan = TimeSpanToString($Now - $TimePoint)
-		& "$PSScriptRoot/_reply.ps1" "Sorry, 4 PM was $TimeSpan ago."
+        	$TimeSpan = TimeSpanToString($now - $TimePoint)
+		& "$PSScriptRoot/_reply.ps1" "Sorry, $number AM was $TimeSpan ago."
 	}
 	exit 0 # success
 } catch {
