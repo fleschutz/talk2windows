@@ -4,8 +4,8 @@ This repo installs support for voice commands to control your *Windows*® deskto
 
 Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recognition application.
 
-🔧 Installation (just once)
-----------------------------
+🔧 Installation
+----------------
 1. **Download the free *Serenade* app** from [https://serenade.ai](https://serenade.ai/download) and install it. Choose *no plugin* and *no programming language* during installation and close the application when finished.
 2. **Download this repo** from [https://github.com/fleschutz/talk2windows](https://github.com/fleschutz/talk2windows/archive/main.zip) and unzip it.
 3. **Open *Windows PowerShell (Administrator)* and execute:** `Set-ExecutionPolicy RemoteSigned` to allow the execution of PowerShell scripts.
