@@ -3,20 +3,10 @@
 	Turn volume on
 .DESCRIPTION
 	This PowerShell script unmutes the audio output.
-.EXAMPLE
-	PS> ./turn-volume-on
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 try {
-	$obj = new-object -com wscript.shell
-	$obj.SendKeys([char]173)
-	& "$PSScriptRoot/_reply.ps1" "Audio is on."
-	exit 0 # success
-} catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+	(New-Object -com wscript.shell).SendKeys([char]173)
+	$reply = "Audio is on."
+} catch { $reply = "Sorry: $($Error[0])" }
+& "$PSScriptRoot/_reply.ps1" $reply
