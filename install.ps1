@@ -26,16 +26,16 @@ function AddMatchingVoiceCmd { param([string]$phrase, [string]$scriptName)
 }
 
 try {
-	Write-Host "`n(1/4) Searching for Serenade app...  " -noNewline
+	Write-Host "`n(1) Searching for Serenade app...   " -noNewline
 	if (!(Test-Path "~\.serenade" -pathType container)) { throw "Serenade app isn't installed yet - please download and install it from https://serenade.ai" }
-	Write-Host "Serenade is installed."
+	Write-Host "OK, it's installed"
 
-	$wakeWord = Read-Host "(2/4) Enter your personal wake word, e.g. Alexa, Computer, Jarvis, Siri, or Windows"
+	$wakeWord = Read-Host "(2) Enter your personal wake word, e.g. Alexa, Computer, Jarvis, Siri, or Windows"
 
 	$scripts = Get-ChildItem "$filePattern"
-	"(3/4) Importing $($scripts.Count) PowerShell scripts from: $filePattern..."
+	"(3) Importing $($scripts.Count) PowerShell scripts from: $filePattern..."
 
-	"(4/4) Exporting as Serenade's voice commands to: $targetFile..."
+	"(4) Exporting as Serenade's voice commands to: $targetFile..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$targetFile"
 	"var A = `"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`";" | Add-Content "$targetFile"
 	$scriptRoot = "$PSScriptRoot"
@@ -66,6 +66,7 @@ try {
 		}
 	}
 	"Talk2Windows installed successfully."
+	""
 	""
 	"Usage"
 	"-----"
