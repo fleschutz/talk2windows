@@ -11,14 +11,25 @@ function CountDownloads {
         return $files.Count
 }
 
+function CountDownloadsInProgress {
+	[string]$path = (New-Object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path
+         $files = (Get-ChildItem -path "$path\*.crdownloads" -attributes !Directory)
+        return $files.Count
+}
+
 try {
-	[int]$count = CountDownloads
-	if ($count -eq 0) {
-		$reply = "No downloads found."		
-	} elseif ($count -eq 1) {
-		$reply = "One file in downloads folder."
+	[int]$total = CountDownloads
+	[int]$inProgress = CountDownloadsInProgress
+	if ($total -eq 0) {
+		$reply = "No downloads yet."	
+	} elseif ($inProgress -eq 1) {	
+		$reply = "One download in progress..."
+	} elseif ($inProgress -gt 1) {	
+		$reply = "$inProgress downloads in progress..."
+	} elseif ($total -eq 1) {
+		$reply = "One file downloaded."
 	} else {
-		$reply = "$count files in downloads folder."
+		$reply = "$total files downloaded."
 	}
 } catch { $reply = "Sorry: $($Error[0])" }
 & "$PSScriptRoot/_reply.ps1" $reply
