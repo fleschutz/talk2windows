@@ -33,27 +33,27 @@ Launch an installed application by replacing &lt;app&gt; with: `3D-Viewer`, `7-Z
 
 🌐 *"Windows, open &lt;name&gt; website"*
 ------------------------------------
-Launches the default Web browser (or a new tab) with the given website. Replace &lt;name&gt; with: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `FlightRadar`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Space Weather`, `SpaceX`, `Spotify`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, `YouTube`, or `Zoom`. When finished say: **"Windows, close tab"**.
+Launch the default Web browser (or a new tab) with the given website. Replace &lt;name&gt; with: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `FlightRadar`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Space Weather`, `SpaceX`, `Spotify`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, `YouTube`, or `Zoom`. When finished say: **"Windows, close tab"**.
 
 🔦 *"Windows, check &lt;item&gt;"*
 -----------------------------
-Let the computer check something for you - replace &lt;item&gt; with: `audio`, `Bitcoin rate`, `CPU temperature`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Earth` (fun), `Ether rate`, `for crash dumps`, `for downloads`, `for rain`, `for snow`, `Git version`, `headlines`, `Independence Day`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `Outlook`, `ping latency`, `recycle bin`, `Santa`, `swap space`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `the wind`, `year`, or `zenith`.
+Let the computer check something by replacing &lt;item&gt; with: `audio`, `Bitcoin rate`, `CPU temperature`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Earth` (fun), `Ether rate`, `for crash dumps`, `for downloads`, `for rain`, `for snow`, `Git version`, `headlines`, `Independence Day`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `Outlook`, `ping latency`, `recycle bin`, `Santa`, `swap space`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `the wind`, `year`, or `zenith`.
 
 ❔ *"Windows, &lt;shortcut&gt;"*
 -------------------------
-Presses a keyboard shortcut to navigate in a browser window. Replace &lt;shortcut&gt; with: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
+Press a keyboard shortcut to navigate in a browser window. Replace &lt;shortcut&gt; with: `close tab`, `last tab`, `next page`, `next tab`, `previous page`, `previous tab`, `open new tab`, `open new window`, `reload page`, `scroll down`, `scroll to bottom`, `scroll to top`, `scroll up`, `tab 1`, `tab 2`, `tab 3`, `tab 4`, `tab 5`, `tab 6`, `zoom in`, or `zoom out`.
 
 📝 *"Windows, insert &lt;char&gt; sign"*
 ---------------------------------------
-Inserts the given character at the current text cursor position. Replace &lt;char&gt; with: `at`, `backslash`, `comma`, `copyright`, `Dollar`, `Euro`, `hashtag`, `minus`, `number`, `percent`, `pipe`, `plus`, `Pound`, `slash`, `trademark`, `underscore`, or `Yen`.
+Insert the given character at the current text cursor position. Just replace &lt;char&gt; with: `at`, `backslash`, `comma`, `copyright`, `Dollar`, `Euro`, `hashtag`, `minus`, `number`, `percent`, `pipe`, `plus`, `Pound`, `slash`, `trademark`, `underscore`, or `Yen`.
 
 📝 *"Windows, insert &lt;text&gt;"*
 ---------------------------------
-Inserts text at the current text cursor position. Replace &lt;text&gt; with: `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `date`, `good-bye`, `good morning`, `heart`, `OK`, `shrugging`, `smiley`, or `thumbs up`.
+Insert text at the current text cursor position. Replace &lt;text&gt; with: `bomb`, `bye bye`, `call?`, `checkmark`, `clapping`, `date`, `good-bye`, `good morning`, `heart`, `OK`, `shrugging`, `smiley`, or `thumbs up`.
 
 📋 *"Windows, open Google &lt;service&gt;"*
 -------------------------------------
-Launches the default Web browser (or a new tab) showing the given Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Keep`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"**.
+Launch the default Web browser (or a new tab) showing the given Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Keep`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"**.
 
 📖 *"Windows, open &lt;name&gt; magazine"*
 -------------------------------------
