@@ -21,7 +21,7 @@ Most voice commands follow the generic scheme: "*&lt;wake word&gt;, &lt;verb&gt;
 
 👋 *"Windows, &lt;greeting&gt;"*
 ---------------------------
-Say hello to your computer, just replace &lt;greeting&gt; with: `good afternoon`, `good evening`, `good morning`, `good night`, `hello`, `hey`, `hi`, `howdy`, `merry christmas`, `morning`, or `nice to meet you`.
+Say hello to your computer, just replace &lt;greeting&gt; with: `good afternoon`, `good evening`, `good morning`, `good night`, `hello`, `hey`, `hi`, `howdy`, `morning`, or `nice to meet you`.
 
 🔧 *"Windows, install &lt;app&gt;"*
 -----------------------------
