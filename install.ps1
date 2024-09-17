@@ -30,7 +30,7 @@ try {
 	if (!(Test-Path "~\.serenade" -pathType container)) { throw "Serenade app isn't installed yet - please download and install it from https://serenade.ai" }
 	Write-Host "OK, it's installed"
 
-	$wakeWord = Read-Host "(2) Enter your personal wake word, e.g. Alexa, Computer, Jarvis, Siri, or Windows"
+	$wakeWord = Read-Host "(2) Enter your personal wake word, e.g. Alexa, Computer, Jarvis, Siri, VIKI, or Windows"
 
 	$scripts = Get-ChildItem "$filePattern"
 	"(3) Importing $($scripts.Count) PowerShell scripts from: $filePattern..."
