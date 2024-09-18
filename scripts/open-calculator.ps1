@@ -6,5 +6,5 @@
 #>
 
 & "$PSScriptRoot/_reply.ps1" "Okay."
-start-process ms-calculator:
+Start-Process ms-calculator:
 
