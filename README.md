@@ -99,9 +99,9 @@ Launches the *File Explorer* showing the given drive. Replace &lt;letter&gt; wit
 -----------------------------------
 Launches the File Explorer with the given folder. Replace &lt;name&gt; with: `apps`, `applications`, `autostart`, `crash dumps`, `desktop`, `documents`, `downloads`, `Dropbox`, `home`, `music`, `OneDrive`, `pictures`, `recycle bin`, `repos`, `SSH`, `Talk2Windows`, `temporary`, `videos`, or `Windows`. When finished say: **"Windows, close file explorer"**.
 
-⚙️ *"Windows, open &lt;name&gt; settings"*
+⚙️ *"Windows, open &lt;category&gt; settings"*
 -------------------------------------
-Launches the Windows settings, replace &lt;name&gt; with: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system` *(the top level settings!)*, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, or `Wifi`. When finished say: **"Windows, close system settings"**.
+Open the system settings with the given category - just replace &lt;category&gt; with: `activation`, `apps`, `background`, `backup`, `bluetooth`, `color`, `date`, `default apps`, `developer`, `display`, `ethernet`, `lockscreen`, `maps`, `personal`, `printer`, `proxy`, `recovery`, `speech`, `start`, `system`, `taskbar`, `themes`, `time`, `update`, `USB`, `VPN`, `Wifi`, or `Windows`. When finished say: **"Windows, close system settings"**.
 
 ❔ *"Windows, list &lt;table&gt;"*
 ---------------------------
