@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Open the system settings
+	Open the Windows settings
 .DESCRIPTION
 	This PowerShell script launches the system settings of Windows.
 #>
