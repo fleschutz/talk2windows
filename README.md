@@ -17,7 +17,7 @@ Usage
 2. Launch *Serenade* and click the slider to switch from *Paused* to *Listening* mode. Raise the mic audio level in case a *'low voice'* is shown.
 3. Say a voice command like **"*Windows, open calculator*"** with a calm voice into the mic. This executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app.
 
-Most voice commands follow the generic scheme: "*&lt;wake word&gt;, &lt;verb&gt; &lt;subject&gt;*". Supported are the following voice commands: (when wake word "Windows" is used)
+Most voice commands follow the generic scheme: "*&lt;wake word&gt;, &lt;verb&gt; &lt;subject&gt;*". In the following wake word **Windows** is used. Supported are the following voice commands:
 
 👋 *"Windows, &lt;greeting&gt;"*
 ---------------------------
@@ -37,7 +37,7 @@ Launch the default Web browser (or a new tab) with the given website. Replace &l
 
 🔦 *"Windows, check &lt;item&gt;"*
 -----------------------------
-Let the computer check something by replacing &lt;item&gt; with: `audio`, `Bitcoin rate`, `CPU temperature`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Earth` (fun), `Ether rate`, `for crash dumps`, `for downloads`, `for rain`, `for snow`, `Git version`, `headlines`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `Outlook`, `ping latency`, `recycle bin`, `Santa`, `swap space`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `the wind`, `year`, or `zenith`.
+Let the computer check something by replacing &lt;item&gt; with: `audio`, `Bitcoin rate`, `CPU temperature`, `dawn`, `day`, `DNS`, `drives`, `dusk`, `Earth` (fun), `Ether rate`, `for crash dumps`, `my downloads`, `for rain`, `for snow`, `Git version`, `headlines`, `internet connection`, `internet speed`, `moon phase`, `month`, `New Year`, `operating system`, `Outlook`, `ping latency`, `recycle bin`, `Santa`, `swap space`, `temperature`, `Tether rate`, `time zone`, `up-time`, `VPN`, `weather`, `week`, `the wind`, `year`, or `zenith`.
 
 ❔ *"Windows, &lt;shortcut&gt;"*
 -------------------------
