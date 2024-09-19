@@ -77,7 +77,7 @@ try {
 	"     Raise the mic audio level in case a 'low voice' is shown."
 	""
 	"  3. Say a voice command like `"$wakeWord, hi`" with a calm voice into the mic."
-	"     All supported voice commands can be found at: https://github.com/fleschutz/talk2windows"
+	"     All voice commands are listed at: https://github.com/fleschutz/talk2windows"
 	""
 	exit 0 # success
 } catch {
