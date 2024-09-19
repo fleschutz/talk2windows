@@ -26,9 +26,9 @@ function AddMatchingVoiceCmd { param([string]$phrase, [string]$scriptName)
 }
 
 try {
-	Write-Host "`n(1) Searching for Serenade app...   " -noNewline
+	Write-Host "`n(1) Searching for Serenade...   " -noNewline
 	if (!(Test-Path "~\.serenade" -pathType container)) { throw "Serenade app isn't installed yet - please download and install it from https://serenade.ai" }
-	Write-Host "OK, it's installed"
+	Write-Host "App is installed"
 
 	$wakeWord = Read-Host "(2) Enter your personal wake word, e.g. Alexa, Computer, Jarvis, Siri, or Windows"
 
