@@ -3,15 +3,9 @@
 	Lists System Information
 .DESCRIPTION
 	This script lists system information of the local computer in a table.
-.EXAMPLE
-	PS> ./list-system-info
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "OK."
+& "$PSScriptRoot/say.ps1" "OK."
 
 # RAM
 $RAM = Get-WmiObject -Query "SELECT TotalVisibleMemorySize, FreePhysicalMemory FROM Win32_OperatingSystem"

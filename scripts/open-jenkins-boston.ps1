@@ -6,4 +6,3 @@
 #>
 
 & "$PSScriptRoot/open-browser.ps1" "http://rocket:8080"
-exit 0 # success

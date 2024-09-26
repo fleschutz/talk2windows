@@ -11,4 +11,4 @@ try {
 	$EUR = [math]::round($rates.EUR)
 	$reply = "Bitcoin is at $USD US Dollar or at $EUR Euro."
 } catch { $reply = "Sorry: $($Error[0])" }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

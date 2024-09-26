@@ -10,9 +10,9 @@ try {
 	$OSDetails = Get-CimInstance Win32_OperatingSystem
 	$installDate = $OSDetails.InstallDate
 	$days = ([DateTime]::Now - $installDate).Days
-	& "$PSScriptRoot/_reply.ps1" "I was installed on $($installDate.ToShortDateString()), so I'm $days days old."
+	& "$PSScriptRoot/say.ps1" "I was installed on $($installDate.ToShortDateString()), so I'm $days days old."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

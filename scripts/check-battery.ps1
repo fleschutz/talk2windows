@@ -25,7 +25,7 @@ try {
 		[int]$Remaining = $Details.BatteryLifeRemaining / 60
 		$BatteryStatus = "$Percent% battery life, $Remaining min left"
 	}
-	& "$PSScriptRoot/_reply.ps1" "$PowerStatus, $($BatteryStatus)."
+	& "$PSScriptRoot/say.ps1" "$PowerStatus, $($BatteryStatus)."
 	exit 0 # success
 } catch {
 	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"

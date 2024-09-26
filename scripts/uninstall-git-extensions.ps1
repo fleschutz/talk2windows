@@ -3,23 +3,17 @@
 	Uninstalls Git Extensions
 .DESCRIPTION
 	This PowerShell script uninstalls Git Extensions from the local computer.
-.EXAMPLE
-	PS> ./uninstall-git-extensions
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Uninstalling Git Extensions, please wait..."
+	& "$PSScriptRoot/say.ps1" "Uninstalling Git Extensions, please wait..."
 
 	& winget uninstall --id GitExtensionsTeam.GitExtensions
 	if ($lastExitCode -ne "0") { throw "Can't uninstall Git Extensions, is it installed?" }
 
-	& "$PSScriptRoot/_reply.ps1" "Git Extensions is uninstalled now."
+	& "$PSScriptRoot/say.ps1" "Git Extensions is uninstalled now."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

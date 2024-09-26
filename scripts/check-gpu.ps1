@@ -24,7 +24,7 @@ function Bytes2String { param([int64]$Bytes)
 }
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on."
+	& "$PSScriptRoot/say.ps1" "Hold on."
 	$Details = Get-WmiObject Win32_VideoController
 	$Model = $Details.Caption
 	$RAMSize = $Details.AdapterRAM
@@ -34,7 +34,7 @@ try {
 	$RefreshRate = $Details.CurrentRefreshRate
 	$DriverVersion = $Details.DriverVersion
 	$Status = $Details.Status
-	& "$PSScriptRoot/_reply.ps1" "It's a $Model GPU ($(Bytes2String $RAMSize) RAM, $($ResWidth)x$($ResHeight) pixels, $BitsPerPixel bit, $RefreshRate Hz, driver $DriverVersion, status $Status)"
+	& "$PSScriptRoot/say.ps1" "It's a $Model GPU ($(Bytes2String $RAMSize) RAM, $($ResWidth)x$($ResHeight) pixels, $BitsPerPixel bit, $RefreshRate Hz, driver $DriverVersion, status $Status)"
 } catch {
         "⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
         exit 1

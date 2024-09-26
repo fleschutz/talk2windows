@@ -17,7 +17,7 @@ try {
 	$NumModules = (Get-Module).Count
 	$NumAliases = (Get-Alias).Count
 	$NumCmdlets = (Get-Command -Command-Type cmdlet).Count
-	& "$PSScriptRoot/_reply.ps1" "It's PowerShell $Version ($Edition edition) with $NumModules modules, $NumCmdlets cmdlets and $NumAliases aliases"
+	& "$PSScriptRoot/say.ps1" "It's PowerShell $Version ($Edition edition) with $NumModules modules, $NumCmdlets cmdlets and $NumAliases aliases"
 	exit 0 # success
 } catch {
 	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"

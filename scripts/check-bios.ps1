@@ -17,7 +17,7 @@ try {
 	$Model = $BIOS.Name.Trim()
 	$Serial = $BIOS.SerialNumber.Trim()
 	$Version = $BIOS.Version.Trim()
-	& "$PSScriptRoot/_reply.ps1" "It's a $Model BIOS (S/N $Serial, version $Version) by $Manufacturer"
+	& "$PSScriptRoot/say.ps1" "It's a $Model BIOS (S/N $Serial, version $Version) by $Manufacturer"
 	exit 0 # success
 } catch {
 	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"

@@ -8,7 +8,7 @@
 param()
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on."
+	& "$PSScriptRoot/say.ps1" "Hold on."
 
 	$hosts = "bing.com,cnn.com,dropbox.com,github.com,google.com,ibm.com,live.com,meta.com,x.com,youtube.com"
 	$hostsArray = $hosts.Split(",")
@@ -28,4 +28,4 @@ try {
 	$avg /= $success
 	$reply = "It's from $($min)ms min to $($max)ms max, average is $($Avg)ms."
 } catch { $reply = "Sorry: $($Error[0])" }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

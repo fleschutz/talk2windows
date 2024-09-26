@@ -18,4 +18,4 @@ try {
 	if (-not(Test-Path "$path" -pathType leaf)) { throw "I forgot." }
 	$reply = "The number was " + (Get-Content "$path")
 } catch { $reply = "Sorry: $($Error[0])" }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

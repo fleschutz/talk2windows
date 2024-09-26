@@ -40,22 +40,22 @@ try {
 	if ($Today -lt $PresidentsDay) {
 		$Days = (New-TimeSpan -start $Today -end $PresidentsDay).Days
 		if ($Days -eq 0) {
-			& "$PSScriptRoot/_reply.ps1" "Today is President's day!"
+			& "$PSScriptRoot/say.ps1" "Today is President's day!"
 		} elseif ($Days -eq 1) {
-			& "$PSScriptRoot/_reply.ps1" "President's day is tomorrow."
+			& "$PSScriptRoot/say.ps1" "President's day is tomorrow."
 		} else {
-			& "$PSScriptRoot/_reply.ps1" "President's day on $($PresidentsDay.ToShortDateString()) is in $Days days."
+			& "$PSScriptRoot/say.ps1" "President's day on $($PresidentsDay.ToShortDateString()) is in $Days days."
 		}
 	} else {
 		$Days = (New-TimeSpan -start $PresidentsDay -end $Today).Days
 		if ($Days -eq 1) {
-			& "$PSScriptRoot/_reply.ps1" "President's day was yesterday."
+			& "$PSScriptRoot/say.ps1" "President's day was yesterday."
 		} else {
-			& "$PSScriptRoot/_reply.ps1" "President's day on $($PresidentsDay.ToShortDateString()) was $Days days ago."
+			& "$PSScriptRoot/say.ps1" "President's day on $($PresidentsDay.ToShortDateString()) was $Days days ago."
 		}
 	}
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

@@ -24,13 +24,13 @@ try {
 	$now = [DateTime]::Now
 	if ($now -lt $Sunset) {
                 $timeSpan = GetTimeSpan($Sunset - $now)
-                & "$PSScriptRoot/_reply.ps1" "Sunset is in $timeSpan at $($Sunset.ToShortTimeString())."
+                & "$PSScriptRoot/say.ps1" "Sunset is in $timeSpan at $($Sunset.ToShortTimeString())."
         } else {
                 $timeSpan = GetTimeSpan($now - $Sunset)
-                & "$PSScriptRoot/_reply.ps1" "Sunset was $timeSpan ago at $($Sunset.ToShortTimeString())."
+                & "$PSScriptRoot/say.ps1" "Sunset was $timeSpan ago at $($Sunset.ToShortTimeString())."
         }
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

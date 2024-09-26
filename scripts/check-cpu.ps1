@@ -51,7 +51,7 @@ try {
 		$DeviceID = $Details.DeviceID
 		$Speed = "$($Details.MaxClockSpeed)MHz"
 		$Socket = $Details.SocketDesignation
-		& "$PSScriptRoot/_reply.ps1" "It's a $CPUName ($DeviceID, $Speed, socket $Socket, $Temp)"
+		& "$PSScriptRoot/say.ps1" "It's a $CPUName ($DeviceID, $Speed, socket $Socket, $Temp)"
 	}
 	exit 0 # success
 } catch {

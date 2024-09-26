@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("$")
-& "$PSScriptRoot/_reply.ps1" "Dollar sign inserted."
+& "$PSScriptRoot/say.ps1" "Dollar sign inserted."

@@ -3,12 +3,6 @@
 	Replies to 'When is midnight?'
 .DESCRIPTION
 	This PowerShell script replies to 'When is midnight?' by text-to-speech (TTS).
-.EXAMPLE
-	PS> ./when-is-midnight
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 function GetTimeSpan { param([TimeSpan]$Delta)
@@ -33,9 +27,9 @@ try {
 		$TimeSpan = GetTimeSpan($Midnight - $Now)
 		$Reply = "Midnight is in $TimeSpan."
 	}
-	& "$PSScriptRoot/_reply.ps1" $Reply
+	& "$PSScriptRoot/say.ps1" $Reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

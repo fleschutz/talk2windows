@@ -11,4 +11,4 @@ if ($lastExitCode -eq "0") {
 } else {
 	$reply = "Sorry, Microsoft Store isn't running."
 }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

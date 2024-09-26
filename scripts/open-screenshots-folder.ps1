@@ -15,9 +15,9 @@ function GetScreenshotsFolder {
 try {
 	$path = GetScreenshotsFolder
 	& "$PSScriptRoot/open-file-explorer.ps1" "$path"
-	& "$PSScriptRoot/_reply.ps1" "Your screenshots."
+	& "$PSScriptRoot/say.ps1" "Your screenshots."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

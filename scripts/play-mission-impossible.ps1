@@ -3,12 +3,6 @@
 	Plays the Mission Impossible theme
 .DESCRIPTION
 	This PowerShell script plays the Mission Impossible theme.
-.EXAMPLE
-	PS> ./play-mission-impossible
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 [System.Console]::Beep(784,150)
@@ -57,4 +51,3 @@ Start-Sleep -m 75
 Start-Sleep -m 150
 [System.Console]::Beep(466,150)
 [System.Console]::Beep(523,150)
-exit 0 # success

@@ -5,5 +5,5 @@
 	This PowerShell script launches the Microsoft Store application.
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Hold on."
+& "$PSScriptRoot/say.ps1" "Hold on."
 Start-Process ms-windows-store:

@@ -3,12 +3,6 @@
 	Turn volume fully up
 .DESCRIPTION
 	This PowerShell script turns the audio volume up to 100%.
-.EXAMPLE
-	PS> ./turn-volume-fully-up
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 try {
@@ -16,9 +10,9 @@ try {
 	for ([int]$i = 0; $i -lt 100; $i += 2) {
 		$obj.SendKeys([char]175) # each tick is +2%
 	}
-	& "$PSScriptRoot/_reply.ps1" "Hundred percent now."
+	& "$PSScriptRoot/say.ps1" "Hundred percent now."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

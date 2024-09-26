@@ -16,6 +16,6 @@ try {
 	TryToExec "$HOME\AppData\Local\Discord\app-*" "Discord.exe"
 	throw "Discord isn't installed yet."
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

@@ -3,12 +3,6 @@
 	Opens the repositories folder
 .DESCRIPTION
 	This PowerShell script launches the File Explorer with the user's Git repositories folder.
-.EXAMPLE
-	PS> ./open-repos-folder
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 try {
@@ -24,6 +18,6 @@ try {
 	& "$PSScriptRoot/open-file-explorer.ps1" "$Path"
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

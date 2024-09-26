@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("^V")
-& "$PSScriptRoot/_reply.ps1" "Pasted."
+& "$PSScriptRoot/say.ps1" "Pasted."

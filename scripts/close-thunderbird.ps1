@@ -9,7 +9,7 @@ try {
 	TaskKill /im thunderbird.exe
 	if ($lastExitCode -ne "0") { throw "Can't close Mozilla Thunderbird, maybe it's not running." }
 
-	& "$PSScriptRoot/_reply.ps1" "Thunderbird closed."
+	& "$PSScriptRoot/say.ps1" "Thunderbird closed."
 } catch { 
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 }

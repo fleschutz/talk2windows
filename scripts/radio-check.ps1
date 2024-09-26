@@ -6,6 +6,4 @@
 #>
 
 $reply = "Read you loud and clear.", "Read you 5 by 5." | Get-Random
-
-& "$PSScriptRoot/_reply.ps1" $reply
-exit 0 # success
+& "$PSScriptRoot/say.ps1" $reply

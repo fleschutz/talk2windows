@@ -5,12 +5,6 @@
 	This PowerShell script plays the given playlist (in .M3U file format)
 .PARAMETER filename
 	Specifies the path to the playlist
-.EXAMPLE
-	PS> ./play-m3u C:\MyPlaylist.m3u
-.NOTES
-	Author: Markus Fleschutz · License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$filename = "")

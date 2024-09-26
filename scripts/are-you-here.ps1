@@ -12,5 +12,5 @@
 #>
 
 $Reply = "Yes.", "Sure.", "Yes, sure." | Get-Random
-& "$PSScriptRoot/_reply.ps1" "$Reply"
+& "$PSScriptRoot/say.ps1" "$Reply"
 exit 0 # success

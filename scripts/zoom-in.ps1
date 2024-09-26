@@ -6,5 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("^{+}")
-& "$PSScriptRoot/_reply.ps1" "Okay."
-exit 0
+& "$PSScriptRoot/say.ps1" "Okay."

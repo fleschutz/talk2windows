@@ -11,6 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Okay."
+& "$PSScriptRoot/say.ps1" "Okay."
 & "$PSScriptRoot/close-program.ps1" "Notepad++" "notepad++" ""
-exit 0 # success

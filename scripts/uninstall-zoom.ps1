@@ -6,14 +6,14 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Uninstalling Zoom, just a second..."
+	& "$PSScriptRoot/say.ps1" "Uninstalling Zoom, just a second..."
 
 	& winget uninstall "Zoom"
 	if ($lastExitCode -ne "0") { throw "Can't uninstall Zoom, is it installed?" }
 
-	& "$PSScriptRoot/_reply.ps1" "Zoom is uninstalled now."
+	& "$PSScriptRoot/say.ps1" "Zoom is uninstalled now."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

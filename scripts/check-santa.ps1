@@ -15,9 +15,9 @@ try {
 	$Now = [DateTime]::Now
 	$Diff = [Datetime]("12/06/" + $Now.Year) - $Now
 
-	& "$PSScriptRoot/_reply.ps1" "Saint Nicholas Day is in $($Diff.Days) days."
+	& "$PSScriptRoot/say.ps1" "Saint Nicholas Day is in $($Diff.Days) days."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

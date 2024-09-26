@@ -35,9 +35,9 @@ try {
                 $TimeSpan = TimeSpanToString($Now - $Dawn)
                 $Reply = "Dawn was $TimeSpan ago at $($Dawn.ToShortTimeString())."
         }
-	& "$PSScriptRoot/_reply.ps1" "$Reply"
+	& "$PSScriptRoot/say.ps1" $Reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

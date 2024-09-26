@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("Good morning")
-& "$PSScriptRoot/_reply.ps1" "Good morning inserted."
+& "$PSScriptRoot/say.ps1" "Good morning inserted."

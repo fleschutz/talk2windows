@@ -23,14 +23,14 @@ try {
         $now = [DateTime]::Now
         if ($now -lt $TimePoint) {
                $TimeSpan = TimeSpanToString($TimePoint - $now)
-		& "$PSScriptRoot/_reply.ps1" "OK, in $TimeSpan."
+		& "$PSScriptRoot/say.ps1" "OK, in $TimeSpan."
 		& "$PSScriptRoot/_set-reminder.ps1" "It's exactly $number AM." "$TimePoint"
 	} else {
         	$TimeSpan = TimeSpanToString($now - $TimePoint)
-		& "$PSScriptRoot/_reply.ps1" "Sorry, $number AM was $TimeSpan ago."
+		& "$PSScriptRoot/say.ps1" "Sorry, $number AM was $TimeSpan ago."
 	}
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

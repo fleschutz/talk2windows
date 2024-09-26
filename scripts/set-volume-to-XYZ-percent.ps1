@@ -3,12 +3,6 @@
 	Sets the audio volume
 .DESCRIPTION
 	This PowerShell script sets the audio volume to the given value in percent.
-.EXAMPLE
-	PS> ./set-volume-to-XYZ-percent
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 param([int]$percent = 0)
@@ -29,9 +23,9 @@ try {
 	}
 
 	$Reply = "At $percent percent now.", "Okay $percent percent." | Get-Random
-	& "$PSScriptRoot/_reply.ps1" $Reply
+	& "$PSScriptRoot/say.ps1" $Reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

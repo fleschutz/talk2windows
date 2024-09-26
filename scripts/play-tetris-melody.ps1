@@ -3,12 +3,6 @@
         Plays the Tetris melody
 .DESCRIPTION
         This PowerShell script plays the Tetris melody.
-.EXAMPLE
-        PS> ./play-tetris-melody
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 [System.Console]::Beep(1320,500)
@@ -125,4 +119,3 @@ start-sleep -milliseconds 500
 [System.Console]::Beep(660,500)
 [System.Console]::Beep(880,1000)
 [System.Console]::Beep(838,2000)
-exit 0 # success

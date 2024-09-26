@@ -6,4 +6,4 @@
 #>
 
 explorer file:\\
-& "$PSScriptRoot/_reply.ps1" "This PC."
+& "$PSScriptRoot/say.ps1" "This PC."

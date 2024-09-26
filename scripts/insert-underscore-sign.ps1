@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("_")
-& "$PSScriptRoot/_reply.ps1" "Underscore inserted."
+& "$PSScriptRoot/say.ps1" "Underscore inserted."

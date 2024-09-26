@@ -6,4 +6,3 @@
 #>
 
 tskill magnify
-exit 0 # success

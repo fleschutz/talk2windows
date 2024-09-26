@@ -6,5 +6,5 @@
 #>
 
 TaskKill /im 7zFM.exe /f
-& "$PSScriptRoot/_reply.ps1" "Closed."
+& "$PSScriptRoot/say.ps1" "Closed."
 exit 0 # success

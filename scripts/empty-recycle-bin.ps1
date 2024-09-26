@@ -6,7 +6,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay."
+	& "$PSScriptRoot/say.ps1" "Okay."
         $recycleBin = (New-Object -com shell.application).Namespace(10)
 	$reply = "It's already empty."
         foreach($item in $recycleBin.items()) {
@@ -14,4 +14,4 @@ try {
 		$reply = "Empty now."
         }
 } catch { $reply = "Sorry: $($Error[0])." }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

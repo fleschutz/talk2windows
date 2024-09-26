@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("^C")
-& "$PSScriptRoot/_reply.ps1" "Copied."
+& "$PSScriptRoot/say.ps1" "Copied."

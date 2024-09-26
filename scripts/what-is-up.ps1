@@ -6,4 +6,4 @@
 #>
 
 $reply = "Hey! How's it going?", "What's happening?", "How goes it?", "I'm fine, how are you?", "Can't complain.", "Not much. How about you?", "Looking forward to the weekend.", "Just busy, busy! What about you?" | Get-Random
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

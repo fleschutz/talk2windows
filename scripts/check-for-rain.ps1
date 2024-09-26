@@ -21,7 +21,7 @@ function GetCategory { param([int]$tempC, [float]$precipMM)
 }
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on..."
+	& "$PSScriptRoot/say.ps1" "Hold on..."
 	$weather = (Invoke-WebRequest http://wttr.in/${location}?format=j1 -userAgent "curl" -useBasicParsing).Content | ConvertFrom-Json
 	$precipMM = $weather.current_condition.precipMM
 	[int]$now = Get-Date -format "HHmm"
@@ -32,7 +32,7 @@ try {
 			[int]$chance = $hourly.chanceofrain
 			if (($day -eq "today") -and ($now -gt $hourly.time)) {
 			} elseif (($chance -gt 30) -and ($hourly.precipMM -ne "0.0")) { # >30% and >0.0mm
-				& "$PSScriptRoot/_reply.ps1" "$($hourly.weatherDesc.value) expected $day at $($hourly.time / 100) o'clock with $($hourly.precipMM) millimeters per hour."
+				& "$PSScriptRoot/say.ps1" "$($hourly.weatherDesc.value) expected $day at $($hourly.time / 100) o'clock with $($hourly.precipMM) millimeters per hour."
 				exit 0 # success
 			}
 			if ($hourly.time -eq "2100") { if ($day -eq "today") { $day = "tomorrow" } else { $day = "day after tomorrow" } }
@@ -44,16 +44,16 @@ try {
 			if (($day -eq "today") -and ($now -gt $hourly.time)) {
 			} elseif ($hourly.precipMM -eq "0.0") { 
 				$Rain = GetCategory $tempC $Precip
-				& "$PSScriptRoot/_reply.ps1" "$Rain with $precipMM millimeters per hour expected to stop $day at $($hourly.time / 100) o'clock."
+				& "$PSScriptRoot/say.ps1" "$Rain with $precipMM millimeters per hour expected to stop $day at $($hourly.time / 100) o'clock."
 				exit 0 # success
 			}
 			if ($hourly.time -eq "2100") { if ($day -eq "today") { $day = "tomorrow" } else { $day = "day after tomorrow" } }
 		}
 		$reply = "Current rain with $precipMM millimeters per hour not expected to stop in the next 48 hours."
 	}
-	& "$PSScriptRoot/_reply.ps1" $reply
+	& "$PSScriptRoot/say.ps1" $reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

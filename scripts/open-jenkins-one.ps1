@@ -6,4 +6,3 @@
 #>
 
 & "$PSScriptRoot/open-browser.ps1" "http://jenkins.ad.atcsim.de/jenkins/"
-exit 0 # success

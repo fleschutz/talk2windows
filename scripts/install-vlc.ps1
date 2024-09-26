@@ -6,14 +6,14 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Installing VLC media player from Microsoft Store, hold on..."
+	& "$PSScriptRoot/say.ps1" "Installing VLC media player from Microsoft Store, hold on..."
 
 	& winget install --id XPDM1ZW6815MQM --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "Installation of VLC failed, maybe it's already installed." }
 
-	& "$PSScriptRoot/_reply.ps1" "VLC installed successfully."
+	& "$PSScriptRoot/say.ps1" "VLC installed successfully."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

@@ -6,4 +6,3 @@
 #>
 
 & "$PSScriptRoot/close-program.ps1" "WhatsApp" "WhatsApp" "WhatsApp"
-exit 0 # success

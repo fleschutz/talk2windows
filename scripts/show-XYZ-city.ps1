@@ -7,5 +7,4 @@
 
 param([string]$city)
 & "$PSScriptRoot/open-browser.ps1" "https://www.google.com/maps/place/$city"
-& "$PSScriptRoot/_reply.ps1" "Here's $city."
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Here's $city."

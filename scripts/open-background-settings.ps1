@@ -6,4 +6,4 @@
 #>
 
 Start-Process ms-settings:personalization-background
-& "$PSScriptRoot/_reply.ps1" "Your background settings."
+& "$PSScriptRoot/say.ps1" "Your background settings."

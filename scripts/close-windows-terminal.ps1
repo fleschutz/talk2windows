@@ -6,4 +6,3 @@
 #>
 
 & "$PSScriptRoot/close-program.ps1" "Windows Terminal" "WindowsTerminal" "WindowsTerminal"
-exit 0 # success

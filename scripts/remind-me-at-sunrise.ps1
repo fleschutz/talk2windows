@@ -3,12 +3,6 @@
 	Sets a Reminder on Sunrise
 .DESCRIPTION
 	This PowerShell script displays a reminder popup message on sunrise.
-.EXAMPLE
-	PS> ./remind-me-at-sunrise
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 function TimeSpanToString { param([TimeSpan]$Delta)
@@ -29,14 +23,14 @@ try {
         $Now = [DateTime]::Now
         if ($Now -lt $Sunrise) {
                $TimeSpan = TimeSpanToString($Sunrise - $Now)
-		& "$PSScriptRoot/_reply.ps1" "OK, in $TimeSpan at $($Sunrise.ToShortTimeString())."
+		& "$PSScriptRoot/say.ps1" "OK, in $TimeSpan at $($Sunrise.ToShortTimeString())."
 		& "$PSScriptRoot/_set-reminder.ps1" "Sunrise is now." "$Sunrise"
 	} else {
         	$TimeSpan = TimeSpanToString($Now - $Sunrise)
-		& "$PSScriptRoot/_reply.ps1" "Sorry, sunrise was $TimeSpan ago at $($Sunrise.ToShortTimeString())."
+		& "$PSScriptRoot/say.ps1" "Sorry, sunrise was $TimeSpan ago at $($Sunrise.ToShortTimeString())."
 	}
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

@@ -3,16 +3,6 @@
 	Replies in the given Language
 .DESCRIPTION
 	This PowerShell script speaks the given text with a text-to-speech (TTS) voice in the given language.
-.PARAMETER Language
-	Specifies the language
-.PARAMETER Text
-	Specifies the text to speak
-.EXAMPLE
-	PS> ./_reply-in German Hallo
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 param([string]$Language = "", [string]$Text = "")
@@ -36,6 +26,6 @@ try {
 	}
 	throw "No $Language text-to-speech voice found - please install one"
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

@@ -23,10 +23,10 @@ function ListEarthquakes {
 }
  
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on."
+	& "$PSScriptRoot/say.ps1" "Hold on."
 	ListEarthquakes | Select-Object -property Mag,Depth,Location,Type,Time,ID,Lat,Long | Out-GridView -title "Major earthquakes worldwide in the past 30 days (sorted by magnitude)" -wait
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

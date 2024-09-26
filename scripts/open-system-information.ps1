@@ -6,4 +6,3 @@
 #>
 
 Start-Process msinfo32.exe
-exit 0 # success

@@ -8,4 +8,3 @@
 param([string]$name = "")
 
 & "$PSScriptRoot/open-browser.ps1" "https://www.$($name).com"
-exit 0 # success

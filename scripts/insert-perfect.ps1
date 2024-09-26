@@ -10,9 +10,9 @@ try {
 	Set-Clipboard -value "👌"
 
 	(New-Object -com wscript.shell).SendKeys("^V")
-	& "$PSScriptRoot/_reply.ps1" "Inserted."
+	& "$PSScriptRoot/say.ps1" "Inserted."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

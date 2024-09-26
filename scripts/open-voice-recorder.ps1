@@ -10,4 +10,4 @@ try {
         $reply = "Okay."
 } catch { $reply = "Sorry, $($Error[0])" }
 
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

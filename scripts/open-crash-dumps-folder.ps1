@@ -7,6 +7,5 @@
 
 $path = Resolve-Path "~\AppData\Local\CrashDumps"
 & "$PSScriptRoot/open-file-explorer.ps1" "$path"
-& "$PSScriptRoot/_reply.ps1" "Your crash dumps."
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Your crash dumps."
 

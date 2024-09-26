@@ -38,9 +38,9 @@ try {
 			if ($Hourly.time -eq "2100") { if ($Day -eq "today") { $Day = "tomorrow" } else { $Day = "day after tomorrow" } }
 		}
 	}
-	& "$PSScriptRoot/_reply.ps1" $Reply
+	& "$PSScriptRoot/say.ps1" $Reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

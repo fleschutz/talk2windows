@@ -9,4 +9,4 @@ try {
 	Start-Process "C:\Program Files\7-Zip\7zFM.exe"
 	$reply = "Here's seven zip."
 } catch { $reply = "Sorry: $($Error[0])" }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

@@ -6,5 +6,5 @@
 #>
 
 $reply = "Sure as hell.", "Yes, absolutely.", "Hundred %." | Get-Random
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply
 exit 0 # success

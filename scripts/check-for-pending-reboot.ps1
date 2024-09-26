@@ -56,8 +56,8 @@ if (Test-RegistryValue -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Netlogon" 
 	$Reason += ", found registry entry '...\CurrentControlSet\Services\Netlogon' with 'AvoidSpnSet'"
 }
 if ($Reason -ne "") {
-	& "$PSScriptRoot/_reply.ps1" "A reboot is pending."
+	& "$PSScriptRoot/say.ps1" "A reboot is pending."
 } else {
-	& "$PSScriptRoot/_reply.ps1" "No pending reboot."
+	& "$PSScriptRoot/say.ps1" "No pending reboot."
 }
 exit 0 # success

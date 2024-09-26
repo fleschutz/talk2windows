@@ -31,14 +31,14 @@ try {
 	$Hostname = "$($Part1)$($Part2)$($Part3)"
 	$Ping = Test-Connection -count 1 -computerName $Hostname
         if ($Ping.count -ne 0) {
-		& "$PSScriptRoot/_reply.ps1" "$Hostname is already up and running."
+		& "$PSScriptRoot/say.ps1" "$Hostname is already up and running."
 		exit 0 # success
 	}
 
 	$Table = Import-CSV "$PSScriptRoot/../data/hosts.csv"
 	foreach($Row in $Table) {
 		if ($Hostname -ne $Row.Hostname) { continue }
-		& "$PSScriptRoot/_reply.ps1" "Trying to wake up $Hostname ..."
+		& "$PSScriptRoot/say.ps1" "Trying to wake up $Hostname ..."
 		Send-WOL $Row.MAC $Row.IPv4
 		start-sleep -milliseconds 100
 		Send-WOL $Row.MAC $Row.IPv4
@@ -46,12 +46,12 @@ try {
 		Send-WOL $Row.MAC $Row.IPv4
 		$Pings = test-connection -count 1 -computerName $Hostname
         	if ($Pings.count -ne 0) {
-			& "$PSScriptRoot/_reply.ps1" "$Hostname is up."
+			& "$PSScriptRoot/say.ps1" "$Hostname is up."
 		}
 		exit 0 # success
 	}
 	throw "Computer $Hostname is unknown to me."
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

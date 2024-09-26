@@ -17,12 +17,12 @@ param([int]$StartNumber = 10)
 
 try {
 	for ([int]$i = $StartNumber; $i -gt 0; $i--) {
-		& "$PSScriptRoot/_reply.ps1" $i
+		& "$PSScriptRoot/say.ps1" $i
 		start-sleep -milliseconds 200
 	}
-	& "$PSScriptRoot/_reply.ps1" "zero"
+	& "$PSScriptRoot/say.ps1" "zero"
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

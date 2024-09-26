@@ -46,7 +46,7 @@ try {
 	} else {
 		$Reply = "Swap space has $(MB2String $Free) of $(MB2String $Total) free"
 	}
-	& "$PSScriptRoot/_reply.ps1" "$Reply"
+	& "$PSScriptRoot/say.ps1" $Reply
 	exit 0 # success
 } catch {
 	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"

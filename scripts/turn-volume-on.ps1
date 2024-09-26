@@ -9,4 +9,4 @@ try {
 	(New-Object -com wscript.shell).SendKeys([char]173)
 	$reply = "Audio is on."
 } catch { $reply = "Sorry: $($Error[0])" }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

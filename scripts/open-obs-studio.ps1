@@ -3,12 +3,6 @@
 	Launches OBS Studio
 .DESCRIPTION
 	This PowerShell script launches the OBS Studio application.
-.EXAMPLE
-	PS> ./open-obs-studio
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 function TryLaunching { param([string]$Path, [string]$Dir)
@@ -23,6 +17,6 @@ try {
 	TryLaunching "C:\Program Files\OBS Studio\bin\64bit\obs64.exe" "C:\Program Files\OBS Studio\bin\64bit\"
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

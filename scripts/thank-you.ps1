@@ -6,5 +6,4 @@
 #>
 
 $reply = "You're welcome.", "No worries.", "Don't mention it.", "My pleasure.", "Pleasure is mine.", "Glad to help.", "Anytime." | Get-Random
-& "$PSScriptRoot/_reply.ps1" $reply
-exit 0 # success
+& "$PSScriptRoot/say.ps1" $reply

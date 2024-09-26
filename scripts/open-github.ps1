@@ -6,4 +6,4 @@
 #>
 
 & "$PSScriptRoot/open-browser.ps1" "https://github.com"
-& "$PSScriptRoot/_reply.ps1" "Your GitHub dashboard."
+& "$PSScriptRoot/say.ps1" "Your GitHub dashboard."

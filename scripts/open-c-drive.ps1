@@ -6,5 +6,4 @@
 #>
 
 & "$PSScriptRoot/open-file-explorer.ps1" "C:"
-& "$PSScriptRoot/_reply.ps1" "Your C drive."
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Your C drive."

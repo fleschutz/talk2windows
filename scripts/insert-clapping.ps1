@@ -6,7 +6,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay."
+	& "$PSScriptRoot/say.ps1" "Okay."
 
 	$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 	Set-Clipboard -value "👏"
@@ -15,6 +15,6 @@ try {
 	$obj.SendKeys("^V")
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

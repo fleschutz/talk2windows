@@ -29,7 +29,7 @@ $URLs = @("https://track.toggl.com/timer",
 	"https://warnung.bund.de/meldungen")
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Okay."
+	& "$PSScriptRoot/say.ps1" "Okay."
 
 	foreach($URL in $URLs) {
 		& "$PSScriptRoot/open-browser.ps1" "$URL"
@@ -37,6 +37,6 @@ try {
 	}
 	exit 0 # success
 } catch {
-	 & "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	 & "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

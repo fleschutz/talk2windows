@@ -6,5 +6,4 @@
 #>
 
 Start-Process ms-settings:
-& "$PSScriptRoot/_reply.ps1" "Your Windows settings."
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Your Windows settings."

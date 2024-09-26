@@ -9,9 +9,9 @@ try {
 	$path = (New-Object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path
 	if (-not(Test-Path "$path" -pathType container)) { throw "Your downloads folder at $path doesn't exist (yet)" }
 	& "$PSScriptRoot/open-file-explorer.ps1" "$path"
-	& "$PSScriptRoot/_reply.ps1" "Your downloads."
+	& "$PSScriptRoot/say.ps1" "Your downloads."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

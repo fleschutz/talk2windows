@@ -6,5 +6,4 @@
 #>
 
 $reply = "I'm here.","Right beside you.","At your side.","Next to you." | Get-Random
-& "$PSScriptRoot/_reply.ps1" $reply
-exit 0 # success
+& "$PSScriptRoot/say.ps1" $reply

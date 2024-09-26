@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("^{F5}")
-& "$PSScriptRoot/_reply.ps1" "Reloaded."
+& "$PSScriptRoot/say.ps1" "Reloaded."

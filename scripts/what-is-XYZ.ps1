@@ -3,12 +3,6 @@
 	Explains a term/abbreviation/etc.
 .DESCRIPTION
 	This PowerShell script explains the meaning of the given abbreviation by text-to-speech (TTS).
-.EXAMPLE
-	PS> ./what-is-XYZ ECC
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 
 #>
 
@@ -42,13 +36,13 @@ try {
 		}
 	}
 	if ($Text -ne "") {
-		& "$PSScriptRoot/_reply.ps1" $Text
+		& "$PSScriptRoot/say.ps1" $Text
 	} else {
-		& "$PSScriptRoot/_reply.ps1" "Sorry, $(SpellAbbr $term) is unknown to me."
+		& "$PSScriptRoot/say.ps1" "Sorry, $(SpellAbbr $term) is unknown to me."
 		& "$PSScriptRoot/open-google-search.ps1" $term
 	}
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

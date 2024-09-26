@@ -6,4 +6,4 @@
 #>
 
 (New-Object -com wscript.shell).SendKeys("@")
-& "$PSScriptRoot/_reply.ps1" "At inserted."
+& "$PSScriptRoot/say.ps1" "At inserted."

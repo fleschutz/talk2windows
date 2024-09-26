@@ -12,7 +12,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on."
+	& "$PSScriptRoot/say.ps1" "Hold on."
 
 	if (test-path "/sys/class/thermal/thermal_zone0/temp" -pathType leaf) {
 		[int]$IntTemp = get-content "/sys/class/thermal/thermal_zone0/temp"
@@ -33,9 +33,9 @@ try {
 	} else {
 		$Reply = "CPU is extremely cold at $($Temp) degrees Celsius!"
 	}
-	& "$PSScriptRoot/_reply.ps1" $Reply
+	& "$PSScriptRoot/say.ps1" $Reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

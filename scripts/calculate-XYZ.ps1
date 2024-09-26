@@ -38,9 +38,9 @@ try {
 	$Expr = $Expr -replace "tau","6.283185307179586"
 	$Expr = $Expr -replace "gravity","9.81"
 	$Result = Invoke-Expression $Expr
-	& "$PSScriptRoot/_reply.ps1" "It's $Result"
+	& "$PSScriptRoot/say.ps1" "It's $Result"
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

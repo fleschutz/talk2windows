@@ -12,4 +12,3 @@
 #>
 
 tskill Teams
-exit 0 # success

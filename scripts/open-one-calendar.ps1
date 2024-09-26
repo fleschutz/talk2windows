@@ -11,4 +11,4 @@ try {
 	Start-Process shell:appsFolder\$($app.PackageFamilyName)!App
 	$reply = "Your calendar."
 } catch { $reply = "Sorry: $($Error[0])" }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

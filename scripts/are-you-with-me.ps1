@@ -11,6 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-$Reply = "Yes.", "Sure.", "Yes, sure.", "Always." | Get-Random
-& "$PSScriptRoot/_reply.ps1" "$Reply"
-exit 0 # success
+$reply = "Yes.", "Sure.", "Yes, sure.", "Always." | Get-Random
+& "$PSScriptRoot/say.ps1" $reply

@@ -3,12 +3,6 @@
 	Launches Mp3tag
 .DESCRIPTION
 	This PowerShell script launches the Mp3tag application.
-.EXAMPLE
-	PS> ./open-mp-three-tag
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 try {
@@ -17,6 +11,6 @@ try {
 	Start-Process shell:appsFolder\$($App.PackageFamilyName)!Mp3tag
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

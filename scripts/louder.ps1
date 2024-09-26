@@ -10,4 +10,4 @@ try {
 	for ([int]$i = 0; $i -lt 10; $i += 2) {	$obj.SendKeys([char]175) } # each tick is +2%
 	$reply = "$($percent)% louder."
 } catch { $reply = "Sorry: $($Error[0])" }
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply

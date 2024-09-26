@@ -6,7 +6,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on."
+	& "$PSScriptRoot/say.ps1" "Hold on."
 
 	$app = Get-AppxPackage -Name MozillaThunderbird.MZLA
 	if ($app.Status -ne "Ok") { throw "Can't open Mozilla Thunderbird, maybe it's not installed." }
@@ -15,5 +15,5 @@ try {
 
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 }

@@ -6,5 +6,4 @@
 #>
 
 Start-Process ms-settings:appsfeatures
-& "$PSScriptRoot/_reply.ps1" "Your apps and features."
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Your apps and features."

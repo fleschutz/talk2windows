@@ -5,6 +5,5 @@
 	This PowerShell script launches the Web browser with Google Translate.
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Okay."
+& "$PSScriptRoot/say.ps1" "Okay."
 & "$PSScriptRoot/open-browser.ps1" "https://translate.google.com"
-exit 0 # success

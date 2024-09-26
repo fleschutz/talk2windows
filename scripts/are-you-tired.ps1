@@ -6,5 +6,5 @@
 #>
 
 $reply = "Always.", "Never.", "Sometimes.", "From time to time." | Get-Random
-& "$PSScriptRoot/_reply.ps1" $reply
+& "$PSScriptRoot/say.ps1" $reply
 exit 0 # success

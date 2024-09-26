@@ -5,12 +5,6 @@
 	This PowerShell script sets a timer for a countdown.
 .PARAMETER Seconds
 	Specifies the number of seconds
-.EXAMPLE
-	PS> ./set-timer 60
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/PowerShell
 #>
 
 param([int]$Seconds = 0)

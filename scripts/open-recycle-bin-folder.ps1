@@ -6,5 +6,4 @@
 #>
 
 start shell:recyclebinfolder
-& "$PSScriptRoot/_reply.ps1" "Your recycle bin."
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Your recycle bin."

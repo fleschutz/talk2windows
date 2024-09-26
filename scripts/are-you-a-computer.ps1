@@ -11,5 +11,5 @@
 	https://github.com/fleschutz/talk2windows
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Not exactly. I'm the operating system of this computer."
+& "$PSScriptRoot/say.ps1" "Not exactly. I'm the operating system of this computer."
 exit 0 # success

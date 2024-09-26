@@ -3,12 +3,6 @@
 	Enables the god mode
 .DESCRIPTION
 	This PowerShell script enables the god mode. It adds a new icon to the desktop.
-.EXAMPLE
-	PS> ./enable-god-mode
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 try {
@@ -19,9 +13,9 @@ try {
 	}
 	$null = new-item @GodModeSplat
 
-	& "$PSScriptRoot/_reply.ps1" "God mode is enabled now."
+	& "$PSScriptRoot/say.ps1" "God mode is enabled now."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

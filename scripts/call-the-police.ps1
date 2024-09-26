@@ -11,5 +11,4 @@
 	Author: Markus Fleschutz | License: CC0
 #>
 
-& "$PSScriptRoot/_reply.ps1" "Will do."
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Will do."

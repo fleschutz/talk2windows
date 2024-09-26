@@ -8,9 +8,9 @@
 try {
 	if (-not(Test-Path "D:" -pathType container)) { throw "There is no D drive." }
 	& "$PSScriptRoot/open-file-explorer.ps1" "D:"
-	& "$PSScriptRoot/_reply.ps1" "Your D drive."
+	& "$PSScriptRoot/say.ps1" "Your D drive."
 	exit 0 # success
 } catch {
-        & "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+        & "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
         exit 1
 }

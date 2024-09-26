@@ -65,7 +65,7 @@ try {
 		[float]$Voltage = $Bank.ConfiguredVoltage / 1000.0
 		$Manufacturer = $Bank.Manufacturer
 		$Location = "$($Bank.BankLabel)/$($Bank.DeviceLocator)"
-		& "$PSScriptRoot/_reply.ps1" "$Capacity $Type ($($Speed)MHz, $($Voltage)V) at $Location by $Manufacturer"
+		& "$PSScriptRoot/say.ps1" "$Capacity $Type ($($Speed)MHz, $($Voltage)V) at $Location by $Manufacturer"
 	}
 	exit 0 # success
 } catch {

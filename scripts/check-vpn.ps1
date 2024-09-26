@@ -9,12 +9,12 @@ try {
 	[int]$num = 0
 	$connections = (Get-VPNConnection)
 	foreach($conn in $connections) {
-		& "$PSScriptRoot/_reply.ps1" "VPN $($conn.Name) is $($conn.ConnectionStatus)."
+		& "$PSScriptRoot/say.ps1" "VPN $($conn.Name) is $($conn.ConnectionStatus)."
 		$num++
 	}
-	if (!$num) { & "$PSScriptRoot/_reply.ps1" "No VPN connection configured." }
+	if (!$num) { & "$PSScriptRoot/say.ps1" "No VPN connection configured." }
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])."
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])."
 	exit 1
 }

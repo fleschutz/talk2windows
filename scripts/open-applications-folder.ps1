@@ -6,6 +6,5 @@
 #>
 
 & "$PSScriptRoot/open-file-explorer.ps1" "shell:AppsFolder"
-& "$PSScriptRoot/_reply.ps1" "Your applications."
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Your applications."
 

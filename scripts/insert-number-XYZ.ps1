@@ -7,4 +7,4 @@
 
 param([int]$number)
 (New-Object -com wscript.shell).SendKeys("$number")
-& "$PSScriptRoot/_reply.ps1" "$number inserted."
+& "$PSScriptRoot/say.ps1" "$number inserted."

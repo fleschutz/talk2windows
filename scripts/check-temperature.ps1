@@ -6,7 +6,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "Just a second..."
+	& "$PSScriptRoot/say.ps1" "Just a second..."
 	$weather = (Invoke-WebRequest http://wttr.in/${Location}?format=j1 -userAgent "curl" -useBasicParsing).Content | ConvertFrom-Json
 	[int]$tempNow = $weather.current_condition.temp_C
 	[int]$tempMax = -999
@@ -28,9 +28,9 @@ try {
 	} else {
 		$reply = "It's $tempNow °C now, today we expect from $tempMin to $tempMax °C."
 	}
-	& "$PSScriptRoot/_reply.ps1" $reply
+	& "$PSScriptRoot/say.ps1" $reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

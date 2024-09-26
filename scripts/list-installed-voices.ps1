@@ -3,18 +3,12 @@
 	Lists the installed Voices
 .DESCRIPTION
 	This PowerShell script lists the installed text-to-speech (TTS) voices in a table.
-.EXAMPLE
-	PS> ./list-installed voices
-.NOTES
-	Author: Markus Fleschutz · License: CC0
-.LINK
-	https://github.com/fleschutz/PowerShell
 #>
 
 #Requires -Version 2.0
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "OK."
+	& "$PSScriptRoot/say.ps1" "OK."
 	Add-Type -AssemblyName System.Speech
 	$Synth = New-Object System.Speech.Synthesis.SpeechSynthesizer
 	$Synth.GetInstalledVoices() | 
@@ -22,6 +16,6 @@ try {
 		Select-Object -Property Name, Culture, Gender, Age | Out-GridView -wait
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

@@ -12,10 +12,10 @@
 #>
 
 try {
-	$Reply = (Invoke-WebRequest http://wttr.in/?format="Zenith is at %z." -UserAgent "curl" -useBasicParsing).Content
-	& "$PSScriptRoot/_reply.ps1" "$Reply"
+	$reply = (Invoke-WebRequest http://wttr.in/?format="Zenith is at %z." -UserAgent "curl" -useBasicParsing).Content
+	& "$PSScriptRoot/say.ps1" $reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

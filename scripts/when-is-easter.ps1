@@ -40,9 +40,9 @@ try {
 		$Diff = $Now - $EasterSunday
 		$Reply = "Easter sunday on $($EasterSunday.ToShortDateString()) was $($Diff.Days) days ago."
 	}
-	& "$PSScriptRoot/_reply.ps1" $Reply
+	& "$PSScriptRoot/say.ps1" $Reply
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

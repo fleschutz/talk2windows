@@ -9,9 +9,9 @@ try {
 	$path = Resolve-Path "~/Music"
 	if (-not(Test-Path "$path" -pathType container)) { throw "Your music folder at $path doesn't exist (yet)" }
 	& "$PSScriptRoot/open-file-explorer.ps1" "$path"
-	& "$PSScriptRoot/_reply.ps1" "Your music."
+	& "$PSScriptRoot/say.ps1" "Your music."
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

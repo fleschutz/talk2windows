@@ -12,7 +12,7 @@
 #>
  
 try {
-	& "$PSScriptRoot/_reply.ps1" "Hold on."
+	& "$PSScriptRoot/say.ps1" "Hold on."
 	$Table = Import-CSV "$PSScriptRoot/../Data/frequent-domains.csv"
 	$NumRows = $Table.Length
 
@@ -26,9 +26,9 @@ try {
 
 	$Average = [math]::round($NumRows / $Elapsed, 1)
 	if ($Average -gt 10.0) {
-		& "$PSScriptRoot/_reply.ps1" "DNS resolves $Average domains per second"
+		& "$PSScriptRoot/say.ps1" "DNS resolves $Average domains per second"
 	} else {  
-		& "$PSScriptRoot/_reply.ps1" "DNS resolves only $Average domains per second!"
+		& "$PSScriptRoot/say.ps1" "DNS resolves only $Average domains per second!"
 	}
 	exit 0 # success
 } catch {

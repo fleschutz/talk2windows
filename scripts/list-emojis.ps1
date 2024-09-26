@@ -36,11 +36,11 @@ function ListEmojis {
 }
 
 try {
-	& "$PSScriptRoot/_reply.ps1" "OK."
+	& "$PSScriptRoot/say.ps1" "OK."
 	ListEmojis | Select-Object -property Category,Emojis | Out-GridView -title "Emojis by Category (Unicode 13.0)" -wait
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }
 exit 0 # success

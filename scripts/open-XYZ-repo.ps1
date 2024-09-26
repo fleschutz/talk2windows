@@ -5,12 +5,6 @@
 	This PowerShell script launches the File Explorer with the given repository.
 .PARAMETER FolderName
 	Specifies the repository's folder name
-.EXAMPLE
-	PS> ./open-XYZ-repo
-.LINK
-	https://github.com/fleschutz/talk2windows
-.NOTES
-	Author: Markus Fleschutz | License: CC0
 #>
 
 param([string]$FolderName)
@@ -29,6 +23,6 @@ try {
 	& "$PSScriptRoot/open-file-explorer.ps1" "$Path\$FolderName"
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

@@ -3,12 +3,6 @@
 	Launches the Visual Studio app
 .DESCRIPTION
 	This PowerShell script launches the Microsoft Visual Studio application.
-.EXAMPLE
-	PS> ./open-visual-studio
-.NOTES
-	Author: Markus Fleschutz / License: CC0
-.LINK
-	https://github.com/fleschutz/talk2windows
 #>
 
 function TryLaunching { param($Path)
@@ -23,6 +17,6 @@ try {
 	TryLaunching "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
 	exit 0 # success
 } catch {
-	& "$PSScriptRoot/_reply.ps1" "Sorry: $($Error[0])"
+	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
 	exit 1
 }

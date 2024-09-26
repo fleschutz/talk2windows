@@ -6,4 +6,3 @@
 #>
 
 & "$PSScriptRoot/open-browser.ps1" "https://www.windy.com/-Weather-radar-radar"
-exit 0 # success

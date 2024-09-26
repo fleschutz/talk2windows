@@ -6,4 +6,3 @@
 #>
 
 & "$PSScriptRoot/_play-sound.ps1" "$PSScriptRoot/../data/sounds/BigBenHourly.mp3"
-exit 0 # success
