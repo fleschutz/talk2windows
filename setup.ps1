@@ -1,10 +1,10 @@
 ﻿<#
 .SYNOPSIS
-	Installs Talk2Windows
+	Configures Talk2Windows
 .DESCRIPTION
 	This script exports all PowerShell scripts from subfolder 'scripts' as Serenade voice phrases.
 .EXAMPLE
-	PS> ./install.ps1 
+	PS> ./setup.ps1 
 .NOTES
 	Author: Markus Fleschutz / License: CC0
 .LINK
