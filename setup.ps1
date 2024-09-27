@@ -26,16 +26,24 @@ function AddMatchingVoiceCmd { param([string]$phrase, [string]$scriptName)
 }
 
 try {
-	Write-Host "`n(1) Searching for Serenade...   " -noNewline
+	Clear
+	""
+	"Talk2Windows"
+	"============"
+	""
+	""
+	"Setup"
+	"-----"
+	Write-Host "  1. Searching for Serenade...          " -noNewline
 	if (!(Test-Path "~\.serenade" -pathType container)) { throw "Serenade app isn't installed yet - please download and install it from https://serenade.ai" }
 	Write-Host "App is installed"
 
-	$wakeWord = Read-Host "(2) Enter your personal wake word, e.g. Alexa, Computer, Jarvis, Siri, or Windows"
+	$wakeWord = Read-Host "  2. Enter your wake word, e.g. Alexa, Computer, Jarvis, Siri, or Windows"
 
 	$scripts = Get-ChildItem "$filePattern"
-	"(3) Importing $($scripts.Count) PowerShell scripts from: $filePattern..."
+	"  3. Importing $($scripts.Count) scripts from: $filePattern..."
 
-	"(4) Exporting as Serenade's voice commands to: $targetFile..."
+	"  4. Exporting as Serenade's voice commands to: $targetFile..."
 	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$targetFile"
 	"var A = `"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`";" | Add-Content "$targetFile"
 	$scriptRoot = "$PSScriptRoot"
@@ -65,12 +73,11 @@ try {
 			AddVoiceCmd $baseName "$baseName.ps1"
 		}
 	}
-	"Talk2Windows set up successfully."
+	"     Setup done."
 	""
 	""
 	"Usage"
 	"-----"
-	""
 	"  1. Put your headset on and check that it's working."
 	""
 	"  2. Launch Serenade and click the slider to switch from Paused to Listening mode."
