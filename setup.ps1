@@ -65,7 +65,7 @@ try {
 			AddVoiceCmd $baseName "$baseName.ps1"
 		}
 	}
-	"Talk2Windows installed successfully."
+	"Talk2Windows set up successfully."
 	""
 	""
 	"Usage"
