@@ -53,7 +53,7 @@ Insert text at the current text cursor position. Replace &lt;text&gt; with: `bom
 
 📋 *"Windows, open Google &lt;service&gt;"*
 -------------------------------------
-Launch the default Web browser (or a new tab) showing the given Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Keep`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"**.
+Launch the default Web browser (or a new tab) showing the given Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Flights`, `Keep`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"**.
 
 📖 *"Windows, open &lt;name&gt; magazine"*
 -------------------------------------
@@ -65,7 +65,7 @@ Launches the default Web browser (or a new tab) with the given manual. Replace &
 
 🏦 *"Windows, show &lt;name&gt; city"*
 ---------------------------------
-Launches the default Web browser (or a new tab) showing the given city in *Google Maps*. Replace &lt;name&gt; with: `Amsterdam`, `Atlanta`, `Barcelona`, `Berlin`, `Boston`, `Cairo`, `Calgary`, `Cape Town`, `Chicago`, `Dallas`, `Denver`, `Dubai`, `Dublin`, `Frankfurt`, `Hamburg`, `Hong Kong`, `Honolulu`, `Jerusalem`, `Kansas`, `Las Vegas`, `Lisbon`, `London`, `Los Angeles`, `Madrid`, `Mexico`, `Miami`, `Montreal`, `Moscow`, `Munich`, `New York`, `Panama`, `Paris`, `Rome`, `San Francisco`, `Seattle`, `Singapore`, `Sydney`, `Tokyo`, `Toronto`, `Tunis`, `Vienna`, `Washington`, or `Zurich`. When finished say: **"Windows, close tab"**.
+Launches the default Web browser (or a new tab) showing the given city in *Google Maps*. Replace &lt;name&gt; with the name of the city. When finished say: **"Windows, close tab"**.
 
  📈 *"Windows, show &lt;name&gt; rate"*
 ----------------------------------
