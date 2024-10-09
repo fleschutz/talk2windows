@@ -6,7 +6,7 @@ Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recogni
 
 🔧 Installation
 ----------------
-1. **Download and install** the free *Serenade* app from [https://serenade.ai](https://serenade.ai/download). During installation choose *no plugin* and *no programming language* and close the application when finished.
+1. **Download and install** the free *Serenade* app from [https://serenade.ai](https://serenade.ai/download). During installation choose *no plugin* and *no programming language*, then go to *Settings &gt; Server* and choose the 'Local' endpoint (good for privacy and speed). Close the application when finished.
 2. **Download and unzip** this repo from [https://github.com/fleschutz/talk2windows/archive/main.zip](https://github.com/fleschutz/talk2windows/archive/main.zip).
 3. **Open 'Windows PowerShell (Administrator)'** and execute: `Set-ExecutionPolicy RemoteSigned` to allow the execution of PowerShell scripts.
 4. **Open 'Windows PowerShell'** and execute: `./setup.ps1` in the unzipped *talk2windows* folder. It exports the voice commands with your wake word to *Serenade*.
