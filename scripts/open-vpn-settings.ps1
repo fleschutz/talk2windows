@@ -6,4 +6,4 @@
 #>
 
 Start-Process ms-settings:network-vpn
-& "$PSScriptRoot/say.ps1" "Your VPN settings."
+& "$PSScriptRoot/say.ps1" "Your VPN."
