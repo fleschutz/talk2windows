@@ -25,11 +25,11 @@ Say hello by replacing &lt;greeting&gt; with: `good afternoon`, `good evening`, 
 
 🔧 *"Windows, install &lt;app&gt;"*
 -----------------------------
-Install a Microsoft Store application by replacing &lt;app&gt; with: `7-Zip`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Google Chrome`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Quick Share`, `Rufus`, `Spotify`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, `Windows Terminal`, or `WhatsApp`. To uninstall it simply say: **"Windows, uninstall &lt;app&gt;"**.
+Install a Microsoft Store application by replacing &lt;app&gt; with: `7-Zip`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Google Chrome`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Quick Share`, `Rufus`, `Spotify`, `Sticky Notes`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, `Windows Terminal`, or `WhatsApp`. To uninstall it simply say: **"Windows, uninstall &lt;app&gt;"**.
 
  💻 *"Windows, open &lt;app&gt;"*
 ----------------------------
-Launch an installed application by replacing &lt;app&gt; with: `3D-Viewer`, `7-Zip`, `Calculator`,  `Character Map`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Google Chrome`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Quick Share`, `Remote Desktop`, `Screen Clip`, `Spotify`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, `voice recorder`, `Windows Terminal`, or `WhatsApp`. To close it simply say: **"Windows, close &lt;app&gt;"**.
+Launch an installed application by replacing &lt;app&gt; with: `3D-Viewer`, `7-Zip`, `Calculator`,  `Character Map`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Google Chrome`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Quick Share`, `Remote Desktop`, `Screen Clip`, `Spotify`, `Sticky Notes`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, `voice recorder`, `Windows Terminal`, or `WhatsApp`. To close it simply say: **"Windows, close &lt;app&gt;"**.
 
 🌐 *"Windows, open &lt;name&gt; website"*
 ------------------------------------
