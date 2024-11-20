@@ -12,7 +12,7 @@ try {
 		ItemType = 'Directory'
 	}
 	$null = New-Item @GodModeSplat
-	$reply = "God mode enabled - just double-click the new icon on the desktop."
+	$reply = "God mode enabled - just double-click the new desktop icon."
 } catch { $reply = "Sorry: $($Error[0])" }
 
 & "$PSScriptRoot/say.ps1" $reply
