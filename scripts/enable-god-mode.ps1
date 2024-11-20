@@ -11,11 +11,8 @@ try {
 		Name = "GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"
 		ItemType = 'Directory'
 	}
-	$null = new-item @GodModeSplat
+	$null = New-Item @GodModeSplat
+	$reply = "God mode enabled - just double-click the new icon on the desktop."
+} catch { $reply = "Sorry: $($Error[0])" }
 
-	& "$PSScriptRoot/say.ps1" "God mode is enabled now."
-	exit 0 # success
-} catch {
-	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+& "$PSScriptRoot/say.ps1" $reply
