@@ -243,6 +243,7 @@ ASSP,application-specific standard product
 AST,automated storage tiering
 ASTM,American Society for Testing and Materials
 ASUG,Americas' SAP Users' Group
+ASWF,Academy Software Foundation
 ATA,Advanced Technology Attachment
 ATA,American Telemedicine Association
 ATA,analog telephone adapter
@@ -537,9 +538,7 @@ CKO,chief knowledge officer
 CL,cluster log
 CLASS,Capacity Loading and Operation Sequence Scheduling
 CLEC,competitive local exchange carrier
-CLI,command line interface
-CLI,Command Line Interpreter
-CLI,Common Language Infrastructure
+CLI,"Command Line Interface, Command Line Interpreter, Common Language Infrastructure"
 CLM,Council For Logistics Management
 CLO,chief learning officer
 CLOB,Character Large OBject
@@ -548,7 +547,8 @@ CLR,Common Language Runtime
 CM,configuration management
 CM,content management
 CM,Contract Manufacturer
-CMA,content management application
+CMA,Content Management Application
+CMD,Command Prompt
 CMDB,configuration management database
 CMDM,Collaborative Master Data Management
 CMIO,Chief Medical Information Officer
@@ -675,7 +675,9 @@ CWE,Common Weakness Enumeration
 CWF,common working file
 CWNP,Certified Wireless Networking Professional
 CX,consumer experience
+CXF,Credential Exchange Format
 CXO,chief experience officer
+CXP,Credential Exchange Protocol
 D-AMPS,Digital-Advanced Mobile Phone Service
 D-VHS,Digital Video Home System
 D2D,Disk to Disk
@@ -1005,6 +1007,7 @@ EOL,"End of Life, End of Line"
 EOM,End of Message
 EOP,Microsoft Exchange Online Protection
 EOQ,Economic Order Quantity
+EOT,End of Transmission
 EPA,Microsoft Exchange Server Profile Analyzer
 EPC,Evolved Packet Core
 EPD,electronic paper display
@@ -1111,6 +1114,7 @@ FHA,Federal Health Architecture
 FHIE,Federal Health Information Exchange
 FI,Fast Infoset
 FICON,Fiber Connectivity
+FIDO,Fast Identity Online Alliance
 FIFO,"First In, First Out"
 FILO,"First In, Last Out"
 FIM,federated identity management
