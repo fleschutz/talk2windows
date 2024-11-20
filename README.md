@@ -53,7 +53,7 @@ Insert text at the current text cursor position. Replace &lt;text&gt; with: `bom
 
 📋 *"Windows, open Google &lt;service&gt;"*
 -------------------------------------
-Launch the default Web browser (or a new tab) showing the given Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Flights`, `Gemini`, `Keep`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"**.
+Launch the default Web browser (or a new tab) showing the given Google® service. Replace &lt;service&gt; with: `Alerts`, `Blogger`, `Books`, `Calendar`, `Charts`, `Contacts`, `Docs`, `Drawings`, `Earth`, `Flights`, `Gemini`, `Keep`, `Mail`, `Maps`, `Mars`, `News`, `Notes`, `Photos`, `Play`, `Scholar`, `Search`, `Sheets`, `Shopping list`, `Sky`, `Slides`, `Stadia`, `Tasks`, or `Translate`. When finished say: **"Windows, close tab"**.
 
 📖 *"Windows, open &lt;name&gt; magazine"*
 -------------------------------------
