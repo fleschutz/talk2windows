@@ -5,6 +5,5 @@
 	This PowerShell script replies to 'Are you ready?' by text-to-speech (TTS).
 #>
 
-$reply = "Always.","Sure.","Ready when you are!","I was born ready." | Get-Random
+$reply = "Always.","Sure as hell.","Ready when you are!","I was born ready." | Get-Random
 & "$PSScriptRoot/say.ps1" $reply
-exit 0 # success
