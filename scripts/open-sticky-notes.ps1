@@ -1,16 +1,14 @@
 <#
 .SYNOPSIS
-	Launches Microsoft Sticky Notes
+	Opens Sticky Notes
 .DESCRIPTION
 	This PowerShell script launches the Microsoft Sticky Notes application.
 #>
 
 try {
-	$App = Get-AppxPackage -Name "*MicrosoftStickyNotes*"
-	if ($App.Status -ne "Ok") { throw "Sticky Notes isn't installed yet." }
-	Start-Process shell:appsFolder\$($App.PackageFamilyName)!App
-	exit 0 # success
-} catch {
-	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+	$app = Get-AppxPackage -Name "*MicrosoftStickyNotes*"
+	if ($app.Status -ne "Ok") { throw "Sticky Notes isn't installed yet." }
+	Start-Process shell:appsFolder\$($app.PackageFamilyName)!App
+	$reply = "Your notes."
+} catch { $reply = "Sorry: $($Error[0])" }
+& "$PSScriptRoot/say.ps1" $reply
