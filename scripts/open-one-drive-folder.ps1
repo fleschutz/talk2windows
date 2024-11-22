@@ -6,10 +6,10 @@
 #>
 
 try {
-	$TargetDirs = Resolve-Path "~/OneDrive*"
-	foreach($TargetDir in $TargetDirs) {
-		& "$PSScriptRoot/open-file-explorer.ps1" "$TargetDir"
-		& "$PSScriptRoot/say.ps1" "Your OneDrive folder."
+	$folders = Resolve-Path "~/OneDrive*"
+	foreach($folder in $folders) {
+		& "$PSScriptRoot/open-file-explorer.ps1" "$folder"
+		& "$PSScriptRoot/say.ps1" "Your OneDrive."
 		exit 0 # success
 	}
 	throw "No OneDrive folder in home directory"
