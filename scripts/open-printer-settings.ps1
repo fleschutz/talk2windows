@@ -5,5 +5,5 @@
 	This PowerShell script launches the printer settings of Windows.
 #>
 
-& "$PSScriptRoot/say.ps1" "Hold on..."
 Start-Process ms-settings:printers
+& "$PSScriptRoot/say.ps1" "Your printer settings."

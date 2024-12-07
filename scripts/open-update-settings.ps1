@@ -1,9 +1,9 @@
 <#
 .SYNOPSIS
-	Opens Windows Update
+	Opens the update settings
 .DESCRIPTION
 	This PowerShell script launches the update settings of Windows.
 #>
 
-& "$PSScriptRoot/say.ps1" "Hold on."
 Start-Process ms-settings:windowsupdate
+& "$PSScriptRoot/say.ps1" "Your update settings."
