@@ -78,7 +78,7 @@ try {
 	"How to use Talk2Windows"
 	"-----------------------"
 	""
-	"  1. Put your headset on and check that it's working."
+	"  1. Put your headset on and check audio and microphone."
 	""
 	"  2. Launch Serenade and click the slider to switch from Paused to Listening mode."
 	"     Raise the mic audio level in case a 'low voice' is shown."
