@@ -469,6 +469,7 @@ CDR,call detail record
 CDR,Computed Dental Radiography
 CDSL,Consumer Digital Subscriber Line
 CDSS,clinical decision support system
+CDU,Coolant Distribution Unit
 CdTe,cadmium telluride
 CEBP,communications-enabled business processes
 CELL,Cell processor
@@ -1479,8 +1480,7 @@ IRQ,interrupt request
 IRR,internal rate of return
 IRTF,Internet Research Task Force
 IRU,Indefeasible Right of Use
-IS,Information System
-IS,information system or information services
+IS,Information System or Information Services
 IS-IS,Intermediate System-to-Intermediate System protocol
 ISA,Industry Standard Architecture
 ISAM,Indexed Sequential Access Method

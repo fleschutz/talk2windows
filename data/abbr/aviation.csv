@@ -1,5 +1,7 @@
 TERM,MEANING
 3P,"Perceive, Process, Perform"
+5ANNC,Five Letter Alpha Numeric Code
+5LNC,Five Letter Naming Code
 5P,"Plan, Plane, Pilot, Passengers, Programming"
 7500,"Transponder code for Aircraft hijacking (ICAO)"
 7600,"Transponder code for Radio failure (lost communications, ICAO)"
@@ -137,6 +139,7 @@ AR,Aspect Ratio
 ARAC,Army Radar Approach Control (AAF)
 ARFOR,Area Forecast
 ARINC,Aeronautical Radio, Inc. (USA)
+ARNS,Aeronautical Radio Navigation Service
 ARLNO,Airline Office
 ARP,Airport Reference Point
 ARTCC,Air Route Traffic Control Centre
@@ -247,6 +250,7 @@ DFL,Division Flight Level
 DFS,Deutsche Flugsicherung (ATC in Germany)
 DGAC,Direction Générale de l'Aviation Civile
 DLA,Defense Logistics Agency
+DME,Distance Measuring Equipment
 DP,Departure Procedure
 DSNA,Direction des Services de la Navigation Aérienne 
 DTI,Direction Technique Innovation
@@ -322,6 +326,7 @@ IANS,Institute of Air Navigation Services, a division of Eurocontrol
 IAS,Indicated airspeed
 IATA,"International Air Transport Association, HQ in Montreal, Canada"
 ICA,Initial Climb Area
+ICARD,International Codes and Route Designators
 IFE,In-flight Emergency
 IFR,Instrument Flight Rules
 IG,Image Generator
@@ -367,22 +372,26 @@ NATOPS,Naval Aviation Training and Operating Procedures Standardization
 NATS,National Air Traffic Services (UK)
 NAVAIDS,Navigational Aids
 NCOIC,Non-Commissioned Officer in Charge
+NDB,Non-Directional Beacon
 NIMA,National Imagery Mapping Agency
 NLFS,Night Low Flying System
 NM,Nautical Mile
 NORDO,No Radio
 NOTAM,Notice to Airmen or Notice to Air Missions
+NRS,Navigation Reference System
 NUAIR,Northeast UAS Airspace Integration Research (a New York based nonprofit organization)
 OCS,Obstacle Clearance Surfaces
 OCTA,Outside Control Areas
 OEI,One Engine Inoperative
 ODP,Obstacle Departure Procedure
 OGE,Out of Ground Effect
+OID,Operational Instrument Departure
 OFZ,Obstacle Free Zone
 OJT,On the Job Training
 OODA,"Observation, Orientation, Decision, and Action"
 ORCAM,Originating Region Code Assignment Method
 OSC,On Scene Commander
+OWE,Operational Weight Empty
 PA,Pressure Altitude
 PADS,Parallax Aircraft Docking System
 PANSA,Polish Air Navigation Services Agency
@@ -441,6 +450,7 @@ RSC,Runway Surface Condition
 RSI,Remote Status Indicator
 RSO,Range Safety Officer
 RSRS,Reduced Same Runway Separation
+RSU,Runway Supervisory Unit
 RTAF,Royal Thai Air Force
 RTCA,Radio Technical Commission for Aeronautics
 RTF,Radio Telephony
@@ -548,6 +558,7 @@ TRA,Temporary Reserved Area
 TRACON,Terminal Radar Approach Control
 TRH,Thrust Reduction Height
 TSA,Temporary Segregated Area
+TSAT,Target Startup Approval Time
 TSO,Technical Standard Order
 TSTC,Texas State Technical College
 TT,True Track
