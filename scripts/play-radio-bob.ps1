@@ -6,4 +6,5 @@
 #>
 
 & "$PSScriptRoot/say.ps1" "Oh yeah!"
-& "$PSScriptRoot/open-browser.ps1" "http://streema.com/radios/play/RADIO_BOB_BOBs_Alternative"
+& "$PSScriptRoot/open-browser.ps1" "https://tunein.com/radio/RADIO-BOB-Livestream-994-s96189/?lang=en"
+exit 0 # success
