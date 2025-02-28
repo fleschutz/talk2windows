@@ -83,15 +83,15 @@ try {
 	" 1. Put your headset on and check audio and microphone."
 	""
 	" 2. Launch Serenade and click the slider to switch from Paused to Listening mode."
-	"    Raise the mic audio level in case a 'low voice' is shown."
+	"    (raise the mic audio level in case a 'low voice' is shown)"
 	""
-	" 3. Say a voice command like `"$wakeWord, hi`" with a calm voice into the mic."
+	" 3. Say `"$wakeWord, hi`" with a calm voice into the mic."
 	""
 	""
 	""
-	"All supported voice commands are listed at: https://github.com/fleschutz/talk2windows"
+	"Say `"$wakeWord, I need help`" or visit: https://github.com/fleschutz/talk2windows to see all supported voice commands."
 	""
-	Start-Sleep -seconds 60
+	Start-Sleep -seconds 90
 	exit 0 # success
 } catch {
 	Write-Error "ERROR: $($Error[0])"
