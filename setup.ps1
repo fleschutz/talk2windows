@@ -13,7 +13,7 @@
 
 #requires -version 2
 
-param([string]$filePattern = "$PSScriptRoot\scripts\*.ps1", [string]$app = "terminal", [string]$targetFile = "$HOME\.serenade\scripts\talk2windows.js")
+param([string]$filePattern = "$PSScriptRoot\scripts\*.ps1", [string]$app = "terminal", [string]$targetFile = "$HOME\.serenade\scripts\Talk2Windows.js")
 
 function AddVoiceCmd { param([string]$phrase, [string]$scriptName)
 	$phrase = $phrase -replace "-"," "
@@ -28,20 +28,21 @@ function AddMatchingVoiceCmd { param([string]$phrase, [string]$scriptName)
 try {
 	Clear
 	""
-	"Setup of Talk2Windows"
-	"====================="
+	"⚙️ Setup of Talk2Windows"
+	"________________________"
 	""
-	Write-Host "  1. Searching for Serenade application..." -noNewline
+	""
+	Write-Host " 1. Searching for Serenade application... " -noNewline
 	if (!(Test-Path "~\.serenade" -pathType container)) { throw "Serenade app isn't installed yet - please download and install it from https://serenade.ai" }
-	Write-Host "                                 OK"
+	Write-Host "OK"
 
-	$wakeWord = Read-Host "  2. Enter your wake word, e.g. Alexa, Computer, Jarvis, Siri, or Windows"
+	$wakeWord = Read-Host " 2. Enter your personal wake word (e.g. Alexa, Computer, Jarvis, Siri, Windows)"
 
 	$scripts = Get-ChildItem "$filePattern"
-	"  3. Importing $($scripts.Count) scripts from: $filePattern..."
+	" 3. Found $($scripts.Count) scripts at: $filePattern... OK"
 
-	Write-Host "  4. Exporting as Serenade's voice commands to: $targetFile..." -noNewline
-	"/* DO NOT EDIT! This file has been generated automatically by talk2windows */" | Set-Content "$targetFile"
+	Write-Host " 4. Writing voice commands to: $targetFile..." -noNewline
+	"/* DO NOT EDIT! This file has been generated automatically by Talk2Windows */" | Set-Content "$targetFile"
 	"var A = `"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`";" | Add-Content "$targetFile"
 	$scriptRoot = "$PSScriptRoot"
 	$scriptRoot = $scriptRoot -replace "\\","\\"
@@ -75,17 +76,22 @@ try {
 	""
 	""
 	""
-	"How to use Talk2Windows"
-	"-----------------------"
+	"🎧 Usage of Talk2Windows"
+	"________________________"
 	""
-	"  1. Put your headset on and check audio and microphone."
 	""
-	"  2. Launch Serenade and click the slider to switch from Paused to Listening mode."
-	"     Raise the mic audio level in case a 'low voice' is shown."
+	" 1. Put your headset on and check audio and microphone."
 	""
-	"  3. Say a voice command like `"$wakeWord, hi`" with a calm voice into the mic."
-	"     See all supported voice commands at: https://github.com/fleschutz/talk2windows"
+	" 2. Launch Serenade and click the slider to switch from Paused to Listening mode."
+	"    Raise the mic audio level in case a 'low voice' is shown."
 	""
+	" 3. Say a voice command like `"$wakeWord, hi`" with a calm voice into the mic."
+	""
+	""
+	""
+	"All supported voice commands are listed at: https://github.com/fleschutz/talk2windows"
+	""
+	Start-Sleep -seconds 60
 	exit 0 # success
 } catch {
 	Write-Error "ERROR: $($Error[0])"
