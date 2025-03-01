@@ -1,6 +1,6 @@
 Talk2Windows
 ============
-This repo lets you control your *Windows*® desktop by voice commands. Using keyboard, mouse, and also voice is intuitive, increases your productivity, and is really awesome. 
+This repo lets you control your *Windows*® desktop by voice commands. Using keyboard, mouse, and also your voice is intuitive, increases your productivity, and is really awesome. 
 
 Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recognition application.
 
@@ -13,15 +13,15 @@ Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recogni
 
 🎧 Usage
 ---------
-1. Put your headset on and check audio and microphone.
-2. Launch *Serenade* and click the slider to switch from *Paused* to *Listening* mode (raise the mic audio level in case a *'low voice'* is shown).
+1. **Put your headset on** and check audio and microphone.
+2. **Launch Serenade** and click the slider to switch from *Paused* to *Listening* mode (raise the mic audio level in case a *'low voice'* is shown).
 3. Say: **"*Windows, open calculator*"** with a calm voice into the mic. This voice command executes the PowerShell script `scripts/open-calculator.ps1` which launches the calculator app.
 
 Most voice commands follow the generic scheme "*&lt;wake word&gt;, &lt;verb&gt; &lt;subject&gt;*" such as: "Windows, open calculator". Supported are the following voice commands:
 
 👋 *"Windows, &lt;greeting&gt;"*
 ---------------------------
-Say hello by replacing &lt;greeting&gt; with: `good afternoon`, `good evening`, `good morning`, `good night`, `hello`, `hey`, `hi`, `howdy`, `morning`, or `nice to meet you`.
+Say hello to *Windows*® by replacing &lt;greeting&gt; with: `good afternoon`, `good evening`, `good morning`, `good night`, `hello`, `hey`, `hi`, `howdy`, `morning`, or `nice to meet you`.
 
 🔧 *"Windows, install &lt;app&gt;"*
 -----------------------------
