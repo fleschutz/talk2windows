@@ -812,13 +812,12 @@ DND,Dungeons & Dragons (a computer game)
 DNG,Digital Negative
 DNIS,Dialed Number Identification Service
 DNN,DotNetNuke
-DNS,domain name system
+DNS,Domain Name System
 DNSSEC,DNS Security Extensions
 DNT,Do Not Track
 DO,derived object 
 DOCSIS,Data Over Cable Service Interface Specifications
 DOD,Direct Outward Dialing
-DOE,Department of Energy
 DOI,Digital Object Identifier
 DOI,digital object identifier
 DOL,Department of Labor
@@ -851,6 +850,7 @@ DROP,delivery of real-time execution information protocol
 DRP,disaster recovery plan
 DRP,Distribution Requirements Planning
 DRS,Storage Distributed Resource Scheduler
+DSA,Digital Services Act (EU)
 DSB,Dispute Settlement Body
 DSC,Digital Still Camera
 DSL,Domain-Specific Language
@@ -1069,6 +1069,7 @@ EZ/EC,Empowerment Zone/Enterprise Community
 FA,Flexible Automation
 FACTA,Fair and Accurate Credit Transactions Act
 FAR,Federal Acquisition Regulation
+FARM,Field Accessible Reliability Metrics
 FAS,Final Assembly Schedule
 FASAB,Federal Accounting Standards Advisory Board
 FAT,File Allocation Table
@@ -1397,6 +1398,7 @@ IBP,integrated business planning
 IC,integrated circuit
 IC-BPMS,integration-centric business process management suite
 ICANN,Internet Corporation for Assigned Names and Numbers
+ICD,Interface Control Document
 ICE,"In-Circuit Emulator, Information and Content Exchange"
 IcM,incident management
 ICMP,Internet Control Message Protocol
@@ -1776,6 +1778,7 @@ MVMC,Microsoft Virtual Machine Converter
 MVNO,mobile virtual network operator
 MVP,Microsoft Most Valuable Professional
 MVS,Multiple Virtual Storage
+MVC,Mobile World Congress (in Barcelona)
 NaaS,network-as-a-service
 NAC,network access control
 NACHA,National Automated Clearing House Association
@@ -2667,6 +2670,7 @@ VLE,virtual learning environment
 VLER,Virtual Lifetime Electronic Record
 VLIW,very long instruction word
 vlog,video blog
+VLOP,Very Large Online Platform
 VLSI,Very Large Scale Integration
 VLSM,variable-length subnet mask
 VM,virtual machine
