@@ -6,12 +6,13 @@
 #>
 
 try {
-        $App = Get-AppxPackage -Name 5319275A.WhatsAppDesktop
-        if ($App.Status -ne "Ok") { throw "Can't open WhatsApp, is it installed?" }
+        $app = Get-AppxPackage -Name 5319275A.WhatsAppDesktop
+        if ($app.Status -ne "Ok") { throw "WhatsApp isn't installed yet" }
 
-        explorer.exe shell:appsFolder\$($App.PackageFamilyName)!App
+        explorer.exe shell:appsFolder\$($app.PackageFamilyName)!App
+        & "$PSScriptRoot/say.ps1" "Your WhatsApp."
         exit 0 # success
 } catch {
-        & "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
+        & "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])."
         exit 1
 }
