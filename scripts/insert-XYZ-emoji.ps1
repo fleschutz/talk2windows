@@ -8,26 +8,26 @@
 param([string]$name = "")
 
 function name2emoji { param([string]$name)
-        switch($name) { # sorted alphabetically
-        "banana"     {return "🍌"}
-        "bone"       {return "🦴"}
-        "cake"       {return "🍰"}
-        "cat"        {return "🐱"}
-        "dog"        {return "🐶"}
-        "floppy disk"{return "💾"}
+     switch($name) { # sorted alphabetically
+    "banana"     {return "🍌"}
+    "bone"       {return "🦴"}
+    "cake"       {return "🍰"}
+    "cat"        {return "🐱"}
+    "dog"        {return "🐶"}
+    "floppy disk"{return "💾"}
 	"motor bike" {return "🛵"}
-        "mouse"      {return "🐭"}
+    "mouse"      {return "🐭"}
 	"nose"       {return "👃"}
 	"rocket"     {return "🚀"}
 	"shrugging"  {return "🤷"}
 	"soccer"     {return "⚽️"}
-        default { throw "Repeat it, please." }
-        }
+    default { throw "Repeat it, please." }
+    }
 }
 
 try {
-	$emoji = name2emoji $name
 	[console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
+	[string]$emoji = name2emoji $name
 	Set-Clipboard -value $emoji
 	$obj = New-Object -com wscript.shell
 	$obj.SendKeys("^V")
