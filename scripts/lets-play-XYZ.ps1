@@ -8,7 +8,7 @@
 param([string]$name)
 
 try {
-	      if ($name -like "*2048*") { $URL = "https://2048game.com/"
+	if ($name -like "*2048*") { $URL = "https://2048game.com/"
 	} elseif ($name -like "*Agar*") { $URL = "https://agar.io"
 	} elseif ($name -like "*Chess*") { $URL = "https://www.chess.com"
 	} elseif ($name -like "*City*") { $URL = "https://virtualvacation.us/guess"
