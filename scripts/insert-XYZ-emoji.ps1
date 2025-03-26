@@ -18,12 +18,14 @@ function name2emoji { param([string]$name)
 	"bicycle"    {return "🚲"}
 	"bone"       {return "🦴"}
 	"bus"        {return "🚌"}
+	"bye"        {return "👋"}
 	"cake"       {return "🍰"}
 	"call"       {return "📞?"}
 	"call me"    {return "📞?"}
 	"car"        {return "🚗"}
 	"cat"        {return "🐱"}
 	"clapping"   {return "👏"}
+	"clown"      {return "🤡"}
 	"coffee"     {return "☕️"}
 	"cookie"     {return "🍪"}
 	"cool"       {return "😎"}
@@ -38,17 +40,23 @@ function name2emoji { param([string]$name)
 	"fire"       {return "🔥"}
 	"frog"       {return "🐸"}
 	"fuck off"   {return "🖕"}
+	"germany"    {return "🇩🇪"}
 	"ghost"      {return "👻"}
 	"hammer"     {return "🔨"}
 	"hang loose" {return "🤙"}
 	"heart"      {return "❤️"}
+	"house"      {return "🏠"}
+	"king"       {return "🤴"}
 	"lip stick"  {return "💄"}
 	"microphone" {return "🎤"}
 	"motor bike" {return "🏍"}
 	"mouse"      {return "🐭"}
+	"mouth"      {return "👄"}
 	"nose"       {return "👃"}
 	"plane"      {return "✈️"}
 	"please"     {return "🙏"}
+	"prince"     {return "🤴"}
+	"question"   {return "❔"}
 	"rainbow"    {return "🌈"}
 	"ring"       {return "💍"}
 	"robot"      {return "🤖"}
@@ -61,6 +69,8 @@ function name2emoji { param([string]$name)
 	"soccer"     {return "⚽️"}
 	"star"       {return "⭐️"}
 	"sun"        {return "☀️"}
+	"sunrise"    {return "🌅"}
+	"sunset"     {return "🌅"}
 	"swords"     {return "⚔️"}
 	"telephone"  {return "☎️"}
 	"thumb up"   {return "👍"}
