@@ -8,21 +8,68 @@
 param([string]$name = "")
 
 function name2emoji { param([string]$name)
-     switch($name) { # sorted alphabetically
-    "banana"     {return "🍌"}
-    "bone"       {return "🦴"}
-    "cake"       {return "🍰"}
-    "cat"        {return "🐱"}
-    "dog"        {return "🐶"}
-    "floppy disk"{return "💾"}
-	"motor bike" {return "🛵"}
-    "mouse"      {return "🐭"}
+	switch($name) { # sorted alphabetically
+	"alarm"      {return "🚨"}
+	"alien"      {return "👽"}
+	"apple"      {return "🍏"}
+	"baby"       {return "👶"}
+	"banana"     {return "🍌"}
+	"beer"       {return "🍺"}
+	"bicycle"    {return "🚲"}
+	"bone"       {return "🦴"}
+	"bus"        {return "🚌"}
+	"cake"       {return "🍰"}
+	"call"       {return "📞?"}
+	"call me"    {return "📞?"}
+	"car"        {return "🚗"}
+	"cat"        {return "🐱"}
+	"clapping"   {return "👏"}
+	"coffee"     {return "☕️"}
+	"cookie"     {return "🍪"}
+	"cool"       {return "😎"}
+	"crown"      {return "👑"}
+	"dice"       {return "🎲"}
+	"devil"      {return "👹"}
+	"dog"        {return "🐶"}
+	"ear"        {return "👂"}
+	"earth"      {return "🌍"}
+	"eyes"       {return "👀"}
+	"floppy disk"{return "💾"}
+	"fire"       {return "🔥"}
+	"frog"       {return "🐸"}
+	"fuck off"   {return "🖕"}
+	"ghost"      {return "👻"}
+	"hammer"     {return "🔨"}
+	"hang loose" {return "🤙"}
+	"heart"      {return "❤️"}
+	"lip stick"  {return "💄"}
+	"microphone" {return "🎤"}
+	"motor bike" {return "🏍"}
+	"mouse"      {return "🐭"}
 	"nose"       {return "👃"}
+	"plane"      {return "✈️"}
+	"please"     {return "🙏"}
+	"rainbow"    {return "🌈"}
+	"ring"       {return "💍"}
+	"robot"      {return "🤖"}
 	"rocket"     {return "🚀"}
+	"shit"       {return "💩"}
 	"shrugging"  {return "🤷"}
+	"skull"      {return "💀"}
+	"smiley"     {return "😀"}
+	"snow flake" {return "❄️"}
 	"soccer"     {return "⚽️"}
-    default { throw "Repeat it, please." }
-    }
+	"star"       {return "⭐️"}
+	"sun"        {return "☀️"}
+	"swords"     {return "⚔️"}
+	"telephone"  {return "☎️"}
+	"thumb up"   {return "👍"}
+	"thumb down" {return "👎"}
+	"trumpet"    {return "🎺"}
+	"watch"      {return "⌚️"}
+	"wine"       {return "🍷"}
+	default      { throw "The $name emoji is new to me" }
+	}
 }
 
 try {
