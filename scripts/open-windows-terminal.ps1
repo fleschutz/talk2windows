@@ -5,5 +5,8 @@
 	This PowerShell script launches the Windows Terminal application.
 #>
 
-Start-Process wt.exe
-& "$PSScriptRoot/say.ps1" "Your terminal."
+param([string]$cmd = "")
+
+Start-Process -filePath wt.exe -argumentList $cmd
+if ($cmd -eq "") { & "$PSScriptRoot/say.ps1" "Your terminal." }
+exit 0 # success
