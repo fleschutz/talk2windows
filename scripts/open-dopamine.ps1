@@ -5,17 +5,19 @@
 	This PowerShell script launches the audio player Dopamine.
 #>
 
-function TryToExec { param($Folder, $Binary)
-	if (test-path "$Folder/$Binary" -pathType leaf) {
-		start-process "$Folder/$Binary" -WorkingDirectory "$Folder"
-				exit 0 # success 		exit 0 # success
+function TryToExec { param($folder, $binary)
+	if (Test-Path "$folder/$binary" -pathType leaf) {
+		Start-Process "$folder/$binary" -WorkingDirectory "$folder"
+		return $true
 	}
+	return $false
 }
 
 try {
-	TryToExec "C:\Program Files (x86)\Dopamine" "Dopamine.exe"
-	throw "Dopamine isn't installed."
-} catch {
-	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
-}
+	if (TryToExec "C:\Program Files (x86)\Dopamine" "Dopamine.exe") {
+		$reply = "Here's Dopamine."
+	} else {
+		$reply = "Sorry, Dopamine isn't installed yet."
+	}
+} catch { $reply = "Sorry: $($Error[0])" }
+& "$PSScriptRoot/say.ps1" $reply
