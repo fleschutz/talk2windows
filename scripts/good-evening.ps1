@@ -5,4 +5,4 @@
 	This PowerShell script replies to 'good evening' by text-to-speech (TTS).
 #>
 
-& "$PSScriptRoot/say.ps1" "Good evening! How can I help?"
+& "$PSScriptRoot/say.ps1" "Good evening to you too."
