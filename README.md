@@ -21,19 +21,19 @@ Most voice commands follow the generic scheme "*&lt;wake word&gt;, &lt;verb&gt; 
 
 👄 *"Windows, &lt;greeting&gt;"*
 ---------------------------
-Say hello to your computer by replacing &lt;greeting&gt; with `good afternoon`, `good evening`, `good morning`, `good night`, `hello`, `hey`, `hi`, `howdy`, `morning`, or `nice to meet you`.
+Say hello to your computer by replacing &lt;greeting&gt; with: `good afternoon`, `good evening`, `good morning`, `good night`, `hello`, `hey`, `hi`, `howdy`, `morning`, or `nice to meet you`.
 
 👄 *"Windows, install &lt;app&gt;"*
 -----------------------------
-Installs an application from Microsoft Store. Just replace &lt;app&gt; with: `7-Zip`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Google Chrome`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Quick Share`, `Rufus`, `Spotify`, `Sticky Notes`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, `Windows Terminal`, or `WhatsApp`. To uninstall it simply say: **"Windows, uninstall &lt;app&gt;"**.
+Install a Microsoft Store application by replacing &lt;app&gt; with: `7-Zip`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Google Chrome`, `IrfanView`, `Mp3tag`, `Netflix`, `Opera Browser`, `Opera GX`, `One Calendar`, `Quick Share`, `Rufus`, `Spotify`, `Sticky Notes`, `TikTok`, `Twitter`, `Visual Studio Code`, `VLC`, `Windows Terminal`, or `WhatsApp`. To uninstall it simply say: **"Windows, uninstall &lt;app&gt;"**.
 
  👄 *"Windows, open &lt;app&gt;"*
 ----------------------------
-Launches the installed application. Replace &lt;app&gt; with: `3D-Viewer`, `7-Zip`, `Calculator`,  `Character Map`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Google Chrome`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Quick Share`, `Remote Desktop`, `Screen Clip`, `Spotify`, `Sticky Notes`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, `voice recorder`, `Windows Terminal`, or `WhatsApp`. To close it simply say: **"Windows, close &lt;app&gt;"**.
+Launch the installed application by replacing &lt;app&gt; with: `3D-Viewer`, `7-Zip`, `Calculator`,  `Character Map`, `CrystalDiskInfo`, `CrystalDiskMark`, `Discord`, `Disney+`, `Edge`, `Firefox`, `Git Extensions`, `Google Chrome`, `Magnifier`, `Microsoft Paint`, `Microsoft Store`, `Mp3tag`, `Netflix`, `Notepad`, `OBS Studio`, `One Calendar`, `One Note`, `Outlook`, `Quick Share`, `Remote Desktop`, `Screen Clip`, `Spotify`, `Sticky Notes`, `System Information`, `Thunderbird`, `Visual Studio`, `VLC`, `voice recorder`, `Windows Terminal`, or `WhatsApp`. To close it simply say: **"Windows, close &lt;app&gt;"**.
 
 👄 *"Windows, open &lt;name&gt; website"*
 ------------------------------------
-Launches the default Web browser (or a new tab) with the given website. Replace &lt;name&gt; with: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `FlightRadar`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Space Weather`, `SpaceX`, `Spotify`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, `YouTube`, or `Zoom`. When finished say: **"Windows, close tab"**.
+Launch the Web browser (or open a new tab) with the given website. Replace &lt;name&gt; with: `Amazon`, `Apple`, `Baidu`, `BBC`, `Bing`, `BitBucket`, `BitBucket status`, `CDC`, `CIA`, `CNN`, `Discord`, `DistroWatch`, `Docker`, `Docker status`, `Dropbox`, `eBay`, `Facebook`, `FBI`, `FlightRadar`, `Flipboard`, `FourSquare`, `FRITZ!Box`, `FRITZ!Repeater`, `GitHub`, `GliderTracker`, `HolidayCheck`, `HRworks`, `Instagram`, `IPFS`, `Microsoft`, `NASA`, `NBC`, `Netflix`, `Notepad`, `Outdoor Active`, `PayPal`, `Pinterest`, `Pixabay`, `Plex`, `Serenade`, `Slashdot`, `Snap Store`, `Space Weather`, `SpaceX`, `Spotify`, `Starbucks`, `Tesla`, `TikTok`, `Toggl`, `Topo Map`, `Twitter`,  `UFA`, `Unsplash`, `Walmart`, `WhatsApp`, `White House`, `Windy`, `Wikipedia`, `Wolfram Alpha`, `World News`, `Yahoo`, `YouTube`, or `Zoom`. When finished say: **"Windows, close tab"**.
 
 👄 *"Windows, check &lt;item&gt;"*
 -----------------------------
@@ -45,7 +45,7 @@ Presses a keyboard shortcut to navigate in a browser window. Replace &lt;shortcu
 
 👄 *"Windows, insert &lt;char&gt; sign"*
 ---------------------------------------
-Inserts the given character at the current text cursor position. Replace &lt;char&gt; with: `at`, `backslash`, `comma`, `copyright`, `Dollar`, `Euro`, `hashtag`, `minus`, `number`, `percent`, `pipe`, `plus`, `Pound`, `slash`, `trademark`, `underscore`, or `Yen`.
+Inserts a character at the current text cursor position. Replace &lt;char&gt; with: `at`, `backslash`, `comma`, `copyright`, `Dollar`, `Euro`, `hashtag`, `minus`, `number`, `percent`, `pipe`, `plus`, `Pound`, `slash`, `trademark`, `underscore`, or `Yen`.
 
 👄 *"Windows, insert &lt;text&gt;"*
 ---------------------------------
