@@ -28,9 +28,8 @@ function AddMatchingVoiceCmd { param([string]$phrase, [string]$scriptName)
 try {
 	Clear
 	""
-	"⚙️ Setup of Talk2Windows"
-	"________________________"
-	""
+	"⚙️ Setup"
+	"________"
 	""
 	Write-Host " 1. Searching for Serenade application... " -noNewline
 	if (!(Test-Path "~\.serenade" -pathType container)) { throw "Serenade app isn't installed yet - please download and install it from https://serenade.ai" }
@@ -76,9 +75,9 @@ try {
 	""
 	""
 	""
-	"🎧 Usage of Talk2Windows"
-	"________________________"
 	""
+	"🎧 Usage"
+	"________"
 	""
 	" 1. Put your headset on and check audio and microphone."
 	""
@@ -89,9 +88,10 @@ try {
 	""
 	""
 	""
-	"Say `"$wakeWord, I need help`" or visit: https://github.com/fleschutz/talk2windows to see all supported voice commands."
 	""
-	Start-Sleep -seconds 90
+	"NOTE: Say `"$wakeWord, I need help`" or visiting: https://github.com/fleschutz/talk2windows shows all voice commands."
+	""
+	Start-Sleep -seconds 10
 	exit 0 # success
 } catch {
 	Write-Error "ERROR: $($Error[0])"
