@@ -127,6 +127,6 @@ Say good-bye to your computer by replacing &lt;farewell&gt; with: `bye`, `bye-by
 ------------
 Send your email feedback to: markus.fleschutz [at] gmail.com
 
-🤝 License, Copyright, and Trademarks
---------------------------------------
+📜 License and Copyright
+-------------------------
 This open source project is licensed under the CC0 license. All trademarks are the property of their respective owners.
