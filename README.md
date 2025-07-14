@@ -123,9 +123,12 @@ Let Windows execute a command, replace &lt;command&gt; with: `calculate [express
 ---------------------------
 Say good-bye to your computer by replacing &lt;farewell&gt; with: `bye`, `bye-bye`, `ciao`, `good-bye`, `I'll be back`, `see you`, or `see you later`.
 
-📧 Feedback
-------------
-Send your email feedback to: markus.fleschutz [at] gmail.com
+🤝 Contributing
+----------------
+* Contributions, suggestions, and improvements are welcome!
+* Open an Issue if you encounter bugs or have feature ideas.
+* Create a Pull Request if you'd like to improve a script.
+* Or just send your feedback to: markus.fleschutz [at] gmail.com
 
 📜 License & Copyright
 -----------------------
