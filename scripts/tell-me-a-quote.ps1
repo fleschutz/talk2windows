@@ -6,7 +6,7 @@
 #>
 
 try {
-	$table = Import-CSV "$PSScriptRoot/../data/quotes.csv"
+	$table = Import-CSV "$PSScriptRoot/data/quotes.csv"
 	$generator = New-Object System.Random
 	$index = [int]$generator.next(0, $table.Count - 1)
 	$quote = $table[$index].QUOTE

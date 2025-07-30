@@ -18,7 +18,7 @@ function SpellAbbr { param([string]$Text)
 }
 
 try {
-	$files = (Get-ChildItem "$PSScriptRoot/../data/abbr/*.csv")
+	$files = (Get-ChildItem "$PSScriptRoot/data/abbr/*.csv")
 	$Text = ""
 	$PrevBasename = ""
 	foreach($file in $files) {

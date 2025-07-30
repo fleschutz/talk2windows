@@ -6,7 +6,7 @@
 #>
 
 try {
-	$Table = Import-CSV "$PSScriptRoot/../data/jokes.csv"
+	$Table = Import-CSV "$PSScriptRoot/data/jokes.csv"
 
 	$Generator = New-Object System.Random
 	$Index = [int]$Generator.next(0, $Table.Count - 1)

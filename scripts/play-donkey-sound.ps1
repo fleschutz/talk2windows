@@ -5,4 +5,4 @@
 	This PowerShell script plays a donkey sound.
 #>
 
-& "$PSScriptRoot/_play-sound.ps1" "$PSScriptRoot/../data/sounds/donkey.mp3"
+& "$PSScriptRoot/_play-sound.ps1" "$PSScriptRoot/data/sounds/donkey.mp3"

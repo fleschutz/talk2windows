@@ -5,4 +5,4 @@
 	This PowerShell script plays a parrot sound.
 #>
 
-& "$PSScriptRoot/_play-sound.ps1" "$PSScriptRoot/../data/sounds/parrot.mp3"
+& "$PSScriptRoot/_play-sound.ps1" "$PSScriptRoot/data/sounds/parrot.mp3"

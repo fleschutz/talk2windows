@@ -5,4 +5,4 @@
 	This PowerShell script plays a cow sound.
 #>
 
-& "$PSScriptRoot/_play-sound.ps1" "$PSScriptRoot/../data/sounds/cow.mp3"
+& "$PSScriptRoot/_play-sound.ps1" "$PSScriptRoot/data/sounds/cow.mp3"

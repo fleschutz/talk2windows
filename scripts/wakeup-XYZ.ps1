@@ -35,7 +35,7 @@ try {
 		exit 0 # success
 	}
 
-	$Table = Import-CSV "$PSScriptRoot/../data/hosts.csv"
+	$Table = Import-CSV "$PSScriptRoot/data/hosts.csv"
 	foreach($Row in $Table) {
 		if ($Hostname -ne $Row.Hostname) { continue }
 		& "$PSScriptRoot/say.ps1" "Trying to wake up $Hostname ..."
