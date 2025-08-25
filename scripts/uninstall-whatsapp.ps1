@@ -12,8 +12,6 @@ try {
 	if ($lastExitCode -ne "0") { throw "Can't uninstall WhatsApp, is it installed?" }
 
 	& "$PSScriptRoot/say.ps1" "WhatsApp is uninstalled now."
-	exit 0 # success
 } catch {
 	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
 }
