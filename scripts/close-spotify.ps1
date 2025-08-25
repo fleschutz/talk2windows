@@ -5,4 +5,5 @@
 	This PowerShell script closes the Spotify application gracefully.
 #>
 
-& "$PSScriptRoot/close-program.ps1" "Spotify" "spotify" ""
+& "$PSScriptRoot/say.ps1" "Okay."
+Stop-Process -name "spotify"
