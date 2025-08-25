@@ -10,9 +10,7 @@ try {
         if ($app.Status -ne "Ok") { throw "WhatsApp isn't installed yet" }
 
         explorer.exe shell:appsFolder\$($app.PackageFamilyName)!App
-        & "$PSScriptRoot/say.ps1" "Your WhatsApp."
-        exit 0 # success
+        & "$PSScriptRoot/say.ps1" "Here's WhatsApp."
 } catch {
         & "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])."
-        exit 1
 }

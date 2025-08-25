@@ -5,5 +5,5 @@
 	This PowerShell script closes the VLC media player application gracefully.
 #>
 
-& "$PSScriptRoot/close-program.ps1" "VLC media player" "vlc" "vlc"
-exit 0 # success
+& "$PSScriptRoot/say.ps1" "Okay."
+Stop-Process -name "vlc"

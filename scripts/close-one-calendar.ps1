@@ -8,6 +8,4 @@
 TaskKill /f /im CalendarApp.Gui.Win10.exe
 if ($lastExitCode -ne "0") {
 	& "$PSScriptRoot/say.ps1" "Sorry, OneCalendar isn't running."
-	exit 1
 }
-exit 0 # success

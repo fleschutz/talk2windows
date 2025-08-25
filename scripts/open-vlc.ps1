@@ -13,10 +13,9 @@ function TryToExec { param($Folder, $Binary)
 }
 
 try {
+	& "$PSScriptRoot/say.ps1" "Hold on."
 	TryToExec "C:\Program Files\VideoLAN\VLC" "vlc.exe"
 	throw "VLC media player isn't installed."
-	exit 0 # success
 } catch {
 	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
 }
