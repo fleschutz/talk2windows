@@ -2,18 +2,16 @@
 .SYNOPSIS
 	Installs 7-Zip
 .DESCRIPTION
-	This PowerShell script installs 7-Zip.
+	This PowerShell script installs 7-Zip from WinGet.
 #>
 
 try {
-	& "$PSScriptRoot/say.ps1" "Installing 7-Zip, please wait..."
+	& "$PSScriptRoot/say.ps1" "Installing 7-Zip, hold on..."
 
-	& winget install --id 7zip.7zip --accept-package-agreements --accept-source-agreements
+	& winget install --id 7zip.7zip --silent --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "Installation of 7-Zip failed, maybe it's already installed." }
 
 	& "$PSScriptRoot/say.ps1" "7-Zip installed successfuly."
-	exit 0 # success
 } catch {
 	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
 }

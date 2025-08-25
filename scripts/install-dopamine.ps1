@@ -6,14 +6,12 @@
 #>
 
 try {
-	& "$PSScriptRoot/say.ps1" "Installing Dopamine, please wait..."
+	& "$PSScriptRoot/say.ps1" "Installing Dopamine, hold on..."
 
-	& winget install --id Digimezzo.Dopamine.2 --accept-package-agreements --accept-source-agreements
+	& winget install --id Digimezzo.Dopamine.2 --silent --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/say.ps1" "Dopamine installed successfuly."
-	exit 0 # success
 } catch {
 	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
 }

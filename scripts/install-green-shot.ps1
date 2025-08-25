@@ -6,9 +6,9 @@
 #>
 
 try {
-	& "$PSScriptRoot/say.ps1" "Installing Greenshot from Microsoft Store, hold on..."
+	& "$PSScriptRoot/say.ps1" "Installing Greenshot, hold on..."
 
-	& winget install --id 9N8Z6RQX8LV8 --accept-package-agreements --accept-source-agreements
+	& winget install --id 9N8Z6RQX8LV8 --silent --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "Greenshot installation failed, maybe it's already installed." }
 
 	& "$PSScriptRoot/say.ps1" "Greenshot installed successfully."

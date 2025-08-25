@@ -2,18 +2,16 @@
 .SYNOPSIS
 	Installs TikTok
 .DESCRIPTION
-	This PowerShell script installs TikTok from the Microsoft Store.
+	This PowerShell script installs TikTok from Microsoft Store.
 #>
 
 try {
-	& "$PSScriptRoot/say.ps1" "Installing TikTok, please wait..."
+	& "$PSScriptRoot/say.ps1" "Installing TikTok, hold on..."
 
-	& winget install "TikTok" --source msstore --accept-package-agreements --accept-source-agreements
+	& winget install "TikTok" --source msstore --silent --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/say.ps1" "TikTok installed successfully."
-	exit 0 # success
 } catch {
 	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
 }

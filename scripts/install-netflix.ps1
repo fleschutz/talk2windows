@@ -2,11 +2,11 @@
 .SYNOPSIS
 	Installs Netflix
 .DESCRIPTION
-	This PowerShell script installs Netflix from the Microsoft Store.
+	This PowerShell script installs Netflix from Microsoft Store.
 #>
 
 try {
-	& "$PSScriptRoot/say.ps1" "Installing Netflix, please wait..."
+	& "$PSScriptRoot/say.ps1" "Installing Netflix, hold on..."
 
 	& winget install "Netflix" --source msstore --silent --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }

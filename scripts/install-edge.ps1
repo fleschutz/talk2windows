@@ -2,18 +2,16 @@
 .SYNOPSIS
 	Installs Microsoft Edge
 .DESCRIPTION
-	This PowerShell script installs the Microsoft Edge Browser from the Microsoft Store.
+	This PowerShell script installs the Microsoft Edge Browser from Microsoft Store.
 #>
 
 try {
-	& "$PSScriptRoot/say.ps1" "Installing Edge, please wait..."
+	& "$PSScriptRoot/say.ps1" "Installing Edge, hold on..."
 
-	& winget install "Microsoft Edge Browser" --source msstore --accept-package-agreements --accept-source-agreements
+	& winget install "Microsoft Edge Browser" --source msstore --silent --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/say.ps1" "Microsoft Edge installed successfully."
-	exit 0 # success
 } catch {
 	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
 }
