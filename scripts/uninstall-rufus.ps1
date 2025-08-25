@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Uninstalls Rufus
 .DESCRIPTION
-	This PowerShell script uninstalls the Rufus application from the local computer.
+	This PowerShell script uninstalls Rufus from the local computer.
 #>
 
 try {

@@ -6,7 +6,7 @@
 #>
 
 try {
-	& "$PSScriptRoot/say.ps1" "Uninstalling WhatsApp, please wait..."
+	& "$PSScriptRoot/say.ps1" "Uninstalling WhatsApp, hold on..."
 
 	& winget uninstall --id 9NKSQGP7F2NH
 	if ($lastExitCode -ne "0") { throw "Can't uninstall WhatsApp, is it installed?" }

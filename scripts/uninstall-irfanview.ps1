@@ -11,9 +11,7 @@ try {
 	& winget uninstall --id 9PJZ3BTL5PV6
 	if ($lastExitCode -ne "0") { throw "Can't uninstall IrfanView, maybe it's not installed." }
 
-	& "$PSScriptRoot/say.ps1" "IrfanView is gone."
-	exit 0 # success
+	& "$PSScriptRoot/say.ps1" "IrfanView is gone now."
 } catch {
 	& "$PSScriptRoot/say.ps1" "Sorry: $($Error[0])"
-	exit 1
 }
