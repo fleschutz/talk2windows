@@ -8,7 +8,7 @@
 try {
 	& "$PSScriptRoot/say.ps1" "Installing Firefox, hold on..."
 
-	& winget install "Mozilla Firefox Browser" --source msstore --silent --accept-package-agreements --accept-source-agreements
+	& winget install --id 9NZVDKPMR9RD --source msstore --silent --accept-package-agreements --accept-source-agreements
 	if ($lastExitCode -ne "0") { throw "'winget install' failed" }
 
 	& "$PSScriptRoot/say.ps1" "Firefox installed successfully."
