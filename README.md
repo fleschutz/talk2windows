@@ -1,10 +1,10 @@
 Talk to Windows® 
 ================
-This repo supports controlling the Windows desktop by voice commands. Using keyboard, mouse, and also your voice is intuitive, increases your productivity, and is really awesome. 
+This repo helps to control your Windows desktop by voice commands. Using keyboard, mouse, and also your voice is intuitive, increases your productivity, and is really awesome. 
 
 Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recognition application.
 
-⚙️ Installation
+🔧 Installation
 ----------------
 1. **Download and install** the free *Serenade* app from [https://serenade.ai](https://serenade.ai/download). During installation select *no plugin* and *no programming language*, then go to *Settings &gt; Server* and choose the 'Local' endpoint for privacy and speed. Close the application when finished.
 2. **Download and unzip** this repo from [https://github.com/fleschutz/talk2windows/archive/main.zip](https://github.com/fleschutz/talk2windows/archive/main.zip).
