@@ -43,6 +43,7 @@ ACARS,Aircraft Communications Addressing and Reporting System
 ACAS,Airborne Collision Avoidance System
 ACC,Area Control Center
 ACE,Airport airside Capacity Enhancement
+ACFT,Aircraft
 ACI,"Airports Council International, Area of Common Interest"
 ACP,Accept
 AD,Air Defence
@@ -90,13 +91,14 @@ AIRNET,Airport Network Simulation Model
 AIRPAC,Advisor for the Intelligent Resolution of Predicted Aircraft
 ALO,Aviation Logistics Organization
 ALP,Airport Layout Plan
-ALPA,Airlines Pilots Association
+ALPA,Air Line Pilots Association
 ALS,Approach Lighting System
 ALSF,Approach Lighting System With Sequenced Flashing Lights
 ALSF1,ALS with Sequenced Flashers I
 ALSF2,ALS with Sequenced Flashers II
 ALSIP,Approach Lighting System Improvement Plan
 ALTRV,Altitude Reservation
+ALZ,Assault Landing Zone
 AM,Airfield Management
 AMAN,Arrival Manager
 AMASS,Airport Movement Area Safety System
@@ -125,20 +127,19 @@ AODR,Authorizing Official Designated Representative
 AOM,Airplane Operating Manual
 AOPA,Aircraft Owners and Pilots Association
 AoR,Area of Responsibility
-AP,Acquisition Plan
-APB,Acquisition Program Baselines
+AP,Auto Pilot
+APAR,Active Phased Array Radar
 APIS,Aircraft Parking and Information System
 APM,Approach Path Monitor
-APP,"Approach Area, Approach ATS Unit"
+APP,"Approach, or Approach Area"
 APS,Airport Planning Standard
 APTS,Automated Personnel Tracking System
 APU,Auxiliary Power Unit
 AQAFO,Aeronautical Quality Assurance Field Office
 AR,Aerial Refueling
-AR,Aspect Ratio
 ARAC,Army Radar Approach Control (AAF)
 ARFOR,Area Forecast
-ARINC,Aeronautical Radio, Inc. (USA)
+ARINC,"Aeronautical Radio, Inc. (USA)"
 ARNS,Aeronautical Radio Navigation Service
 ARLNO,Airline Office
 ARP,Airport Reference Point
@@ -151,6 +152,7 @@ ASDE-X,"Airport Surface Detection Equipment, model X"
 ASOS,Automated Surface Observation System
 ASR,Airport Surveillance Radar
 ASTERIX,All Purpose Structured Eurocontrol Surveillance Information Exchange
+ASW,Airspace World (yearly exhibition by CANSO)
 ATA,Actual Time of Arrival
 ATC,Air Traffic Control
 ATCALS,Air Traffic Control and Landing Systems
@@ -162,6 +164,7 @@ ATPL,Airline Transport Pilot License
 ATS,Air Traffic Services
 ATZ,Air Traffic Zone
 AURO,Autorotation (by helicopters)
+AVINOR,Air Traffic Control in Norway
 AWACS,Airborne Warning And Control System
 BC,Back Course
 BAF,Belgian Air Force
@@ -170,6 +173,7 @@ BDOC,Base Defense Operations Center
 BIRTAM,NOTAM on Bird Activity
 BIT,Build-In Test
 BITE,Build-In Test Equipment
+BNATCS,Brand New Air Traffic Control System
 BRNAV,Basic Area Navigation
 BWB,Blended Wing Body
 BWC,Bird Watch Condition
@@ -191,6 +195,7 @@ CAVOK,Clouds And Visibility OK
 C/S,Callsign
 CBA,Cross-Border Area
 CBT,Computer-based Training
+CBTA,Competency Based Training and Assessment
 CC,Commander
 CCBC,Community College Baltimore County
 CCIS,Closed Circuit Information System
@@ -245,30 +250,37 @@ DAS,DFS Aviation Services (DFS subcompany for services outside Germany)
 DCIA,Dependent Converging Instrument Approach
 DECIDE,"Detect, Estimate, Choose, Identify, Do, and Evaluate"
 DEL,Delivery
+DEP,Departure
 DER,Departure End of Runway
 DFL,Division Flight Level 
 DFS,Deutsche Flugsicherung (ATC in Germany)
 DGAC,Direction Générale de l'Aviation Civile
 DLA,Defense Logistics Agency
+DLS,Data Link Service
 DME,Distance Measuring Equipment
 DP,Departure Procedure
+DS,Dust Storm (METAR code)
 DSNA,Direction des Services de la Navigation Aérienne 
 DTI,Direction Technique Innovation
+DU,Dust (METAR code)
 DVA,Diverse Vector Area
 DW,Downwind
+DZ,"Drizzle (METAR code), Drop Zone"
 EAS,Equivalent Airspeed
 EAVA,Estonian Aviation Academy
 ECAC,European Civil Aviation Conference
+ECCM,Electronic Counter-Countermeasures
 eCTOL,Electric Conventional Take-off and Landing
 ECP,Entry Control Point
 EFM,Gesellschaft für Enteisen und Flugzeugschleppen
 EFPS,Electronic Flight Progress Strips
 EICAS,Engine Instrument Crew Alerting System
+ELBA,Emergency Location Beacon for Aircrafts
 ELEV,Field Elevation
 ELT,Emergency Locator Transmitter
 ENR,En-Route
-EOL,Engine-off landing
-ERAU,Embry-Riddle Aeronautical University (Daytona Beach, Florida)
+EOL,Engine-off Landing
+ERAU,"Embry-Riddle Aeronautical University (Daytona Beach, Florida)"
 ERPM,Engine Rotations per Minute
 eSTOL,Electric Short Take-off and Landing
 ETA,"Estimated Time of Arrival, East Transition Area"
@@ -277,7 +289,7 @@ ETO,Estimated Time Over Significant Point
 ETOPS,Extended-range Twin-engine Operational Performance Standards
 ETVS,Electronic Terminal Voice Switch
 eVTOL,Electric Vertical Take-off and Landing
-FAA,U.S. Federal Aviation Administration
+FAA,Federal Aviation Administration (USA)
 FAR,"Fuel Air Ratio, Federal Aviation Regulations"
 FAS,Final Approach Segment
 FAS,Final Approach Speed
@@ -290,8 +302,8 @@ FAWP,Final Approach Waypoint
 FAWS,Flight Advisory Weather Service
 FBO,Fixed-Base Operator
 FBW,Fly-by-Wire
+FC,Funnel Cloud (METAR code)
 FCA,Final Cruise Altitude
-FCC,Federal Communications Commission (USA)
 FCC,Flight Control Computer
 FCI,Flight Command Indicator
 FCL,Flight Crew Licensing
@@ -302,32 +314,43 @@ FCOM,Flight Crew Operating Manual
 FCOM,Flight Crew Operations Manual
 FCPC,Flight Control Primary Computer
 FE,Field Elevation (highest point of an airport’s usable runways and is measured in height above mean sea level)
+FG,Fog (METAR code)
 FIA,Flight Information Area
 FIR,Flight Information Region
 FIS,Federal Inspection Services
 FL,Flight Level
 FLIP,Flight Information Publication
 FMG,Flughafen München GmbH
+FMGC,Flight Management and Guidance Computer
 FMS,Flight Management System
 FOD,Foreign Object Debris
 FOV,Field of View
+FU,Smoke (METAR code)
 FWC,Flight Warning Computer
+FZDZ,Freezing Drizzle (METAR code)
+FZFG,Freezing Fog (METAR code)
+FZRA,Freezing Rain (METAR code)
 GA,"General Aviation, Go Around (VFR)"
 GAF,German Air Force
 GND,Ground
 GP,Glide Path
 GPS,Global Positioning System
-GS,Ground Speed or Glideslope
+GR,Hail (METAR code)
+GS,"Ground Speed, Glideslope"
+GSE,Ground Service Equipment
 HEMS,Helicopter Emergency Medical Services
 HKIA,Hong Kong International Airport
 HOGE,Hover Out of Ground Effect
 HOTS,Higher-Order Thinking Skills
+HZ,Haze (METAR code)
 IAA,Israeli Airport Authority
 IAF,Israeli Air Force
-IANS,Institute of Air Navigation Services, a division of Eurocontrol
+IANS,"Institute of Air Navigation Services, a division of Eurocontrol"
 IAS,Indicated airspeed
 IATA,"International Air Transport Association, HQ in Montreal, Canada"
+IC,Ice Crystals (METAR code)
 ICA,Initial Climb Area
+ICAO,International Civil Aviation Organization
 ICARD,International Codes and Route Designators
 IFE,In-flight Emergency
 IFR,Instrument Flight Rules
@@ -351,18 +374,24 @@ LH,Lufthansa
 LITAS,Low Intensity Two Colour Approach System 
 LL,Lower Limit
 LMUK,Lockheed Martin UK
+LNAV,Lateral Navigation
 LOD,Level of Detail
 LTA,Lower Traffic Area
+LTG,Lightning (METAR code)
 LUAW,Line up and wait
 LVNL,Luchtverkeersleiding Nederland (Air Traffic Control the Netherlands)
 LVP,Low Visibility Procedures
 LWINS,Lightweight Inertial Navigation System
+LZSO,Landing Zone Safety Officer
 MA,Missed Approach (IFR)
+MAFFS,Modular Airborne Fire Fighting System
 MATS,Malta Air Traffic Services
 MEA,Minimum En-route Altitude
 METAR,Meteorological Aerodrome Report
+MCDU,Multifunction Control and Display Unit
 MCP,Maximum Continuous Power
 MGTOW,Maximum Gross Take-off Weight
+MIFG,Shallow Fog (METAR code)
 MLW,Maximum Landing Weight
 MMR,Multi-Mode Receiver
 MRTT,Multi-Role Tanker Transport
@@ -390,10 +419,12 @@ ODP,Obstacle Departure Procedure
 OGE,Out of Ground Effect
 OID,Operational Instrument Departure
 OFZ,Obstacle Free Zone
-OJT,On the Job Training
+OJT,On-the-Job Training
+OJTI,On-the-Job Training Instructor
 OODA,"Observation, Orientation, Decision, and Action"
 ORCAM,Originating Region Code Assignment Method
 OSC,On Scene Commander
+OVC,Overcast (METAR code)
 OWE,Operational Weight Empty
 PA,Pressure Altitude
 PADS,Parallax Aircraft Docking System
@@ -402,17 +433,24 @@ PAPA,"Parallax Aircraft Parking Aid (docking system)"
 PAPI,Precision Approach Path Indicator
 PAR,Precision Approach Radar
 PCAS,Primary Crash Alarm System
+PE,Ice Pellets (old style METAR code)
 PIC,Pilot in Command
+PIREPS,Pilot Reports
 PNF,Pilot Not Flying 
+PNVS,Pilot Night Vision Sensor
+PO,Dust Devil (METAR code)
 POH,Pilot's Operating Handbook
+PL,Ice Pellets (new style METAR code)
 PPL,Private Pilot's License
 PMI,Preventative Maintenance Inspection
 POFZ,Precision Obstacle Free Zone
+PRFG,Partial Fog (METAR code)
 PTAC,"Position, Turn, Altitude, Clearance (also known as Approach Clearance)"
 PtF,Permit to Fly
 QFE,"the altimeter setting that will cause the altimeter to read the height above a specific aerodrome or ground level, and therefore read zero on landing"
 QNE,pressure altitude at the landing runway threshold
 QNH,atmospheric pressure adjusted to mean sea level
+RA,Rain (METAR code)
 RADAR,Radio Detection And Ranging
 RADNET,Radar Network
 RAIM,Receiver Autonomous Integrity Monitoring (GPS)
@@ -425,14 +463,15 @@ RASP,Recognised Air and Surveillance Picture
 RB,Relative Bearing
 RBI,Relative Bearing Indicator
 RBAF,Royal Belgium Armed Forces
+RBL,Range Bearing Line
 RCAF,Royal Canadian Air Force
 RCC,Rescue Coordination Center
 RCL,Runway Centre Line Lighting
 RCR,Runway Condition Reading
 RCS,Radar Cross Section
+RDR,Radar
 RESA,Runway End Safety Area
 RET,Rapid Exit Taxiways
-RF,Radio Frequency
 RFFS,Rescue and Fire Fighting Services
 RFM,Rotorcraft Flight Manual
 RIMCAS,Runway Incursion Monitoring and Conflict Alert System
@@ -462,6 +501,7 @@ RVR,Runway Visual Range
 RVSM,Reduced Vertical Separation Minimum
 RWR,Radar Warning Receiver
 RWY,Runway
+SA,Sand (METAR code)
 SADL,Situational Awareness Data Link
 SAF,Sustainable Aviation Fuel
 SAR,"Search and Rescue, Synthetic Aperture Radar"
@@ -482,6 +522,7 @@ SESAR,Single European Sky ATM Research
 SFC,Surface
 SFL,Sequencing Flashing Light
 SFO,Simulated Flameout Operation
+SG,Snow Grains (METAR code)
 SI,Selective Interrogation
 SIAP,Standard Instrument Approach Procedure
 SID,Standard Instrument Departure
@@ -501,6 +542,7 @@ SOW,Statement of Work
 SRA,Surveillance Radar Approach
 SRC,Safety Regulation Commission (EUROCONTROL)
 SRU,Safety Regulation Unit (EUROCONTROL)
+SS,Sand Storm (METAR code)
 SSR,Secondary Surveillance Radar
 STAR,Standard Arrival Route or Standard Terminal Arrival Route
 STARS,Standard Terminal Automation Replacement System
@@ -533,6 +575,7 @@ TARMAC,Taxi and Ramp Management and Control
 TAS,Terminal Airspace System
 TAS,True Air Speed
 TAWS,Terrain Avoidance and Warning System
+TBO,Time Between Overhauls
 TCAS,Traffic alert and Collision Avoidance System
 TCDS,Type Certificate Data Sheet
 TCH,Threshold Crossing Height
@@ -555,6 +598,7 @@ TOC,Top Of Climb
 TOD,Top Of Descent
 TODA,Take-off Distance Available
 TODAH,Take-off Distance Available for Helicopter
+TOGA,Take-Off/Go Around
 TOP,Take-Off Power
 TOR,"Terms of Reference, or Tornado aircraft"
 TORA,Takeoff Run Available
@@ -562,6 +606,7 @@ TOWSIM,Tower Simulator
 TRA,Temporary Reserved Area
 TRACON,Terminal Radar Approach Control
 TRH,Thrust Reduction Height
+TS,Thunderstorm (METAR code)
 TSA,Temporary Segregated Area
 TSAT,Target Startup Approval Time
 TSO,Technical Standard Order
@@ -582,17 +627,16 @@ UAV,Unmanned Aerial Vehicle
 UCAV,Unmanned Combat Aerial Vehicle
 UDF,Ultra High Frequency Direction Finding
 UEI,"Units, Equipment, Installations"
-UFA,"UFA, Inc., the world's premier developer of Air Traffic Control simulation systems"
-UHF,Ultra High Frequency (300MHz to 3 GHz)
 UIR,Upper Flight Information Region
 UKCAA,United Kingdom Civil Aviation Authority
+UkSATSE,Ukranian State Air Traffic Services Enterprise
 UMASS,University of Massachusetts
 UNL,Unlimited
 URET,User Request Evaluation Tool
 USAF,United States Air Force
 UTA,Upper Traffic Area
-V1,Decision speed, the speed beyond which takeoff should no longer be aborted
-V2,Takeoff speed. The speed at which the aircraft may safely be climbed with one engine inoperative
+V1,Decision speed (the speed beyond which takeoff should no longer be aborted)
+V2,Takeoff speed (the speed at which the aircraft may safely be climbed with one engine inoperative)
 VAR,Magnetic Variation
 VASI,Visual Approach Slope Indicator
 VASIS,Visual Approach Slope Indicator System 
@@ -609,10 +653,11 @@ VFR,Visual Flight Rules
 VHF,Very High Frequency (3 to 300MHz)
 VLF,Very Low Frequency
 VMC,Visual Meteorological Conditions
-VMO,maximum operation speed is the air speed than should never be exceeded deliberately in normal operation, whatever the flight situation isVOR,VHF Omni-directional Range
+VMO,"maximum operation speed is the air speed than should never be exceeded deliberately in normal operation, whatever the flight situation is"
 VOLMET,Meteorological Information for Aircraft in Flight
 VOR,VHF Omni-directional Receiver
 VORTAC,VOR -TACAN combination
+VNAV,Vertical Navigation
 VREF,1.3 times the stalling speed of the aircraft in the stated landing configuration and at the prevailing aircraft weight
 VRS,Vortex Ring State
 VS,"Stall speed, defined as the minimum steady flight speed at which the airplane is controllable"
@@ -630,6 +675,7 @@ Vz,Rate-of-climb
 WA,Wind Angle
 WAAS,Wide Area Augmentation System
 WAM,Wide Area Multilateration
+WASP,Women Airforce Service Pilots
 WBS,Work Break-down Structure
 WCA,Wind Correction Angle
 WDI,Wind Direction Indicator
@@ -641,4 +687,5 @@ WTC,Wake Turbulence Category
 WTWS,Wake Turbulence Warning System
 WX,Weather
 WXR,Weather Radar Transceiver
+XFD,Fighter aircraft made by Douglas
 ZELL,Zero Length Launch

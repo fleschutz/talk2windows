@@ -72,7 +72,6 @@ TERM,MEANING
 802.11,Wireless LAN
 8B10BLF,8 Byte 10 Byte Local Fiber
 A+,A Plus
-A.I.,Airborne Internet
 A/m,"Oe, oersted ampere per meter"
 A11Y,Accessibility
 AA,modem lights
@@ -168,6 +167,7 @@ Ajax,Asynchronous JavaScript and XML
 AKO,Army Knowledge Online
 AL,access list
 ALE,Application Link Enabling
+ALGOL,ALGOrithmic Language
 ALM,application lifecycle management
 ALPR,Automated License Plate Recognition
 alt.,alternate newsgroup
@@ -190,7 +190,7 @@ AOP,aspect-oriented programming
 AOSP,Android Open Source Project
 AP,"accounts payable,Adaptive Planning"
 Apache Hadoop YARN,Yet Another Resource Negotiator
-APAR,authorized program analysis report
+APAR,Authorized Program Analysis Report
 API,Application Programming Interface
 APICS,American Production and Inventory Control Society
 APIPA,Automatic Private IP Addressing
@@ -204,8 +204,7 @@ APQP,advanced product quality planning
 APS,Advanced Planning and Scheduling
 APT,Advanced Persistent Threat
 APU,Accelerated Processing Unit
-AR,Accounts Receivable
-AR,Augmented Reality
+AR,"Augmented Reality, Accounts Receivable"
 ARAX,Asynchronous Ruby and XML
 ARIN,American Registry of Internet Numbers
 ARJ,Archive Robert Jung
@@ -320,20 +319,20 @@ BMAN,Broadband Metropolitan Area Network
 BMC,baseboard management controller
 BMP,Best Manufacturing Practices
 BMP,Bitmap
-BMS,battery management system
+BMS,Battery Management System
 BNC,Bayonet Neil-Concelman or British Naval Connector
-BOB,branch office box
+BOB,Branch Office Box
 BOC,Bell operating company
 BOH,Balance On Hand
 BOL,beginning of life
 BOM,Bill Of Materials
 BOOTP,Bootstrap Protocol
 BP&F,"budgeting, planning and forecasting"
-BPA,business process automation
+BPA,Business Process Automation
 BPaaS,Business Process as a Service
 BPCS,Business Planning and Control System 
 BPEL,Business Process Execution Language
-BPI,business process improvement
+BPI,Business Process Improvement
 BPL,Broadband over Power Line
 BPM,business process management
 BPMI,Business Process Management Initiative
@@ -477,8 +476,7 @@ CEM,customer experience management
 CEMS,Contract Electronic Manufacturing Services
 CEP,complex event processing
 CERCLA,"Comprehensive Environmental Response, Compensation and Litigation Act"
-CERN,Conseil Europeen pour la Recherche Nucleaire
-CERT,Computer Emergency Readiness Team
+CERT,"Computer Emergency Response Team, Computer Emergency Readiness Team"
 CES,Consumer Electronics Show
 CF,CompactFlash card
 CFAA,Computer Fraud and Abuse Act
@@ -515,7 +513,6 @@ CIA,"confidentiality, integrity, and availability"
 CICS,Customer Information Control System
 CIDM,Customer-Integrated Decision Making
 CIDR,Classless Inter-Domain Routing or supernetting
-CIDR,supernetting or Classless Inter-Domain Routing
 CIFS,Common Internet File System
 CIM,Common Information Model
 CIO,Chief Information Officer
@@ -647,8 +644,7 @@ CSO,Chief Strategy Officer
 CSP,Commerce Service Provider
 CSR,"Certificate Signing Request, Carrier Sensitive Routing, corporate social responsibility"
 CSS,"Cascading Style Sheets, Content Scrambling System, customer self-service, customer service and support"
-CSV,Cluster Shared Volumes
-CSV,Comma Separated Values (a file format)
+CSV,"Comma-separated Values (a file format), Cluster Shared Volumes"
 CTC,click-to-talk
 CTC,community technology center
 CTCI,Computer-to-computer interface
@@ -662,16 +658,16 @@ CTO,Configure To Order
 CTOps,team counterthreat operations team
 CTP,Capability To Promise
 CTP,CloudTrust Protocol
-CTP,common test platform
+CTP,Common Test Platform
 CTR,clickthrough rate
-CUE,carbon usage effectiveness
+CUI,Conversational User Interface
 CULV,consumer ultra-low voltage
 CVC,Calibrated Vectored Cooling
 CVE,Common Vulnerabilities and Exposures
-CVO,chief visionary officer
+CVO,Chief Visionary Officer
 CVS,Concurrent Versions System
-CVV,card verification value
-CWDM,coarse wavelength division multiplexing
+CVV,Card Verification Value
+CWDM,Coarse Wavelength Division Multiplexing
 CWE,Common Weakness Enumeration
 CWF,common working file
 CWNP,Certified Wireless Networking Professional
@@ -679,12 +675,8 @@ CX,consumer experience
 CXF,Credential Exchange Format
 CXO,chief experience officer
 CXP,Credential Exchange Protocol
-D-AMPS,Digital-Advanced Mobile Phone Service
-D-VHS,Digital Video Home System
-D2D,Disk to Disk
-D2D2C,Disk to Disk to Cloud
-D2D2T,Disk to Disk to Tape
-DA,data analytics
+D2D,"Direct to Device, Disk to Disk"
+DA,Data Analytics
 DAA,Data Access Arrangement
 DaaS,Desktop as a Service
 DAB,Digital Audio Broadcasting
@@ -768,8 +760,7 @@ DFE,Design For Environment
 DFL,Demand Flow Leadership
 DFM,Demand Flow Management
 DFM,digital footprint management
-DFS,Distributed Factory System
-DFS,distributed file system
+DFS,"Distributed Factory System, Distributed File System"
 DFSC,Design for Supply Chain
 DFT,Demand Flow Technology
 DG,data governance
@@ -947,9 +938,7 @@ EDGE,Enhanced Data GSM Environment
 EDI,Electronic Data Interchange
 EDIFACT,"Electronic Data Interchange for Administration, Commerce and Transport"
 EDL,enhanced driver's license
-EDM,Electrical Discharge Machine or Machining
-EDM,Electronic Document Management
-EDM,enterprise document management
+EDM,"Electrical Discharge Machine or Machining, Electronic Document Management, enterprise document management"
 EDMS,Engineering Document Management Systems
 EDP,electronic data processing
 EDR,enterprise data replication
@@ -1002,6 +991,7 @@ EMS,Effective Management Systems
 EMS,Enhanced Messaging Service
 EMS,Microsoft Exchange Management Shell
 ENISA,European Network and Information Security Agency
+ENIAC,Electronic Numerical Integrator And Computer (historic computer of 1946)
 EOF,End of File
 EoIP,Electricity over IP
 EOL,"End of Life, End of Line"
@@ -1079,7 +1069,6 @@ FC-AL,Fibre Channel Arbitrated Loop
 FC-PGA,Flip-Chip Pin Grid Array
 FCA,Flip Chip Assembly
 FCAPS,"fault-management, configuration, accounting, performance, and security"
-FCC,Federal Communications Commission
 FCIA,Fibre Channel Industry Association
 FCIP,Fibre Channel over IP
 FCoE,Fibre Channel over Ethernet
@@ -1287,7 +1276,7 @@ GTAG,Global Tag
 gTLD,generic top-level domain name
 GTM,strategy go-to-market strategy
 GUA,graphical password or graphical user authentication 
-GUI,Graphical User Interface
+GUI,Graphical User Interface ("goo-ey")
 GUID,Globally Unique Identifier (see also UUID)
 GUM,Global Update Manager
 GWAC,governmentwide acquisition contract
@@ -1305,6 +1294,7 @@ HAVA,Help America Vote Act of 2002
 HAVi,Home Audio Visual
 HBA,host bus adapter
 HBCI,Home Banking Computer Interface
+HBM,High Bandwidth Memory
 HCCA,Health Care Compliance Association
 HCI,human-computer interaction
 HCI,Human-Computer Interaction/Interface
@@ -1355,7 +1345,9 @@ HP,High Performance
 HP-GL,Hewlett-Packard Graphics Language
 HPC,High-Performance Computing
 HPCC,High Performance Computing and Communications
+HPCG,High Performance Conjugate Gradient (benchmark)
 HPFS,High Performance File System
+HPL,High Performance Linpack (benchmark)
 HPNA,Home Phoneline Networking Alliance
 HPPS,High Performance Product Sector
 HPSS,High Performance Storage System
@@ -1508,8 +1500,7 @@ ITS,issue tracking system
 ITSM,IT Service Management
 ITSO,International Technical Support Organization
 ITSS,Information Technology Solutions Shop
-ITU,International Technical Union
-ITU,International Telecommunication Union
+ITU,International Telecommunications Union
 IV,initialization vector
 IVR,Interactive Voice Response
 IXC,interexchange carrier
@@ -1600,7 +1591,6 @@ LED,light-emitting diode
 LEED,Leadership in Energy and Environmental Design
 LES,Logistics Execution System
 Lex,lexical analyzer generator
-LHC,Large Hadron Collider
 LI,lawful interception
 LI,location intelligence
 Li-Ion,Lithium Ion battery
@@ -1751,6 +1741,7 @@ MSCS,Microsoft Cluster Server
 MSDOS,Microsoft Disk Operating System
 MSDS,Material Safety Data Sheet
 MSE,Microsoft Security Essentials 
+MSFS,Microsoft Flight Simulator
 MSP,managed service provider
 MSP,management service provider
 MSRP,Message Session Relay Protocol
@@ -1855,6 +1846,7 @@ NRLA,National Labor Relations Board
 NRZ,non-return-to-zero
 NSAP,Network Service Access Point
 NSAPI,Netscape Server Application Programming Interface
+NSCCSZ,National Supercomputing Center in Shenzhen (China)
 NSIS,Next Steps in Signaling
 NSP,network service provider
 NT1,network terminator 1
@@ -1920,6 +1912,7 @@ OODBMS,object-oriented database management system
 OoOE,out-of-order execution
 OOP,object-oriented programming
 OOPSLA,"Object-Oriented Programming Systems, Languages and Applications"
+OOTB,out of the box (feature or functionality)
 OOXML,Office Open Extended Markup Language
 OPC,OLE for Process Control
 OpenGL,Open Graphics Library
@@ -2054,7 +2047,6 @@ pNFS,Parallel NFS
 PNG,Portable Network Graphics
 PnP,Plug and Play
 POC,Packet Order Correction
-POC,proof of concept 
 PoE,Power over Ethernet
 PoIP,Pray over Internet Protocol
 POLP,principle of least privilege
@@ -2063,7 +2055,7 @@ PON,passive optical network
 POP,point-of-presence
 POP3,Post Office Protocol 3
 PoR,power-on reset
-POS,"personal operating space, Point of Sale"
+POS,Personal Operating Space
 POSIX,Portable Operating System Interface
 POST,Power-On Self-Test
 POTS,plain old telephone service
@@ -2077,11 +2069,12 @@ PPM,"Pages per minute (a measurement of printing speed), Perl package manager (f
 PPP,Point-to-Point Protocol
 PPPoE,Point-to-Point Protocol over Ethernet
 PPTP,Point-to-Point Tunneling Protocol
+PQC,Post-Quantum Cryptography
 PR,"Problem Report, Process Reengineering"
 PRI,Primary Rate Interface
-PRM,partner relationship management
-PRNG,pseudo-random number generator
-PROM,programmable read-only memory
+PRM,Partner Relationship Management
+PRNG,Pseudo-Random Number Generator
+PROM,Programmable Read-Only Memory
 PRONet,Procurement Marketing and Access Network
 PRS,Personal Response System 
 PRS,Premium Rate Service
@@ -2168,7 +2161,6 @@ REC,Regional Extension Center
 ReFS,Resilient File System
 regex,regular expression
 REST,REpresentational State Transfer
-RF,Radio Frequency
 RFC,Remote Function Call
 RFC,Request for Comments
 RFI,request for information
@@ -2208,8 +2200,6 @@ ROC,Report on Compliance
 ROD,Reuse-Oriented Model or Reuse-Oriented Development
 RODC,Read-Only Domain Controller
 RoHS,Restriction of Hazardous Substances
-ROI,Return On Investment
-ROIC,Return On Invested Capital
 ROKSO,Register of Known Spam Operations
 ROLAP,Relational Online Analytical Processing
 ROM,Read-Only Memory
@@ -2328,7 +2318,6 @@ SEO,search engine optimization
 SerDes,serializer/deserializer
 SERP,search engine results page
 SET,Secure Electronic Transaction
-SETI,Search for Extraterrestrial Intelligence
 SEWP,Solutions for Enterprise-Wide Procurement
 SFA,Sales Force Automation
 SFA,sales force automation
@@ -2586,7 +2575,6 @@ UEFI,Unified Extensible Firmware Interface
 UGC,user-generated content
 UHDTV,Ultra High-Definition TV
 UHDV,ultra high definition video
-UHF,ultrahigh frequency
 UI,user interface
 UIA,user installed application
 UID,unique identifier

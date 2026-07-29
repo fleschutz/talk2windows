@@ -14,7 +14,7 @@ AAV,Amphibious Assault Vehicle
 AAV,Assault Amphibian Vehicle
 AAVC,Assault Amphibian Vehicle Command
 ABA,Applied Behavior Analysis
-ABM,Anti-Ballistic Missile
+ABM,"Anti-Ballistic Missile, Air Battle Manager"
 AC,Active Component
 ACC,Air Combat Command
 ACFT,Army Combat Fitness Test
@@ -41,6 +41,7 @@ AFD,Automatic Feeding Device
 AFMC,Air Force Material Command
 AFN,American Forces Network
 AFV,Armored Fighting Vehicle
+AGW,Autonomous Guided Weapon
 AIFV,Armored Infantry Fighting Vehicle
 AIP,Assignment Incentive Pay
 AIRSUPREQ,Air Support Request
@@ -60,15 +61,14 @@ AMRAAM,Advanced Medium Range Air-to-Air Missile
 ANG,Air National Guard
 AOC,Air Operations Center
 AP,Armor Piercing
-APAM,Anti-Personnel, Anti-Material
+APAM,"Anti-Personnel, Anti-Material"
 APC,Armored Personnel Carrier
-APDS,Armor-Piercing, Discarding Sabot
-APDS-T,Armor-Piercing, Discarding Sabot (Tracer)
+APDS,"Armor-Piercing, Discarding Sabot"
+APDS-T,"Armor-Piercing, Discarding Sabot (Tracer)"
 APF,Appropriated Funds
-APFSDS,Armor Piercing, Fin-Stabilized, Discarding Sabot
-APHE,Armor Piercing, High-Explosive
+APFSDS,"Armor Piercing, Fin-Stabilized, Discarding Sabot"
+APHE,"Armor Piercing, High-Explosive"
 AP-T,Armor Piercing - Tracer
-APU,Auxiliary Power Unit
 ARCT,Air Refueling Control Team
 ARM,Anti-Radiation Missile
 ARRV,Armored Repair and Recovery Vehicle
@@ -86,12 +86,14 @@ ASuW,Anti-Surface Warfare
 ASV,Anti-Surface Vessel
 ASVAB,Armed Services Vocational Aptitude Battery
 ASW,Anti-Submarine Warfare
+ASWORG,AntiSubmarine Warfare Operations Research Group (USA)
 AT,Anti-Tank
 ATACMS,Army TACtical Missile System
 ATAS,Air-To-Air Stinger (missile)
 ATBM,Anti-Tactical Ballistic Missile
 ATCS,Air Traffic Control Section
 ATCCIS,Army Tactical Command and Control Information System
+ATGM,Anti-Tank Guided Missile
 ATGW,Anti-Tank Guided Weapon
 ATR,Anti-Tank Rifle
 AUW,All-Up Weight
@@ -117,8 +119,8 @@ BRS,Blended Retirement System
 BVR,Beyond Visual Range
 BZ,Buffer Zone
 C2,Command and Control
-C3,Command, Control and Communications
-C3I,Command, Control, Communications and Intelligence
+C3,"Command, Control and Communications"
+C3I,"Command, Control, Communications and Intelligence"
 CABG,Coronary Artery Bypass Grafting
 CAHPS,Consumer Assessment of Healthcare Providers and Systems
 CAP,Combat Air Patrol
@@ -142,7 +144,7 @@ CFE,Conventional Forces Europe
 CFL,Coordinated FireLine
 CFR,Code of Federal Regulations
 CFV,Cavalry Fighting Vehicle
-CIWS,Close-In Weapon System (US)
+CIWS,Close-In Weapon System
 CLEP,College Level Examinations Program
 CLS,Combat Life Saver
 CM,Cruise Missile
@@ -175,7 +177,7 @@ C-STARS,Centers for Sustainment of Trauma and Readiness Skills (USAF)
 CTS,Close-To-Shore
 CV,Combat Vehicle
 CV,Conventionally Powered aircraft carrier (USN)
-CVN,Attack aircraft carrier, nuclear powered (US)
+CVN,"Attack aircraft carrier, nuclear powered (US)"
 CVRT,Combat Vehicle Reconnaissance Tracked
 CVW,Carrier Air Wing
 CWC,Composite Warfare Commander
@@ -213,6 +215,7 @@ DoDI,DoD Instruction
 DoDTR,Department of Defense Trauma Registry
 DOL,U.S. Department of Labor
 DON,Department of the Navy
+DOW,"Department Of War, Died Of Wounds, Dogs Of War"
 DP,Dual-Purpose
 DRB,Discharge Review Board
 DRM,Dynamic Retention Model (RAND)
@@ -283,7 +286,6 @@ FMR,Financial Management Regulation
 FMS,Foreign Military Sale (US)
 FMWG,Financial Management Working Group
 FOB,Forward Operating Base
-FOB,Forward Operating Base
 FOC,Final Operating Capabilities
 FOD,Foreign Object Damage
 FOS,Forward Operating Site
@@ -309,9 +311,9 @@ HCSDB,Health Care Survey of DoD Beneficiaries
 HD,Homeland Defense
 HDP-L,Hardship Duty Pay Locations
 HE,High Explosive
-HEAP,High Explosive, Anti-Personnel
-HEAT,High Explosive, Anti-Tank
-HEAT-FS,High Explosive, Anti-Tank - Fin Stabilized
+HEAP,"High Explosive, Anti-Personnel"
+HEAT,"High Explosive, Anti-Tank"
+HEAT-FS,"High Explosive, Anti-Tank - Fin Stabilized"
 HEC,Health Executive Committee
 HEDIS,Healthcare Effectiveness Data and Information Set
 HE-FRAG,High Explosive-Fragmentation
@@ -326,7 +328,7 @@ HMO,Health Maintenance Organization
 HOB,Height of Burst
 HOC,Humanitarian Operations Center
 HOTAS,Hands-On-Throttle-and-Stick
-HOTCC,Hands on Throttle, Collective and Cyclic
+HOTCC,"Hands on Throttle, Collective and Cyclic"
 HPT,High-Payoff Target
 HQ,Headquarter(s)
 HR,Hostage Rescue
@@ -366,6 +368,7 @@ IRST,Infra-Red Search-and-Track
 ISOPREP,Isolated Personnel Report
 ISW,Institute for the Study of War
 IT,Information Technology
+IVCS,Integrated Voice Communications System
 JA,Judge Advocate
 JAAT,Joint Air Attack Team
 JAG,Judge Advocate General
@@ -419,8 +422,7 @@ LLLTV,Low Light Level Television
 LMG,Light Machine Gun
 LMI,Logistics Management Institute
 LO,Low Observables
-LOA,Letter of Authorization
-LOA,Letter of Offer and Acceptance
+LOA,"Letter of Authorization, Letter of Agreement, Letter of Offer and Acceptance"
 LOC,Line of Communications
 LOR,Launch on Remote
 LPT,Low Profile Turret
@@ -502,14 +504,14 @@ MSP,Maritime Security Program
 MSR,Main Supply Route
 MSRRA,Military Spouse Residency Relief Act
 MTF,Medical Treatment Facility
-MWR,Morale, Welfare & Recreation
+MWR,"Morale, Welfare & Recreation"
 MyCAA,Military Spouse Career Advancement Accounts
 NAF,Nonappropriated Funds
 NAI,Named Area of Interest
 NAS,Naval Air Station
-NATO,North Atlantic Treaty Organization
 NAVSOF,Navy Special Operations Forces
-NBC,Nuclear, Biological and Chemical
+NAVSEA,Naval Sea Systems Command
+NBC,"Nuclear, Biological and Chemical"
 NBI,Nonbattle Injury
 NCO,Non-Commissioned Officer
 NCP,Normal Cost Payments
@@ -529,7 +531,7 @@ NGFS,Naval Gunfire Support
 NIMS,National Incident Management System
 NLW,Nonlethal Weapon
 NMCS,National Military Command System
-NMCS,Not Mission Capable, Supply
+NMCS,"Not Mission Capable, Supply"
 NMS,National Military Strategy
 NOC,National Operations Center
 NOE,Nap of the Earth
@@ -593,12 +595,11 @@ PLB,Personal Locator Beacon
 PM,Peacemaking
 PNGDF,Papua New Guinea Defense Force
 PO,Peace Operations
-POC,Point of Contact
-POC,Privately Owned Conveyance
+POC,"Point of Contact, Privately Owned Conveyance"
 POD,Port of Debarkation
 POE,Port of Embarkation
 POW,Prisoner of War
-PPBE,Planning, Programming, Budget, and Execution
+PPBE,"Planning, Programming, Budget, and Execution"
 PPE,personal Protective Equipment
 PPM,Personally Procured Move
 PPO,Preferred Provider Organization
@@ -620,7 +621,7 @@ R&R,Rest and Recuperation
 RA,Risk Assessment
 RAAWS,Radar Altimeter and Altitude Warning System
 RAM,"Radar Absorbing Material, Rolling Airframe Missile"
-RAST,Recovery Assist, Secure and Traverse system
+RAST,"Recovery Assist, Secure and Traverse system"
 RATO,Rocket-Assisted Take-Off
 RC,Reserve Component
 RCC,Rescue Coordination Center
@@ -655,7 +656,7 @@ RWR,Radar Warning Receiver
 SA,Surface-to-Air
 SAC,School-Age Care
 SAC,Strategic Air Command
-SAFE kit,Sexual Assault Forensic Examination Kit
+SAFE,Sexual Assault Forensic Examination (kit)
 SAM,Surface-to-Air Missile
 SAP,Special Access Program
 SAR,Search and Rescue
@@ -666,7 +667,7 @@ SCAR,Strike Coordination and Reconnaissance
 SCRA,Servicemembers Civil Relief Act
 SDT,Second Destination Transportation
 SEAD,Suppression of Enemy Air Defenses
-SEALs,SEA, Air and Land (USN)
+SEALs,"SEA, Air and Land (US Navy)"
 SENSO,SENSor Operator
 SEP,Systems Enhancement Package
 SFG,Special Forces Group
@@ -716,7 +717,6 @@ TACON,Tactical Control
 TAI,Target Area of Interest
 TAMP,Transition Assistance Management Program
 TANS,Tactical Air Navigation System
-TBO,Time Between Overhauls
 TBD,Torpedo Boat Destroyer
 TBT,Tank Bridge Transporter
 TCCC,Tactical Combat Casualty Care
@@ -735,7 +735,7 @@ TO,Theater of Operations
 TOA,Table of Allowance
 TOF,Time of Flight
 TOT,Time on Target
-TOW,Tube-launched, Optically-tracked, Wire-Guided
+TOW,"Tube-launched, Optically-tracked, Wire-guided"
 TQ,Tactical Questioning
 TRANSCOM,Transportation Command
 TRANSEC,Transmission Security
@@ -767,6 +767,7 @@ USMC,United States Marine Corps
 USMTF,United States Message Text Format
 USN,United States Navy
 USNS,United States Naval Ship
+USV,Unmanned Surface Vehicle
 USW,Undersea Warfare
 USSF,"United States Space Force, the space service branch of the United States Armed Forces"
 UTC,Unit Type Code
@@ -794,6 +795,7 @@ WIC,"Women, Infants and Children"
 WLG,Washington Liaison Group
 WMD,Weapons of Mass Destruction
 WO,Warrant Officer
+WSMR,White Sands Missile Range ("whiz-murr")
 WSO,Weapon System Operator (or Weapon System Officer)
 XO,Executive Officer
 YOS,Years of Service
