@@ -21,7 +21,7 @@ This voice command executes the PowerShell script `open-calculator.ps1` which la
 
 👄 *"Windows, &lt;greeting&gt;"*
 ---------------------------
-Say hello to your computer by replacing &lt;greeting&gt; with: `good afternoon`, `good evening`, `good morning`, `good night`, `hello`, `hey`, `hi`, `howdy`, `morning`, or `nice to meet you`.
+Say hello to your computer - just replace &lt;greeting&gt; with: `good afternoon`, `good evening`, `good morning`, `good night`, `hello`, `hey`, `hi`, `howdy`, `morning`, or `nice to meet you`.
 
 👄 *"Windows, install &lt;app&gt;"*
 -----------------------------
