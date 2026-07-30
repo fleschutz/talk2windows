@@ -126,9 +126,8 @@ Say good-bye to your computer - just replace &lt;farewell&gt; with: `bye`, `bye-
 🤝 Contributing
 ----------------
 * Contributions, suggestions, and improvements are welcome!
-* Open an Issue if you encounter bugs or have feature ideas.
-* Create a Pull Request if you'd like to improve a script.
-* Or just send your feedback to: markus.fleschutz [at] gmail.com
+* Open an [Issue](https://github.com/fleschutz/talk2windows/issues) if you encounter bugs or have feature ideas.
+* Create a [Pull Request](https://github.com/fleschutz/talk2windows/pulls) if you'd like to improve something.
 
 📜 License & Copyright
 -----------------------
