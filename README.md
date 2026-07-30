@@ -1,6 +1,6 @@
 Talk to Windows® 
 ================
-This repo helps to control the  Windows desktop by your voice. Using keyboard, mouse, and also voice commands is intuitive, increases your productivity, and is really awesome. 
+This repository lets you control the Windows desktop by your voice. Using keyboard, mouse, and also intuitive voice commands is a real productivity booster! 
 
 Required is *Windows* 10 or 11, a headset, and the free *Serenade* voice recognition application.
 
